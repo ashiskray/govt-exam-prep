@@ -1,0 +1,283 @@
+/* ==========================================
+   GOVT EXAM PREP - FAQ PAGE CSS
+   ========================================== */
+
+/* ===== RESET ===== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f5f6fa;
+    color:#222;
+    line-height:1.7;
+}
+
+/* ===== CONTAINER ===== */
+
+.container{
+    width:90%;
+    max-width:1000px;
+    margin:auto;
+}
+
+/* ==========================================
+   HEADER
+   ========================================== */
+
+header{
+    background:linear-gradient(135deg,#800000,#a00000);
+    padding:50px 20px;
+    text-align:center;
+    margin-bottom:40px;
+    box-shadow:0 3px 10px rgba(0,0,0,.15);
+}
+
+header h1{
+    color:#fff;
+    font-size:42px;
+    margin-bottom:12px;
+}
+
+.subtitle{
+    color:#f5f5f5;
+    font-size:17px;
+}
+
+/* ==========================================
+   FAQ CARD
+   ========================================== */
+
+.faq{
+    background:#fff;
+    border-left:6px solid #800000;
+    padding:22px 25px;
+    margin-bottom:22px;
+    border-radius:8px;
+    box-shadow:0 4px 12px rgba(0,0,0,.08);
+    transition:.25s;
+}
+
+.faq:hover{
+    transform:translateY(-3px);
+    box-shadow:0 8px 18px rgba(0,0,0,.12);
+}
+
+/* ==========================================
+   QUESTION
+   ========================================== */
+
+.question{
+    font-size:23px;
+    font-weight:bold;
+    color:#222;
+    margin-bottom:15px;
+}
+
+/* ==========================================
+   EXAM SOURCE
+   ========================================== */
+
+.exam{
+    display:inline-block;
+    background:#800000;
+    color:#fff;
+    padding:6px 14px;
+    border-radius:25px;
+    font-size:13px;
+    font-weight:bold;
+    margin-bottom:15px;
+}
+
+/* ==========================================
+   ANSWER
+   ========================================== */
+
+.answer{
+    color:#008000;
+    font-size:20px;
+    font-weight:bold;
+}
+
+.answer::before{
+    content:"✔ ";
+}
+
+/* ==========================================
+   LINKS
+   ========================================== */
+
+a{
+    color:#800000;
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+/* ==========================================
+   IMAGES
+   ========================================== */
+
+img{
+    max-width:100%;
+    display:block;
+}
+
+/* ==========================================
+   TABLE
+   ========================================== */
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin:25px 0;
+}
+
+table th{
+    background:#800000;
+    color:#fff;
+    padding:12px;
+}
+
+table td{
+    padding:12px;
+    border:1px solid #ddd;
+}
+
+/* ==========================================
+   LIST
+   ========================================== */
+
+ul,
+ol{
+    margin-left:25px;
+}
+
+li{
+    margin:8px 0;
+}
+
+/* ==========================================
+   HR
+   ========================================== */
+
+hr{
+    border:none;
+    height:1px;
+    background:#ddd;
+    margin:40px 0;
+}
+
+/* ==========================================
+   SCROLLBAR
+   ========================================== */
+
+::-webkit-scrollbar{
+    width:10px;
+}
+
+::-webkit-scrollbar-track{
+    background:#ececec;
+}
+
+::-webkit-scrollbar-thumb{
+    background:#800000;
+    border-radius:20px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background:#5f0000;
+}
+
+/* ==========================================
+   TEXT SELECTION
+   ========================================== */
+
+::selection{
+    background:#800000;
+    color:#fff;
+}
+
+/* ==========================================
+   FOOTER
+   ========================================== */
+
+footer{
+    background:#800000;
+    color:#fff;
+    margin-top:60px;
+    padding:35px 20px;
+}
+
+footer .container{
+    text-align:center;
+}
+
+footer p:first-child{
+    font-size:18px;
+    font-weight:bold;
+    margin-bottom:12px;
+}
+
+footer p:last-child{
+    max-width:800px;
+    margin:auto;
+    line-height:1.8;
+    color:#f5f5f5;
+    font-size:15px;
+}
+
+/* ==========================================
+   MOBILE
+   ========================================== */
+
+@media(max-width:768px){
+
+    .container{
+        width:95%;
+    }
+
+    header{
+        padding:40px 15px;
+    }
+
+    header h1{
+        font-size:30px;
+    }
+
+    .subtitle{
+        font-size:15px;
+    }
+
+    .faq{
+        padding:18px;
+    }
+
+    .question{
+        font-size:19px;
+    }
+
+    .answer{
+        font-size:17px;
+    }
+
+    .exam{
+        font-size:12px;
+        padding:5px 12px;
+    }
+
+    footer{
+        padding:25px 15px;
+    }
+
+}

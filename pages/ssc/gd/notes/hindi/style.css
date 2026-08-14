@@ -1,0 +1,1100 @@
+/* =======================================================
+                    HERO SECTION
+======================================================= */
+
+.playlist-hero {
+
+    background: linear-gradient(
+        135deg,
+        #800000,
+        #a00000
+    );
+
+    color: white;
+
+    padding: 70px 20px;
+
+    text-align: center;
+
+}
+
+
+.hero-content {
+
+    max-width: 850px;
+
+    margin: auto;
+
+}
+
+
+.hero-content h1 {
+
+    font-size: 42px;
+
+    font-weight: 800;
+
+    margin-bottom: 15px;
+
+}
+
+
+.hero-content p {
+
+    font-size: 17px;
+
+    line-height: 1.7;
+
+    max-width: 700px;
+
+    margin: auto;
+
+    opacity: 0.95;
+
+}
+
+
+
+/* =======================================================
+                    VIDEO SECTION
+======================================================= */
+
+.video-section {
+
+    padding: 55px 20px;
+
+    display: flex;
+
+    justify-content: center;
+
+    background: #f7f7f7;
+
+}
+
+
+
+/* =======================================================
+                    VIDEO CARD
+======================================================= */
+
+.video-card {
+
+    width: 100%;
+
+    max-width: 650px;
+
+    background: #ffffff;
+
+    padding: 30px;
+
+    border-radius: 12px;
+
+    border: 1px solid #e5e5e5;
+
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+
+    text-align: center;
+
+}
+
+
+.video-card h2 {
+
+    color: #800000;
+
+    font-size: 28px;
+
+    margin-bottom: 25px;
+
+}
+
+
+
+/* =======================================================
+                    VIDEO DETAILS
+======================================================= */
+
+.video-details {
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 35px;
+
+    flex-wrap: wrap;
+
+    margin-bottom: 25px;
+
+}
+
+
+.detail {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    color: #555;
+
+    font-size: 15px;
+
+}
+
+
+.detail i {
+
+    color: #800000;
+
+    font-size: 16px;
+
+}
+
+
+
+/* =======================================================
+                    YOUTUBE BUTTON
+======================================================= */
+
+.youtube-btn {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 10px;
+
+    background: #800000;
+
+    color: #ffffff;
+
+    text-decoration: none;
+
+    padding: 13px 28px;
+
+    border-radius: 7px;
+
+    font-size: 16px;
+
+    font-weight: 700;
+
+    transition: all 0.25s ease;
+
+}
+
+
+.youtube-btn:hover {
+
+    background: #5f0000;
+
+    transform: translateY(-2px);
+
+    box-shadow: 0 5px 12px rgba(128, 0, 0, 0.25);
+
+}
+
+
+.youtube-btn i {
+
+    font-size: 18px;
+
+}
+
+
+
+/* =======================================================
+                    WHY SECTION
+======================================================= */
+
+.why-section {
+
+    padding: 20px 20px 55px;
+
+    background: #f7f7f7;
+
+}
+
+
+.why-card {
+
+    max-width: 900px;
+
+    margin: auto;
+
+    background: #ffffff;
+
+    border: 1px solid #e5e5e5;
+
+    border-left: 5px solid #800000;
+
+    border-radius: 10px;
+
+    padding: 25px;
+
+    display: flex;
+
+    align-items: flex-start;
+
+    gap: 20px;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+
+}
+
+
+.why-icon {
+
+    min-width: 48px;
+
+    height: 48px;
+
+    border-radius: 50%;
+
+    background: #f4e5e5;
+
+    color: #800000;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-size: 20px;
+
+}
+
+
+.why-card h2 {
+
+    color: #800000;
+
+    font-size: 22px;
+
+    margin-bottom: 10px;
+
+}
+
+
+.why-card p {
+
+    color: #555;
+
+    font-size: 15px;
+
+    line-height: 1.8;
+
+}
+
+
+
+/* =======================================================
+                    DISCLAIMER
+======================================================= */
+
+.disclaimer {
+
+    padding: 0 20px 60px;
+
+    background: #f7f7f7;
+
+}
+
+
+.disclaimer-card {
+
+    max-width: 900px;
+
+    margin: auto;
+
+    background: #ffffff;
+
+    border: 1px solid #e2e2e2;
+
+    border-radius: 10px;
+
+    padding: 28px;
+
+}
+
+
+.disclaimer-card h2 {
+
+    color: #800000;
+
+    font-size: 23px;
+
+    margin-bottom: 18px;
+
+}
+
+
+.disclaimer-card h2 i {
+
+    margin-right: 7px;
+
+}
+
+
+.disclaimer-card p {
+
+    color: #666;
+
+    font-size: 14px;
+
+    line-height: 1.8;
+
+    margin-bottom: 15px;
+
+}
+
+
+.disclaimer-card p:last-child {
+
+    margin-bottom: 0;
+
+}
+
+
+
+/* =======================================================
+                    RESPONSIVE
+======================================================= */
+
+@media (max-width: 768px) {
+
+
+    .playlist-hero {
+
+        padding: 55px 20px;
+
+    }
+
+
+    .hero-content h1 {
+
+        font-size: 32px;
+
+    }
+
+
+    .hero-content p {
+
+        font-size: 15px;
+
+    }
+
+
+    .video-card {
+
+        padding: 24px 20px;
+
+    }
+
+
+    .video-card h2 {
+
+        font-size: 25px;
+
+    }
+
+
+    .video-details {
+
+        gap: 15px;
+
+        flex-direction: column;
+
+        align-items: center;
+
+    }
+
+
+    .why-card {
+
+        flex-direction: column;
+
+        gap: 15px;
+
+    }
+
+
+}
+
+
+@media (max-width: 480px) {
+
+
+    .playlist-hero {
+
+        padding: 45px 15px;
+
+    }
+
+
+    .hero-content h1 {
+
+        font-size: 28px;
+
+    }
+
+
+    .video-section {
+
+        padding: 40px 15px;
+
+    }
+
+
+    .video-card {
+
+        padding: 22px 16px;
+
+    }
+
+
+    .youtube-btn {
+
+        width: 100%;
+
+    }
+
+
+    .why-section,
+
+    .disclaimer {
+
+        padding-left: 15px;
+
+        padding-right: 15px;
+
+    }
+
+
+}
+
+
+/* =======================================================
+                    VIDEO SECTION
+======================================================= */
+
+.video-section {
+
+    width: 100%;
+
+    padding: 70px 20px 80px;
+
+    background: #f7f7f8;
+
+    display: flex;
+
+    justify-content: center;
+
+}
+
+
+/* =======================================================
+                    VIDEO CARD
+======================================================= */
+
+.video-card {
+
+    width: 100%;
+
+    max-width: 850px;
+
+    background: #ffffff;
+
+    border: 1px solid #e5e5e5;
+
+    border-radius: 18px;
+
+    padding: 34px 38px;
+
+    box-shadow:
+        0 10px 30px rgba(0, 0, 0, 0.08);
+
+    position: relative;
+
+    overflow: hidden;
+
+    transition: all 0.3s ease;
+
+}
+
+
+.video-card:hover {
+
+    transform: translateY(-4px);
+
+    box-shadow:
+        0 16px 38px rgba(0, 0, 0, 0.12);
+
+}
+
+
+/* TOP MAROON LINE */
+
+.video-card::before {
+
+    content: "";
+
+    position: absolute;
+
+    top: 0;
+
+    left: 0;
+
+    width: 100%;
+
+    height: 4px;
+
+    background: #800000;
+
+}
+
+
+
+/* =======================================================
+                    CARD TOP
+======================================================= */
+
+.video-card-top {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 15px;
+
+    margin-bottom: 28px;
+
+}
+
+
+.course-badge {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    padding: 6px 13px;
+
+    border-radius: 20px;
+
+    background: #f7e8e8;
+
+    color: #800000;
+
+    font-size: 12px;
+
+    font-weight: 700;
+
+    letter-spacing: 0.4px;
+
+}
+
+
+.free-badge {
+
+    font-size: 11px;
+
+    font-weight: 700;
+
+    color: #777;
+
+    letter-spacing: 0.5px;
+
+}
+
+
+
+/* =======================================================
+                    TITLE AREA
+======================================================= */
+
+.video-title-area {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 18px;
+
+    margin-bottom: 30px;
+
+}
+
+
+.subject-icon {
+
+    width: 62px;
+
+    height: 62px;
+
+    min-width: 62px;
+
+    border-radius: 14px;
+
+    background: #800000;
+
+    color: #ffffff;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-size: 25px;
+
+    box-shadow:
+        0 6px 15px rgba(128, 0, 0, 0.18);
+
+}
+
+
+.video-title-area h2 {
+
+    margin: 0 0 5px;
+
+    color: #222;
+
+    font-size: 30px;
+
+    font-weight: 800;
+
+    line-height: 1.2;
+
+}
+
+
+.video-title-area p {
+
+    margin: 0;
+
+    color: #777;
+
+    font-size: 14px;
+
+    line-height: 1.5;
+
+}
+
+
+
+/* =======================================================
+                    VIDEO INFORMATION
+======================================================= */
+
+.video-info {
+
+    display: flex;
+
+    align-items: center;
+
+    border-top: 1px solid #eeeeee;
+
+    border-bottom: 1px solid #eeeeee;
+
+    padding: 20px 0;
+
+    margin-bottom: 25px;
+
+}
+
+
+.info-item {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 12px;
+
+    flex: 1;
+
+}
+
+
+.info-icon {
+
+    width: 42px;
+
+    height: 42px;
+
+    min-width: 42px;
+
+    border-radius: 50%;
+
+    background: #f8eeee;
+
+    color: #800000;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-size: 15px;
+
+}
+
+
+.info-item > div:last-child {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 2px;
+
+}
+
+
+.info-label {
+
+    color: #888;
+
+    font-size: 12px;
+
+    font-weight: 500;
+
+}
+
+
+.info-item strong {
+
+    color: #333;
+
+    font-size: 15px;
+
+    font-weight: 600;
+
+}
+
+
+.info-divider {
+
+    width: 1px;
+
+    height: 42px;
+
+    background: #e5e5e5;
+
+    margin: 0 35px;
+
+}
+
+
+
+/* =======================================================
+                    WATCH NOW BUTTON
+======================================================= */
+
+.watch-btn {
+
+    width: 100%;
+
+    min-height: 56px;
+
+    padding: 0 20px;
+
+    border-radius: 9px;
+
+    background: #800000;
+
+    color: #ffffff;
+
+    text-decoration: none;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    font-size: 16px;
+
+    font-weight: 700;
+
+    transition: all 0.25s ease;
+
+}
+
+
+.watch-btn > span {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 10px;
+
+    width: 100%;
+
+}
+
+
+.watch-btn > i {
+
+    font-size: 14px;
+
+    opacity: 0.8;
+
+}
+
+
+.watch-btn:hover {
+
+    background: #650000;
+
+    color: #ffffff;
+
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 8px 18px rgba(128, 0, 0, 0.25);
+
+}
+
+
+.watch-btn span i {
+
+    font-size: 19px;
+
+}
+
+
+
+/* =======================================================
+                    YOUTUBE NOTE
+======================================================= */
+
+.youtube-note {
+
+    margin: 13px 0 0;
+
+    text-align: center;
+
+    color: #999;
+
+    font-size: 12px;
+
+}
+
+
+.youtube-note i {
+
+    color: #800000;
+
+    margin-right: 4px;
+
+}
+
+
+
+/* =======================================================
+                    TABLET
+======================================================= */
+
+@media (max-width: 700px) {
+
+    .video-section {
+
+        padding: 50px 15px 65px;
+
+    }
+
+
+    .video-card {
+
+        padding: 28px 25px;
+
+        border-radius: 15px;
+
+    }
+
+
+    .video-card-top {
+
+        margin-bottom: 24px;
+
+    }
+
+
+    .video-title-area {
+
+        gap: 14px;
+
+        margin-bottom: 25px;
+
+    }
+
+
+    .subject-icon {
+
+        width: 55px;
+
+        height: 55px;
+
+        min-width: 55px;
+
+        font-size: 22px;
+
+    }
+
+
+    .video-title-area h2 {
+
+        font-size: 26px;
+
+    }
+
+
+    .video-title-area p {
+
+        font-size: 13px;
+
+    }
+
+
+    .info-divider {
+
+        margin: 0 20px;
+
+    }
+
+}
+
+
+
+/* =======================================================
+                    MOBILE
+======================================================= */
+
+@media (max-width: 520px) {
+
+    .video-section {
+
+        padding: 40px 12px 55px;
+
+    }
+
+
+    .video-card {
+
+        padding: 25px 20px;
+
+        border-radius: 13px;
+
+    }
+
+
+    .video-card-top {
+
+        align-items: flex-start;
+
+        flex-direction: column;
+
+        gap: 8px;
+
+        margin-bottom: 22px;
+
+    }
+
+
+    .free-badge {
+
+        font-size: 10px;
+
+    }
+
+
+    .video-title-area {
+
+        align-items: flex-start;
+
+        gap: 12px;
+
+    }
+
+
+    .subject-icon {
+
+        width: 50px;
+
+        height: 50px;
+
+        min-width: 50px;
+
+        border-radius: 11px;
+
+        font-size: 20px;
+
+    }
+
+
+    .video-title-area h2 {
+
+        font-size: 24px;
+
+    }
+
+
+    .video-title-area p {
+
+        font-size: 12px;
+
+    }
+
+
+    .video-info {
+
+        flex-direction: column;
+
+        align-items: stretch;
+
+        gap: 16px;
+
+        padding: 18px 0;
+
+    }
+
+
+    .info-divider {
+
+        width: 100%;
+
+        height: 1px;
+
+        margin: 0;
+
+    }
+
+
+    .info-item {
+
+        flex: none;
+
+    }
+
+
+    .watch-btn {
+
+        min-height: 54px;
+
+        font-size: 15px;
+
+    }
+
+}

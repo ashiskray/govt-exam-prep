@@ -1,0 +1,936 @@
+/* ===================================================
+   GOVT EXAM PREP
+   CONTACT PAGE
+   PART 1
+=================================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    font-family:'Poppins',sans-serif;
+
+    background:#f7f8fc;
+
+    color:#333;
+
+    line-height:1.7;
+
+}
+
+/* ===================================
+        HERO SECTION
+=================================== */
+
+.contact-hero{
+
+    position:relative;
+
+    min-height:65vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    padding:80px 20px;
+
+    overflow:hidden;
+
+    background:
+    linear-gradient(rgba(83,17,24,.88),
+    rgba(35,8,12,.92)),
+    url("../../assets/images/contact-bg.jpg");
+
+    background-size:cover;
+
+    background-position:center;
+
+}
+
+.contact-hero::before{
+
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    background:
+
+    radial-gradient(circle at top right,
+    rgba(255,213,79,.12),
+    transparent 35%),
+
+    radial-gradient(circle at bottom left,
+    rgba(255,255,255,.08),
+    transparent 30%);
+
+}
+
+.hero-content{
+
+    position:relative;
+
+    z-index:2;
+
+    max-width:900px;
+
+}
+
+.hero-tag{
+
+    display:inline-block;
+
+    padding:10px 24px;
+
+    border-radius:40px;
+
+    background:rgba(255,255,255,.12);
+
+    backdrop-filter:blur(12px);
+
+    color:white;
+
+    border:1px solid rgba(255,255,255,.15);
+
+    margin-bottom:25px;
+
+    font-size:15px;
+
+}
+
+.hero-content h1{
+
+    color:white;
+
+    font-size:60px;
+
+    margin-bottom:25px;
+
+    font-weight:800;
+
+}
+
+.hero-content span{
+
+    color:#FFD54F;
+
+}
+
+.hero-content p{
+
+    color:#ececec;
+
+    font-size:22px;
+
+    line-height:1.8;
+
+}
+
+/* ===================================
+      COMMON SECTION
+=================================== */
+
+.contact-section{
+
+    max-width:1250px;
+
+    margin:90px auto;
+
+    padding:0 25px;
+
+}
+
+.section-heading{
+
+    text-align:center;
+
+    margin-bottom:60px;
+
+}
+
+.section-heading h2{
+
+    font-size:42px;
+
+    color:#531118;
+
+    margin-bottom:15px;
+
+}
+
+.section-heading p{
+
+    color:#666;
+
+    font-size:18px;
+
+}
+
+/* ===================================
+      CONTACT GRID
+=================================== */
+
+.contact-grid{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(320px,1fr));
+
+    gap:35px;
+
+}
+
+/* ===================================
+      CONTACT CARD
+=================================== */
+
+.contact-card{
+
+    background:white;
+
+    padding:40px 30px;
+
+    border-radius:22px;
+
+    text-align:center;
+
+    position:relative;
+
+    overflow:hidden;
+
+    transition:.35s;
+
+    box-shadow:
+
+    0 10px 30px rgba(0,0,0,.08);
+
+}
+
+.contact-card::before{
+
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    background:
+
+    linear-gradient(
+    135deg,
+    rgba(83,17,24,.03),
+    rgba(255,213,79,.10));
+
+    opacity:0;
+
+    transition:.35s;
+
+}
+
+.contact-card:hover::before{
+
+    opacity:1;
+
+}
+
+.contact-card:hover{
+
+    transform:translateY(-12px);
+
+    box-shadow:
+
+    0 20px 45px rgba(83,17,24,.18);
+
+}
+
+.contact-card>*{
+
+    position:relative;
+
+    z-index:2;
+
+}
+
+/* ===================================
+      ICON
+=================================== */
+
+.contact-card .icon{
+
+    width:95px;
+
+    height:95px;
+
+    margin:auto;
+
+    border-radius:50%;
+
+    background:#531118;
+
+    color:#FFD54F;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:36px;
+
+    margin-bottom:28px;
+
+    transition:.4s;
+
+}
+
+.contact-card:hover .icon{
+
+    transform:rotateY(180deg);
+
+    background:#FFD54F;
+
+    color:#531118;
+
+}
+
+/* ===================================
+      TEXT
+=================================== */
+
+.contact-card h3{
+
+    font-size:27px;
+
+    color:#531118;
+
+    margin-bottom:18px;
+
+}
+
+.contact-card p{
+
+    color:#666;
+
+    font-size:17px;
+
+    line-height:1.8;
+
+    margin-bottom:30px;
+
+}
+
+/* ===================================
+      BUTTON
+=================================== */
+
+.contact-btn{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    text-decoration:none;
+
+    background:#531118;
+
+    color:white;
+
+    padding:14px 28px;
+
+    border-radius:40px;
+
+    font-weight:600;
+
+    transition:.35s;
+
+}
+
+.contact-btn:hover{
+
+    background:#FFD54F;
+
+    color:#531118;
+
+    transform:translateY(-4px);
+
+    box-shadow:
+
+    0 12px 25px rgba(255,213,79,.4);
+
+}
+
+.contact-btn i{
+
+    font-size:15px;
+
+}
+
+/* ===================================================
+   CONTACT PAGE
+   PART 2
+=================================================== */
+
+
+/* ===================================
+        EMAIL BOX
+=================================== */
+
+.email-box{
+
+    max-width:1100px;
+
+    margin:100px auto;
+
+    padding:70px 40px;
+
+    border-radius:30px;
+
+    text-align:center;
+
+    background:linear-gradient(135deg,#531118,#7d1c2a);
+
+    color:white;
+
+    position:relative;
+
+    overflow:hidden;
+
+    box-shadow:0 20px 50px rgba(83,17,24,.35);
+
+}
+
+.email-box::before{
+
+    content:"";
+
+    position:absolute;
+
+    width:450px;
+
+    height:450px;
+
+    border-radius:50%;
+
+    background:rgba(255,255,255,.06);
+
+    top:-200px;
+
+    right:-150px;
+
+}
+
+.email-box::after{
+
+    content:"";
+
+    position:absolute;
+
+    width:320px;
+
+    height:320px;
+
+    border-radius:50%;
+
+    background:rgba(255,213,79,.08);
+
+    left:-100px;
+
+    bottom:-120px;
+
+}
+
+.email-box>*{
+
+    position:relative;
+
+    z-index:2;
+
+}
+
+.email-box i{
+
+    font-size:70px;
+
+    color:#FFD54F;
+
+    margin-bottom:25px;
+
+}
+
+.email-box h2{
+
+    font-size:40px;
+
+    margin-bottom:18px;
+
+}
+
+.email-box p{
+
+    font-size:28px;
+
+    font-weight:700;
+
+    color:#FFD54F;
+
+    margin-bottom:35px;
+
+    word-break:break-word;
+
+}
+
+.mail-big-btn{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    text-decoration:none;
+
+    background:#FFD54F;
+
+    color:#531118;
+
+    padding:18px 40px;
+
+    border-radius:60px;
+
+    font-size:20px;
+
+    font-weight:700;
+
+    transition:.35s;
+
+}
+
+.mail-big-btn:hover{
+
+    background:white;
+
+    transform:translateY(-6px);
+
+    box-shadow:0 15px 35px rgba(255,255,255,.3);
+
+}
+
+
+
+/* ===================================
+            FAQ
+=================================== */
+
+.faq-section{
+
+    max-width:1200px;
+
+    margin:90px auto;
+
+    padding:0 25px;
+
+}
+
+.faq-container{
+
+    display:grid;
+
+    gap:25px;
+
+}
+
+.faq-item{
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:20px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+    transition:.35s;
+
+}
+
+.faq-item:hover{
+
+    transform:translateX(8px);
+
+    box-shadow:0 18px 35px rgba(83,17,24,.15);
+
+}
+
+.faq-item h3{
+
+    color:#531118;
+
+    margin-bottom:15px;
+
+    font-size:24px;
+
+}
+
+.faq-item p{
+
+    color:#666;
+
+    font-size:17px;
+
+    line-height:1.8;
+
+}
+
+
+
+/* ===================================
+            CTA
+=================================== */
+
+.contact-cta{
+
+    max-width:1200px;
+
+    margin:100px auto;
+
+    padding:80px 40px;
+
+    border-radius:30px;
+
+    text-align:center;
+
+    color:white;
+
+    background:linear-gradient(135deg,#531118,#8b2433);
+
+    position:relative;
+
+    overflow:hidden;
+
+    box-shadow:0 20px 45px rgba(83,17,24,.35);
+
+}
+
+.contact-cta::before{
+
+    content:"";
+
+    position:absolute;
+
+    width:500px;
+
+    height:500px;
+
+    border-radius:50%;
+
+    background:rgba(255,255,255,.05);
+
+    right:-180px;
+
+    top:-220px;
+
+}
+
+.contact-cta>*{
+
+    position:relative;
+
+    z-index:2;
+
+}
+
+.contact-cta h2{
+
+    font-size:42px;
+
+    margin-bottom:22px;
+
+}
+
+.contact-cta p{
+
+    font-size:20px;
+
+    color:#ececec;
+
+    max-width:800px;
+
+    margin:auto;
+
+    line-height:1.8;
+
+}
+
+.cta-btn{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    margin-top:40px;
+
+    text-decoration:none;
+
+    background:#FFD54F;
+
+    color:#531118;
+
+    padding:18px 40px;
+
+    border-radius:60px;
+
+    font-size:20px;
+
+    font-weight:700;
+
+    transition:.35s;
+
+}
+
+.cta-btn:hover{
+
+    background:white;
+
+    transform:translateY(-6px);
+
+    box-shadow:0 15px 35px rgba(255,255,255,.3);
+
+}
+
+
+
+/* ===================================
+        ANIMATIONS
+=================================== */
+
+.contact-card,
+
+.email-box,
+
+.faq-item,
+
+.contact-cta{
+
+    animation:fadeUp .8s ease;
+
+}
+
+@keyframes fadeUp{
+
+from{
+
+opacity:0;
+
+transform:translateY(40px);
+
+}
+
+to{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+}
+
+
+
+/* ===================================
+        RESPONSIVE
+=================================== */
+
+@media(max-width:992px){
+
+.hero-content h1{
+
+font-size:48px;
+
+}
+
+.hero-content p{
+
+font-size:19px;
+
+}
+
+.email-box h2{
+
+font-size:34px;
+
+}
+
+.contact-cta h2{
+
+font-size:34px;
+
+}
+
+}
+
+
+
+@media(max-width:768px){
+
+.contact-hero{
+
+min-height:55vh;
+
+padding:70px 20px;
+
+}
+
+.hero-content h1{
+
+font-size:36px;
+
+}
+
+.hero-content p{
+
+font-size:17px;
+
+}
+
+.section-heading h2{
+
+font-size:32px;
+
+}
+
+.contact-card{
+
+padding:35px 25px;
+
+}
+
+.contact-card h3{
+
+font-size:23px;
+
+}
+
+.email-box{
+
+padding:50px 20px;
+
+margin:70px 20px;
+
+}
+
+.email-box p{
+
+font-size:20px;
+
+}
+
+.mail-big-btn{
+
+width:100%;
+
+justify-content:center;
+
+}
+
+.contact-cta{
+
+padding:60px 25px;
+
+margin:70px 20px;
+
+}
+
+.contact-cta h2{
+
+font-size:28px;
+
+}
+
+.contact-cta p{
+
+font-size:17px;
+
+}
+
+.cta-btn{
+
+width:100%;
+
+justify-content:center;
+
+}
+
+}
+
+
+
+@media(max-width:480px){
+
+.hero-content h1{
+
+font-size:30px;
+
+}
+
+.hero-content p{
+
+font-size:16px;
+
+}
+
+.contact-card .icon{
+
+width:75px;
+
+height:75px;
+
+font-size:28px;
+
+}
+
+.contact-card h3{
+
+font-size:21px;
+
+}
+
+.email-box i{
+
+font-size:55px;
+
+}
+
+.email-box h2{
+
+font-size:28px;
+
+}
+
+.email-box p{
+
+font-size:18px;
+
+}
+
+.faq-item h3{
+
+font-size:20px;
+
+}
+
+}

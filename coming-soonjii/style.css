@@ -1,0 +1,437 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #0b0b0d;
+}
+
+/* ================================
+   MAIN SECTION
+================================ */
+
+.construction-section {
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background:
+        linear-gradient(
+            135deg,
+            #171717 0%,
+            #101010 45%,
+            #080808 100%
+        );
+}
+
+/* ================================
+   BACKGROUND
+================================ */
+
+.workers-bg {
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+}
+
+/* Large faded worker icons */
+
+.worker {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.055);
+    font-size: 180px;
+
+    filter: blur(0.5px);
+
+    animation: workerFloat 5s ease-in-out infinite;
+}
+
+.worker-one {
+    left: 5%;
+    bottom: -20px;
+    font-size: 230px;
+}
+
+.worker-two {
+    left: 27%;
+    bottom: 15%;
+    font-size: 150px;
+    animation-delay: 1s;
+}
+
+.worker-three {
+    right: 8%;
+    bottom: -25px;
+    font-size: 250px;
+    animation-delay: 2s;
+}
+
+.worker-four {
+    right: 30%;
+    top: 8%;
+    font-size: 130px;
+    animation-delay: 3s;
+}
+
+@keyframes workerFloat {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-12px);
+    }
+}
+
+/* ================================
+   FLOATING CONSTRUCTION ICONS
+================================ */
+
+.construction-icon {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.06);
+    font-size: 80px;
+    animation: floatingIcon 6s ease-in-out infinite;
+}
+
+.icon-one {
+    top: 12%;
+    left: 12%;
+}
+
+.icon-two {
+    top: 22%;
+    right: 15%;
+    animation-delay: 2s;
+}
+
+.icon-three {
+    bottom: 15%;
+    right: 28%;
+    animation-delay: 4s;
+}
+
+@keyframes floatingIcon {
+
+    0%,
+    100% {
+        transform: translateY(0) rotate(0deg);
+    }
+
+    50% {
+        transform: translateY(-15px) rotate(4deg);
+    }
+}
+
+/* ================================
+   OVERLAY
+================================ */
+
+.overlay {
+    position: absolute;
+    inset: 0;
+
+    background:
+        radial-gradient(
+            circle at center,
+            rgba(128, 0, 0, 0.28),
+            rgba(0, 0, 0, 0.92) 70%
+        );
+}
+
+/* ================================
+   CONTENT
+================================ */
+
+.coming-content {
+    position: relative;
+    z-index: 5;
+
+    width: min(850px, 90%);
+
+    text-align: center;
+
+    padding: 55px 40px;
+
+    border: 1px solid rgba(255, 255, 255, 0.1);
+
+    background: rgba(15, 15, 15, 0.72);
+
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+
+    border-radius: 24px;
+
+    box-shadow:
+        0 25px 80px rgba(0, 0, 0, 0.65),
+        inset 0 1px 0 rgba(255, 255, 255, 0.05);
+}
+
+/* ================================
+   BADGE
+================================ */
+
+.status-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+
+    padding: 9px 18px;
+
+    border-radius: 50px;
+
+    background: rgba(128, 0, 0, 0.15);
+    border: 1px solid rgba(180, 40, 40, 0.35);
+
+    color: #e7a1a1;
+
+    font-size: 12px;
+    font-weight: 700;
+
+    letter-spacing: 1.5px;
+}
+
+.pulse {
+    width: 8px;
+    height: 8px;
+
+    background: #ff4d4d;
+
+    border-radius: 50%;
+
+    box-shadow: 0 0 0 0 rgba(255, 77, 77, 0.7);
+
+    animation: pulse 1.8s infinite;
+}
+
+@keyframes pulse {
+
+    70% {
+        box-shadow: 0 0 0 10px rgba(255, 77, 77, 0);
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 rgba(255, 77, 77, 0);
+    }
+}
+
+/* ================================
+   MAIN ICON
+================================ */
+
+.main-icon {
+    margin: 30px auto 18px;
+
+    width: 72px;
+    height: 72px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 18px;
+
+    background: linear-gradient(
+        145deg,
+        #8b0000,
+        #4c0000
+    );
+
+    color: white;
+
+    font-size: 30px;
+
+    box-shadow:
+        0 15px 35px rgba(128, 0, 0, 0.35);
+}
+
+/* ================================
+   HEADING
+================================ */
+
+h1 {
+    color: white;
+
+    font-size: clamp(35px, 6vw, 68px);
+
+    line-height: 1.05;
+
+    font-weight: 900;
+
+    letter-spacing: -2px;
+}
+
+h1 span {
+    display: block;
+
+    margin-top: 8px;
+
+    color: #d7d7d7;
+
+    font-size: 0.62em;
+
+    letter-spacing: 1px;
+}
+
+/* ================================
+   DATE
+================================ */
+
+.date-box {
+    width: fit-content;
+
+    margin: 28px auto 22px;
+
+    padding: 13px 22px;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    border-radius: 10px;
+
+    background: rgba(128, 0, 0, 0.16);
+
+    border: 1px solid rgba(180, 50, 50, 0.3);
+
+    color: #f0b2b2;
+
+    font-size: 15px;
+}
+
+.date-box i {
+    color: #ff6868;
+}
+
+/* ================================
+   MESSAGE
+================================ */
+
+.main-message {
+    max-width: 650px;
+
+    margin: auto;
+
+    color: #bcbcbc;
+
+    font-size: 17px;
+
+    line-height: 1.7;
+}
+
+.main-message strong {
+    color: white;
+}
+
+/* ================================
+   DIVIDER
+================================ */
+
+.divider {
+    width: 70px;
+    height: 3px;
+
+    margin: 28px auto;
+
+    border-radius: 10px;
+
+    background: #8b0000;
+}
+
+/* ================================
+   MOTIVATION
+================================ */
+
+.motivation {
+    color: white;
+
+    font-size: 24px;
+
+    line-height: 1.5;
+
+    font-weight: 700;
+}
+
+.motivation strong {
+    color: #e85b5b;
+}
+
+.motivation span {
+    color: #d8d8d8;
+
+    font-size: 18px;
+}
+
+/* ================================
+   BOTTOM
+================================ */
+
+.bottom-text {
+    margin-top: 30px;
+
+    color: #777;
+
+    font-size: 12px;
+
+    letter-spacing: 1px;
+
+    text-transform: uppercase;
+}
+
+.bottom-text i {
+    margin-right: 6px;
+
+    color: #a52a2a;
+}
+
+/* ================================
+   MOBILE
+================================ */
+
+@media (max-width: 600px) {
+
+    .coming-content {
+        padding: 40px 22px;
+        border-radius: 18px;
+    }
+
+    .worker-one,
+    .worker-three {
+        font-size: 150px;
+    }
+
+    .worker-two,
+    .worker-four {
+        font-size: 90px;
+    }
+
+    .construction-icon {
+        font-size: 50px;
+    }
+
+    h1 {
+        letter-spacing: -1px;
+    }
+
+    .main-message {
+        font-size: 15px;
+    }
+
+    .motivation {
+        font-size: 20px;
+    }
+
+    .date-box {
+        font-size: 13px;
+    }
+}

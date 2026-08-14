@@ -1,0 +1,1030 @@
+/* =========================================================
+   GOVT EXAM PREP
+   CONTRIBUTION PAGE
+   PREMIUM RESPONSIVE STYLE
+========================================================= */
+
+
+/* =========================================================
+   PAGE
+========================================================= */
+
+.contribute-page {
+    min-height: 100vh;
+    padding: 60px 20px 80px;
+
+    background:
+        radial-gradient(
+            circle at top left,
+            rgba(128, 0, 0, 0.07),
+            transparent 35%
+        ),
+        linear-gradient(
+            135deg,
+            #fffafa,
+            #ffffff 45%,
+            #f8f8f8
+        );
+}
+
+
+/* =========================================================
+   MAIN CONTAINER
+========================================================= */
+
+.contribute-container {
+    width: 100%;
+    max-width: 1050px;
+
+    margin: 0 auto;
+}
+
+
+/* =========================================================
+   PAGE HEADING
+========================================================= */
+
+.page-heading {
+    text-align: center;
+
+    max-width: 850px;
+
+    margin: 0 auto 45px;
+}
+
+
+.heading-badge {
+    display: inline-flex;
+
+    align-items: center;
+    justify-content: center;
+
+    padding: 8px 17px;
+
+    margin-bottom: 18px;
+
+    border-radius: 50px;
+
+    background: rgba(128, 0, 0, 0.08);
+
+    border: 1px solid rgba(128, 0, 0, 0.14);
+
+    color: #800000;
+
+    font-size: 12px;
+
+    font-weight: 700;
+
+    letter-spacing: 1px;
+}
+
+
+.page-heading h1 {
+    margin: 0 0 16px;
+
+    font-size: clamp(34px, 5vw, 54px);
+
+    line-height: 1.1;
+
+    font-weight: 800;
+
+    color: #800000;
+}
+
+
+.page-heading p {
+    margin: 0 auto;
+
+    max-width: 800px;
+
+    color: #666;
+
+    font-size: 16px;
+
+    line-height: 1.8;
+}
+
+
+.page-heading p strong {
+    color: #800000;
+}
+
+
+/* =========================================================
+   FORM
+========================================================= */
+
+.contribute-form {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 25px;
+}
+
+
+/* =========================================================
+   FORM CARD
+========================================================= */
+
+.form-card {
+    background: rgba(255, 255, 255, 0.96);
+
+    border: 1px solid #e8e8e8;
+
+    border-radius: 18px;
+
+    padding: 30px;
+
+    box-shadow:
+        0 10px 35px rgba(0, 0, 0, 0.055);
+
+    transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease,
+        border-color 0.25s ease;
+}
+
+
+.form-card:hover {
+    border-color: rgba(128, 0, 0, 0.18);
+
+    box-shadow:
+        0 15px 40px rgba(0, 0, 0, 0.075);
+}
+
+
+/* =========================================================
+   CARD HEADING
+========================================================= */
+
+.form-card h2 {
+    display: flex;
+
+    align-items: center;
+
+    gap: 11px;
+
+    margin: 0 0 25px;
+
+    color: #222;
+
+    font-size: 20px;
+
+    font-weight: 750;
+}
+
+
+.form-card h2 i {
+    width: 40px;
+    height: 40px;
+
+    display: inline-flex;
+
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 10px;
+
+    background: rgba(128, 0, 0, 0.09);
+
+    color: #800000;
+
+    font-size: 17px;
+}
+
+
+/* =========================================================
+   FORM GRID
+========================================================= */
+
+.form-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(2, minmax(0, 1fr));
+
+    gap: 20px;
+}
+
+
+/* =========================================================
+   FORM GROUP
+========================================================= */
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+
+.form-group:last-child {
+    margin-bottom: 0;
+}
+
+
+.form-grid .form-group {
+    margin-bottom: 0;
+}
+
+
+.form-group label {
+    display: block;
+
+    margin-bottom: 8px;
+
+    color: #333;
+
+    font-size: 14px;
+
+    font-weight: 650;
+}
+
+
+/* =========================================================
+   INPUTS
+========================================================= */
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+
+    width: 100%;
+
+    border: 1px solid #dcdcdc;
+
+    border-radius: 10px;
+
+    background: #fff;
+
+    color: #222;
+
+    font-family: inherit;
+
+    font-size: 14px;
+
+    outline: none;
+
+    transition:
+        border-color 0.2s ease,
+        box-shadow 0.2s ease,
+        background 0.2s ease;
+}
+
+
+.form-group input,
+.form-group select {
+
+    height: 48px;
+
+    padding: 0 14px;
+}
+
+
+.form-group textarea {
+
+    min-height: 130px;
+
+    padding: 13px 14px;
+
+    resize: vertical;
+
+    line-height: 1.6;
+}
+
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+    color: #a4a4a4;
+}
+
+
+.form-group select {
+    cursor: pointer;
+}
+
+
+/* =========================================================
+   FOCUS
+========================================================= */
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+
+    border-color: #800000;
+
+    background: #fff;
+
+    box-shadow:
+        0 0 0 4px rgba(128, 0, 0, 0.08);
+}
+
+
+/* =========================================================
+   UPLOAD BOX
+========================================================= */
+
+.upload-box {
+
+    position: relative;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+
+    text-align: center;
+
+    min-height: 260px;
+
+    padding: 35px 25px;
+
+    border: 2px dashed #cfcfcf;
+
+    border-radius: 16px;
+
+    background:
+        linear-gradient(
+            145deg,
+            #fff,
+            #fafafa
+        );
+
+    transition:
+        border-color 0.25s ease,
+        background 0.25s ease,
+        transform 0.25s ease;
+}
+
+
+.upload-box:hover {
+
+    border-color: #800000;
+
+    background:
+        linear-gradient(
+            145deg,
+            #fffafa,
+            #fff
+        );
+}
+
+
+.upload-box.dragover {
+
+    border-color: #800000;
+
+    background: rgba(128, 0, 0, 0.05);
+
+    transform: scale(1.01);
+}
+
+
+.upload-box > i:first-child {
+
+    width: 65px;
+    height: 65px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 16px;
+
+    border-radius: 50%;
+
+    background: rgba(128, 0, 0, 0.09);
+
+    color: #800000;
+
+    font-size: 27px;
+}
+
+
+.upload-box h3 {
+
+    margin: 0 0 10px;
+
+    color: #333;
+
+    font-size: 17px;
+
+    font-weight: 700;
+}
+
+
+.upload-box p {
+
+    margin: 5px 0;
+
+    color: #777;
+
+    font-size: 14px;
+}
+
+
+/* =========================================================
+   FILE INPUT
+========================================================= */
+
+.upload-box input[type="file"] {
+
+    width: 100%;
+
+    max-width: 430px;
+
+    margin: 15px 0;
+
+    padding: 12px;
+
+    border: 1px solid #ddd;
+
+    border-radius: 10px;
+
+    background: #fff;
+
+    font-family: inherit;
+
+    font-size: 13px;
+
+    cursor: pointer;
+}
+
+
+.upload-box input[type="file"]::file-selector-button {
+
+    margin-right: 12px;
+
+    padding: 9px 14px;
+
+    border: none;
+
+    border-radius: 7px;
+
+    background: #800000;
+
+    color: white;
+
+    font-family: inherit;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: background 0.2s ease;
+}
+
+
+.upload-box input[type="file"]::file-selector-button:hover {
+    background: #650000;
+}
+
+
+/* =========================================================
+   UPLOAD INFO
+========================================================= */
+
+.upload-info {
+
+    font-size: 12px !important;
+
+    color: #888 !important;
+}
+
+
+/* =========================================================
+   FILE PREVIEW
+========================================================= */
+
+.file-preview {
+
+    display: none;
+
+    align-items: center;
+
+    gap: 10px;
+
+    width: 100%;
+
+    max-width: 600px;
+
+    margin-top: 15px;
+
+    padding: 13px 15px;
+
+    border: 1px solid #e5e5e5;
+
+    border-radius: 10px;
+
+    background: #fff;
+
+    box-shadow: 0 4px 15px rgba(0,0,0,0.04);
+}
+
+
+.file-preview > i:first-child {
+
+    color: #c62828;
+
+    font-size: 22px;
+}
+
+
+.file-preview #fileName {
+
+    flex: 1;
+
+    min-width: 0;
+
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+
+    white-space: nowrap;
+
+    color: #444;
+
+    font-size: 13px;
+
+    text-align: left;
+}
+
+
+.file-preview .remove-file {
+
+    color: #777;
+
+    cursor: pointer;
+
+    font-size: 18px;
+
+    transition: color 0.2s ease;
+}
+
+
+.file-preview .remove-file:hover {
+    color: #c62828;
+}
+
+
+/* =========================================================
+   DECLARATION
+========================================================= */
+
+.declaration {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 14px;
+
+    padding: 18px;
+
+    border-radius: 12px;
+
+    background: #fafafa;
+
+    border: 1px solid #eeeeee;
+}
+
+
+.declaration label {
+
+    display: flex;
+
+    align-items: flex-start;
+
+    gap: 10px;
+
+    color: #666;
+
+    font-size: 12px;
+
+    line-height: 1.65;
+
+    cursor: pointer;
+}
+
+
+.declaration input[type="checkbox"] {
+
+    flex: 0 0 auto;
+
+    width: 16px;
+    height: 16px;
+
+    margin-top: 2px;
+
+    accent-color: #800000;
+
+    cursor: pointer;
+}
+
+
+/* =========================================================
+   CONSENT NOTE
+========================================================= */
+
+.consent-note {
+
+    margin: 14px 0 0;
+
+    color: #8a8a8a;
+
+    font-size: 11px;
+
+    line-height: 1.7;
+}
+
+
+/* =========================================================
+   SUBMIT AREA
+========================================================= */
+
+.submit-area {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    text-align: center;
+
+    padding: 10px 0;
+}
+
+
+/* =========================================================
+   SUBMIT BUTTON
+========================================================= */
+
+.submit-btn {
+
+    position: relative;
+
+    display: inline-flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 10px;
+
+    min-width: 270px;
+
+    min-height: 54px;
+
+    padding: 14px 25px;
+
+    border: none;
+
+    border-radius: 11px;
+
+    background: linear-gradient(
+        135deg,
+        #800000,
+        #9d1a1a
+    );
+
+    color: white;
+
+    font-family: inherit;
+
+    font-size: 15px;
+
+    font-weight: 700;
+
+    letter-spacing: 0.2px;
+
+    cursor: pointer;
+
+    box-shadow:
+        0 10px 25px rgba(128, 0, 0, 0.20);
+
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease,
+        background 0.2s ease;
+}
+
+
+.submit-btn:hover {
+
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 14px 30px rgba(128, 0, 0, 0.28);
+
+    background: linear-gradient(
+        135deg,
+        #700000,
+        #8d1111
+    );
+}
+
+
+.submit-btn:active {
+
+    transform: translateY(0);
+
+    box-shadow:
+        0 7px 18px rgba(128, 0, 0, 0.20);
+}
+
+
+.submit-btn i {
+    font-size: 16px;
+}
+
+
+/* =========================================================
+   SUBMIT TEXT
+========================================================= */
+
+.submit-area > p {
+
+    margin: 12px 0 0;
+
+    color: #777;
+
+    font-size: 12px;
+
+    line-height: 1.6;
+}
+
+
+.submit-area > p:last-child {
+
+    color: #800000;
+
+    font-size: 13px;
+
+    font-weight: 600;
+}
+
+
+/* =========================================================
+   BUTTON LOADING
+========================================================= */
+
+.submit-btn.loading {
+
+    opacity: 0.75;
+
+    pointer-events: none;
+}
+
+
+.submit-btn.loading i {
+
+    animation:
+        contributeSpin 0.8s linear infinite;
+}
+
+
+@keyframes contributeSpin {
+
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+
+}
+
+
+/* =========================================================
+   VALIDATION
+========================================================= */
+
+.form-group input:required:invalid:not(:placeholder-shown),
+.form-group textarea:required:invalid:not(:placeholder-shown) {
+
+    border-color: #d6a0a0;
+}
+
+
+.form-group input:required:valid,
+.form-group textarea:required:valid {
+
+    border-color: #d5d5d5;
+}
+
+
+/* =========================================================
+   RESPONSIVE — TABLET
+========================================================= */
+
+@media (max-width: 850px) {
+
+    .contribute-page {
+
+        padding:
+            45px
+            18px
+            65px;
+
+    }
+
+
+    .form-card {
+
+        padding: 25px;
+
+    }
+
+
+    .page-heading {
+
+        margin-bottom: 35px;
+
+    }
+
+}
+
+
+/* =========================================================
+   RESPONSIVE — MOBILE
+========================================================= */
+
+@media (max-width: 650px) {
+
+    .contribute-page {
+
+        padding:
+            35px
+            12px
+            55px;
+
+    }
+
+
+    .page-heading h1 {
+
+        font-size: 34px;
+
+    }
+
+
+    .page-heading p {
+
+        font-size: 14px;
+
+        line-height: 1.7;
+
+    }
+
+
+    .heading-badge {
+
+        font-size: 10px;
+
+        padding:
+            7px
+            13px;
+
+    }
+
+
+    .form-card {
+
+        padding: 20px;
+
+        border-radius: 14px;
+
+    }
+
+
+    .form-card h2 {
+
+        font-size: 18px;
+
+        margin-bottom: 20px;
+
+    }
+
+
+    .form-card h2 i {
+
+        width: 36px;
+        height: 36px;
+
+        font-size: 15px;
+
+    }
+
+
+    .form-grid {
+
+        grid-template-columns: 1fr;
+
+        gap: 18px;
+
+    }
+
+
+    .form-grid .form-group {
+
+        margin-bottom: 0;
+
+    }
+
+
+    .upload-box {
+
+        min-height: 230px;
+
+        padding:
+            25px
+            15px;
+
+    }
+
+
+    .upload-box h3 {
+
+        font-size: 15px;
+
+    }
+
+
+    .upload-box input[type="file"] {
+
+        max-width: 100%;
+
+    }
+
+
+    .submit-btn {
+
+        width: 100%;
+
+        min-width: 0;
+
+    }
+
+
+    .declaration {
+
+        padding: 14px;
+
+    }
+
+}
+
+
+/* =========================================================
+   VERY SMALL DEVICES
+========================================================= */
+
+@media (max-width: 400px) {
+
+    .contribute-page {
+
+        padding-left: 9px;
+
+        padding-right: 9px;
+
+    }
+
+
+    .form-card {
+
+        padding: 17px;
+
+    }
+
+
+    .page-heading h1 {
+
+        font-size: 30px;
+
+    }
+
+
+    .heading-badge {
+
+        font-size: 9px;
+
+    }
+
+
+    .submit-btn {
+
+        font-size: 14px;
+
+        padding:
+            13px
+            16px;
+
+    }
+
+}

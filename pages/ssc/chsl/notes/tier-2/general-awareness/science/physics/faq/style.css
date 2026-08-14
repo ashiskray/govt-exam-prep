@@ -1,0 +1,280 @@
+/*==================================================
+            GOVT EXAM PREP - FAQ STYLE
+==================================================*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f5f6fa;
+    color:#222;
+    line-height:1.7;
+}
+
+/*==================================================
+                    CONTAINER
+==================================================*/
+
+.container{
+    width:90%;
+    max-width:1000px;
+    margin:auto;
+}
+
+/*==================================================
+                     HEADER
+==================================================*/
+
+header{
+    background:#800000;
+    color:#fff;
+    padding:45px 20px;
+    text-align:center;
+    margin-bottom:40px;
+}
+
+header h1{
+    font-size:38px;
+    margin-bottom:10px;
+    font-weight:700;
+}
+
+.subtitle{
+    font-size:16px;
+    opacity:.95;
+}
+
+/*==================================================
+                    FAQ CARD
+==================================================*/
+
+.faq{
+    background:#fff;
+    border-left:6px solid #800000;
+    border-radius:10px;
+    padding:22px 25px;
+    margin-bottom:22px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+    transition:.25s;
+}
+
+.faq:hover{
+    transform:translateY(-4px);
+    box-shadow:0 10px 22px rgba(0,0,0,.12);
+}
+
+/*==================================================
+                    QUESTION
+==================================================*/
+
+.question{
+    font-size:20px;
+    font-weight:bold;
+    color:#222;
+    margin-bottom:15px;
+}
+
+/*==================================================
+                  EXAM SOURCE
+==================================================*/
+
+.exam{
+    display:inline-block;
+    background:#800000;
+    color:#fff;
+    padding:6px 14px;
+    border-radius:25px;
+    font-size:13px;
+    font-weight:bold;
+    margin-bottom:15px;
+}
+
+/*==================================================
+                    ANSWER
+==================================================*/
+
+.answer{
+    color:#067c2e;
+    font-size:18px;
+    font-weight:bold;
+}
+
+.answer::before{
+    content:"✔ ";
+}
+
+/*==================================================
+                    FOOTER
+==================================================*/
+
+footer{
+    margin-top:60px;
+    background:#800000;
+    color:#fff;
+    text-align:center;
+    padding:35px 20px;
+}
+
+footer p{
+    margin:8px 0;
+    line-height:1.7;
+    font-size:15px;
+}
+
+/*==================================================
+                    LINKS
+==================================================*/
+
+a{
+    color:#800000;
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+/*==================================================
+                  TEXT SELECTION
+==================================================*/
+
+::selection{
+    background:#800000;
+    color:#fff;
+}
+
+/*==================================================
+                  SCROLLBAR
+==================================================*/
+
+::-webkit-scrollbar{
+    width:10px;
+}
+
+::-webkit-scrollbar-track{
+    background:#ececec;
+}
+
+::-webkit-scrollbar-thumb{
+    background:#800000;
+    border-radius:20px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background:#5d0000;
+}
+
+/*==================================================
+                     TABLE
+==================================================*/
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin:20px 0;
+}
+
+table th{
+    background:#800000;
+    color:#fff;
+    padding:12px;
+}
+
+table td{
+    border:1px solid #ddd;
+    padding:12px;
+}
+
+/*==================================================
+                     IMAGE
+==================================================*/
+
+img{
+    max-width:100%;
+    height:auto;
+    display:block;
+}
+
+/*==================================================
+                     LIST
+==================================================*/
+
+ul,
+ol{
+    margin-left:22px;
+}
+
+li{
+    margin:8px 0;
+}
+
+/*==================================================
+                  PRINT STYLE
+==================================================*/
+
+@media print{
+
+    body{
+        background:#fff;
+    }
+
+    .faq{
+        box-shadow:none;
+        border:1px solid #ccc;
+        page-break-inside:avoid;
+    }
+
+    footer{
+        display:none;
+    }
+
+}
+
+/*==================================================
+                 RESPONSIVE DESIGN
+==================================================*/
+
+@media(max-width:768px){
+
+    header{
+        padding:35px 15px;
+    }
+
+    header h1{
+        font-size:28px;
+    }
+
+    .subtitle{
+        font-size:14px;
+    }
+
+    .container{
+        width:95%;
+    }
+
+    .faq{
+        padding:18px;
+    }
+
+    .question{
+        font-size:18px;
+    }
+
+    .exam{
+        font-size:12px;
+        padding:5px 12px;
+    }
+
+    .answer{
+        font-size:17px;
+    }
+
+}

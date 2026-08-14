@@ -1,0 +1,2044 @@
+/*=========================================================
+                    SSC CHSL PAGE
+                PART 1 - LAYOUT
+=========================================================*/
+
+
+/*==============================
+        ROOT COLORS
+==============================*/
+
+:root{
+
+    --primary:#800000;
+
+    --primary-light:#a00000;
+
+    --gold:#d4af37;
+
+    --text:#333;
+
+    --text-light:#666;
+
+    --white:#fff;
+
+    --bg:#faf7f4;
+
+}
+
+
+/*==============================
+        PAGE
+==============================*/
+
+body{
+
+    background:var(--bg);
+
+    font-family:'Poppins',sans-serif;
+
+    color:var(--text);
+
+}
+
+
+.exam-dashboard{
+
+    max-width:1300px;
+
+    margin:60px auto 90px;
+
+    padding:0 25px;
+
+}
+
+
+/*==============================
+        BREADCRUMB
+==============================*/
+
+.breadcrumb{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    margin-bottom:30px;
+
+    flex-wrap:wrap;
+
+}
+
+
+.breadcrumb a{
+
+    text-decoration:none;
+
+    color:var(--primary);
+
+    font-size:16px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+
+.breadcrumb a:hover{
+
+    color:var(--gold);
+
+}
+
+
+.breadcrumb i{
+
+    color:#999;
+
+    font-size:13px;
+
+}
+
+
+.breadcrumb span{
+
+    color:#666;
+
+    font-size:16px;
+
+    font-weight:500;
+
+}
+
+
+/*==============================
+        BACK BUTTON
+==============================*/
+
+.back-btn{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    text-decoration:none;
+
+    padding:13px 22px;
+
+    background:#fff;
+
+    color:var(--primary);
+
+    border-radius:50px;
+
+    border:2px solid rgba(128,0,0,.12);
+
+    font-weight:700;
+
+    box-shadow:0 12px 25px rgba(0,0,0,.06);
+
+    transition:.35s;
+
+    margin-bottom:45px;
+
+}
+
+
+.back-btn:hover{
+
+    background:var(--primary);
+
+    color:#fff;
+
+    transform:translateY(-3px);
+
+    box-shadow:0 18px 35px rgba(128,0,0,.18);
+
+}
+
+
+.back-btn i{
+
+    transition:.3s;
+
+}
+
+
+.back-btn:hover i{
+
+    transform:translateX(-5px);
+
+}
+
+
+/*==============================
+        SECTION SPACING
+==============================*/
+
+.exam-dashboard>*{
+
+    position:relative;
+
+    z-index:2;
+
+}
+
+
+/*==============================
+        RESPONSIVE
+==============================*/
+
+@media(max-width:768px){
+
+.exam-dashboard{
+
+padding:0 18px;
+
+margin:35px auto 70px;
+
+}
+
+.breadcrumb{
+
+gap:8px;
+
+}
+
+.breadcrumb a,
+
+.breadcrumb span{
+
+font-size:14px;
+
+}
+
+.back-btn{
+
+width:100%;
+
+justify-content:center;
+
+}
+
+}
+/*=========================================================
+                SSC CHSL PAGE
+            PART 2 - HERO SECTION
+=========================================================*/
+
+
+/*==============================
+        HERO SECTION
+==============================*/
+
+.exam-hero{
+
+    position:relative;
+
+    overflow:hidden;
+
+    background:linear-gradient(135deg,#7b0000,#960000);
+
+    border-radius:32px;
+
+    padding:70px 60px;
+
+    color:#fff;
+
+    margin-bottom:55px;
+
+    box-shadow:0 25px 60px rgba(128,0,0,.25);
+
+}
+
+
+/* Decorative Circles */
+
+.exam-hero::before{
+
+    content:"";
+
+    position:absolute;
+
+    width:320px;
+
+    height:320px;
+
+    border-radius:50%;
+
+    background:rgba(255,255,255,.06);
+
+    top:-120px;
+
+    right:-80px;
+
+}
+
+.exam-hero::after{
+
+    content:"";
+
+    position:absolute;
+
+    width:220px;
+
+    height:220px;
+
+    border-radius:50%;
+
+    background:rgba(255,255,255,.04);
+
+    bottom:-100px;
+
+    left:-70px;
+
+}
+
+
+/*==============================
+        HERO CONTENT
+==============================*/
+
+.hero-content{
+
+    position:relative;
+
+    z-index:2;
+
+}
+
+
+/*==============================
+        EXAM BADGE
+==============================*/
+
+.exam-tag{
+
+    display:inline-block;
+
+    padding:10px 22px;
+
+    border-radius:50px;
+
+    background:rgba(255,255,255,.18);
+
+    backdrop-filter:blur(10px);
+
+    -webkit-backdrop-filter:blur(10px);
+
+    border:1px solid rgba(255,255,255,.25);
+
+    font-size:14px;
+
+    font-weight:700;
+
+    letter-spacing:1px;
+
+    text-transform:uppercase;
+
+    margin-bottom:25px;
+
+}
+
+
+/*==============================
+        TITLE
+==============================*/
+
+.hero-content h1{
+
+    font-size:62px;
+
+    font-weight:800;
+
+    line-height:1.1;
+
+    margin-bottom:15px;
+
+}
+
+
+/*==============================
+        DESCRIPTION
+==============================*/
+
+.hero-content p{
+
+    max-width:700px;
+
+    font-size:22px;
+
+    color:#f5f5f5;
+
+    line-height:1.7;
+
+    margin-bottom:40px;
+
+}
+
+
+/*==============================
+        QUICK INFO
+==============================*/
+
+.hero-info{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:20px;
+
+}
+
+
+.info-box{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:14px;
+
+    background:rgba(255,255,255,.18);
+
+    backdrop-filter:blur(12px);
+
+    -webkit-backdrop-filter:blur(12px);
+
+    border:1px solid rgba(255,255,255,.25);
+
+    padding:16px 24px;
+
+    border-radius:18px;
+
+    transition:.35s;
+
+}
+
+
+.info-box:hover{
+
+    transform:translateY(-4px);
+
+    background:rgba(255,255,255,.18);
+
+}
+
+
+.info-box i{
+
+    font-size:22px;
+
+    color:#FFD54F;
+
+}
+
+
+.info-box div{
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+
+.info-box strong{
+
+    font-size:20px;
+
+    font-weight:700;
+
+    color:#800000;
+
+}
+
+.info-box span{
+
+    font-size:14px;
+
+    font-weight:600;
+
+    color:#6b0000;
+
+}
+
+
+/*==============================
+        RESPONSIVE
+==============================*/
+
+@media(max-width:900px){
+
+.exam-hero{
+
+padding:45px 30px;
+
+}
+
+.hero-content h1{
+
+font-size:46px;
+
+}
+
+.hero-content p{
+
+font-size:18px;
+
+}
+
+}
+
+@media(max-width:600px){
+
+.exam-hero{
+
+padding:35px 22px;
+
+border-radius:22px;
+
+}
+
+.hero-content h1{
+
+font-size:36px;
+
+}
+
+.hero-content p{
+
+font-size:16px;
+
+margin-bottom:25px;
+
+}
+
+.hero-info{
+
+flex-direction:column;
+
+}
+
+.info-box{
+
+width:100%;
+
+}
+
+}
+/*=========================================================
+                SSC CHSL PAGE
+            PART 3 - FEATURE CARDS
+=========================================================*/
+
+
+/*==============================
+        FEATURE GRID
+==============================*/
+
+.feature-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+
+    gap:30px;
+
+}
+
+
+/*==============================
+        FEATURE CARD
+==============================*/
+
+.feature-card{
+
+    position:relative;
+
+    overflow:hidden;
+
+    background:#fff;
+
+    border-radius:26px;
+
+    padding:35px;
+
+    text-decoration:none;
+
+    color:#333;
+
+    border:1px solid rgba(0,0,0,.05);
+
+    box-shadow:0 15px 40px rgba(0,0,0,.08);
+
+    transition:.35s;
+
+}
+
+
+.feature-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 25px 60px rgba(128,0,0,.15);
+
+    border-color:rgba(128,0,0,.12);
+
+}
+
+
+/* Top Border */
+
+.feature-card::before{
+
+    content:"";
+
+    position:absolute;
+
+    top:0;
+
+    left:0;
+
+    width:100%;
+
+    height:5px;
+
+    background:linear-gradient(90deg,#800000,#d4af37);
+
+}
+
+
+/* Decorative Circle */
+
+.feature-card::after{
+
+    content:"";
+
+    position:absolute;
+
+    width:180px;
+
+    height:180px;
+
+    border-radius:50%;
+
+    background:rgba(128,0,0,.03);
+
+    top:-80px;
+
+    right:-70px;
+
+}
+
+
+/*==============================
+        ICON
+==============================*/
+
+.feature-icon{
+
+    width:80px;
+
+    height:80px;
+
+    border-radius:20px;
+
+    background:linear-gradient(135deg,#fff4f4,#fff9ef);
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    margin-bottom:25px;
+
+    transition:.35s;
+
+    position:relative;
+
+    z-index:2;
+
+}
+
+
+.feature-icon i{
+
+    font-size:34px;
+
+    color:#800000;
+
+}
+
+
+.feature-card:hover .feature-icon{
+
+    transform:rotate(8deg) scale(1.08);
+
+}
+
+
+/*==============================
+        TITLE
+==============================*/
+
+.feature-card h3{
+
+    font-size:28px;
+
+    color:#800000;
+
+    margin-bottom:12px;
+
+    font-weight:700;
+
+    position:relative;
+
+    z-index:2;
+
+}
+
+
+/*==============================
+        DESCRIPTION
+==============================*/
+
+.feature-card p{
+
+    font-size:17px;
+
+    color:#666;
+
+    line-height:1.8;
+
+    margin-bottom:28px;
+
+    position:relative;
+
+    z-index:2;
+
+}
+
+
+/*==============================
+        EXPLORE BUTTON
+==============================*/
+
+.feature-card span{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    color:#800000;
+
+    font-weight:700;
+
+    font-size:17px;
+
+    transition:.3s;
+
+    position:relative;
+
+    z-index:2;
+
+}
+
+
+.feature-card span i{
+
+    transition:.3s;
+
+}
+
+
+.feature-card:hover span{
+
+    color:#a00000;
+
+}
+
+
+.feature-card:hover span i{
+
+    transform:translateX(6px);
+
+}
+
+
+/*==============================
+        RESPONSIVE
+==============================*/
+
+@media(max-width:900px){
+
+.feature-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+
+@media(max-width:600px){
+
+.feature-card{
+
+padding:28px;
+
+}
+
+.feature-icon{
+
+width:70px;
+
+height:70px;
+
+}
+
+.feature-icon i{
+
+font-size:30px;
+
+}
+
+.feature-card h3{
+
+font-size:24px;
+
+}
+
+.feature-card p{
+
+font-size:15px;
+
+}
+
+}
+/*=========================================================
+                SSC CHSL PAGE
+        PART 4 - PREMIUM ANIMATIONS & EFFECTS
+=========================================================*/
+
+
+/*==============================
+        FLOATING BACKGROUND
+==============================*/
+
+.exam-dashboard{
+
+    position:relative;
+
+}
+
+.exam-dashboard::before{
+
+    content:"";
+
+    position:absolute;
+
+    width:420px;
+
+    height:420px;
+
+    border-radius:50%;
+
+    background:rgba(128,0,0,.035);
+
+    top:120px;
+
+    left:-220px;
+
+    animation:floatOne 16s ease-in-out infinite;
+
+}
+
+.exam-dashboard::after{
+
+    content:"";
+
+    position:absolute;
+
+    width:320px;
+
+    height:320px;
+
+    border-radius:50%;
+
+    background:rgba(212,175,55,.08);
+
+    bottom:80px;
+
+    right:-180px;
+
+    animation:floatTwo 18s ease-in-out infinite;
+
+}
+
+
+@keyframes floatOne{
+
+0%{
+
+transform:translateY(0);
+
+}
+
+50%{
+
+transform:translateY(35px);
+
+}
+
+100%{
+
+transform:translateY(0);
+
+}
+
+}
+
+
+@keyframes floatTwo{
+
+0%{
+
+transform:translateY(0);
+
+}
+
+50%{
+
+transform:translateY(-30px);
+
+}
+
+100%{
+
+transform:translateY(0);
+
+}
+
+}
+
+
+/*==============================
+        HERO SHINE
+==============================*/
+
+.exam-hero{
+
+    overflow:hidden;
+
+}
+
+.exam-hero::after{
+
+    content:"";
+
+    position:absolute;
+
+    top:-40%;
+
+    left:-60%;
+
+    width:220px;
+
+    height:180%;
+
+    background:rgba(255,255,255,.10);
+
+    transform:rotate(25deg);
+
+    transition:1.2s;
+
+}
+
+
+.exam-hero:hover::after{
+
+    left:140%;
+
+}
+
+
+/*==============================
+        CARD SHINE EFFECT
+==============================*/
+
+.feature-card{
+
+    overflow:hidden;
+
+}
+
+.feature-card .shine{
+
+    display:none;
+
+}
+
+
+.feature-card::before{
+
+    z-index:3;
+
+}
+
+
+.feature-card:hover::after{
+
+    animation:cardGlow .8s ease;
+
+}
+
+
+@keyframes cardGlow{
+
+0%{
+
+transform:scale(.8);
+
+opacity:.2;
+
+}
+
+100%{
+
+transform:scale(1);
+
+opacity:1;
+
+}
+
+}
+
+
+/*==============================
+        ICON GLOW
+==============================*/
+
+.feature-icon{
+
+    box-shadow:0 8px 20px rgba(128,0,0,.08);
+
+}
+
+
+.feature-card:hover .feature-icon{
+
+    box-shadow:0 15px 35px rgba(128,0,0,.18);
+
+}
+
+
+/*==============================
+        CARD TITLE
+==============================*/
+
+.feature-card h3{
+
+    transition:.3s;
+
+}
+
+
+.feature-card:hover h3{
+
+    color:#a00000;
+
+}
+
+
+/*==============================
+        PARAGRAPH
+==============================*/
+
+.feature-card p{
+
+    transition:.3s;
+
+}
+
+
+.feature-card:hover p{
+
+    color:#555;
+
+}
+
+
+/*==============================
+        ACTIVE CARD
+==============================*/
+
+.feature-card:active{
+
+    transform:scale(.98);
+
+}
+
+
+/*==============================
+        HOVER BORDER
+==============================*/
+
+.feature-card{
+
+    border:1px solid rgba(128,0,0,.06);
+
+}
+
+
+.feature-card:hover{
+
+    border-color:#d4af37;
+
+}
+
+
+/*==============================
+        BUTTON EFFECT
+==============================*/
+
+.feature-card span{
+
+    position:relative;
+
+}
+
+
+.feature-card span::after{
+
+    content:"";
+
+    position:absolute;
+
+    left:0;
+
+    bottom:-5px;
+
+    width:0;
+
+    height:2px;
+
+    background:#d4af37;
+
+    transition:.35s;
+
+}
+
+
+.feature-card:hover span::after{
+
+    width:100%;
+
+}
+
+
+/*==============================
+        HERO ANIMATION
+==============================*/
+
+.hero-content{
+
+    animation:heroFade .8s ease;
+
+}
+
+
+@keyframes heroFade{
+
+from{
+
+opacity:0;
+
+transform:translateY(35px);
+
+}
+
+to{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+}
+
+
+/*==============================
+        CARD ENTRANCE
+==============================*/
+
+.feature-card{
+
+    animation:cardUp .6s ease;
+
+}
+
+
+.feature-card:nth-child(2){
+
+animation-delay:.1s;
+
+}
+
+
+.feature-card:nth-child(3){
+
+animation-delay:.2s;
+
+}
+
+
+.feature-card:nth-child(4){
+
+animation-delay:.3s;
+
+}
+
+
+.feature-card:nth-child(5){
+
+animation-delay:.4s;
+
+}
+
+
+.feature-card:nth-child(6){
+
+animation-delay:.5s;
+
+}
+
+
+@keyframes cardUp{
+
+from{
+
+opacity:0;
+
+transform:translateY(30px);
+
+}
+
+to{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+}
+
+
+/*==============================
+        SCROLLBAR
+==============================*/
+
+::-webkit-scrollbar{
+
+width:10px;
+
+}
+
+
+::-webkit-scrollbar-thumb{
+
+background:#800000;
+
+border-radius:20px;
+
+}
+
+
+::-webkit-scrollbar-track{
+
+background:#f5f5f5;
+
+}
+
+
+/*==============================
+        RESPONSIVE
+==============================*/
+
+@media(max-width:768px){
+
+.exam-dashboard::before,
+
+.exam-dashboard::after{
+
+display:none;
+
+}
+
+.exam-hero{
+
+border-radius:22px;
+
+}
+
+.feature-card{
+
+border-radius:20px;
+
+}
+
+}
+/*=========================================================
+                SSC CHSL PAGE
+        PART 5 - FINAL PREMIUM POLISH
+=========================================================*/
+
+
+/*==============================
+        PAGE TITLE EFFECT
+==============================*/
+
+.hero-content h1{
+
+    background:linear-gradient(90deg,#ffffff,#ffe8a3,#ffffff);
+
+    -webkit-background-clip:text;
+
+    -webkit-text-fill-color:transparent;
+
+    background-size:200%;
+
+    animation:titleGlow 6s linear infinite;
+
+}
+
+@keyframes titleGlow{
+
+0%{
+
+background-position:0%;
+
+}
+
+100%{
+
+background-position:200%;
+
+}
+
+}
+
+
+/*==============================
+        HERO INFO CARDS
+==============================*/
+
+.hero-info{
+
+    margin-top:15px;
+
+}
+
+.info-box{
+
+    min-width:190px;
+
+    transition:.35s;
+
+}
+
+.info-box:hover{
+
+    transform:translateY(-6px) scale(1.03);
+
+}
+
+
+/*==============================
+        FEATURE GRID
+==============================*/
+
+.feature-grid{
+
+    margin-top:15px;
+
+}
+
+
+/*==============================
+        CARD BADGE
+==============================*/
+
+.feature-card{
+
+    position:relative;
+
+}
+
+
+/*==============================
+        ICON ANIMATION
+==============================*/
+
+.feature-icon{
+
+    position:relative;
+
+    overflow:hidden;
+
+}
+
+.feature-icon::before{
+
+    content:"";
+
+    position:absolute;
+
+    width:120%;
+
+    height:120%;
+
+    background:linear-gradient(
+
+        45deg,
+
+        transparent,
+
+        rgba(255,255,255,.5),
+
+        transparent
+
+    );
+
+    left:-150%;
+
+    top:-20%;
+
+    transform:rotate(25deg);
+
+}
+
+.feature-card:hover .feature-icon::before{
+
+    animation:iconShine .8s;
+
+}
+
+@keyframes iconShine{
+
+0%{
+
+left:-150%;
+
+}
+
+100%{
+
+left:150%;
+
+}
+
+}
+
+
+/*==============================
+        CARD NUMBER
+==============================*/
+
+.feature-card{
+
+    counter-increment:feature;
+
+}
+
+.feature-card small{
+
+    display:block;
+
+    margin-top:18px;
+
+    color:#999;
+
+    font-size:13px;
+
+}
+
+
+/*==============================
+        CARD SHADOW
+==============================*/
+
+.feature-card:hover{
+
+    box-shadow:
+
+    0 20px 60px rgba(128,0,0,.15),
+
+    0 0 0 1px rgba(212,175,55,.15);
+
+}
+
+
+/*==============================
+        BUTTON
+==============================*/
+
+.feature-card span{
+
+    font-weight:700;
+
+}
+
+.feature-card:hover span{
+
+    letter-spacing:.4px;
+
+}
+
+
+/*==============================
+        IMAGE PLACEHOLDER
+==============================*/
+
+.exam-hero{
+
+    background-image:
+
+    radial-gradient(circle at top right,
+
+    rgba(255,255,255,.10),
+
+    transparent 45%);
+
+}
+
+
+/*==============================
+        SMOOTH SCROLL
+==============================*/
+
+html{
+
+    scroll-behavior:smooth;
+
+}
+
+
+/*==============================
+        SELECTION COLOR
+==============================*/
+
+::selection{
+
+    background:#800000;
+
+    color:#fff;
+
+}
+
+
+/*==============================
+        FOCUS
+==============================*/
+
+a:focus{
+
+    outline:none;
+
+}
+
+
+/*==============================
+        TRANSITIONS
+==============================*/
+
+*{
+
+    transition:
+
+    background-color .3s,
+
+    color .3s,
+
+    box-shadow .3s,
+
+    border .3s;
+
+}
+
+
+/*==============================
+        MOBILE
+==============================*/
+
+@media(max-width:600px){
+
+.feature-card::after{
+
+font-size:10px;
+
+padding:4px 8px;
+
+}
+
+.info-box{
+
+min-width:100%;
+
+}
+
+.hero-content h1{
+
+font-size:34px;
+
+}
+
+.hero-content p{
+
+font-size:15px;
+
+}
+
+}
+/*=========================================================
+                SSC CHSL PAGE
+        PART 6 - FINAL RESPONSIVE & POLISH
+=========================================================*/
+
+
+/*==============================
+        FEATURE CARD ACTIVE
+==============================*/
+
+.feature-card:active{
+
+    transform:scale(.98);
+
+}
+
+
+/*==============================
+        HOVER BORDER GLOW
+==============================*/
+
+.feature-card:hover{
+
+    border:1px solid rgba(212,175,55,.35);
+
+}
+
+
+/*==============================
+        ICON ROTATION
+==============================*/
+
+.feature-card:hover .feature-icon{
+
+    transform:rotate(8deg) scale(1.08);
+
+}
+
+
+/*==============================
+        EXPLORE ARROW
+==============================*/
+
+.feature-card span{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    gap:10px;
+
+}
+
+.feature-card span i{
+
+    transition:.35s;
+
+}
+
+.feature-card:hover span i{
+
+    transform:translateX(8px);
+
+}
+
+
+/*==============================
+        HERO SHADOW
+==============================*/
+
+.exam-hero{
+
+    transition:.4s;
+
+}
+
+.exam-hero:hover{
+
+    box-shadow:
+
+    0 35px 70px rgba(128,0,0,.28);
+
+}
+
+
+/*==============================
+        HERO INFO HOVER
+==============================*/
+
+.info-box{
+
+    cursor:default;
+
+}
+
+.info-box:hover{
+
+    box-shadow:
+
+    0 18px 35px rgba(255,255,255,.12);
+
+}
+
+
+/*==============================
+        BREADCRUMB
+==============================*/
+
+.breadcrumb{
+
+    margin-top:10px;
+
+}
+
+.breadcrumb a{
+
+    transition:.3s;
+
+}
+
+.breadcrumb a:hover{
+
+    color:#d4af37;
+
+}
+
+
+/*==============================
+        BACK BUTTON
+==============================*/
+
+.back-btn{
+
+    transition:.35s;
+
+}
+
+.back-btn:hover{
+
+    letter-spacing:.4px;
+
+}
+
+
+/*==============================
+        SECTION GAP
+==============================*/
+
+.feature-grid{
+
+    margin-bottom:80px;
+
+}
+
+
+/*==============================
+        IMAGE SUPPORT
+==============================*/
+
+.hero-image{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+.hero-image img{
+
+    width:100%;
+
+    max-width:430px;
+
+    object-fit:contain;
+
+}
+
+
+/*==============================
+        TABLET
+==============================*/
+
+@media(max-width:1100px){
+
+.hero-content h1{
+
+font-size:52px;
+
+}
+
+.hero-content p{
+
+font-size:18px;
+
+}
+
+.info-box{
+
+min-width:170px;
+
+}
+
+}
+
+
+/*==============================
+        MOBILE
+==============================*/
+
+@media(max-width:768px){
+
+.exam-dashboard{
+
+padding:0 18px;
+
+}
+
+.exam-hero{
+
+padding:35px 25px;
+
+text-align:center;
+
+}
+
+.hero-content h1{
+
+font-size:38px;
+
+}
+
+.hero-content p{
+
+font-size:16px;
+
+}
+
+.hero-info{
+
+justify-content:center;
+
+}
+
+.feature-grid{
+
+grid-template-columns:1fr;
+
+gap:22px;
+
+}
+
+.feature-card{
+
+padding:28px;
+
+}
+
+.feature-icon{
+
+width:70px;
+
+height:70px;
+
+margin:auto auto 22px;
+
+}
+
+.feature-icon i{
+
+font-size:30px;
+
+}
+
+.feature-card h3{
+
+text-align:center;
+
+font-size:24px;
+
+}
+
+.feature-card p{
+
+text-align:center;
+
+font-size:15px;
+
+}
+
+.feature-card span{
+
+justify-content:center;
+
+}
+
+}
+
+
+/*==============================
+        SMALL DEVICES
+==============================*/
+
+@media(max-width:480px){
+
+.exam-dashboard{
+
+padding:0 15px;
+
+}
+
+.exam-hero{
+
+padding:28px 18px;
+
+border-radius:22px;
+
+}
+
+.exam-tag{
+
+font-size:12px;
+
+padding:8px 16px;
+
+}
+
+.hero-content h1{
+
+font-size:30px;
+
+}
+
+.hero-content p{
+
+font-size:14px;
+
+}
+
+.info-box{
+
+width:100%;
+
+}
+
+.back-btn{
+
+width:100%;
+
+justify-content:center;
+
+}
+
+.feature-card{
+
+border-radius:20px;
+
+padding:22px;
+
+}
+
+.feature-icon{
+
+width:65px;
+
+height:65px;
+
+}
+
+.feature-icon i{
+
+font-size:28px;
+
+}
+
+.feature-card h3{
+
+font-size:22px;
+
+}
+
+}
+
+
+/*==============================
+        PRINT
+==============================*/
+
+@media print{
+
+#header,
+
+#footer,
+
+.back-btn{
+
+display:none;
+
+}
+
+.exam-dashboard{
+
+max-width:100%;
+
+margin:0;
+
+padding:0;
+
+}
+
+.exam-hero{
+
+box-shadow:none;
+
+}
+
+.feature-card{
+
+break-inside:avoid;
+
+box-shadow:none;
+
+}
+
+}
+
+
+/*=========================================================
+                    END OF FILE
+=========================================================*/

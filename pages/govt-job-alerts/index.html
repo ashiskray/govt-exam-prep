@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Government Job Alerts | GOVT EXAM PREP</title>
+
+    <!-- Main Website CSS -->
+    <link rel="stylesheet" href="/css/style.css">
+
+    <!-- Job Alerts CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+
+
+    <!-- =========================================
+         HERO
+    ========================================== -->
+
+    <section class="jobs-hero">
+
+        <div class="jobs-hero-content">
+
+            <span class="hero-label">
+                <i class="fa-solid fa-bell"></i>
+                GOVERNMENT RECRUITMENT
+            </span>
+
+            <h1>
+                Latest Government
+                <span>Job Alerts</span>
+            </h1>
+
+            <p>
+                Find the latest SSC, Railway, Banking, UPSC, Defence
+                and State Government job notifications in one place.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================
+         SEARCH
+    ========================================== -->
+
+    <section class="job-search-section">
+
+        <div class="job-search-box">
+
+            <i class="fa-solid fa-magnifying-glass"></i>
+
+            <input
+                type="text"
+                id="jobSearch"
+                placeholder="Search jobs, exams, posts or recruitment boards..."
+                autocomplete="off">
+
+            <button id="clearSearch" title="Clear Search">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================
+         MAIN JOB ALERT AREA
+    ========================================== -->
+
+    <main class="jobs-main">
+
+        <!-- =====================================
+             CATEGORY FILTER
+        ====================================== -->
+
+        <section class="category-section">
+
+            <div class="section-heading">
+
+                <div>
+                    <span class="section-kicker">
+                        EXPLORE OPPORTUNITIES
+                    </span>
+
+                    <h2>
+                        Government Jobs
+                    </h2>
+                </div>
+
+            </div>
+
+
+            <div class="category-tabs" id="categoryTabs">
+
+                <button class="category-btn active" data-category="All">
+                    <i class="fa-solid fa-layer-group"></i>
+                    All Jobs
+                </button>
+
+                <button class="category-btn" data-category="SSC">
+                    <i class="fa-solid fa-building-columns"></i>
+                    SSC
+                </button>
+
+                <button class="category-btn" data-category="Railway">
+                    <i class="fa-solid fa-train"></i>
+                    Railway
+                </button>
+
+                <button class="category-btn" data-category="Banking">
+                    <i class="fa-solid fa-building-columns"></i>
+                    Banking
+                </button>
+
+                <button class="category-btn" data-category="UPSC">
+                    <i class="fa-solid fa-landmark"></i>
+                    UPSC
+                </button>
+
+                <button class="category-btn" data-category="Defence">
+                    <i class="fa-solid fa-shield-halved"></i>
+                    Defence
+                </button>
+
+                <button class="category-btn" data-category="State">
+                    <i class="fa-solid fa-map-location-dot"></i>
+                    State Jobs
+                </button>
+                
+
+                <button class="category-btn" data-category="Other Govt">
+                    <i class="fa-solid fa-building-columns"></i>
+                     Other Govt
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             STATE FILTER
+        ====================================== -->
+
+        <section class="state-section">
+
+            <div class="state-header">
+
+                <div>
+                    <span class="section-kicker">
+                        STATE GOVERNMENT RECRUITMENT
+                    </span>
+
+                    <h2>
+                        Find Jobs By State
+                    </h2>
+                </div>
+
+                <div class="state-select-wrapper">
+
+    <i class="fa-solid fa-location-dot"></i>
+
+    <select id="stateFilter">
+
+        <option value="All">All States & UTs</option>
+
+        <!-- =========================
+             STATES — 28
+        ========================== -->
+
+        <option value="Andhra Pradesh">Andhra Pradesh</option>
+
+        <option value="Arunachal Pradesh">
+            Arunachal Pradesh
+        </option>
+
+        <option value="Assam">Assam</option>
+
+        <option value="Bihar">Bihar</option>
+
+        <option value="Chhattisgarh">
+            Chhattisgarh
+        </option>
+
+        <option value="Goa">Goa</option>
+
+        <option value="Gujarat">Gujarat</option>
+
+        <option value="Haryana">Haryana</option>
+
+        <option value="Himachal Pradesh">
+            Himachal Pradesh
+        </option>
+
+        <option value="Jharkhand">Jharkhand</option>
+
+        <option value="Karnataka">Karnataka</option>
+
+        <option value="Kerala">Kerala</option>
+
+        <option value="Madhya Pradesh">
+            Madhya Pradesh
+        </option>
+
+        <option value="Maharashtra">Maharashtra</option>
+
+        <option value="Manipur">Manipur</option>
+
+        <option value="Meghalaya">Meghalaya</option>
+
+        <option value="Mizoram">Mizoram</option>
+
+        <option value="Nagaland">Nagaland</option>
+
+        <option value="Odisha">Odisha</option>
+
+        <option value="Punjab">Punjab</option>
+
+        <option value="Rajasthan">Rajasthan</option>
+
+        <option value="Sikkim">Sikkim</option>
+
+        <option value="Tamil Nadu">Tamil Nadu</option>
+
+        <option value="Telangana">Telangana</option>
+
+        <option value="Tripura">Tripura</option>
+
+        <option value="Uttar Pradesh">
+            Uttar Pradesh
+        </option>
+
+        <option value="Uttarakhand">
+            Uttarakhand
+        </option>
+
+        <option value="West Bengal">
+            West Bengal
+        </option>
+
+
+        <!-- =========================
+             UNION TERRITORIES — 8
+        ========================== -->
+
+        <option value="Andaman and Nicobar Islands">
+            Andaman and Nicobar Islands
+        </option>
+
+        <option value="Chandigarh">
+            Chandigarh
+        </option>
+
+        <option value="Dadra and Nagar Haveli and Daman and Diu">
+            Dadra and Nagar Haveli and Daman and Diu
+        </option>
+
+        <option value="Delhi">
+            Delhi
+        </option>
+
+        <option value="Jammu and Kashmir">
+            Jammu and Kashmir
+        </option>
+
+        <option value="Ladakh">
+            Ladakh
+        </option>
+
+        <option value="Lakshadweep">
+            Lakshadweep
+        </option>
+
+        <option value="Puducherry">
+            Puducherry
+        </option>
+
+        </select>
+
+       </div>
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             RESULT INFORMATION
+        ====================================== -->
+
+        <section class="results-bar">
+
+            <div>
+
+                <span id="resultCount">
+                    0
+                </span>
+
+                <span>
+                    Jobs Found
+                </span>
+
+            </div>
+
+            <div class="sort-wrapper">
+
+                <label for="sortJobs">
+                    Sort:
+                </label>
+
+                <select id="sortJobs">
+
+                    <option value="latest">
+                        Latest Posted
+                    </option>
+
+                    <option value="deadline">
+                        Last Date
+                    </option>
+
+                    <option value="title">
+                        Job Name
+                    </option>
+
+                </select>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             JOB CARDS
+        ====================================== -->
+
+        <section class="jobs-list" id="jobsContainer">
+
+            <!-- JavaScript will generate jobs here -->
+
+        </section>
+
+
+        <!-- =====================================
+             NO RESULT
+        ====================================== -->
+
+        <section class="no-results" id="noResults">
+
+            <div class="no-results-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+
+            <h3>
+                No Jobs Found
+            </h3>
+
+            <p>
+                Try another keyword, category or state.
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <div id="footer"></div>
+
+
+    <!-- Website Components -->
+    <script src="/js/components.js"></script>
+
+    <!-- Job Data -->
+    <script src="jobs.js"></script>
+
+    <!-- Job Alerts Logic -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>

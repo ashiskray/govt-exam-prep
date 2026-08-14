@@ -1,0 +1,1068 @@
+/* ==========================================================
+            GOVT EXAM PREP
+            PRIVACY POLICY
+            PART 1
+========================================================== */
+
+*{
+
+margin:0;
+
+padding:0;
+
+box-sizing:border-box;
+
+}
+
+body{
+
+font-family:'Poppins',sans-serif;
+
+background:#f8f9fc;
+
+color:#333;
+
+line-height:1.8;
+
+}
+
+/* ===================================
+            HERO
+=================================== */
+
+.privacy-hero{
+
+position:relative;
+
+min-height:65vh;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+text-align:center;
+
+padding:80px 20px;
+
+overflow:hidden;
+
+background:
+
+linear-gradient(rgba(83,17,24,.90),
+
+rgba(38,9,12,.95)),
+
+url("../../assets/images/privacy-bg.jpg");
+
+background-size:cover;
+
+background-position:center;
+
+}
+
+.privacy-hero::before{
+
+content:"";
+
+position:absolute;
+
+inset:0;
+
+background:
+
+radial-gradient(circle at top right,
+
+rgba(255,213,79,.12),
+
+transparent 35%),
+
+
+radial-gradient(circle at bottom left,
+
+rgba(255,255,255,.08),
+
+transparent 30%);
+
+}
+
+.hero-content{
+
+position:relative;
+
+z-index:2;
+
+max-width:900px;
+
+}
+
+.hero-tag{
+
+display:inline-block;
+
+padding:10px 24px;
+
+background:rgba(255,255,255,.12);
+
+border:1px solid rgba(255,255,255,.18);
+
+backdrop-filter:blur(10px);
+
+border-radius:40px;
+
+color:white;
+
+margin-bottom:25px;
+
+font-size:15px;
+
+}
+
+.hero-content h1{
+
+font-size:60px;
+
+font-weight:800;
+
+color:white;
+
+margin-bottom:25px;
+
+}
+
+.hero-content h1 span{
+
+color:#FFD54F;
+
+}
+
+.hero-content p{
+
+font-size:22px;
+
+color:#ececec;
+
+line-height:1.8;
+
+}
+
+
+/* ===================================
+        COMMON SECTION
+=================================== */
+
+.privacy-section{
+
+max-width:1200px;
+
+margin:90px auto;
+
+padding:0 25px;
+
+}
+
+.policy-container{
+
+display:grid;
+
+gap:35px;
+
+}
+
+
+/* ===================================
+            CARD
+=================================== */
+
+.policy-card{
+
+background:white;
+
+padding:45px;
+
+border-radius:22px;
+
+box-shadow:
+
+0 10px 30px rgba(0,0,0,.08);
+
+transition:.35s;
+
+position:relative;
+
+overflow:hidden;
+
+}
+
+.policy-card::before{
+
+content:"";
+
+position:absolute;
+
+inset:0;
+
+background:
+
+linear-gradient(
+
+135deg,
+
+rgba(83,17,24,.03),
+
+rgba(255,213,79,.10));
+
+opacity:0;
+
+transition:.35s;
+
+}
+
+.policy-card:hover::before{
+
+opacity:1;
+
+}
+
+.policy-card:hover{
+
+transform:translateY(-10px);
+
+box-shadow:
+
+0 20px 45px rgba(83,17,24,.18);
+
+}
+
+.policy-card>*{
+
+position:relative;
+
+z-index:2;
+
+}
+
+
+/* ===================================
+            HEADINGS
+=================================== */
+
+.policy-card h2{
+
+display:flex;
+
+align-items:center;
+
+gap:15px;
+
+font-size:30px;
+
+margin-bottom:25px;
+
+color:#531118;
+
+}
+
+.policy-card h2 i{
+
+width:60px;
+
+height:60px;
+
+border-radius:50%;
+
+background:#531118;
+
+color:#FFD54F;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+font-size:24px;
+
+transition:.35s;
+
+}
+
+.policy-card:hover h2 i{
+
+background:#FFD54F;
+
+color:#531118;
+
+transform:rotateY(180deg);
+
+}
+
+
+/* ===================================
+            PARAGRAPH
+=================================== */
+
+.policy-card p{
+
+font-size:18px;
+
+color:#555;
+
+margin-bottom:18px;
+
+line-height:1.9;
+
+}
+
+.policy-card strong{
+
+color:#531118;
+
+}
+
+
+/* ===================================
+            LIST
+=================================== */
+
+.policy-card ul{
+
+padding-left:30px;
+
+margin-top:15px;
+
+}
+
+.policy-card ul li{
+
+font-size:18px;
+
+margin-bottom:14px;
+
+color:#555;
+
+line-height:1.8;
+
+}
+
+.policy-card ul li::marker{
+
+color:#531118;
+
+font-size:18px;
+
+}
+
+/* ==========================================================
+            GOVT EXAM PREP
+            PRIVACY POLICY
+            PART 2
+========================================================== */
+
+
+/* ===================================
+        POLICY BUTTON
+=================================== */
+
+.policy-btn{
+
+display:inline-flex;
+
+align-items:center;
+
+gap:12px;
+
+margin-top:20px;
+
+padding:15px 34px;
+
+background:#531118;
+
+color:white;
+
+text-decoration:none;
+
+font-size:17px;
+
+font-weight:600;
+
+border-radius:50px;
+
+transition:.35s;
+
+}
+
+.policy-btn:hover{
+
+background:#FFD54F;
+
+color:#531118;
+
+transform:translateY(-5px);
+
+box-shadow:
+
+0 15px 30px rgba(255,213,79,.35);
+
+}
+
+.policy-btn i{
+
+font-size:16px;
+
+}
+
+
+
+/* ===================================
+        UPDATE SECTION
+=================================== */
+
+.update-section{
+
+max-width:1200px;
+
+margin:90px auto;
+
+padding:0 25px;
+
+}
+
+.update-card{
+
+position:relative;
+
+overflow:hidden;
+
+background:
+
+linear-gradient(135deg,#531118,#7d1d2c);
+
+border-radius:28px;
+
+padding:70px 40px;
+
+text-align:center;
+
+color:white;
+
+box-shadow:
+
+0 20px 50px rgba(83,17,24,.35);
+
+}
+
+.update-card::before{
+
+content:"";
+
+position:absolute;
+
+width:420px;
+
+height:420px;
+
+border-radius:50%;
+
+background:rgba(255,255,255,.06);
+
+top:-220px;
+
+right:-150px;
+
+}
+
+.update-card::after{
+
+content:"";
+
+position:absolute;
+
+width:300px;
+
+height:300px;
+
+border-radius:50%;
+
+background:rgba(255,213,79,.08);
+
+bottom:-120px;
+
+left:-100px;
+
+}
+
+.update-card>*{
+
+position:relative;
+
+z-index:2;
+
+}
+
+.update-card i{
+
+font-size:70px;
+
+color:#FFD54F;
+
+margin-bottom:25px;
+
+}
+
+.update-card h2{
+
+font-size:40px;
+
+margin-bottom:15px;
+
+}
+
+.update-card p{
+
+font-size:22px;
+
+line-height:1.8;
+
+color:#ececec;
+
+}
+
+.update-card h3{
+
+margin-top:30px;
+
+font-size:30px;
+
+color:#FFD54F;
+
+}
+
+.update-card hr{
+
+width:140px;
+
+height:3px;
+
+border:none;
+
+background:#FFD54F;
+
+margin:30px auto;
+
+border-radius:10px;
+
+}
+
+
+
+/* ===================================
+        ANIMATIONS
+=================================== */
+
+.policy-card,
+
+.update-card{
+
+animation:fadeUp .8s ease;
+
+}
+
+@keyframes fadeUp{
+
+from{
+
+opacity:0;
+
+transform:translateY(40px);
+
+}
+
+to{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+}
+
+
+
+/* ===================================
+        SCROLLBAR
+=================================== */
+
+::-webkit-scrollbar{
+
+width:10px;
+
+}
+
+::-webkit-scrollbar-track{
+
+background:#f2f2f2;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+background:#531118;
+
+border-radius:20px;
+
+}
+
+::-webkit-scrollbar-thumb:hover{
+
+background:#7d1d2c;
+
+}
+
+
+
+/* ===================================
+        DECORATIVE EFFECT
+=================================== */
+
+.policy-card{
+
+border-left:5px solid transparent;
+
+}
+
+.policy-card:hover{
+
+border-left:5px solid #FFD54F;
+
+}
+
+
+
+/* ===================================
+        ICON ANIMATION
+=================================== */
+
+.policy-card:hover h2 i{
+
+animation:iconFloat .7s ease;
+
+}
+
+@keyframes iconFloat{
+
+0%{
+
+transform:translateY(0);
+
+}
+
+50%{
+
+transform:translateY(-10px);
+
+}
+
+100%{
+
+transform:translateY(0);
+
+}
+
+}
+
+/* ==========================================================
+            GOVT EXAM PREP
+            PRIVACY POLICY
+            PART 3
+========================================================== */
+
+
+/* ===================================
+        RESPONSIVE DESIGN
+=================================== */
+
+@media(max-width:1100px){
+
+.hero-content h1{
+
+font-size:50px;
+
+}
+
+.hero-content p{
+
+font-size:20px;
+
+}
+
+.policy-card{
+
+padding:38px;
+
+}
+
+.update-card{
+
+padding:60px 35px;
+
+}
+
+.update-card h2{
+
+font-size:36px;
+
+}
+
+}
+
+
+
+@media(max-width:992px){
+
+.privacy-section{
+
+padding:0 20px;
+
+}
+
+.policy-card h2{
+
+font-size:26px;
+
+}
+
+.policy-card h2 i{
+
+width:55px;
+
+height:55px;
+
+font-size:22px;
+
+}
+
+.policy-card p,
+
+.policy-card li{
+
+font-size:17px;
+
+}
+
+.update-card i{
+
+font-size:60px;
+
+}
+
+.update-card h2{
+
+font-size:34px;
+
+}
+
+.update-card h3{
+
+font-size:28px;
+
+}
+
+.update-card p{
+
+font-size:19px;
+
+}
+
+}
+
+
+
+@media(max-width:768px){
+
+.privacy-hero{
+
+min-height:55vh;
+
+padding:70px 20px;
+
+}
+
+.hero-tag{
+
+font-size:13px;
+
+padding:8px 18px;
+
+}
+
+.hero-content h1{
+
+font-size:38px;
+
+}
+
+.hero-content p{
+
+font-size:17px;
+
+line-height:1.7;
+
+}
+
+.privacy-section{
+
+margin:70px auto;
+
+}
+
+.policy-card{
+
+padding:30px 22px;
+
+border-radius:18px;
+
+}
+
+.policy-card h2{
+
+font-size:22px;
+
+flex-wrap:wrap;
+
+}
+
+.policy-card h2 i{
+
+width:50px;
+
+height:50px;
+
+font-size:20px;
+
+}
+
+.policy-card p,
+
+.policy-card li{
+
+font-size:16px;
+
+line-height:1.8;
+
+}
+
+.policy-btn{
+
+width:100%;
+
+justify-content:center;
+
+padding:15px;
+
+font-size:16px;
+
+}
+
+.update-card{
+
+padding:45px 25px;
+
+border-radius:22px;
+
+}
+
+.update-card i{
+
+font-size:52px;
+
+}
+
+.update-card h2{
+
+font-size:28px;
+
+}
+
+.update-card h3{
+
+font-size:24px;
+
+}
+
+.update-card p{
+
+font-size:17px;
+
+}
+
+}
+
+
+
+@media(max-width:480px){
+
+.hero-content h1{
+
+font-size:30px;
+
+}
+
+.hero-content p{
+
+font-size:15px;
+
+}
+
+.policy-card{
+
+padding:25px 18px;
+
+}
+
+.policy-card h2{
+
+font-size:20px;
+
+}
+
+.policy-card h2 i{
+
+width:45px;
+
+height:45px;
+
+font-size:18px;
+
+}
+
+.policy-card p,
+
+.policy-card li{
+
+font-size:15px;
+
+}
+
+.update-card{
+
+padding:35px 18px;
+
+}
+
+.update-card i{
+
+font-size:45px;
+
+}
+
+.update-card h2{
+
+font-size:24px;
+
+}
+
+.update-card h3{
+
+font-size:21px;
+
+}
+
+.update-card p{
+
+font-size:15px;
+
+}
+
+}
+
+
+
+/* ===================================
+        SMOOTH SCROLL
+=================================== */
+
+html{
+
+scroll-behavior:smooth;
+
+}
+
+
+
+/* ===================================
+        TEXT SELECTION
+=================================== */
+
+::selection{
+
+background:#FFD54F;
+
+color:#531118;
+
+}
+
+
+
+/* ===================================
+        FOCUS STATES
+=================================== */
+
+.policy-btn:focus{
+
+outline:none;
+
+box-shadow:
+
+0 0 0 4px rgba(255,213,79,.35);
+
+}
+
+
+
+/* ===================================
+        IMAGE SAFETY
+=================================== */
+
+img{
+
+max-width:100%;
+
+display:block;
+
+}
+
+
+
+/* ===================================
+        TRANSITIONS
+=================================== */
+
+a,
+button,
+.policy-card,
+.policy-btn{
+
+transition:.35s ease;
+
+}
+
+
+
+/* ===================================
+        OPTIONAL SECTION SPACING
+=================================== */
+
+.policy-card+.policy-card{
+
+margin-top:5px;
+
+}
+
+
+
+/* ===================================
+        END OF FILE
+=================================== */

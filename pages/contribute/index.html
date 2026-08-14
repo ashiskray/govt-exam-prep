@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contribute Resources | GOVT EXAM PREP</title>
+
+    <link rel="stylesheet" href="../../css/style.css">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+
+<body>
+
+
+<!-- ==========================================
+                    HEADER
+=========================================== -->
+
+<div id="header"></div>
+
+
+
+<!-- ==========================================
+                MAIN CONTENT
+=========================================== -->
+
+<main class="contribute-page">
+
+    <div class="contribute-container">
+
+
+        <!-- ==================================
+                    PAGE HEADING
+        =================================== -->
+
+        <div class="page-heading">
+
+            <div class="heading-badge">
+                🤝 COMMUNITY CONTRIBUTION
+            </div>
+
+
+            <h1>
+                Share Your Knowledge
+            </h1>
+
+
+            <p>
+                Please share your
+                <strong>
+                    handwritten notes, PDFs, PYQs,
+                    short notes, formula sheets
+                </strong>
+                and other useful study resources
+                with fellow government exam aspirants.
+            </p>
+
+
+            <p>
+                Tell us what your resource is about
+                and send it directly to us by email.
+            </p>
+
+        </div>
+
+
+
+        <!-- ==================================
+                    CONTRIBUTION FORM
+        =================================== -->
+
+        <form
+            class="contribute-form"
+            id="contributeForm">
+
+
+            <!-- ==================================
+                    PERSONAL INFORMATION
+            =================================== -->
+
+            <div class="form-card">
+
+                <h2>
+
+                    <i class="fa-solid fa-user"></i>
+
+                    Contributor Information
+
+                </h2>
+
+
+                <div class="form-grid">
+
+
+                    <!-- FULL NAME -->
+
+                    <div class="form-group">
+
+                        <label for="fullname">
+                            Full Name *
+                        </label>
+
+
+                        <input
+                            type="text"
+                            id="fullname"
+                            name="fullname"
+                            placeholder="Enter your full name"
+                            required>
+
+                    </div>
+
+
+
+                    <!-- EMAIL -->
+
+                    <div class="form-group">
+
+                        <label for="email">
+                            Email Address
+                        </label>
+
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Enter your email (optional)">
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ==================================
+                    RESOURCE INFORMATION
+            =================================== -->
+
+            <div class="form-card">
+
+                <h2>
+
+                    <i class="fa-solid fa-book"></i>
+
+                    Resource Information
+
+                </h2>
+
+
+                <div class="form-grid">
+
+
+                    <!-- EXAM CATEGORY -->
+
+                    <div class="form-group">
+
+                        <label for="category">
+                            Exam Category *
+                        </label>
+
+
+                        <select
+                            id="category"
+                            name="category"
+                            required>
+
+                            <option value="">
+                                Select Category
+                            </option>
+
+                            <option value="SSC">
+                                SSC
+                            </option>
+
+                            <option value="Railway">
+                                Railway
+                            </option>
+
+                            <option value="Banking">
+                                Banking
+                            </option>
+
+                            <option value="UPSC">
+                                UPSC
+                            </option>
+
+                            <option value="State Exams">
+                                State Exams
+                            </option>
+
+                            <option value="Defence">
+                                Defence
+                            </option>
+
+                            <option value="Other">
+                                Other
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+
+                    <!-- EXAM -->
+
+                    <div class="form-group">
+
+                        <label for="exam">
+                            Exam *
+                        </label>
+
+
+                        <select
+                            id="exam"
+                            name="exam"
+                            required>
+
+                            <option value="">
+                                Select Exam
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+
+                    <!-- SUBJECT -->
+
+                    <div class="form-group">
+
+                        <label for="subject">
+                            Subject *
+                        </label>
+
+
+                        <select
+                            id="subject"
+                            name="subject"
+                            required>
+
+                            <option value="">
+                                Select Subject
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+
+                    <!-- CHAPTER -->
+
+                    <div class="form-group">
+
+                        <label for="chapter">
+                            Chapter / Topic *
+                        </label>
+
+
+                        <input
+                            type="text"
+                            id="chapter"
+                            name="chapter"
+                            placeholder="Example: Tense, Indian Polity, Biology..."
+                            required>
+
+                    </div>
+
+
+
+                    <!-- RESOURCE TYPE -->
+
+                    <div class="form-group">
+
+                        <label for="resourceType">
+                            Resource Type *
+                        </label>
+
+
+                        <select
+                            id="resourceType"
+                            name="resourceType"
+                            required>
+
+                            <option value="">
+                                Select Resource Type
+                            </option>
+
+                            <option value="Handwritten Notes">
+                                Handwritten Notes
+                            </option>
+
+                            <option value="PDF Notes">
+                                PDF Notes
+                            </option>
+
+                            <option value="PYQs">
+                                Previous Year Questions (PYQs)
+                            </option>
+
+                            <option value="Mock Tests">
+                                Mock Tests
+                            </option>
+
+                            <option value="Formula Sheet">
+                                Formula Sheet
+                            </option>
+
+                            <option value="Short Notes">
+                                Short Notes
+                            </option>
+
+                            <option value="Current Affairs">
+                                Current Affairs
+                            </option>
+
+                            <option value="Other">
+                                Other
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                </div>
+
+
+
+                <!-- RESOURCE TITLE -->
+
+                <div class="form-group">
+
+                    <label for="title">
+                        Resource Title *
+                    </label>
+
+
+                    <input
+                        type="text"
+                        id="title"
+                        name="title"
+                        placeholder="Example: SSC CHSL English Tense Handwritten Notes"
+                        required>
+
+                </div>
+
+
+
+                <!-- DESCRIPTION -->
+
+                <div class="form-group">
+
+                    <label for="description">
+                        Short Description
+                    </label>
+
+
+                    <textarea
+                        id="description"
+                        name="description"
+                        rows="5"
+                        maxlength="500"
+                        placeholder="Briefly tell us what this resource contains..."></textarea>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ==================================
+                    EMAIL INSTRUCTIONS
+            =================================== -->
+
+            <div class="form-card email-instruction-card">
+
+                <h2>
+
+                    <i class="fa-solid fa-envelope-open-text"></i>
+
+                    Send Your Resource
+
+                </h2>
+
+
+                <div class="email-instruction-box">
+
+
+                    <div class="email-icon">
+
+                        <i class="fa-solid fa-paperclip"></i>
+
+                    </div>
+
+
+                    <div class="email-instruction-content">
+
+                        <h3>
+                            Please attach your resource in email
+                        </h3>
+
+
+                        <p>
+                            After clicking the button below,
+                            your email application will open
+                            with the information you provided
+                            already filled in.
+                        </p>
+
+
+                        <p>
+                            Please attach your
+                            <strong>
+                                handwritten notes, PDF, PYQs,
+                                mock test or study material
+                            </strong>
+                            manually to the email and send it to us.
+                        </p>
+
+
+                        <div class="email-note">
+
+                            <i class="fa-solid fa-circle-info"></i>
+
+                            <span>
+                                Your file is not uploaded through
+                                this website. Please attach the file
+                                manually after your email opens.
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ==================================
+                    CONTRIBUTOR CONSENT
+            =================================== -->
+
+            <div class="form-card">
+
+                <h2>
+
+                    <i class="fa-solid fa-shield-heart"></i>
+
+                    Contributor Consent
+
+                </h2>
+
+
+                <div class="declaration">
+
+
+                    <!-- CONSENT 1 -->
+
+                    <label>
+
+                        <input
+                            type="checkbox"
+                            id="ownershipConsent"
+                            required>
+
+
+                        <span>
+                            I confirm that this resource belongs
+                            to me or I have permission to share it.
+                        </span>
+
+                    </label>
+
+
+
+                    <!-- CONSENT 2 -->
+
+                    <label>
+
+                        <input
+                            type="checkbox"
+                            id="submissionConsent"
+                            required>
+
+
+                        <span>
+                            I voluntarily share this resource
+                            with GOVT EXAM PREP for educational
+                            purposes.
+                        </span>
+
+                    </label>
+
+
+
+                    <!-- CONSENT 3 -->
+
+                    <label>
+
+                        <input
+                            type="checkbox"
+                            id="usageConsent"
+                            required>
+
+
+                        <span>
+                            I allow GOVT EXAM PREP to use,
+                            organize, modify, format, compress,
+                            watermark, publish and distribute
+                            this resource on its website.
+                        </span>
+
+                    </label>
+
+
+
+                    <!-- CONSENT 4 -->
+
+                    <label>
+
+                        <input
+                            type="checkbox"
+                            id="copyrightConsent"
+                            required>
+
+
+                        <span>
+                            I understand that GOVT EXAM PREP
+                            may review the resource before
+                            publication and may reject material
+                            that violates copyright or applicable
+                            rules.
+                        </span>
+
+                    </label>
+
+
+                </div>
+
+
+
+                <p class="consent-note">
+
+                    By sending this resource, you confirm that
+                    the information provided by you is accurate
+                    and that you have the right to share the
+                    material. You have no objection to GOVT EXAM
+                    PREP using, editing or formatting the resource
+                    for educational purposes on the website.
+
+                </p>
+
+            </div>
+
+
+
+            <!-- ==================================
+                    SUBMIT / EMAIL BUTTON
+            =================================== -->
+
+            <div class="submit-area">
+
+
+                <button
+                    type="submit"
+                    class="submit-btn">
+
+                    <i class="fa-solid fa-envelope"></i>
+
+                    Send Contribution by Email
+
+                </button>
+
+
+                <p class="attachment-reminder">
+
+                    <i class="fa-solid fa-paperclip"></i>
+
+                    Please attach your resource after
+                    your email application opens.
+
+                </p>
+
+
+                <p class="thank-you">
+
+                    ❤️ Thank you for helping thousands
+                    of aspirants across India.
+
+                </p>
+
+
+            </div>
+
+
+        </form>
+
+    </div>
+
+</main>
+
+
+
+<!-- ==========================================
+                    FOOTER
+=========================================== -->
+
+<div id="footer"></div>
+
+
+
+<!-- ==========================================
+                JAVASCRIPT
+=========================================== -->
+
+<script src="../../js/components.js"></script>
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
