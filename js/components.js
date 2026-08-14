@@ -1,6 +1,10 @@
 async function loadComponent(id, file) {
+
     try {
-        const response = await fetch(file);
+
+        const basePath = "/govt-exam-prep/";
+
+        const response = await fetch(basePath + file);
 
         if (!response.ok) {
             throw new Error(`Failed to load ${file}`);
@@ -8,23 +12,19 @@ async function loadComponent(id, file) {
 
         const html = await response.text();
 
-        document.getElementById(id).innerHTML = html;
+        const element = document.getElementById(id);
+
+        if (element) {
+            element.innerHTML = html;
+        }
 
     } catch (error) {
+
         console.error("Component not loaded:", error);
+
     }
+
 }
 
-
-/* ================================
-   HEADER
-================================ */
-
-loadComponent("header", "/govt-exam-prep/components/header.html");
-
-
-/* ================================
-   FOOTER
-================================ */
-
-loadComponent("footer", "/govt-exam-prep/components/footer.html");
+loadComponent("header", "components/header.html");
+loadComponent("footer", "components/footer.html");
