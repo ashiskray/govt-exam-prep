@@ -1507,6 +1507,86 @@ font-size:1.6rem;
 
 
 
+/* ==========================================================
+   MOBILE OVERFLOW FIX — PYQ CARDS
+========================================================== */
+
+@media (max-width: 768px) {
+
+    html,
+    body {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    .resource-section,
+    .benefits-section,
+    .tips-section,
+    .notice-section,
+    .disclaimer,
+    .cta-section {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        min-width: 0;
+    }
+
+    .resource-container {
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+        box-sizing: border-box;
+        display: grid;
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .resource-card,
+    .benefits-card,
+    .tips-card,
+    .notice-card,
+    .disclaimer-card,
+    .cta-card {
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+        box-sizing: border-box;
+    }
+
+    .resource-top,
+    .resource-top > div {
+        max-width: 100%;
+        min-width: 0;
+    }
+
+    .resource-top h2,
+    .resource-top p,
+    .resource-desc,
+    .resource-feature,
+    .benefit-box,
+    .tip-item,
+    .tips-note,
+    .notice-card p,
+    .disclaimer-card p,
+    .cta-card p {
+        max-width: 100%;
+        min-width: 0;
+        overflow-wrap: anywhere;
+        word-wrap: break-word;
+    }
+
+    .resource-btn,
+    .cta-btn {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        text-align: center;
+        white-space: normal;
+        overflow-wrap: anywhere;
+    }
+
+}
+
 
 /* ==========================================================
                 END

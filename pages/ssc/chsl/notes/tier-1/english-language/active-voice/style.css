@@ -858,3 +858,238 @@ text-align:center;
     margin-right:auto;
 
 }
+
+/* ==========================================================
+                MOBILE RESPONSIVE FIX
+========================================================== */
+
+@media (max-width: 768px){
+
+    html,
+    body{
+        width:100%;
+        max-width:100%;
+        overflow-x:hidden;
+    }
+
+    .hero{
+        padding:60px 20px;
+    }
+
+    .hero-content{
+        width:100%;
+        max-width:100%;
+    }
+
+    .hero h1{
+        font-size:34px;
+        line-height:1.25;
+        word-break:normal;
+        overflow-wrap:break-word;
+    }
+
+    .hero p{
+        font-size:16px;
+        line-height:1.7;
+        max-width:100%;
+    }
+
+    .hero-icon{
+        width:80px;
+        height:80px;
+    }
+
+    .hero-icon i{
+        font-size:38px;
+    }
+
+
+    /* ================= VIDEO CARD ================= */
+
+    .video-section{
+        padding:50px 15px;
+    }
+
+    .video-card{
+        width:100%;
+        max-width:100%;
+        padding:30px 20px;
+        border-radius:18px;
+        box-sizing:border-box;
+    }
+
+    .video-card h2{
+        font-size:27px;
+        line-height:1.3;
+        word-break:normal;
+        overflow-wrap:break-word;
+    }
+
+    .video-card > p{
+        width:100%;
+        max-width:100%;
+        font-size:15px;
+        line-height:1.7;
+    }
+
+    .video-frame{
+        width:100%;
+        max-width:100%;
+        border-radius:15px;
+    }
+
+
+    /* ================= YOUTUBE BUTTON ================= */
+
+    .video-actions{
+        width:100%;
+    }
+
+    .youtube-btn{
+        width:auto;
+        max-width:100%;
+        justify-content:center;
+        padding:15px 25px;
+        font-size:15px;
+        box-sizing:border-box;
+        white-space:normal;
+        text-align:center;
+    }
+
+
+    /* ================= WHY SECTION ================= */
+
+    .why-section{
+        padding:50px 15px;
+    }
+
+    .why-card{
+        width:100%;
+        max-width:100%;
+        padding:30px 20px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        text-align:center;
+        box-sizing:border-box;
+    }
+
+    .why-icon{
+        width:70px;
+        height:70px;
+    }
+
+    .why-card h2{
+        font-size:27px;
+        line-height:1.35;
+    }
+
+    .why-card p{
+        font-size:16px;
+        line-height:1.8;
+    }
+
+
+    /* ================= DISCLAIMER ================= */
+
+    .disclaimer{
+        padding:50px 15px 70px;
+    }
+
+    .disclaimer-card{
+        width:100%;
+        max-width:100%;
+        padding:30px 20px;
+        box-sizing:border-box;
+        border-radius:18px;
+    }
+
+    .disclaimer-card h2{
+        font-size:27px;
+        line-height:1.3;
+        justify-content:center;
+        flex-wrap:wrap;
+    }
+
+    .disclaimer-card p{
+        font-size:15px;
+        line-height:1.8;
+    }
+
+    .small-note{
+        font-size:13px;
+        line-height:1.6;
+    }
+
+}
+
+
+@media (max-width: 480px){
+
+    .hero{
+        padding:50px 16px;
+    }
+
+    .hero h1{
+        font-size:29px;
+    }
+
+    .hero p{
+        font-size:15px;
+    }
+
+    .video-section{
+        padding:40px 12px;
+    }
+
+    .video-card{
+        padding:25px 16px;
+    }
+
+    .video-card h2{
+        font-size:24px;
+    }
+
+    .video-icon{
+        width:65px;
+        height:65px;
+    }
+
+    .video-icon i{
+        font-size:34px;
+    }
+
+    .youtube-btn{
+        width:100%;
+        padding:14px 18px;
+    }
+
+    .why-section{
+        padding:40px 12px;
+    }
+
+    .why-card{
+        padding:25px 16px;
+    }
+
+    .why-card h2{
+        font-size:24px;
+    }
+
+    .why-card p{
+        font-size:15px;
+    }
+
+    .disclaimer{
+        padding:40px 12px 60px;
+    }
+
+    .disclaimer-card{
+        padding:25px 16px;
+    }
+
+    .disclaimer-card h2{
+        font-size:24px;
+    }
+
+}
