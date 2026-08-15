@@ -95,12 +95,256 @@ if (typeof jobAlerts === "undefined") {
 
 
         /* =================================================
-           PAGE TITLE
-        ================================================= */
+   SEO — PAGE TITLE + META + CANONICAL
+================================================= */
 
-        document.title =
-            `${job.title} | GOVT EXAM PREP`;
+const seoTitle =
+    `${job.title} | GOVT EXAM PREP`;
 
+document.title = seoTitle;
+
+
+/* =================================================
+   SEO DESCRIPTION
+================================================= */
+
+const cleanDescription =
+    String(
+        job.description ||
+        job.aboutExam ||
+        `${job.title} government recruitment details, eligibility, vacancies, important dates and application information.`
+    )
+    .replace(/\s+/g, " ")
+    .trim();
+
+const seoDescription =
+    cleanDescription.length > 160
+        ? cleanDescription.substring(0, 157).trimEnd() + "..."
+        : cleanDescription;
+
+
+/* =================================================
+   SEO URL
+================================================= */
+
+const seoUrl =
+    `https://governmentexamprep.online/pages/govt-job-alerts/details.html?id=${encodeURIComponent(job.id)}`;
+
+
+/* =================================================
+   HELPER — CREATE / UPDATE META
+================================================= */
+
+function setMeta(name, content) {
+
+    let meta =
+        document.querySelector(`meta[name="${name}"]`);
+
+    if (!meta) {
+
+        meta =
+            document.createElement("meta");
+
+        meta.setAttribute("name", name);
+
+        document.head.appendChild(meta);
+    }
+
+    meta.setAttribute("content", content);
+}
+
+
+/* =================================================
+   HELPER — CREATE / UPDATE PROPERTY META
+================================================= */
+
+function setPropertyMeta(property, content) {
+
+    let meta =
+        document.querySelector(`meta[property="${property}"]`);
+
+    if (!meta) {
+
+        meta =
+            document.createElement("meta");
+
+        meta.setAttribute("property", property);
+
+        document.head.appendChild(meta);
+    }
+
+    meta.setAttribute("content", content);
+}
+
+
+/* =================================================
+   META ROBOTS
+================================================= */
+
+setMeta(
+    "robots",
+    "index, follow"
+);
+
+
+/* =================================================
+   META DESCRIPTION
+================================================= */
+
+setMeta(
+    "description",
+    seoDescription
+);
+
+
+/* =================================================
+   CANONICAL URL
+================================================= */
+
+let canonical =
+    document.querySelector(
+        'link[rel="canonical"]'
+    );
+
+if (!canonical) {
+
+    canonical =
+        document.createElement("link");
+
+    canonical.setAttribute(
+        "rel",
+        "canonical"
+    );
+
+    document.head.appendChild(
+        canonical
+    );
+}
+
+canonical.setAttribute(
+    "href",
+    seoUrl
+);
+
+
+/* =================================================
+   OPEN GRAPH
+================================================= */
+
+setPropertyMeta(
+    "og:title",
+    seoTitle
+);
+
+setPropertyMeta(
+    "og:description",
+    seoDescription
+);
+
+setPropertyMeta(
+    "og:type",
+    "article"
+);
+
+setPropertyMeta(
+    "og:url",
+    seoUrl
+);
+
+setPropertyMeta(
+    "og:site_name",
+    "GOVT EXAM PREP"
+);
+
+
+/* =================================================
+   TWITTER / X
+================================================= */
+
+setMeta(
+    "twitter:card",
+    "summary"
+);
+
+setMeta(
+    "twitter:title",
+    seoTitle
+);
+
+setMeta(
+    "twitter:description",
+    seoDescription
+);
+
+
+/* =================================================
+   WEBPAGE STRUCTURED DATA
+================================================= */
+
+const existingSchema =
+    document.getElementById(
+        "jobPageSchema"
+    );
+
+if (existingSchema) {
+    existingSchema.remove();
+}
+
+const schema =
+    document.createElement("script");
+
+schema.id =
+    "jobPageSchema";
+
+schema.type =
+    "application/ld+json";
+
+schema.textContent =
+    JSON.stringify({
+
+        "@context":
+            "https://schema.org",
+
+        "@type":
+            "WebPage",
+
+        "name":
+            seoTitle,
+
+        "description":
+            seoDescription,
+
+        "url":
+            seoUrl,
+
+        "isPartOf": {
+
+            "@type":
+                "WebSite",
+
+            "name":
+                "GOVT EXAM PREP",
+
+            "url":
+                "https://governmentexamprep.online/"
+
+        },
+
+        "about": {
+
+            "@type":
+                "Thing",
+
+            "name":
+                job.title
+
+        }
+
+    });
+
+document.head.appendChild(
+    schema
+);
 
         /* =================================================
            BASIC INFORMATION
