@@ -410,122 +410,6 @@ const jobAlerts = [
    ISRO — ASSISTANTS / JPA / UDC / STENOGRAPHERS
 ===================================================== */
 
-{
-    id: "isro-assistant-jpa-udc-steno-2026",
-
-    type: "job",
-
-    category: "Other Govt",
-
-    title:
-        "ISRO Assistants, JPA, UDC & Stenographers 2026",
-
-    subtitle:
-        "Recruitment to the posts of Assistants, Junior Personal Assistants, Upper Division Clerk and Stenographers",
-
-    recruitmentBoard:
-        "Indian Space Research Organisation (ISRO)",
-
-    qualification:
-        "Graduate / Post-specific",
-
-    applicationStart:
-        "2026-07-27",
-
-    lastDate:
-        "2026-08-16",
-
-    vacancies:
-        "As per official notification",
-
-    state:
-        "Karnataka",
-
-    advertisement:
-        "ISRO:ICRB:01(A-JPA):2026",
-
-    status:
-        "active",
-
-    officialNotification:
-        "https://www.isro.gov.in/ICRB_Recruitment11.html",
-
-    applyLink:
-        "https://cdn.digialm.com//EForms/configuredHtml/1258/101396//Index.html",
-
-    officialWebsite:
-        "https://www.isro.gov.in/",
-
-
-    description: `
-        ISRO has opened recruitment for Assistants, Junior Personal
-        Assistants, Upper Division Clerk and Stenographers under its
-        Centralised Recruitment process.
-    `,
-
-    aboutExam: `
-        This recruitment is conducted by ISRO for administrative and
-        support positions at its centres. The recruitment process
-        includes a written examination/CBT and post-specific skill
-        requirements where applicable.
-    `,
-
-    ageLimit:
-        "As per official notification",
-
-    selectionProcess: [
-
-        "Written Test / Computer Based Test",
-
-        "Skill Test / Stenography Test where applicable",
-
-        "Document Verification",
-
-        "Final Selection"
-
-    ],
-
-    applicationFee:
-        "As per official notification",
-
-    examPattern: `
-        Candidates should refer to the official ISRO advertisement
-        for the detailed subject-wise examination pattern and
-        post-specific skill test requirements.
-    `,
-
-    howToApply: [
-
-        "Visit the official ISRO recruitment page.",
-
-        "Read the detailed advertisement carefully.",
-
-        "Open the online application portal.",
-
-        "Complete the registration and application form.",
-
-        "Upload the required documents.",
-
-        "Pay the applicable fee, if required.",
-
-        "Submit the application before 16 August 2026."
-
-    ],
-
-    importantLinks: {
-
-        officialWebsite:
-            "https://www.isro.gov.in/",
-
-        notification:
-            "https://www.isro.gov.in/ICRB_Recruitment11.html",
-
-        applyOnline:
-            "https://cdn.digialm.com//EForms/configuredHtml/1258/101396//Index.html"
-
-    }
-
-},
 
 
 /* =====================================================
@@ -767,367 +651,18 @@ const jobAlerts = [
    HAL — DESIGN / MANAGEMENT TRAINEE
 ===================================================== */
 
-{
-    id: "hal-design-management-trainee-2026",
-
-    type: "job",
-
-    category: "Defence",
-
-    title:
-        "HAL Design Trainee & Management Trainee Recruitment 2026",
-
-    subtitle:
-        "120 Design Trainee and Management Trainee Posts",
-
-    recruitmentBoard:
-        "Hindustan Aeronautics Limited (HAL)",
-
-    qualification:
-        "B.E. / B.Tech",
-
-    applicationStart:
-        "2026-07-29",
-
-    lastDate:
-        "2026-08-14",
-
-    vacancies:
-        "120 Posts (60 DT + 60 MT)",
-
-    state:
-        "All India",
-
-    advertisement:
-        "HAL/HR/HC/TR/REC+02/2026",
-
-    status:
-        "active",
-
-    officialNotification:
-        "#",
-
-    applyLink:
-        "https://hal-india.co.in/career",
-
-    officialWebsite:
-        "https://hal-india.co.in/",
-
-
-    description: `
-        Hindustan Aeronautics Limited (HAL), a Maharatna Public
-        Sector Undertaking under the Ministry of Defence, has
-        announced recruitment for Design Trainee and Management
-        Trainee positions.
-    `,
-
-    aboutExam: `
-        HAL has announced 120 trainee vacancies consisting of
-        60 Design Trainee and 60 Management Trainee posts. The
-        recruitment is intended for eligible engineering graduates
-        in prescribed disciplines.
-    `,
-
-    ageLimit:
-        "As per official notification",
-
-    selectionProcess: [
-
-        "Online Written Test",
-
-        "Personal Interview",
-
-        "Document Verification",
-
-        "Medical Examination"
-
-    ],
-
-    applicationFee:
-        "As per official notification",
-
-    examPattern: `
-        Candidates should refer to the detailed HAL notification
-        for the exact written examination pattern, syllabus and
-        qualifying requirements.
-    `,
-
-    howToApply: [
-
-        "Visit the official HAL Careers portal.",
-
-        "Open the Design Trainee / Management Trainee recruitment.",
-
-        "Read the complete notification.",
-
-        "Register using the required details.",
-
-        "Fill the application form.",
-
-        "Upload the required documents.",
-
-        "Submit the application before 14 August 2026."
-
-    ],
-
-    importantLinks: {
-
-        officialWebsite:
-            "https://hal-india.co.in/",
-
-        applyOnline:
-            "https://hal-india.co.in/career"
-
-    }
-
-},
 
 
 /* =====================================================
    REC LIMITED — ADVISOR
 ===================================================== */
 
-{
-    id: "rec-advisor-green-hydrogen-cbg-2026",
-
-    type: "job",
-
-    category: "Other Govt",
-
-    title:
-        "REC Limited Advisor Recruitment 2026",
-
-    subtitle:
-        "Advisor – Green Hydrogen and Compressed Biogas (CBG)",
-
-    recruitmentBoard:
-        "Rural Electrification Corporation Limited",
-
-    qualification:
-        "B.E./B.Tech/M.Tech in relevant discipline + extensive experience",
-
-    applicationStart:
-        "2026-07-31",
-
-    lastDate:
-        "2026-08-15",
-
-    vacancies:
-        "2 Posts",
-
-    state:
-        "Haryana",
-
-    advertisement:
-        "REC Advisor Recruitment 2026",
-
-    status:
-        "active",
-
-    officialNotification:
-        "#",
-
-    applyLink:
-        "https://recindia.nic.in/",
-
-    officialWebsite:
-        "https://recindia.nic.in/",
-
-
-    description: `
-        REC Limited has invited applications for two contractual
-        Advisor positions covering Green Hydrogen and Compressed
-        Biogas (CBG).
-    `,
-
-    aboutExam: `
-        This is a specialised contractual recruitment for experienced
-        professionals. It is not a conventional competitive
-        examination such as SSC, Railway or Banking examinations.
-    `,
-
-    ageLimit:
-        "Maximum 65 years as on 15 August 2026",
-
-    selectionProcess: [
-
-        "Application Screening",
-
-        "Shortlisting",
-
-        "Interview / Direct Empanelment as per REC norms"
-
-    ],
-
-    applicationFee:
-        "Not specified in the available recruitment summary",
-
-    examPattern:
-        "No conventional written examination is indicated. Selection is based on shortlisting and interview/direct empanelment as per REC norms.",
-
-    howToApply: [
-
-        "Visit the official REC website.",
-
-        "Download the prescribed application format.",
-
-        "Fill in the required personal, qualification and experience details.",
-
-        "Attach the required supporting documents and CV.",
-
-        "Send the completed application through the prescribed email mode.",
-
-        "Ensure the application reaches REC before 15 August 2026."
-
-    ],
-
-    importantLinks: {
-
-        officialWebsite:
-            "https://recindia.nic.in/",
-
-        applyOnline:
-            "https://recindia.nic.in/"
-
-    }
-
-},   
+   
 
      /* =====================================================
    PNB — LOCAL BANK OFFICER 2026
 ===================================================== */
 
-{
-    id: "pnb-local-bank-officer-2026",
-
-    type: "job",
-
-    category: "Banking",
-
-    title:
-        "PNB Local Bank Officer Recruitment 2026",
-
-    subtitle:
-        "Local Bank Officer Recruitment under HRP 2026-27",
-
-    recruitmentBoard:
-        "Punjab National Bank",
-
-    qualification:
-        "Graduate / As prescribed in official notification",
-
-    applicationStart:
-        "2026-07-20",
-
-    lastDate:
-        "2026-08-16",
-
-    vacancies:
-        "750 Posts",
-
-    state:
-        "Multiple States",
-
-    advertisement:
-        "HRP 2026-27",
-
-    status:
-        "active",
-
-    officialNotification:
-        "https://pnb.bank.in/Recruitments.aspx",
-
-    applyLink:
-        "https://ibpsreg.ibps.in/pnbjul26/",
-
-    officialWebsite:
-        "https://pnb.bank.in/",
-
-
-    /* =============================================
-       DETAILS PAGE DATA
-    ============================================= */
-
-    description: `
-        Punjab National Bank has invited online applications for
-        recruitment to the post of Local Bank Officer under its
-        Human Resource Plan 2026-27.
-
-        The current recruitment notification provides 750 vacancies
-        for eligible candidates.
-    `,
-
-    aboutExam: `
-        The Local Bank Officer recruitment is a banking officer-level
-        recruitment conducted by Punjab National Bank. Candidates
-        should carefully check the state-wise vacancy, educational
-        qualification, local language requirement and other eligibility
-        conditions before applying.
-    `,
-
-    ageLimit:
-        "As prescribed in the official notification",
-
-    selectionProcess: [
-
-        "Online Written Examination",
-
-        "Local Language Proficiency Test, where applicable",
-
-        "Personal Interview",
-
-        "Document Verification",
-
-        "Medical Examination"
-
-    ],
-
-    applicationFee:
-        "As prescribed in the official notification",
-
-    examPattern: `
-        The recruitment process includes an online written examination
-        followed by the applicable further selection stages. Candidates
-        should refer to the official PNB advertisement for the detailed
-        section-wise examination pattern, syllabus and marking scheme.
-    `,
-
-    howToApply: [
-
-        "Visit the official PNB recruitment page.",
-
-        "Open the Local Bank Officer recruitment notification.",
-
-        "Read the detailed advertisement and state-wise eligibility.",
-
-        "Open the online application portal.",
-
-        "Complete the registration and application form.",
-
-        "Upload the required documents.",
-
-        "Pay the applicable application fee.",
-
-        "Submit the application before 16 August 2026.",
-
-        "Save the submitted application for future reference."
-
-    ],
-
-    importantLinks: {
-
-        officialWebsite:
-            "https://pnb.bank.in/",
-
-        notification:
-            "https://pnb.bank.in/Recruitments.aspx",
-
-        applyOnline:
-            "https://ibpsreg.ibps.in/pnbjul26/"
-
-    }
-
-},
 
 
 /* =====================================================
@@ -1406,142 +941,6 @@ const jobAlerts = [
    UNION BANK — RECRUITMENT PROJECT 2026-27
 ===================================================== */
 
-{
-    id: "union-bank-recruitment-project-2026-27",
-
-    type: "job",
-
-    category: "Banking",
-
-    title:
-        "Union Bank Recruitment Project 2026-27",
-
-    subtitle:
-        "Officers with Domain Expertise, General Banking Officers & Specialist Officers",
-
-    recruitmentBoard:
-        "Union Bank of India",
-
-    qualification:
-        "Post-specific qualification and experience",
-
-    applicationStart:
-        "2026-07-21",
-
-    lastDate:
-        "2026-08-15",
-
-    vacancies:
-        "As per official notification",
-
-    state:
-        "All India",
-
-    advertisement:
-        "Union Bank Recruitment Project 2026-27",
-
-    status:
-        "active",
-
-    officialNotification:
-        "https://www.unionbankofindia.bank.in/pdf/union-bank-recruitment-project-2026-27.pdf",
-
-    applyLink:
-        "https://www.unionbankofindia.bank.in/en/common/recruitment",
-
-    officialWebsite:
-        "https://www.unionbankofindia.bank.in/",
-
-
-    /* =============================================
-       DETAILS PAGE DATA
-    ============================================= */
-
-    description: `
-        Union Bank of India has invited applications under its
-        Recruitment Project 2026-27 for Officers with Domain
-        Expertise, General Banking Officers and Specialist Officers.
-
-        The recruitment covers multiple officer-level positions
-        with post-specific educational qualifications and
-        professional experience requirements.
-    `,
-
-    aboutExam: `
-        This is an officer-level recruitment conducted directly by
-        Union Bank of India. The available positions include
-        domain-specific, general banking and specialist roles.
-
-        Candidates must carefully check the individual post's
-        educational qualification, age and post-qualification
-        experience requirements before applying.
-    `,
-
-    ageLimit:
-        "Post-specific — refer to official notification",
-
-    selectionProcess: [
-
-        "Shortlisting",
-
-        "Interview / Selection process as prescribed for the post",
-
-        "Document Verification",
-
-        "Medical Examination",
-
-        "Final Appointment"
-
-    ],
-
-    applicationFee:
-        "As prescribed in the official notification",
-
-    examPattern: `
-        The selection process varies according to the post.
-        Candidates should refer to the official Union Bank
-        Recruitment Project notification for the exact selection
-        procedure applicable to the position for which they apply.
-    `,
-
-    howToApply: [
-
-        "Visit the official Union Bank recruitment page.",
-
-        "Open Recruitment Project 2026-27.",
-
-        "Read the complete notification and corrigendum carefully.",
-
-        "Select the post for which you satisfy the eligibility criteria.",
-
-        "Complete the online registration.",
-
-        "Enter your qualification and post-qualification experience details.",
-
-        "Upload the required documents.",
-
-        "Pay the applicable application fee.",
-
-        "Submit the application before 15 August 2026.",
-
-        "Save the submitted application for future reference."
-
-    ],
-
-    importantLinks: {
-
-        officialWebsite:
-            "https://www.unionbankofindia.bank.in/",
-
-        notification:
-            "https://www.unionbankofindia.bank.in/pdf/union-bank-recruitment-project-2026-27.pdf",
-
-        applyOnline:
-            "https://www.unionbankofindia.bank.in/en/common/recruitment"
-
-    }
-
-},
 
 
     /* =====================================================
@@ -2724,150 +2123,6 @@ const jobAlerts = [
    RAILWAY — RRB SECTION CONTROLLER 2026
 ===================================================== */
 
-{
-    id: "rrb-section-controller-2026",
-
-    type: "job",
-
-    category: "Railway",
-
-    title:
-        "RRB Section Controller Recruitment 2026",
-
-    subtitle:
-        "CEN 03/2026 — Recruitment for Section Controller Posts",
-
-    recruitmentBoard:
-        "Railway Recruitment Boards (RRBs), Ministry of Railways",
-
-    qualification:
-        "Graduate Degree from a recognized University or equivalent",
-
-    applicationStart:
-        "2026-07-15",
-
-    lastDate:
-        "2026-08-14",
-
-    vacancies:
-        "119 Posts",
-
-    state:
-        "All India",
-
-    advertisement:
-        "CEN 03/2026",
-
-    status:
-        "active",
-
-    officialNotification:
-        "https://www.rrbbbs.gov.in/cen.php?prmt=TkRjPQ%3D%3D",
-
-    applyLink:
-        "https://www.rrbapply.gov.in/",
-
-    officialWebsite:
-        "https://www.rrbcdg.gov.in/",
-
-
-    /* =============================================
-       DETAILS PAGE DATA
-    ============================================= */
-
-    description: `
-        The Railway Recruitment Boards have invited online
-        applications for the post of Section Controller under
-        Centralised Employment Notice (CEN) No. 03/2026.
-
-        A total of 119 vacancies have been notified across
-        participating Railway Recruitment Boards and Zonal
-        Railways.
-    `,
-
-
-    aboutExam: `
-        Section Controller is a Level-6 railway position responsible
-        for controlling and coordinating train operations within
-        assigned railway sections.
-
-        The recruitment is conducted centrally by the Railway
-        Recruitment Boards. Eligible candidates holding a graduate
-        degree can apply through the official RRB application portal.
-    `,
-
-
-    ageLimit:
-        "20 to 33 years as prescribed in CEN 03/2026",
-
-
-    selectionProcess: [
-
-        "Computer Based Test (CBT)",
-
-        "Computer Based Aptitude Test (CBAT)",
-
-        "Document Verification",
-
-        "Medical Examination"
-
-    ],
-
-
-    applicationFee:
-        "As per CEN 03/2026",
-
-
-    examPattern: `
-        Candidates are required to appear for the Computer Based
-        Test (CBT). Candidates shortlisted on the basis of the CBT
-        will proceed to the Computer Based Aptitude Test (CBAT).
-
-        Candidates who qualify the required stages will be called
-        for Document Verification and Medical Examination as
-        prescribed by the Railway Recruitment Boards.
-    `,
-
-
-    howToApply: [
-
-        "Visit the official RRB website or the central RRB application portal.",
-
-        "Open CEN 03/2026 – Section Controller recruitment.",
-
-        "Read the complete official notification carefully.",
-
-        "Create/login to your RRB account.",
-
-        "Select the applicable RRB and complete the application form.",
-
-        "Enter your personal, educational and other required details.",
-
-        "Upload the required documents and photograph/signature.",
-
-        "Pay the applicable examination fee.",
-
-        "Submit the application before 14 August 2026.",
-
-        "Download and save the submitted application for future reference."
-
-    ],
-
-
-    importantLinks: {
-
-        officialWebsite:
-            "https://www.rrbcdg.gov.in/",
-
-        notification:
-            "https://www.rrbbbs.gov.in/cen.php?prmt=TkRjPQ%3D%3D",
-
-        applyOnline:
-            "https://www.rrbapply.gov.in/"
-
-    }
-
-},
 
     /* =========================================================
    RAILWAY JOBS — AUGUST / SEPTEMBER 2026
@@ -3936,245 +3191,12 @@ const jobAlerts = [
    UPSC — ADVERTISEMENT NO. 09/2026
 ===================================================== */
 
-{
-    id: "upsc-advt-09-2026",
-    type: "job",
-    category: "UPSC",
-
-    title:
-        "UPSC Recruitment 2026 — Agricultural Engineer, Assistant Industrial Adviser & More",
-
-    subtitle:
-        "Agricultural Engineer, Assistant Industrial Adviser and other posts — 40 Vacancies",
-
-    recruitmentBoard:
-        "Union Public Service Commission",
-
-    qualification:
-        "Any Graduate, B.Tech/B.E",
-
-    applicationStart:
-        "2026-07-24",
-
-    lastDate:
-        "2026-08-14",
-
-    vacancies:
-        "40 Posts",
-
-    state:
-        "All India",
-
-    advertisement:
-        "Advertisement No. 09/2026",
-
-    status:
-        "active",
-
-    officialNotification:
-        "https://www.upsc.gov.in/",
-
-    applyLink:
-        "https://upsconline.nic.in/",
-
-    officialWebsite:
-        "https://www.upsc.gov.in/",
-
-
-    /* =============================================
-       DETAILS PAGE DATA
-    ============================================= */
-
-    description: `
-        Union Public Service Commission has released
-        Advertisement No. 09/2026 for recruitment to various
-        posts including Agricultural Engineer, Assistant Industrial
-        Adviser and other positions.
-
-        The recruitment includes 40 vacancies. Candidates should
-        carefully check the individual post requirements before
-        submitting their application.
-    `,
-
-    aboutExam: `
-        This is a UPSC Direct Recruitment opportunity for
-        multiple Central Government posts.
-
-        The educational qualification and selection procedure
-        may differ from one post to another. Candidates should
-        verify the detailed eligibility requirements from the
-        official advertisement.
-    `,
-
-    ageLimit:
-        "Post-specific — refer to the official notification",
-
-    selectionProcess: [
-        "Online Recruitment Application (ORA)",
-        "Application Screening / Shortlisting",
-        "Recruitment Test, wherever prescribed",
-        "Interview, wherever prescribed",
-        "Document Verification",
-        "Final Selection"
-    ],
-
-    applicationFee:
-        "As prescribed in the official notification",
-
-    examPattern: `
-        The selection procedure is dependent on the post.
-        UPSC may conduct a Recruitment Test and/or Interview
-        wherever prescribed.
-
-        Candidates should check the official notification for
-        the exact selection process.
-    `,
-
-    howToApply: [
-        "Visit the official UPSC website.",
-        "Open Advertisement No. 09/2026.",
-        "Check the eligibility requirements for the desired post.",
-        "Complete the Online Recruitment Application.",
-        "Fill in the required personal and educational details.",
-        "Upload the required documents.",
-        "Pay the applicable application fee.",
-        "Submit the application before 14 August 2026.",
-        "Save the application acknowledgement."
-    ],
-
-    importantLinks: {
-        officialWebsite:
-            "https://www.upsc.gov.in/",
-
-        notification:
-            "https://www.upsc.gov.in/",
-
-        applyOnline:
-            "https://upsconline.nic.in/"
-    }
-},
 
 
 /* =====================================================
    UPSC — ADVERTISEMENT NO. 08/2026
 ===================================================== */
 
-{
-    id: "upsc-advt-08-2026",
-    type: "job",
-    category: "UPSC",
-
-    title:
-        "UPSC Recruitment 2026 — Principal & Vice-Principal",
-
-    subtitle:
-        "Principal and Vice-Principal — 828 Vacancies",
-
-    recruitmentBoard:
-        "Union Public Service Commission",
-
-    qualification:
-        "B.Ed, Any Master's Degree",
-
-    applicationStart:
-        "2026-07-24",
-
-    lastDate:
-        "2026-08-14",
-
-    vacancies:
-        "828 Posts",
-
-    state:
-        "All India",
-
-    advertisement:
-        "Advertisement No. 08/2026",
-
-    status:
-        "active",
-
-    officialNotification:
-        "https://www.upsc.gov.in/",
-
-    applyLink:
-        "https://upsconline.nic.in/",
-
-    officialWebsite:
-        "https://www.upsc.gov.in/",
-
-
-    /* =============================================
-       DETAILS PAGE DATA
-    ============================================= */
-
-    description: `
-        Union Public Service Commission has released
-        Advertisement No. 08/2026 for recruitment to the posts
-        of Principal and Vice-Principal.
-
-        The recruitment carries 828 vacancies. Candidates should
-        verify the prescribed educational qualification, experience,
-        age limit and other eligibility conditions before applying.
-    `,
-
-    aboutExam: `
-        This is a UPSC recruitment opportunity for Principal and
-        Vice-Principal positions.
-
-        Candidates possessing the prescribed B.Ed and Master's
-        Degree qualifications should check the detailed official
-        advertisement for post-wise eligibility and selection
-        requirements.
-    `,
-
-    ageLimit:
-        "As prescribed in the official notification",
-
-    selectionProcess: [
-        "Online Recruitment Application (ORA)",
-        "Application Screening / Shortlisting",
-        "Recruitment Test, wherever prescribed",
-        "Interview, wherever prescribed",
-        "Document Verification",
-        "Final Selection"
-    ],
-
-    applicationFee:
-        "As prescribed in the official notification",
-
-    examPattern: `
-        The exact selection procedure and examination requirements
-        are subject to the official UPSC advertisement.
-
-        Candidates should check Advertisement No. 08/2026 for
-        the applicable Recruitment Test, Interview and other
-        selection stages.
-    `,
-
-    howToApply: [
-        "Visit the official UPSC website.",
-        "Open Advertisement No. 08/2026.",
-        "Read the complete eligibility requirements.",
-        "Complete the Online Recruitment Application.",
-        "Enter the required personal and educational details.",
-        "Upload the required documents.",
-        "Pay the applicable application fee.",
-        "Submit the application before 14 August 2026.",
-        "Save the final application and acknowledgement."
-    ],
-
-    importantLinks: {
-        officialWebsite:
-            "https://www.upsc.gov.in/",
-
-        notification:
-            "https://www.upsc.gov.in/",
-
-        applyOnline:
-            "https://upsconline.nic.in/"
-    }
-},
 
     /* =====================================================
        DEFENCE
@@ -4885,99 +3907,6 @@ const jobAlerts = [
    DRDO ADA — PROJECT ASSISTANT
 ===================================================== */
 
-{
-    id: "drdo-ada-project-assistant-2026",
-
-    type: "job",
-    category: "Defence",
-
-    title:
-        "DRDO ADA Project Assistant Recruitment 2026",
-
-    subtitle:
-        "Project Assistant-I — 111 Posts",
-
-    recruitmentBoard:
-        "Aeronautical Development Agency (ADA), DRDO",
-
-    qualification:
-        "B.Tech / B.E / M.Sc / M.E / M.Tech",
-
-    applicationStart:
-        "2026-08-06",
-
-    lastDate:
-        "2026-08-13",
-
-    vacancies:
-        "111 Posts",
-
-    state:
-        "Bengaluru, Karnataka",
-
-    advertisement:
-        "ADA:ADV-138:2026",
-
-    status:
-        "active",
-
-    officialNotification:
-        "https://drdo.gov.in/drdo/en/offerings/vacancies",
-
-    applyLink:
-        "https://drdo.gov.in/drdo/en/offerings/vacancies",
-
-    officialWebsite:
-        "https://drdo.gov.in/",
-
-    description: `
-        Aeronautical Development Agency under DRDO has invited
-        applications for Project Assistant-I positions.
-    `,
-
-    aboutExam: `
-        Project Assistant recruitment is intended for candidates
-        possessing the prescribed engineering or science
-        qualifications for work on defence aeronautical projects.
-    `,
-
-    ageLimit:
-        "As prescribed in the official notification",
-
-    selectionProcess: [
-        "Application Screening",
-        "Shortlisting",
-        "Interview",
-        "Document Verification",
-        "Final Selection"
-    ],
-
-    applicationFee:
-        "No fee unless otherwise specified",
-
-    examPattern:
-        "Selection is based on shortlisting/interview as prescribed by ADA.",
-
-    howToApply: [
-        "Visit the DRDO vacancies page.",
-        "Open ADA:ADV-138:2026.",
-        "Check discipline-wise eligibility.",
-        "Prepare required documents.",
-        "Submit the application as prescribed.",
-        "Ensure submission before 13 August 2026."
-    ],
-
-    importantLinks: {
-        officialWebsite:
-            "https://drdo.gov.in/",
-
-        notification:
-            "https://drdo.gov.in/drdo/en/offerings/vacancies",
-
-        applyOnline:
-            "https://drdo.gov.in/drdo/en/offerings/vacancies"
-    }
-},
 
 
 /* =====================================================
@@ -5181,100 +4110,6 @@ const jobAlerts = [
    DRDO DYSL-AI — JRF
 ===================================================== */
 
-{
-    id: "drdo-dysl-ai-jrf-2026",
-
-    type: "job",
-    category: "Defence",
-
-    title:
-        "DRDO DYSL-AI Junior Research Fellow Recruitment 2026",
-
-    subtitle:
-        "JRF — Artificial Intelligence Research",
-
-    recruitmentBoard:
-        "DRDO Young Scientist Laboratory — Artificial Intelligence",
-
-    qualification:
-        "B.Tech / B.E / M.E / M.Tech / relevant Post Graduate degree",
-
-    applicationStart:
-        "2026-07-31",
-
-    lastDate:
-        "2026-08-14",
-
-    vacancies:
-        "4 Posts",
-
-    state:
-        "Bengaluru, Karnataka",
-
-    advertisement:
-        "DYSL-AI/JRF/HR/HK/2026-27/01",
-
-    status:
-        "active",
-
-    officialNotification:
-        "https://drdo.gov.in/drdo/en/offerings/vacancies",
-
-    applyLink:
-        "https://drdo.gov.in/drdo/en/offerings/vacancies",
-
-    officialWebsite:
-        "https://drdo.gov.in/",
-
-    description: `
-        DRDO Young Scientist Laboratory — Artificial Intelligence
-        has invited applications for Junior Research Fellow positions
-        in defence-related Artificial Intelligence research.
-    `,
-
-    aboutExam: `
-        The position involves research in areas such as Artificial
-        Intelligence, Machine Learning, Deep Learning, NLP,
-        Computer Vision and related technologies.
-    `,
-
-    ageLimit:
-        "As prescribed in the official notification",
-
-    selectionProcess: [
-        "Application Screening",
-        "Shortlisting",
-        "Interview",
-        "Document Verification",
-        "Final Selection"
-    ],
-
-    applicationFee:
-        "No fee unless otherwise specified",
-
-    examPattern:
-        "No conventional written examination. Selection is through the prescribed research-interview process.",
-
-    howToApply: [
-        "Visit the DRDO vacancies page.",
-        "Open the DYSL-AI JRF notification.",
-        "Check the technical qualification requirements.",
-        "Prepare required documents.",
-        "Submit the application as prescribed.",
-        "Apply before 14 August 2026."
-    ],
-
-    importantLinks: {
-        officialWebsite:
-            "https://drdo.gov.in/",
-
-        notification:
-            "https://drdo.gov.in/drdo/en/offerings/vacancies",
-
-        applyOnline:
-            "https://drdo.gov.in/drdo/en/offerings/vacancies"
-    }
-},
 
 
 /* =====================================================
@@ -5778,103 +4613,6 @@ const jobAlerts = [
    HAL — DESIGN TRAINEE & MANAGEMENT TRAINEE
 ===================================================== */
 
-{
-    id: "hal-design-management-trainee-2026",
-
-    type: "job",
-    category: "Defence",
-
-    title:
-        "HAL Design Trainee & Management Trainee Recruitment 2026",
-
-    subtitle:
-        "Design Trainee and Management Trainee — 120 Posts",
-
-    recruitmentBoard:
-        "Hindustan Aeronautics Limited (HAL)",
-
-    qualification:
-        "B.E./B.Tech in relevant engineering discipline",
-
-    applicationStart:
-        "2026-07-29",
-
-    lastDate:
-        "2026-08-14",
-
-    vacancies:
-        "120 Posts",
-
-    state:
-        "Multiple HAL locations",
-
-    advertisement:
-        "HAL/CHRC-TM/RECT-02/2026",
-
-    status:
-        "active",
-
-    officialNotification:
-        "https://hal-india.co.in/",
-
-    applyLink:
-        "https://hal-india.co.in/",
-
-    officialWebsite:
-        "https://hal-india.co.in/",
-
-    description: `
-        Hindustan Aeronautics Limited has announced recruitment for
-        60 Design Trainees and 60 Management Trainees across multiple
-        engineering disciplines.
-    `,
-
-    aboutExam: `
-        HAL's Design Trainee and Management Trainee recruitment is
-        intended for engineering graduates in notified disciplines
-        including Aeronautical, Electrical, Electronics, Mechanical,
-        Computer Science, Metallurgy, Production and Civil.
-    `,
-
-    ageLimit:
-        "Maximum 28 years as prescribed in the notification, with applicable relaxations",
-
-    selectionProcess: [
-        "Computer Based Test",
-        "Shortlisting",
-        "Interview",
-        "Document Verification",
-        "Final Selection"
-    ],
-
-    applicationFee:
-        "As prescribed in official notification",
-
-    examPattern:
-        "Computer Based Test followed by interview for shortlisted candidates.",
-
-    howToApply: [
-        "Visit the official HAL website.",
-        "Open HAL/CHRC-TM/RECT-02/2026.",
-        "Check discipline-wise eligibility.",
-        "Register online.",
-        "Complete the application.",
-        "Upload required documents.",
-        "Pay applicable fee.",
-        "Submit before 14 August 2026."
-    ],
-
-    importantLinks: {
-        officialWebsite:
-            "https://hal-india.co.in/",
-
-        notification:
-            "https://hal-india.co.in/",
-
-        applyOnline:
-            "https://hal-india.co.in/"
-    }
-},
 
 
     /* =====================================================
@@ -5892,54 +4630,6 @@ const jobAlerts = [
    TMC — TRIAL COORDINATOR
 ----------------------------------------------------- */
 
-{
-    id: "bihar-tmc-trial-coordinator-2026",
-    type: "job",
-    category: "State",
-    state: "Bihar",
-
-    title:
-        "TMC Trial Coordinator Recruitment 2026",
-
-    subtitle:
-        "Trial Coordinator – 01 Post",
-
-    recruitmentBoard:
-        "Tata Memorial Centre (TMC)",
-
-    qualification:
-        "PG Diploma",
-
-    applicationStart:
-        "2026-08-12",
-
-    lastDate:
-        "2026-08-13",
-
-    vacancies:
-        "01 Post",
-
-    advertisement:
-        "HBCH&RC/PROJECT/2026/P21",
-
-    location:
-        "Bihar",
-
-    status:
-        "active",
-
-    description:
-        "Tata Memorial Centre has announced recruitment for the post of Trial Coordinator. The recruitment carries 1 vacancy and requires a PG Diploma qualification.",
-
-    overview:
-        "This is a recruitment opportunity under Tata Memorial Centre. Candidates should check the official recruitment notice for complete eligibility and application requirements.",
-
-    selectionProcess:
-        "As prescribed in the official recruitment notification.",
-
-    howToApply:
-        "Candidates should refer to the official recruitment notification for the application procedure and required documents."
-},
 
 
 /* -----------------------------------------------------
@@ -6378,54 +5068,6 @@ const jobAlerts = [
    AIIMS — NURSING OFFICER
 ----------------------------------------------------- */
 
-{
-    id: "bihar-aiims-nursing-officer-2026",
-    type: "job",
-    category: "State",
-    state: "Bihar",
-
-    title:
-        "AIIMS Nursing Officer Recruitment 2026",
-
-    subtitle:
-        "Nursing Officer – 2218 Posts",
-
-    recruitmentBoard:
-        "All India Institute of Medical Sciences (AIIMS)",
-
-    qualification:
-        "B.Sc, GNM",
-
-    applicationStart:
-        "2026-08-05",
-
-    lastDate:
-        "2026-08-13",
-
-    vacancies:
-        "2218 Posts",
-
-    advertisement:
-        "Notice No. 103/2026",
-
-    location:
-        "All India / Bihar listing",
-
-    status:
-        "active",
-
-    description:
-        "AIIMS has listed recruitment for Nursing Officer positions with 2,218 vacancies. The source lists B.Sc and GNM among the qualifications.",
-
-    overview:
-        "This is a large-scale Nursing Officer recruitment opportunity under AIIMS. Candidates should check the official notice for eligibility and applicable recruitment procedure.",
-
-    selectionProcess:
-        "As prescribed in the official AIIMS recruitment notification.",
-
-    howToApply:
-        "Candidates should follow the official AIIMS recruitment instructions."
-},
 
 
 /* -----------------------------------------------------
@@ -6486,108 +5128,12 @@ const jobAlerts = [
    DCPU JAMUI — SUPPORT PERSON
 ----------------------------------------------------- */
 
-{
-    id: "bihar-dcpu-jamui-support-person-2026",
-    type: "job",
-    category: "State",
-    state: "Bihar",
-
-    title:
-        "DCPU Jamui Support Person Recruitment 2026",
-
-    subtitle:
-        "Support Person – 15 Posts",
-
-    recruitmentBoard:
-        "DCPU Jamui",
-
-    qualification:
-        "Diploma, MSW",
-
-    applicationStart:
-        "2026-07-30",
-
-    lastDate:
-        "2026-08-16",
-
-    vacancies:
-        "15 Posts",
-
-    advertisement:
-        "02/2026",
-
-    location:
-        "Jamui, Bihar",
-
-    status:
-        "active",
-
-    description:
-        "District Child Protection Unit Jamui has listed recruitment for Support Person positions. The source lists 15 vacancies and Diploma/MSW qualifications.",
-
-    overview:
-        "This is a district-level recruitment opportunity in Jamui, Bihar. Candidates should check the official notice for complete eligibility and selection details.",
-
-    selectionProcess:
-        "As prescribed in the official recruitment notification.",
-
-    howToApply:
-        "Follow the application instructions issued by DCPU Jamui."
-},
 
 
 /* -----------------------------------------------------
    AAI — APPRENTICES
 ----------------------------------------------------- */
 
-{
-    id: "bihar-aai-apprentices-2026",
-    type: "job",
-    category: "State",
-    state: "Bihar",
-
-    title:
-        "AAI Apprentice Recruitment 2026",
-
-    subtitle:
-        "Graduate / Diploma / ITI Apprentices – 140 Posts",
-
-    recruitmentBoard:
-        "Airports Authority of India (AAI)",
-
-    qualification:
-        "Any Graduate, Diploma, ITI",
-
-    applicationStart:
-        "2026-07-28",
-
-    lastDate:
-        "2026-08-15",
-
-    vacancies:
-        "140 Posts",
-
-    advertisement:
-        "—",
-
-    location:
-        "Bihar",
-
-    status:
-        "active",
-
-    description:
-        "Airports Authority of India has listed Graduate, Diploma and ITI Apprentice opportunities. The source lists 140 vacancies.",
-
-    overview:
-        "The opportunity is for apprenticeship positions for candidates from graduate, diploma and ITI backgrounds. Candidates should check the official apprenticeship notification for eligibility.",
-
-    selectionProcess:
-        "As prescribed in the official apprenticeship notification.",
-
-    howToApply:
-        "Follow the official AAI apprenticeship application instructions."
-},
 
 
 /* -----------------------------------------------------
@@ -6702,54 +5248,6 @@ const jobAlerts = [
    DCPU SHEOHAR — SUPPORT PERSON
 ----------------------------------------------------- */
 
-{
-    id: "bihar-dcpu-sheohar-support-person-2026",
-    type: "job",
-    category: "State",
-    state: "Bihar",
-
-    title:
-        "DCPU Sheohar Support Person Recruitment 2026",
-
-    subtitle:
-        "Support Person – 05 Posts",
-
-    recruitmentBoard:
-        "DCPU Sheohar",
-
-    qualification:
-        "MSW",
-
-    applicationStart:
-        "2026-07-22",
-
-    lastDate:
-        "2026-08-16",
-
-    vacancies:
-        "05 Posts",
-
-    advertisement:
-        "02/2026",
-
-    location:
-        "Sheohar, Bihar",
-
-    status:
-        "active",
-
-    description:
-        "District Child Protection Unit Sheohar has listed recruitment for Support Person positions. The source lists 5 vacancies and requires MSW qualification.",
-
-    overview:
-        "This is a district-level recruitment opportunity in Sheohar, Bihar. Candidates should refer to the official notice for complete eligibility and selection information.",
-
-    selectionProcess:
-        "As prescribed in the official recruitment notification.",
-
-    howToApply:
-        "Follow the application instructions issued by DCPU Sheohar."
-},
 
 
 /* -----------------------------------------------------
@@ -6810,54 +5308,7 @@ const jobAlerts = [
    BPSSC — FOREST RANGE OFFICER
 ----------------------------------------------------- */
 
-{
-    id: "bihar-bpssc-forest-range-officer-2026",
-    type: "job",
-    category: "State",
-    state: "Bihar",
-
-    title:
-        "BPSSC Forest Range Officer Recruitment 2026",
-
-    subtitle:
-        "Forest Range Officer – 16 Posts",
-
-    recruitmentBoard:
-        "Bihar Police Subordinate Services Commission (BPSSC)",
-
-    qualification:
-        "Any Bachelor's Degree",
-
-    applicationStart:
-        "2026-07-15",
-
-    lastDate:
-        "2026-08-16",
-
-    vacancies:
-        "16 Posts",
-
-    advertisement:
-        "10/2026",
-
-    location:
-        "Bihar",
-
-    status:
-        "active",
-
-    description:
-        "Bihar Police Subordinate Services Commission has listed recruitment for Forest Range Officer positions. The source lists 16 vacancies and requires a Bachelor's Degree.",
-
-    overview:
-        "This is a Bihar government recruitment opportunity for Forest Range Officer positions. Candidates should check the official notification for the detailed eligibility and selection procedure.",
-
-    selectionProcess:
-        "As prescribed in the official BPSSC recruitment notification.",
-
-    howToApply:
-        "Follow the official BPSSC recruitment instructions before applying."
-},    
+    
 
     
     /* =====================================================
@@ -6982,54 +5433,6 @@ const jobAlerts = [
    MECON — DRAFTSMAN
 ----------------------------------------------------- */
 
-{
-    id: "jharkhand-mecon-draftsman-2026",
-    type: "job",
-    category: "State Jobs",
-    state: "Jharkhand",
-
-    title:
-        "MECON Draftsman Recruitment 2026",
-
-    subtitle:
-        "Draftsman – 17 Posts",
-
-    recruitmentBoard:
-        "MECON Limited",
-
-    qualification:
-        "Diploma, ITI",
-
-    applicationStart:
-        "2026-08-10",
-
-    lastDate:
-        "2026-08-15",
-
-    vacancies:
-        "17 Posts",
-
-    advertisement:
-        "11.73.4.1/2026/Cont/03",
-
-    location:
-        "Jharkhand",
-
-    status:
-        "active",
-
-    description:
-        "MECON Limited has announced recruitment for Draftsman positions. The source lists 17 vacancies for candidates having Diploma or ITI qualifications.",
-
-    overview:
-        "This recruitment provides an opportunity for technically qualified candidates to work with MECON Limited.",
-
-    selectionProcess:
-        "As prescribed in the official MECON recruitment notification.",
-
-    howToApply:
-        "Candidates should follow the official MECON application procedure."
-},
 
 
 /* -----------------------------------------------------
@@ -7252,54 +5655,6 @@ const jobAlerts = [
    IIT (ISM) DHANBAD — ANRF JRF
 ----------------------------------------------------- */
 
-{
-    id: "jharkhand-iit-ism-anrf-jrf-2026",
-    type: "job",
-    category: "State Jobs",
-    state: "Jharkhand",
-
-    title:
-        "IIT (ISM) Dhanbad ANRF-JRF Recruitment 2026",
-
-    subtitle:
-        "ANRF-JRF – 01 Post",
-
-    recruitmentBoard:
-        "IIT (ISM) Dhanbad",
-
-    qualification:
-        "B.Tech/B.E, M.E/M.Tech",
-
-    applicationStart:
-        "2026-08-06",
-
-    lastDate:
-        "2026-08-16",
-
-    vacancies:
-        "01 Post",
-
-    advertisement:
-        "ANRF/ARG/2025/001897/ENS",
-
-    location:
-        "Dhanbad, Jharkhand",
-
-    status:
-        "active",
-
-    description:
-        "IIT (ISM) Dhanbad has announced an ANRF-JRF research position. One vacancy is listed in the source.",
-
-    overview:
-        "The position is associated with an ANRF-supported research project at IIT (ISM) Dhanbad.",
-
-    selectionProcess:
-        "As prescribed in the official project recruitment notification.",
-
-    howToApply:
-        "Candidates should follow the official IIT (ISM) Dhanbad project application instructions."
-},
 
 
 /* -----------------------------------------------------
@@ -7414,54 +5769,6 @@ const jobAlerts = [
    AIIMS — NURSING OFFICER
 ----------------------------------------------------- */
 
-{
-    id: "jharkhand-aiims-nursing-officer-2026",
-    type: "job",
-    category: "State Jobs",
-    state: "Jharkhand",
-
-    title:
-        "AIIMS Nursing Officer Recruitment 2026",
-
-    subtitle:
-        "Nursing Officer – 2218 Posts",
-
-    recruitmentBoard:
-        "All India Institute of Medical Sciences",
-
-    qualification:
-        "B.Sc, GNM",
-
-    applicationStart:
-        "2026-08-05",
-
-    lastDate:
-        "2026-08-13",
-
-    vacancies:
-        "2218 Posts",
-
-    advertisement:
-        "Notice No. 103/2026",
-
-    location:
-        "Jharkhand listing",
-
-    status:
-        "active",
-
-    description:
-        "AIIMS has listed recruitment for 2,218 Nursing Officer positions. The source specifies B.Sc and GNM among the qualifications.",
-
-    overview:
-        "This is a large-scale Nursing Officer recruitment opportunity. Candidates should verify the official notification for complete eligibility and recruitment details.",
-
-    selectionProcess:
-        "As prescribed in the official AIIMS recruitment notification.",
-
-    howToApply:
-        "Follow the official AIIMS recruitment instructions."
-},
 
 
 /* -----------------------------------------------------
@@ -7576,108 +5883,12 @@ const jobAlerts = [
    AAI — APPRENTICES
 ----------------------------------------------------- */
 
-{
-    id: "jharkhand-aai-apprentices-2026",
-    type: "job",
-    category: "State Jobs",
-    state: "Jharkhand",
-
-    title:
-        "AAI Apprentice Recruitment 2026",
-
-    subtitle:
-        "Graduate / Diploma / ITI Apprentices – 140 Posts",
-
-    recruitmentBoard:
-        "Airports Authority of India",
-
-    qualification:
-        "Any Graduate, Diploma, ITI",
-
-    applicationStart:
-        "2026-07-28",
-
-    lastDate:
-        "2026-08-15",
-
-    vacancies:
-        "140 Posts",
-
-    advertisement:
-        "—",
-
-    location:
-        "Jharkhand listing",
-
-    status:
-        "active",
-
-    description:
-        "Airports Authority of India has listed Graduate, Diploma and ITI apprenticeship opportunities with 140 vacancies.",
-
-    overview:
-        "The recruitment is for apprenticeship positions for candidates from graduate, diploma and ITI backgrounds.",
-
-    selectionProcess:
-        "As prescribed in the official apprenticeship notification.",
-
-    howToApply:
-        "Follow the official AAI apprenticeship application procedure."
-},
 
 
 /* -----------------------------------------------------
    NIT JAMSHEDPUR — JUNIOR RESEARCH FELLOW
 ----------------------------------------------------- */
 
-{
-    id: "jharkhand-nit-jamshedpur-jrf-2026",
-    type: "job",
-    category: "State Jobs",
-    state: "Jharkhand",
-
-    title:
-        "NIT Jamshedpur Junior Research Fellow Recruitment 2026",
-
-    subtitle:
-        "Junior Research Fellow – 01 Post",
-
-    recruitmentBoard:
-        "National Institute of Technology Jamshedpur",
-
-    qualification:
-        "M.E/M.Tech",
-
-    applicationStart:
-        "2026-07-27",
-
-    lastDate:
-        "2026-08-15",
-
-    vacancies:
-        "01 Post",
-
-    advertisement:
-        "NITJSR/DEE/2026/171",
-
-    location:
-        "Jamshedpur, Jharkhand",
-
-    status:
-        "active",
-
-    description:
-        "NIT Jamshedpur has listed a Junior Research Fellow position for candidates with an M.E/M.Tech qualification.",
-
-    overview:
-        "This is a research opportunity at NIT Jamshedpur. Candidates should check the project notification for detailed eligibility.",
-
-    selectionProcess:
-        "As prescribed in the official NIT Jamshedpur recruitment notification.",
-
-    howToApply:
-        "Follow the official NIT Jamshedpur application instructions."
-},
 
 
 /* -----------------------------------------------------
@@ -7965,39 +6176,6 @@ const jobAlerts = [
 
 /* 4. TMC — MEDICAL OFFICER */
 
-{
-    id: "up-tmc-medical-officer-2026",
-    type: "job",
-    category: "State",
-    state: "Uttar Pradesh",
-
-    title: "TMC Medical Officer Recruitment 2026",
-    subtitle: "Medical Officer – 1 Post",
-
-    recruitmentBoard: "Tata Memorial Centre",
-    qualification: "DM, DNB",
-
-    applicationStart: "2026-08-12",
-    lastDate: "2026-08-14",
-
-    vacancies: "1 Post",
-    advertisement: "AD/VAR/2026/13",
-
-    location: "Uttar Pradesh",
-    status: "active",
-
-    description:
-        "Tata Memorial Centre has listed a Medical Officer position for candidates possessing the prescribed DM or DNB qualification.",
-
-    overview:
-        "One Medical Officer post is listed in the source. Candidates should verify the detailed eligibility and experience requirements.",
-
-    selectionProcess:
-        "As prescribed in the official TMC notification.",
-
-    howToApply:
-        "Follow the official TMC application procedure."
-},
 
 
 /* 5. BHU — FIELD INVESTIGATOR */
@@ -8446,39 +6624,6 @@ const jobAlerts = [
 
 /* 17. ICSIL — LAB ATTENDANT, SWEEPER & MORE */
 
-{
-    id: "up-icsil-lab-attendant-sweeper-2026",
-    type: "job",
-    category: "State",
-    state: "Uttar Pradesh",
-
-    title: "ICSIL Recruitment 2026 — Lab Attendant, Sweeper & More",
-    subtitle: "Lab Attendant, Sweeper and More – 5 Posts",
-
-    recruitmentBoard: "ICSIL",
-    qualification: "10TH, 12TH",
-
-    applicationStart: "2026-08-10",
-    lastDate: "2026-08-14",
-
-    vacancies: "5 Posts",
-    advertisement: "ICSIL/RC/10-A/284/CRIH/2026-27",
-
-    location: "Uttar Pradesh",
-    status: "active",
-
-    description:
-        "ICSIL has listed 5 vacancies for Lab Attendant, Sweeper and other positions.",
-
-    overview:
-        "The recruitment includes opportunities for candidates with 10th and 12th qualifications.",
-
-    selectionProcess:
-        "As prescribed in the official ICSIL notification.",
-
-    howToApply:
-        "Follow the official ICSIL application procedure."
-},
 
 
 /* 18. IWAI — SPECIALIST */
@@ -9075,39 +7220,6 @@ const jobAlerts = [
 
 /* 34. FDDI — CHIEF ENGINEER */
 
-{
-    id: "up-fddi-chief-engineer-2026",
-    type: "job",
-    category: "State",
-    state: "Uttar Pradesh",
-
-    title: "FDDI Chief Engineer Recruitment 2026",
-    subtitle: "Chief Engineer – 1 Post",
-
-    recruitmentBoard: "FDDI",
-    qualification: "B.Sc, B.Tech/B.E",
-
-    applicationStart: "2026-08-05",
-    lastDate: "2026-08-16",
-
-    vacancies: "1 Post",
-    advertisement: "—",
-
-    location: "Uttar Pradesh",
-    status: "active",
-
-    description:
-        "FDDI has listed one Chief Engineer position for candidates with B.Sc or B.Tech/B.E qualifications.",
-
-    overview:
-        "This is an engineering-level recruitment opportunity.",
-
-    selectionProcess:
-        "As prescribed in the official FDDI notification.",
-
-    howToApply:
-        "Follow the official FDDI application instructions."
-},
 
 
 /* 35. JNMC AMU — RECORD KEEPER & MTS */
@@ -9335,39 +7447,6 @@ const jobAlerts = [
 
 /* 41. ALLAHABAD UNIVERSITY — EARLY CHILDHOOD FACILITATOR */
 
-{
-    id: "up-allahabad-university-early-childhood-facilitator-2026",
-    type: "job",
-    category: "State",
-    state: "Uttar Pradesh",
-
-    title: "Allahabad University Early Childhood Facilitator Recruitment 2026",
-    subtitle: "Early Childhood Facilitator – 1 Post",
-
-    recruitmentBoard: "Allahabad University",
-    qualification: "12TH, Diploma",
-
-    applicationStart: "2026-07-31",
-    lastDate: "2026-08-13",
-
-    vacancies: "1 Post",
-    advertisement: "—",
-
-    location: "Prayagraj, Uttar Pradesh",
-    status: "active",
-
-    description:
-        "Allahabad University has listed one Early Childhood Facilitator position for candidates with 12th or diploma qualifications.",
-
-    overview:
-        "The position is related to early childhood educational support activities.",
-
-    selectionProcess:
-        "As prescribed in the official Allahabad University notification.",
-
-    howToApply:
-        "Follow the official Allahabad University application procedure."
-},
 
 
 /* 42. NIPER — IT ASSISTANT */
@@ -9736,39 +7815,6 @@ const jobAlerts = [
 },
 
 /* 7. IIEST Shibpur */
-{
-    id: "wb-iiest-shibpur-research-associate-scientific-officer-2026",
-    type: "job",
-    category: "State",
-    state: "West Bengal",
-
-    title: "IIEST Shibpur Research Associate & Scientific Officer Recruitment 2026",
-    subtitle: "Research Associate, Scientific Officer and Technical Assistant – 2 Posts",
-
-    recruitmentBoard: "IIEST Shibpur",
-    qualification: "Any Post Graduate, M.Phil/Ph.D",
-
-    applicationStart: "2026-08-11",
-    lastDate: "2026-08-14",
-
-    vacancies: "2 Posts",
-    advertisement: "CD 1948",
-
-    location: "Shibpur, West Bengal",
-    status: "active",
-
-    description:
-        "IIEST Shibpur has announced recruitment for Research Associate, Scientific Officer and Technical Assistant positions.",
-
-    overview:
-        "Two positions are available under the recruitment, with eligibility based on the prescribed postgraduate or research qualifications.",
-
-    selectionProcess:
-        "Selection will follow the procedure specified by IIEST Shibpur.",
-
-    howToApply:
-        "Eligible candidates should follow the official IIEST Shibpur application instructions."
-},
 
 /* 8. NABFINS */
 {
@@ -10051,39 +8097,6 @@ const jobAlerts = [
 },
 
 /* 16. CSIR CMERI */
-{
-    id: "wb-csir-cmeri-project-assistant-scientist-2026",
-    type: "job",
-    category: "State",
-    state: "West Bengal",
-
-    title: "CSIR CMERI Project Assistant & Project Scientist Recruitment 2026",
-    subtitle: "Project Assistant, Project Scientist and More – 34 Posts",
-
-    recruitmentBoard: "CSIR CMERI",
-    qualification: "B.Sc, B.Tech/B.E, Diploma, M.E/M.Tech",
-
-    applicationStart: "2026-08-06",
-    lastDate: "2026-08-14",
-
-    vacancies: "34 Posts",
-    advertisement: "PRCT / 04 / 2026",
-
-    location: "West Bengal",
-    status: "active",
-
-    description:
-        "CSIR CMERI has announced recruitment for Project Assistant, Project Scientist and other positions.",
-
-    overview:
-        "The recruitment contains 34 positions across the listed project-related roles.",
-
-    selectionProcess:
-        "Selection will be conducted according to the official CSIR CMERI recruitment procedure.",
-
-    howToApply:
-        "Eligible candidates should follow the official CSIR CMERI application instructions."
-},
 
 /* 17. IIT Kharagpur – JRF / MS-MD */
 {
@@ -10191,74 +8204,8 @@ const jobAlerts = [
 },
 
 /* 20. Sub Divisional Office Contai */
-{
-    id: "wb-contai-civil-defence-volunteer-2026",
-    type: "job",
-    category: "State",
-    state: "West Bengal",
-
-    title: "Contai Civil Defence Volunteer Recruitment 2026",
-    subtitle: "Nulia Civil Defence Volunteer – 45 Posts",
-
-    recruitmentBoard: "Sub Divisional Office Contai",
-    qualification: "10TH",
-
-    applicationStart: "2026-07-30",
-    lastDate: "2026-08-14",
-
-    vacancies: "45 Posts",
-    advertisement: "—",
-
-    location: "Contai, West Bengal",
-    status: "active",
-
-    description:
-        "The Sub Divisional Office Contai has announced recruitment for Nulia Civil Defence Volunteer positions.",
-
-    overview:
-        "The recruitment offers 45 Civil Defence Volunteer positions for candidates with the required 10th-level qualification.",
-
-    selectionProcess:
-        "Selection will be conducted according to the official recruitment notification.",
-
-    howToApply:
-        "Eligible candidates should follow the application instructions issued by the Sub Divisional Office Contai."
-},
 
 /* 21. AAI Apprentices */
-{
-    id: "wb-aai-graduate-diploma-iti-apprentices-2026",
-    type: "job",
-    category: "State",
-    state: "West Bengal",
-
-    title: "AAI Graduate, Diploma & ITI Apprentice Recruitment 2026",
-    subtitle: "Graduate/Diploma/ITI Apprentices – 140 Posts",
-
-    recruitmentBoard: "AAI",
-    qualification: "Any Graduate, Diploma, ITI",
-
-    applicationStart: "2026-07-28",
-    lastDate: "2026-08-15",
-
-    vacancies: "140 Posts",
-    advertisement: "—",
-
-    location: "West Bengal",
-    status: "active",
-
-    description:
-        "Airports Authority of India has announced 140 apprenticeship positions for graduate, diploma and ITI candidates.",
-
-    overview:
-        "The recruitment provides apprenticeship opportunities across the listed qualification categories.",
-
-    selectionProcess:
-        "Selection will be conducted according to the official AAI apprenticeship recruitment procedure.",
-
-    howToApply:
-        "Candidates should apply according to the official AAI apprenticeship instructions."
-},
 
 /* 22. AAI NSCBI */
 {
@@ -10898,40 +8845,6 @@ const jobAlerts = [
 },
 
 /* 15. ICMR NIHR – Project Research Scientist */
-{
-    id: "raj-icmr-nihr-project-research-scientist-ii-2026",
-    type: "job",
-    category: "State",
-    state: "Rajasthan",
-
-    title: "ICMR NIHR Project Research Scientist-II Recruitment 2026",
-    subtitle: "Project Research Scientist II – 1 Post",
-
-    recruitmentBoard: "ICMR NIHR",
-    qualification: "Any Post Graduate",
-
-    applicationStart: "2026-07-29",
-    lastDate: "2026-08-16",
-
-    vacancies: "1 Post",
-    advertisement:
-        "NIIRNCD/OralCancerProj./Rectt/Budget/Remunerationetc./2025-26 (E-274168)",
-
-    location: "Rajasthan",
-    status: "active",
-
-    description:
-        "ICMR NIHR has announced recruitment for one Project Research Scientist-II position.",
-
-    overview:
-        "The position is open to candidates holding the prescribed postgraduate qualification.",
-
-    selectionProcess:
-        "Selection will follow the official ICMR NIHR recruitment procedure.",
-
-    howToApply:
-        "Eligible candidates should follow the official ICMR NIHR application instructions."
-},
 
 /* 16. Department of Local Self Government Rajasthan */
 {
@@ -10969,39 +8882,6 @@ const jobAlerts = [
 },
 
 /* 17. Sainik School Chittorgarh */
-{
-    id: "raj-sainik-school-chittorgarh-tgt-lab-assistant-2026",
-    type: "job",
-    category: "State",
-    state: "Rajasthan",
-
-    title: "Sainik School Chittorgarh Recruitment 2026",
-    subtitle: "TGT, Lab Assistant and More – 6 Posts",
-
-    recruitmentBoard: "Sainik School Chittorgarh",
-    qualification: "Other",
-
-    applicationStart: "2026-07-27",
-    lastDate: "2026-08-14",
-
-    vacancies: "6 Posts",
-    advertisement: "EN 17/27",
-
-    location: "Chittorgarh, Rajasthan",
-    status: "active",
-
-    description:
-        "Sainik School Chittorgarh has announced recruitment for TGT, Lab Assistant and other positions.",
-
-    overview:
-        "The recruitment includes six positions across the listed teaching and support roles.",
-
-    selectionProcess:
-        "Selection will be conducted according to the official Sainik School Chittorgarh recruitment procedure.",
-
-    howToApply:
-        "Eligible candidates should follow the official Sainik School Chittorgarh application instructions."
-},
 
 
 
@@ -11010,74 +8890,8 @@ const jobAlerts = [
    ========================================================= */
 
 /* 1. TMC – OT Technician */
-{
-    id: "punjab-tmc-ot-technician-2026",
-    type: "job",
-    category: "State",
-    state: "Punjab",
-
-    title: "TMC OT Technician Recruitment 2026",
-    subtitle: "OT Technician – 1 Post",
-
-    recruitmentBoard: "TMC",
-    qualification: "B.Sc, 12TH, Diploma",
-
-    applicationStart: "2026-08-12",
-    lastDate: "2026-08-14",
-
-    vacancies: "1 Post",
-    advertisement: "OS/SNG/26/19",
-
-    location: "Punjab",
-    status: "active",
-
-    description:
-        "Tata Memorial Centre has announced recruitment for one OT Technician position.",
-
-    overview:
-        "The position is available for candidates possessing the prescribed B.Sc, 12th or Diploma qualification.",
-
-    selectionProcess:
-        "Selection will be conducted according to the official TMC recruitment procedure.",
-
-    howToApply:
-        "Eligible candidates should follow the official TMC application instructions."
-},
 
 /* 2. HBCHRC – OT Technician */
-{
-    id: "punjab-hbchrc-ot-technician-2026",
-    type: "job",
-    category: "State",
-    state: "Punjab",
-
-    title: "HBCHRC OT Technician Recruitment 2026",
-    subtitle: "OT Technician – 1 Post",
-
-    recruitmentBoard: "HBCHRC",
-    qualification: "12TH, Diploma, Any Graduate",
-
-    applicationStart: "2026-08-12",
-    lastDate: "2026-08-14",
-
-    vacancies: "1 Post",
-    advertisement: "OS/SNG/26/19",
-
-    location: "Punjab",
-    status: "active",
-
-    description:
-        "HBCHRC has announced recruitment for one OT Technician position.",
-
-    overview:
-        "Eligible candidates with 12th, Diploma or graduate qualifications can apply as prescribed in the notification.",
-
-    selectionProcess:
-        "Selection will follow the official HBCHRC recruitment procedure.",
-
-    howToApply:
-        "Eligible candidates should apply according to the official HBCHRC notification."
-},
 
 /* 3. PGIMER – Assistant Professor */
 {
@@ -11256,39 +9070,6 @@ const jobAlerts = [
 },
 
 /* 8. PNB – Local Bank Officer */
-{
-    id: "punjab-pnb-local-bank-officer-2026",
-    type: "job",
-    category: "State",
-    state: "Punjab",
-
-    title: "PNB Local Bank Officer Recruitment 2026",
-    subtitle: "Local Bank Officer – 545 Posts",
-
-    recruitmentBoard: "PNB",
-    qualification: "Any Graduate",
-
-    applicationStart: "2026-08-08",
-    lastDate: "2026-08-16",
-
-    vacancies: "545 Posts",
-    advertisement: "—",
-
-    location: "Punjab",
-    status: "active",
-
-    description:
-        "Punjab National Bank has announced recruitment for Local Bank Officer positions.",
-
-    overview:
-        "A total of 545 Local Bank Officer positions are listed for eligible graduate candidates.",
-
-    selectionProcess:
-        "Selection will be conducted according to the official PNB recruitment procedure.",
-
-    howToApply:
-        "Eligible candidates should apply through the official PNB recruitment process."
-},
 
 /* 9. Gurdaspur District Court */
 {
@@ -11727,39 +9508,6 @@ const jobAlerts = [
 
 
 /* 9. NIT Rourkela – Post Doctoral Fellowship */
-{
-    id: "odisha-nit-rourkela-postdoctoral-fellowship-2026",
-    type: "job",
-    category: "State",
-    state: "Odisha",
-
-    title: "NIT Rourkela Post-Doctoral Fellowship Recruitment 2026",
-    subtitle: "Post-Doctoral Fellowship – 1 Post",
-
-    recruitmentBoard: "NIT Rourkela",
-    qualification: "M.Phil/Ph.D",
-
-    applicationStart: "2026-08-11",
-    lastDate: "2026-08-14",
-
-    vacancies: "1 Post",
-    advertisement: "NITR/SR/2026/Advt.-26TD038/I/068",
-
-    location: "Rourkela, Odisha",
-    status: "active",
-
-    description:
-        "NIT Rourkela has announced recruitment for one Post-Doctoral Fellowship position.",
-
-    overview:
-        "The position is intended for candidates possessing the prescribed M.Phil/Ph.D qualification.",
-
-    selectionProcess:
-        "Selection will be conducted according to the official NIT Rourkela procedure.",
-
-    howToApply:
-        "Eligible candidates should follow the official NIT Rourkela application instructions."
-},
 
 
 /* 10. Zilla Swasthya Samiti Koraput */
@@ -11907,39 +9655,6 @@ const jobAlerts = [
 
 
 /* 14. OSSSC – Nursing Officer */
-{
-    id: "odisha-osssc-nursing-officer-5989-2026",
-    type: "job",
-    category: "State",
-    state: "Odisha",
-
-    title: "OSSSC Nursing Officer Recruitment 2026",
-    subtitle: "Nursing Officer – 5,989 Posts",
-
-    recruitmentBoard: "OSSSC",
-    qualification: "B.Sc, GNM",
-
-    applicationStart: "2026-08-11",
-    lastDate: "2026-08-16",
-
-    vacancies: "5,989 Posts",
-    advertisement: "IIE-54/2026 / OSSSC",
-
-    location: "Odisha",
-    status: "active",
-
-    description:
-        "Odisha Sub-Ordinate Staff Selection Commission has announced recruitment for Nursing Officer positions.",
-
-    overview:
-        "A total of 5,989 Nursing Officer positions are listed for eligible B.Sc and GNM candidates.",
-
-    selectionProcess:
-        "Selection will be conducted according to the official OSSSC recruitment procedure.",
-
-    howToApply:
-        "Eligible candidates should follow the official OSSSC application process."
-},
 
 
 /* 15. WCD Odisha – Anganwadi Worker */
@@ -12051,39 +9766,6 @@ const jobAlerts = [
 
 
 /* 18. Atal Behari College Bhadrak */
-{
-    id: "odisha-atal-behari-college-guest-faculty-2026",
-    type: "job",
-    category: "State",
-    state: "Odisha",
-
-    title: "Atal Behari College Bhadrak Guest Faculty Recruitment 2026",
-    subtitle: "Guest Faculty – 22 Posts",
-
-    recruitmentBoard: "Atal Behari College Bhadrak",
-    qualification: "Any Post Graduate",
-
-    applicationStart: "2026-08-10",
-    lastDate: "2026-08-16",
-
-    vacancies: "22 Posts",
-    advertisement: "—",
-
-    location: "Bhadrak, Odisha",
-    status: "active",
-
-    description:
-        "Atal Behari College Bhadrak has announced recruitment for Guest Faculty positions.",
-
-    overview:
-        "A total of 22 Guest Faculty positions are listed for eligible postgraduate candidates.",
-
-    selectionProcess:
-        "Selection will follow the official college recruitment procedure.",
-
-    howToApply:
-        "Eligible candidates should follow the official Atal Behari College recruitment instructions."
-},
 
 
 /* 19. Utkal University */
@@ -12524,39 +10206,6 @@ const jobAlerts = [
 
 
 /* 7. MANIT Bhopal – Project Assistant */
-{
-    id: "mp-manit-bhopal-project-assistant-2026",
-    type: "job",
-    category: "State",
-    state: "Madhya Pradesh",
-
-    title: "MANIT Bhopal Project Assistant Recruitment 2026",
-    subtitle: "Project Assistant – 1 Post",
-
-    recruitmentBoard: "MANIT Bhopal",
-    qualification: "B.Tech/B.E, M.E/M.Tech",
-
-    applicationStart: "2026-08-08",
-    lastDate: "2026-08-13",
-
-    vacancies: "1 Post",
-    advertisement: "CED/NUA/SAM2.0/2026/01",
-
-    location: "Bhopal, Madhya Pradesh",
-    status: "active",
-
-    description:
-        "Maulana Azad National Institute of Technology, Bhopal has announced recruitment for one Project Assistant position.",
-
-    overview:
-        "The position is available for eligible B.Tech/B.E or M.E/M.Tech candidates.",
-
-    selectionProcess:
-        "Selection will follow the official MANIT Bhopal recruitment procedure.",
-
-    howToApply:
-        "Eligible candidates should follow the official MANIT Bhopal application instructions."
-},
 
 
 /* 8. DLSA Ujjain – Para Legal Volunteer */
@@ -12668,39 +10317,6 @@ const jobAlerts = [
 
 
 /* 11. IIT Indore – Project Administrative Assistant */
-{
-    id: "mp-iit-indore-project-administrative-assistant-2026",
-    type: "job",
-    category: "State",
-    state: "Madhya Pradesh",
-
-    title: "IIT Indore Project Administrative Assistant Recruitment 2026",
-    subtitle: "Project Administrative Assistant – 1 Post",
-
-    recruitmentBoard: "IIT Indore",
-    qualification: "Not specified in screenshot",
-
-    applicationStart: "2026-08-06",
-    lastDate: "2026-08-13",
-
-    vacancies: "1 Post",
-    advertisement: "IIT/R&D/2026-27/CNT/02",
-
-    location: "Indore, Madhya Pradesh",
-    status: "active",
-
-    description:
-        "IIT Indore has announced recruitment for one Project Administrative Assistant position.",
-
-    overview:
-        "One Project Administrative Assistant position is listed in the recruitment notice.",
-
-    selectionProcess:
-        "Selection will follow the official IIT Indore recruitment procedure.",
-
-    howToApply:
-        "Eligible candidates should follow the official IIT Indore application instructions."
-},
 
 
 /* 12. Indian Army – JAG Entry Scheme */
@@ -12812,39 +10428,6 @@ const jobAlerts = [
 
 
 /* 15. IIITM Gwalior – Junior Research Fellow */
-{
-    id: "mp-iiitm-gwalior-jrf-2026",
-    type: "job",
-    category: "State",
-    state: "Madhya Pradesh",
-
-    title: "IIITM Gwalior Junior Research Fellow Recruitment 2026",
-    subtitle: "Junior Research Fellow – 1 Post",
-
-    recruitmentBoard: "IIITM Gwalior",
-    qualification: "B.Tech/B.E",
-
-    applicationStart: "2026-08-05",
-    lastDate: "2026-08-15",
-
-    vacancies: "1 Post",
-    advertisement: "ANRF/ECRG/2025/004141/ENS",
-
-    location: "Gwalior, Madhya Pradesh",
-    status: "active",
-
-    description:
-        "IIITM Gwalior has announced recruitment for one Junior Research Fellow position.",
-
-    overview:
-        "The position is available for eligible B.Tech/B.E candidates.",
-
-    selectionProcess:
-        "Selection will follow the official IIITM Gwalior recruitment procedure.",
-
-    howToApply:
-        "Eligible candidates should follow the official IIITM Gwalior application instructions."
-},
 
 
 /* 16. AIIMS Bhopal – Project Technical Support-III */
@@ -13396,39 +10979,6 @@ const jobAlerts = [
 
 
 /* 15. Gargi College Delhi – Guest Faculty */
-{
-    id: "delhi-gargi-college-guest-faculty-2026",
-    type: "job",
-    category: "State",
-    state: "Delhi",
-
-    title: "Gargi College Delhi Guest Faculty Recruitment 2026",
-    subtitle: "Guest Faculty – 8 Posts",
-
-    recruitmentBoard: "Gargi College Delhi",
-    qualification: "Any Masters Degree",
-
-    applicationStart: "2026-08-11",
-    lastDate: "2026-08-16",
-
-    vacancies: "8 Posts",
-    advertisement: "GC/35 (Guest)/2026",
-
-    location: "New Delhi",
-    status: "active",
-
-    description:
-        "Gargi College, Delhi has announced recruitment for Guest Faculty positions.",
-
-    overview:
-        "A total of 8 Guest Faculty positions are listed for eligible candidates with a Master's degree.",
-
-    selectionProcess:
-        "Selection will follow the official Gargi College recruitment procedure.",
-
-    howToApply:
-        "Eligible candidates should follow the official Gargi College application instructions."
-},
 
 
 /* 16. AIIMS Delhi – Project Research Scientist */
@@ -13721,39 +11271,6 @@ const jobAlerts = [
 
 
 /* 24. JSSH – Junior Resident */
-{
-    id: "delhi-jssh-junior-resident-2026",
-    type: "job",
-    category: "State",
-    state: "Delhi",
-
-    title: "JSSH Junior Resident Recruitment 2026",
-    subtitle: "Junior Resident – 16 Posts",
-
-    recruitmentBoard: "JSSH",
-    qualification: "MBBS",
-
-    applicationStart: "2026-08-11",
-    lastDate: "2026-08-13",
-
-    vacancies: "16 Posts",
-    advertisement: "F.1(1194)/JSSH/Estt./JR (AD-HOC)/2024/1680",
-
-    location: "New Delhi",
-    status: "active",
-
-    description:
-        "JSSH has announced recruitment for Junior Resident positions.",
-
-    overview:
-        "A total of 16 Junior Resident positions are listed for eligible MBBS candidates.",
-
-    selectionProcess:
-        "Selection will follow the official JSSH recruitment procedure.",
-
-    howToApply:
-        "Eligible candidates should follow the official JSSH application instructions."
-},
 
 
 /* 25. DRDO RAC – Chairperson */
@@ -13830,7 +11347,371 @@ const jobAlerts = [
 
 
 
+    /* =========================================================
+       PUNJAB STATE JOBS
+       ========================================================= */
 
+    /* 1. IIT Ropar – Intern Posts */
+    {
+        id: "punjab-iit-ropar-intern-2026",
+        type: "job",
+        category: "State",
+        state: "Punjab",
+
+        title: "IIT Ropar Vacancy 2026 - Intern Posts",
+        subtitle: "Intern Posts",
+
+        recruitmentBoard: "IIT Ropar",
+        qualification: "B.Sc, B.Tech/B.E, BCA",
+
+        applicationStart: "2026-08-14",
+        lastDate: "2026-08-20",
+
+        vacancies: "Intern Posts",
+        advertisement: "—",
+
+        location: "Rupnagar, Punjab",
+        status: "active",
+
+        description:
+            "IIT Ropar has announced recruitment for Intern positions.",
+
+        overview:
+            "Eligible candidates with the prescribed B.Sc, B.Tech/B.E or BCA qualification can check the recruitment details.",
+
+        selectionProcess:
+            "Selection will be conducted according to the official IIT Ropar recruitment procedure.",
+
+        howToApply:
+            "Eligible candidates should follow the official IIT Ropar application instructions."
+    },
+
+
+    /* 2. PAU – Coach Posts */
+    {
+        id: "punjab-pau-coach-2026",
+        type: "job",
+        category: "State",
+        state: "Punjab",
+
+        title: "PAU Vacancy 2026 - Coach Posts",
+        subtitle: "Coach Posts",
+
+        recruitmentBoard: "Punjab Agricultural University",
+        qualification: "Diploma",
+
+        applicationStart: "2026-08-14",
+        lastDate: "2026-08-18",
+
+        vacancies: "Coach Posts",
+        advertisement: "—",
+
+        location: "Ludhiana, Punjab",
+        status: "active",
+
+        description:
+            "Punjab Agricultural University has announced recruitment for Coach positions.",
+
+        overview:
+            "Eligible diploma candidates can check the prescribed eligibility and recruitment requirements.",
+
+        selectionProcess:
+            "Selection will be conducted according to the official PAU recruitment procedure.",
+
+        howToApply:
+            "Eligible candidates should follow the official PAU application instructions."
+    },
+
+
+    /* 3. DRIF – Multi Tasking Agent */
+    {
+        id: "punjab-drif-multi-tasking-agent-2026",
+        type: "job",
+        category: "State",
+        state: "Punjab",
+
+        title: "DRIF Vacancy 2026 - 1 Multi Tasking Agent Posts",
+        subtitle: "Multi Tasking Agent – 1 Post",
+
+        recruitmentBoard: "DRIF",
+        qualification: "12TH",
+
+        applicationStart: "2026-08-13",
+        lastDate: "2026-08-20",
+
+        vacancies: "1 Post",
+        advertisement: "—",
+
+        location: "Punjab",
+        status: "active",
+
+        description:
+            "DRIF has announced recruitment for one Multi Tasking Agent position.",
+
+        overview:
+            "Candidates with the prescribed 12th-level qualification can check the recruitment requirements.",
+
+        selectionProcess:
+            "Selection will be conducted according to the official DRIF recruitment procedure.",
+
+        howToApply:
+            "Eligible candidates should follow the official DRIF application instructions."
+    },
+
+
+    /* 4. Amritsar District – Aspirational Block Fellow */
+    {
+        id: "punjab-amritsar-aspirational-block-fellow-2026",
+        type: "job",
+        category: "State",
+        state: "Punjab",
+
+        title: "Amritsar District Vacancy 2026 - 1 Aspirational Block Fellow Posts",
+        subtitle: "Aspirational Block Fellow – 1 Post",
+
+        recruitmentBoard: "Amritsar District",
+        qualification: "Any Post Graduate",
+
+        applicationStart: "2026-08-13",
+        lastDate: "2026-08-20",
+
+        vacancies: "1 Post",
+        advertisement: "—",
+
+        location: "Amritsar, Punjab",
+        status: "active",
+
+        description:
+            "Amritsar District has announced recruitment for one Aspirational Block Fellow position.",
+
+        overview:
+            "Candidates possessing the prescribed postgraduate qualification can check the detailed eligibility requirements.",
+
+        selectionProcess:
+            "Selection will be conducted according to the official recruitment procedure.",
+
+        howToApply:
+            "Eligible candidates should follow the official Amritsar District application instructions."
+    },
+
+
+    /* 5. PAU – Teaching Assistant */
+    {
+        id: "punjab-pau-teaching-assistant-2026",
+        type: "job",
+        category: "State",
+        state: "Punjab",
+
+        title: "PAU Vacancy 2026 - 1 Teaching Assistant Posts",
+        subtitle: "Teaching Assistant – 1 Post",
+
+        recruitmentBoard: "Punjab Agricultural University",
+        qualification: "M.Phil/Ph.D",
+
+        applicationStart: "2026-08-13",
+        lastDate: "2026-08-21",
+
+        vacancies: "1 Post",
+        advertisement: "—",
+
+        location: "Ludhiana, Punjab",
+        status: "active",
+
+        description:
+            "Punjab Agricultural University has announced recruitment for one Teaching Assistant position.",
+
+        overview:
+            "Eligible candidates with the prescribed M.Phil/Ph.D qualification can check the recruitment details.",
+
+        selectionProcess:
+            "Selection will be conducted according to the official PAU recruitment procedure.",
+
+        howToApply:
+            "Eligible candidates should follow the official PAU application instructions."
+    },
+
+
+    /* 6. Mansa Family Court */
+    {
+        id: "punjab-mansa-family-court-counsellor-2026",
+        type: "job",
+        category: "State",
+        state: "Punjab",
+
+        title: "Mansa Family Court Vacancy 2026 - 10 General Counsellor/ Child Counsellor Posts",
+        subtitle: "General Counsellor / Child Counsellor – 10 Posts",
+
+        recruitmentBoard: "Mansa Family Court",
+        qualification: "Any Graduate",
+
+        applicationStart: "2026-08-13",
+        lastDate: "2026-08-21",
+
+        vacancies: "10 Posts",
+        advertisement: "—",
+
+        location: "Mansa, Punjab",
+        status: "active",
+
+        description:
+            "Mansa Family Court has announced recruitment for General Counsellor and Child Counsellor positions.",
+
+        overview:
+            "A total of 10 positions are listed for candidates with the prescribed graduate qualification.",
+
+        selectionProcess:
+            "Selection will be conducted according to the official Family Court recruitment procedure.",
+
+        howToApply:
+            "Eligible candidates should follow the official Mansa Family Court application instructions."
+    },
+
+
+    /* 7. Punjab Vidhan Sabha – Chowkidar / Sewadar */
+    {
+        id: "punjab-vidhan-sabha-chowkidar-sewadar-2026",
+        type: "job",
+        category: "State",
+        state: "Punjab",
+
+        title: "Punjab Vidhan Sabha Vacancy 2026 - 07 Chowkidar, Sewadar Posts",
+        subtitle: "Chowkidar, Sewadar – 7 Posts",
+
+        recruitmentBoard: "Punjab Vidhan Sabha",
+        qualification: "10TH",
+
+        applicationStart: "2026-08-13",
+        lastDate: "2026-08-27",
+
+        vacancies: "7 Posts",
+        advertisement: "—",
+
+        location: "Chandigarh, Punjab",
+        status: "active",
+
+        description:
+            "Punjab Vidhan Sabha has announced recruitment for Chowkidar and Sewadar positions.",
+
+        overview:
+            "Eligible 10th-pass candidates can check the prescribed eligibility and application requirements.",
+
+        selectionProcess:
+            "Selection will be conducted according to the official Punjab Vidhan Sabha recruitment procedure.",
+
+        howToApply:
+            "Eligible candidates should follow the official Punjab Vidhan Sabha application instructions."
+    },
+
+
+    /* 8. BHEL – Part Time Medical Consultant */
+    {
+        id: "punjab-bhel-part-time-medical-consultant-2026",
+        type: "job",
+        category: "State",
+        state: "Punjab",
+
+        title: "BHEL Vacancy 2026 - 1 Part Time Medical Consultant Posts",
+        subtitle: "Part Time Medical Consultant – 1 Post",
+
+        recruitmentBoard: "BHEL",
+        qualification: "MBBS",
+
+        applicationStart: "2026-08-13",
+        lastDate: "2026-08-26",
+
+        vacancies: "1 Post",
+        advertisement: "—",
+
+        location: "Punjab",
+        status: "active",
+
+        description:
+            "BHEL has announced recruitment for one Part Time Medical Consultant position.",
+
+        overview:
+            "Eligible MBBS candidates can check the prescribed eligibility and recruitment requirements.",
+
+        selectionProcess:
+            "Selection will be conducted according to the official BHEL recruitment procedure.",
+
+        howToApply:
+            "Eligible candidates should follow the official BHEL application instructions."
+    },
+
+
+    /* 9. PGIMER – Assistant Professor */
+    {
+        id: "punjab-pgimer-assistant-professor-2026",
+        type: "job",
+        category: "State",
+        state: "Punjab",
+
+        title: "PGIMER Vacancy 2026 - 13 Assistant Professor Posts",
+        subtitle: "Assistant Professor – 13 Posts",
+
+        recruitmentBoard: "PGIMER",
+        qualification: "MS/MD, M.Sc, M.Phil/Ph.D",
+
+        applicationStart: "2026-08-12",
+        lastDate: "2026-10-15",
+
+        vacancies: "13 Posts",
+        advertisement: "—",
+
+        location: "Chandigarh, Punjab",
+        status: "active",
+
+        description:
+            "PGIMER has announced recruitment for Assistant Professor positions.",
+
+        overview:
+            "A total of 13 Assistant Professor positions are listed for candidates with the prescribed qualifications.",
+
+        selectionProcess:
+            "Selection will be conducted according to the official PGIMER recruitment procedure.",
+
+        howToApply:
+            "Eligible candidates should follow the official PGIMER application instructions."
+    },
+
+
+    /* 10. PAU – Young Professional */
+    {
+        id: "punjab-pau-young-professional-2026",
+        type: "job",
+        category: "State",
+        state: "Punjab",
+
+        title: "PAU Vacancy 2026 - 1 Young Professional Posts",
+        subtitle: "Young Professional – 1 Post",
+
+        recruitmentBoard: "Punjab Agricultural University",
+        qualification: "B.Tech/B.E, M.Phil/Ph.D",
+
+        applicationStart: "2026-08-11",
+        lastDate: "2026-08-21",
+
+        vacancies: "1 Post",
+        advertisement: "—",
+
+        location: "Ludhiana, Punjab",
+        status: "active",
+
+        description:
+            "Punjab Agricultural University has announced recruitment for one Young Professional position.",
+
+        overview:
+            "Eligible candidates with the prescribed B.Tech/B.E or M.Phil/Ph.D qualification can check the recruitment details.",
+
+        selectionProcess:
+            "Selection will be conducted according to the official PAU recruitment procedure.",
+
+        howToApply:
+            "Eligible candidates should follow the official PAU application instructions."
+    }
+
+
+    
 
 
 
