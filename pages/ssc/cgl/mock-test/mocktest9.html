@@ -1,0 +1,1561 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SSC CGL Mock Test 8 | GOVT PREP EXAM</title>
+<meta name="description" content="SSC CGL Tier-I Mock Test 8 - GOVT PREP EXAM">
+
+<style>
+:root{
+ --maroon:#800000;--maroon2:#a41313;--deep:#3e0707;--gold:#d7ad57;
+ --blue:#800000;--blue2:#a41313;--cream:#faf7f3;--ink:#172033;
+ --muted:#6d788a;--line:#dce7f1;--white:#fff;--green:#19a957;
+ --orange:#f06a00;--red:#e62b2b;--shadow:0 16px 45px rgba(31,51,72,.10);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{min-height:100%;font-family:Inter,Segoe UI,Arial,sans-serif;background:var(--cream);color:var(--ink)}
+button,input{font:inherit}
+button{cursor:pointer}
+.hidden{display:none!important}
+
+/* ---------- shared ---------- */
+.page{min-height:100vh}
+.topbar{height:68px;background:rgba(255,255,255,.96);border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;padding:0 5%;position:sticky;top:0;z-index:50;backdrop-filter:blur(12px)}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--maroon);font-weight:900;letter-spacing:-.3px}
+.brandmark{width:38px;height:38px;border-radius:11px;display:grid;place-items:center;color:#fff;background:linear-gradient(145deg,#a81717,#630000);box-shadow:0 8px 20px rgba(128,0,0,.2)}
+.topright{display:flex;align-items:center;gap:10px}
+.pill{border:1px solid var(--line);background:#fff;border-radius:30px;padding:9px 13px;color:#536176;font-size:12px;font-weight:800}
+.container{width:min(1080px,92%);margin:auto}
+.primary{border:0;color:#fff;background:linear-gradient(135deg,var(--maroon2),var(--maroon));box-shadow:0 12px 25px rgba(128,0,0,.20);border-radius:11px;padding:14px 25px;font-weight:900;transition:.2s}
+.primary:hover{transform:translateY(-2px);box-shadow:0 16px 30px rgba(128,0,0,.26)}
+.secondary{border:1px solid #cbd9e6;background:#fff;color:#31445c;border-radius:10px;padding:12px 20px;font-weight:800}
+.card{background:rgba(255,255,255,.94);border:1px solid var(--line);border-radius:18px;box-shadow:var(--shadow)}
+
+/* ---------- landing ---------- */
+.landing{background:
+ radial-gradient(circle at 8% 20%,rgba(128,0,0,.07),transparent 24%),
+ radial-gradient(circle at 90% 80%,rgba(47,120,183,.10),transparent 28%),
+ var(--cream);padding-bottom:70px}
+.hero{padding:68px 20px 35px;text-align:center}
+.hero .eyebrow{display:inline-flex;gap:8px;align-items:center;color:#7d6b55;background:#fff8e8;border:1px solid #ead6a9;padding:8px 13px;border-radius:30px;font-size:11px;font-weight:900;letter-spacing:1.2px;text-transform:uppercase}
+.dot{width:7px;height:7px;border-radius:50%;background:var(--gold);box-shadow:0 0 12px #d7ad57}
+.hero h1{font-family:Georgia,serif;font-size:clamp(38px,5vw,58px);line-height:1.06;margin:18px auto 14px;color:#152035;max-width:800px;letter-spacing:-1.5px}
+.hero h1 span{color:var(--maroon)}
+.hero h1:after{content:"";display:block;width:64px;height:3px;margin:18px auto 0;border-radius:10px;background:linear-gradient(90deg,var(--maroon),var(--gold))}
+.hero p{max-width:700px;margin:auto;color:#66758a;font-size:16px;line-height:1.7}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:35px auto 28px}
+.stat{padding:21px 15px;text-align:center;background:#fff;border:1px solid var(--line);border-radius:15px;box-shadow:0 9px 28px rgba(31,51,72,.06)}
+.stat strong{display:block;font-size:30px;color:#121d32;line-height:1;margin-bottom:8px}
+.stat span{font-size:11px;color:#6a7890;font-weight:900;letter-spacing:1px;text-transform:uppercase}
+.intro-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:18px}
+.intro-card{padding:25px}
+.intro-card h2{font-size:20px;margin-bottom:16px}
+.bullet{display:flex;gap:10px;align-items:flex-start;padding:9px 0;color:#56647a;font-size:13px;line-height:1.5}
+.check{width:22px;height:22px;border-radius:50%;background:#edf8f1;color:var(--green);display:grid;place-items:center;flex:0 0 auto;font-size:12px;font-weight:900}
+.topic-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.topic{padding:12px;border:1px solid #e5edf4;border-radius:11px;background:#fbfdff}
+.topic b{display:block;color:#2b3c53;font-size:12px;margin-bottom:5px}
+.topic small{color:#7b8797;line-height:1.45;font-size:11px}
+.startbox{margin-top:18px;padding:20px;background:linear-gradient(135deg,#fff,#fff8f5);border:1px solid #eadfd9;border-radius:15px;text-align:center}
+.startbox p{font-size:12px;color:#707c8d;margin-bottom:13px}
+
+/* ---------- instructions ---------- */
+.instructions{padding:40px 0 70px}
+.instruction-card{padding:28px;max-width:850px;margin:auto}
+.section-title{text-align:center;color:var(--maroon);font-size:28px;margin-bottom:7px}
+.section-sub{text-align:center;color:#788498;font-size:13px;margin-bottom:25px}
+.pattern{width:100%;border-collapse:collapse;margin-bottom:24px}
+.pattern th,.pattern td{border:1px solid #d9e5ef;padding:13px;text-align:left;font-size:13px}
+.pattern th{background:#f1f6fb;color:#23364e}
+.note{background:#fff8ed;border-left:4px solid var(--gold);padding:14px;border-radius:9px;margin:18px 0;color:#645538;font-size:12px;line-height:1.6}
+.oath{margin-top:25px;padding:21px;border:1px solid #eadfd9;background:#fffaf7;border-radius:14px}
+.oath label{display:flex;gap:12px;align-items:flex-start;font-size:13px;line-height:1.6;font-weight:700;color:#3c4350}
+.oath input{width:19px;height:19px;accent-color:var(--maroon);margin-top:2px}
+.begin{display:flex;justify-content:center;margin-top:20px}
+
+/* ---------- test UI ---------- */
+.test-page{background:#eef4f8;min-height:100vh}
+.testbar{height:66px;background:rgba(255,255,255,.96);border-bottom:1px solid #d9e4ed;display:flex;align-items:center;justify-content:space-between;padding:0 2%;position:sticky;top:0;z-index:40;box-shadow:0 5px 20px rgba(76,27,27,.08);backdrop-filter:blur(12px)}
+.test-brand{font-weight:900;color:var(--maroon);font-size:15px}
+.section-badge{background:linear-gradient(135deg,var(--maroon2),var(--maroon));color:#fff;border-radius:10px;padding:9px 13px;font-size:12px;font-weight:900}
+.timers{display:flex;gap:8px}
+.timer{min-width:105px;padding:8px 12px;border:1px solid #dce6ee;border-radius:9px;background:#fff;text-align:center}
+.timer small{display:block;color:#7b8797;font-size:9px;font-weight:900;text-transform:uppercase;letter-spacing:.8px}
+.timer b{color:#1f2e42;font-size:16px}
+.timer.danger b{color:var(--red)}
+.test-layout{width:min(1240px,97%);margin:14px auto;display:grid;grid-template-columns:1fr 295px;gap:14px}
+.question-card{background:#fff;border:1px solid #dbe6ef;border-radius:17px;box-shadow:0 12px 35px rgba(31,51,72,.08);overflow:hidden}
+.qhead{padding:18px 21px;border-bottom:1px solid #edf2f6;display:flex;justify-content:space-between;gap:10px}
+.qhead b{color:var(--blue);font-size:15px}
+.qhead span{color:#778497;font-size:11px;font-weight:800}
+.qbody{padding:25px 23px}
+.question-text{font-size:18px;line-height:1.65;font-weight:700;color:#20283a;margin-bottom:23px}
+.options{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.option{display:flex;gap:12px;align-items:center;border:1px solid #dfe9f1;background:#f5f9fc;padding:15px;border-radius:12px;text-align:left;color:#2d3848;transition:.15s;font-size:14px;min-height:57px}
+.option:hover{border-color:#82afd1;background:#eef7fd}
+.option.selected{border-color:var(--maroon);background:#f9ece9;box-shadow:0 0 0 2px rgba(47,120,183,.08)}
+.letter{width:30px;height:30px;border-radius:8px;background:#fff;border:1px solid #dbe5ed;display:grid;place-items:center;font-size:12px;font-weight:900;color:#617187;flex:0 0 auto}
+.option.selected .letter{background:var(--maroon);border-color:var(--maroon);color:#fff}
+.qactions{display:flex;justify-content:space-between;gap:10px;align-items:center;margin-top:25px;padding-top:18px;border-top:1px solid #edf2f6}
+.leftactions,.rightactions{display:flex;gap:9px}
+.action{border-radius:9px;padding:11px 15px;font-size:12px;font-weight:900;border:1px solid #d5e0e8;background:#fff;color:#4e5e73}
+.action.review{border-color:#f0b180;color:#e65e00;background:#fffaf6}
+.action.next{background:linear-gradient(135deg,var(--maroon2),var(--maroon));border-color:var(--maroon);color:#fff;box-shadow:0 8px 18px rgba(47,120,183,.2)}
+.action.clear{border-color:#f0b2b2;color:#e62b2b}
+.side{background:#fff;border:1px solid #dbe6ef;border-radius:17px;box-shadow:0 12px 35px rgba(31,51,72,.08);padding:17px;align-self:start;position:sticky;top:84px}
+.side h3{font-size:14px;margin-bottom:5px}
+.side p{font-size:11px;color:#788497;margin-bottom:15px}
+.palette{display:grid;grid-template-columns:repeat(5,1fr);gap:7px}
+.num{height:39px;border:1px solid #d7e0e8;border-radius:8px;background:#f3f6f8;color:#56657a;font-weight:900;font-size:11px}
+.num.current{background:var(--maroon);border-color:var(--maroon);color:#fff}
+.num.answered{background:#21b45f;border-color:#21b45f;color:#fff}
+.num.review{background:#f06a00;border-color:#f06a00;color:#fff}
+.legend{margin-top:17px;border-top:1px solid #edf1f5;padding-top:14px;display:grid;gap:8px}
+.legend-row{display:flex;align-items:center;gap:8px;font-size:11px;color:#667386}
+.legend-dot{width:14px;height:14px;border-radius:4px;background:#f3f6f8;border:1px solid #d7e0e8}
+.legend-dot.a{background:#21b45f;border-color:#21b45f}
+.legend-dot.r{background:#f06a00;border-color:#f06a00}
+.submit-side{margin-top:17px;width:100%;background:#e62b2b;color:#fff;border:0;border-radius:10px;padding:13px;font-weight:900;box-shadow:0 9px 20px rgba(230,43,43,.18)}
+.notice{font-size:10px;color:#8b5c5c;text-align:center;margin-top:9px;line-height:1.4}
+.modal{position:fixed;inset:0;background:rgba(20,27,38,.55);display:grid;place-items:center;z-index:100;padding:20px}
+.modal-box{background:#fff;border-radius:17px;max-width:440px;width:100%;padding:27px;box-shadow:0 25px 80px rgba(0,0,0,.25)}
+.modal-box h2{color:#7e1717;margin-bottom:9px}
+.modal-box p{color:#667386;font-size:13px;line-height:1.6}
+.modal-stats{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin:17px 0}
+.modal-stat{padding:13px;border:1px solid #e3e9ef;border-radius:10px;background:#fafcfd}
+.modal-stat small{display:block;color:#7b8797;font-size:10px}
+.modal-stat b{display:block;margin-top:3px}
+.modal-actions{display:flex;justify-content:flex-end;gap:9px}
+
+/* ---------- result ---------- */
+.result-page{padding:35px 0 70px;background:linear-gradient(#fbfcfd,var(--cream))}
+.result-head{text-align:center}
+.result-head h1{font-size:30px;color:#121c2e}
+.result-head p{color:#738095;font-size:13px;margin-top:7px}
+.score-card{margin:22px auto;width:min(860px,100%);padding:25px}
+.score-row{display:grid;grid-template-columns:1fr 1.2fr;gap:22px;align-items:center}
+.ring{width:210px;height:210px;margin:auto;border-radius:50%;display:grid;place-items:center;background:conic-gradient(var(--blue) var(--score),#e4edf5 0);position:relative}
+.ring:after{content:"";position:absolute;width:166px;height:166px;border-radius:50%;background:#fff}
+.ring-inner{position:relative;z-index:1;text-align:center}
+.ring-inner strong{display:block;font-size:38px;color:#162033}
+.ring-inner span{font-size:11px;color:#738095;font-weight:800}
+.final-score{text-align:center}
+.final-score h2{color:var(--maroon);font-size:22px}
+.final-score .formula{font-size:11px;color:#7a8493;margin-top:7px}
+.metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:22px}
+.metric{padding:16px;text-align:center;border:1px solid #dfe7ee;border-radius:12px;background:#fbfdff}
+.metric b{display:block;font-size:23px;margin-bottom:5px}
+.metric span{font-size:10px;color:#738095;font-weight:800}
+.green{color:var(--green)}.red{color:var(--red)}.blue{color:var(--maroon)}.orange{color:var(--orange)}
+.result-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:16px}
+.result-card{padding:22px}
+.result-card h3{font-size:17px;margin-bottom:15px}
+.section-line{display:grid;grid-template-columns:1fr 60px 70px;gap:8px;align-items:center;padding:11px 0;border-bottom:1px solid #edf1f5;font-size:12px}
+.section-line:last-child{border-bottom:0}
+.bar{height:8px;background:#e8eef3;border-radius:20px;overflow:hidden}
+.bar i{display:block;height:100%;background:var(--maroon);border-radius:20px}
+.insight{padding:12px;border-radius:10px;background:#f5f9fc;color:#526176;font-size:12px;line-height:1.55;margin:8px 0}
+.review-list{max-height:400px;overflow:auto;display:grid;gap:8px}
+.review-q{padding:12px;border:1px solid #e2e9ef;border-radius:10px;font-size:12px}
+.review-q b{color:var(--maroon)}
+.result-actions{display:flex;justify-content:center;gap:10px;margin-top:20px}
+@media(max-width:850px){
+ .intro-grid,.score-row,.result-grid{grid-template-columns:1fr}
+ .test-layout{grid-template-columns:1fr}
+ .side{position:relative;top:auto;order:2}
+ .stats{grid-template-columns:repeat(2,1fr)}
+ .testbar{height:auto;min-height:68px;gap:7px;flex-wrap:wrap;padding:10px 2%}
+}
+@media(max-width:560px){
+ .navright .pill{display:none}
+ .hero{padding-top:42px}
+ .topic-grid,.options{grid-template-columns:1fr}
+ .stats{gap:9px}
+ .stat strong{font-size:25px}
+ .qbody{padding:19px 15px}
+ .qactions{align-items:stretch;flex-direction:column}
+ .leftactions,.rightactions{width:100%}
+ .action{flex:1}
+ .timers .timer:first-child{display:none}
+ .timer{min-width:90px}
+ .metrics{grid-template-columns:1fr 1fr}
+ .result-actions{flex-wrap:wrap}
+}
+
+/* ---------- premium maroon texture ---------- */
+body{
+ background:
+   radial-gradient(circle at 12% 10%,rgba(128,0,0,.045),transparent 22%),
+   radial-gradient(circle at 88% 72%,rgba(215,173,87,.055),transparent 24%),
+   linear-gradient(180deg,#fdfbf9 0%,#faf7f3 48%,#f7f2ed 100%);
+}
+body:before{
+ content:"";
+ position:fixed;
+ inset:0;
+ pointer-events:none;
+ z-index:0;
+ opacity:.22;
+ background-image:radial-gradient(rgba(88,36,36,.13) .55px,transparent .55px);
+ background-size:18px 18px;
+ mask-image:linear-gradient(to bottom,rgba(0,0,0,.7),transparent 80%);
+}
+.page{position:relative;z-index:1}
+.hero{position:relative;overflow:hidden}
+.hero:before,.hero:after{
+ content:"";
+ position:absolute;
+ border:1px solid rgba(128,0,0,.08);
+ border-radius:50%;
+ pointer-events:none;
+}
+.hero:before{width:420px;height:420px;left:-240px;top:-170px}
+.hero:after{width:520px;height:520px;right:-280px;bottom:-310px}
+.landing .container,.instructions .container,.result-page .container{position:relative;z-index:2}
+.card,.stat,.question-card,.side,.score-card,.result-card,.instruction-card{
+ backdrop-filter:blur(8px);
+}
+
+
+/* ================= MAROON + GOLD PREMIUM EXAM THEME ================= */
+:root{
+ --maroon:#7b0000;
+ --maroon2:#a10b0b;
+ --deep:#2b0000;
+ --gold:#d8b35a;
+ --gold2:#f0d58b;
+ --cream:#f8f1e6;
+ --paper:#fffaf0;
+ --ink:#2a1717;
+ --muted:#8b7770;
+ --line:#d9b96c;
+ --white:#fffdf8;
+ --green:#20b866;
+ --orange:#f28a12;
+ --red:#d92b2b;
+ --shadow:0 18px 55px rgba(65,0,0,.18);
+}
+html,body{background:var(--cream)!important;color:var(--ink)}
+body{
+ background:
+ radial-gradient(circle at 8% 5%,rgba(123,0,0,.10),transparent 22%),
+ radial-gradient(circle at 92% 88%,rgba(216,179,90,.13),transparent 24%),
+ linear-gradient(135deg,#fffaf2 0%,#f7eee1 48%,#f4e7d6 100%)!important;
+}
+body:before{
+ opacity:.18!important;
+ background-image:radial-gradient(rgba(92,30,30,.18) .6px,transparent .6px)!important;
+ background-size:16px 16px!important;
+}
+
+/* intro / instructions */
+.landing{background:
+ radial-gradient(circle at 8% 18%,rgba(123,0,0,.10),transparent 25%),
+ radial-gradient(circle at 90% 78%,rgba(216,179,90,.12),transparent 26%),
+ linear-gradient(135deg,#fffaf2,#f6eadb)!important;
+}
+.hero .eyebrow{color:#6f4c1f!important;background:#fff7df!important;border-color:#d9b96c!important}
+.dot{background:var(--gold)!important;box-shadow:0 0 12px rgba(216,179,90,.7)!important}
+.hero h1{color:#2b1212!important}
+.hero h1 span{color:var(--maroon)!important}
+.hero h1:after{background:linear-gradient(90deg,var(--maroon),var(--gold),var(--maroon))!important}
+.hero p{color:#725e56!important}
+.card,.stat,.instruction-card{background:rgba(255,253,248,.88)!important;border-color:rgba(180,132,48,.32)!important;box-shadow:var(--shadow)!important}
+.stat{border-top:3px solid var(--gold)!important}
+.stat strong{color:var(--maroon)!important}
+.stat span{color:#79634c!important}
+.intro-card h2{color:#3b1717}
+.bullet{color:#684f49!important}
+.check{background:#fff3cf!important;color:var(--maroon)!important;border:1px solid rgba(216,179,90,.55)}
+.topic{background:#fffaf0!important;border-color:rgba(180,132,48,.25)!important}
+.topic b{color:var(--maroon)!important}
+.topic small{color:#806d64!important}
+.startbox{background:linear-gradient(135deg,#fffaf0,#f7ead7)!important;border-color:#d9b96c!important}
+.primary{background:linear-gradient(135deg,#a30d0d,#650000)!important;border:1px solid #d8b35a!important;box-shadow:0 12px 28px rgba(123,0,0,.28),inset 0 1px rgba(255,255,255,.16)!important}
+.primary:hover{box-shadow:0 16px 34px rgba(123,0,0,.34),inset 0 1px rgba(255,255,255,.16)!important}
+.secondary{background:#fffaf0!important;color:var(--maroon)!important;border-color:#d9b96c!important}
+.section-title{color:var(--maroon)!important}
+.pattern th{background:#5b0000!important;color:#fff4d5!important;border-color:#b98d3f!important}
+.pattern td{background:#fffaf0!important;border-color:#e3c985!important;color:#4d3732!important}
+.note{background:#fff4d7!important;border-left-color:var(--gold)!important;color:#694f27!important}
+.oath{background:#fff8ea!important;border-color:#d9b96c!important}
+.oath label{color:#4b3530!important}
+.oath input{accent-color:var(--maroon)!important}
+
+/* test shell */
+.test-page{
+ background:
+ radial-gradient(circle at 5% 10%,rgba(216,179,90,.10),transparent 20%),
+ radial-gradient(circle at 95% 90%,rgba(216,179,90,.08),transparent 20%),
+ linear-gradient(135deg,#3a0000 0%,#5c0000 38%,#2d0000 100%)!important;
+ min-height:100vh;
+}
+.test-page:before{
+ content:"";position:fixed;inset:0;pointer-events:none;opacity:.20;z-index:0;
+ background-image:radial-gradient(rgba(255,220,140,.24) .55px,transparent .55px);
+ background-size:19px 19px;
+}
+.testbar{
+ background:linear-gradient(90deg,rgba(51,0,0,.96),rgba(103,0,0,.94),rgba(51,0,0,.96))!important;
+ border-bottom:1px solid rgba(216,179,90,.55)!important;
+ box-shadow:0 8px 30px rgba(0,0,0,.28)!important;
+ backdrop-filter:blur(14px)!important;
+}
+.section-badge{
+ background:linear-gradient(135deg,#a50b0b,#670000)!important;
+ border:1px solid var(--gold)!important;
+ color:#fff7df!important;
+ box-shadow:inset 0 1px rgba(255,255,255,.12),0 8px 22px rgba(0,0,0,.25)!important;
+}
+.timer{
+ background:rgba(255,250,239,.98)!important;
+ border:1px solid rgba(216,179,90,.75)!important;
+ box-shadow:0 5px 16px rgba(0,0,0,.14)!important;
+}
+.timer small{color:#8b6b36!important}
+.timer b{color:#3d1717!important}
+.timer.danger b{color:#c91f1f!important}
+
+.test-layout{position:relative;z-index:2;grid-template-columns:295px 1fr!important;gap:14px!important;margin:18px auto!important}
+.side{order:1!important;background:linear-gradient(180deg,#520000,#3a0000)!important;border:1px solid rgba(216,179,90,.7)!important;box-shadow:0 18px 50px rgba(0,0,0,.28)!important;color:#fff8e7!important}
+.side:after{content:"";position:absolute;inset:auto 0 0;height:130px;pointer-events:none;background:radial-gradient(circle at 30% 100%,rgba(216,179,90,.12),transparent 65%)}
+.side h3{color:#ffe6a4!important;font-size:15px!important}
+.side p{color:#d8bfae!important}
+.palette{gap:8px!important}
+.num{background:rgba(255,248,231,.08)!important;border:1px solid rgba(216,179,90,.52)!important;color:#fff5df!important}
+.num:hover{background:rgba(216,179,90,.18)!important}
+.num.current{background:linear-gradient(135deg,#d9b55e,#a57926)!important;border-color:#ffe7a0!important;color:#3a1a00!important;box-shadow:0 5px 15px rgba(216,179,90,.24)!important}
+.num.answered{background:#17a957!important;border-color:#61d991!important;color:#fff!important}
+.num.review{background:#ef7607!important;border-color:#ffb24f!important;color:#fff!important}
+.legend{border-top-color:rgba(216,179,90,.35)!important}
+.legend-row{color:#e8d9c5!important}
+.legend-dot{background:#fffaf0!important;border-color:#d8b35a!important}
+.legend-dot.a{background:#17a957!important;border-color:#17a957!important}
+.legend-dot.r{background:#ef7607!important;border-color:#ef7607!important}
+.submit-side{position:relative;z-index:2;background:linear-gradient(135deg,#a80b0b,#5d0000)!important;border:1px solid var(--gold)!important;color:#fff2ca!important;box-shadow:0 10px 25px rgba(0,0,0,.28)!important}
+.notice{color:#d7bca7!important}
+
+.question-card{order:2!important;background:var(--paper)!important;border:1px solid rgba(216,179,90,.72)!important;box-shadow:0 18px 55px rgba(0,0,0,.28)!important}
+.qhead{background:linear-gradient(90deg,#fff9ec,#fffdf7)!important;border-bottom:1px solid #e0c47d!important}
+.qhead b{color:var(--maroon)!important}
+.qhead span{color:#8a6c45!important}
+.qbody{background:linear-gradient(180deg,#fffdf8,#fbf1e2)!important}
+.question-text{color:#351919!important}
+.option{background:#fffaf1!important;border:1px solid #ddc27f!important;color:#3f2a27!important}
+.option:hover{border-color:#b58a36!important;background:#fff3d7!important;transform:translateY(-1px)}
+.option.selected{border-color:var(--maroon)!important;background:#f8e8df!important;box-shadow:0 0 0 2px rgba(216,179,90,.22)!important}
+.letter{background:#fffdf8!important;border-color:#d7b96d!important;color:#785e42!important}
+.option.selected .letter{background:var(--maroon)!important;border-color:var(--maroon)!important;color:#fff!important}
+.qactions{border-top-color:#e6cf9d!important}
+.action{background:#fffaf1!important;border-color:#d9b96c!important;color:#6c4c3e!important}
+.action.review{border-color:#d9a35a!important;color:#9a5200!important;background:#fff7e7!important}
+.action.next{background:linear-gradient(135deg,#a30c0c,#650000)!important;border-color:#d8b35a!important;color:#fff4d6!important;box-shadow:0 9px 20px rgba(123,0,0,.28)!important}
+.action.clear{border-color:#dca7a7!important;color:#a81919!important;background:#fff8f6!important}
+
+/* modal */
+.modal{background:rgba(31,0,0,.72)!important;backdrop-filter:blur(5px)}
+.modal-box{background:linear-gradient(135deg,#fffaf0,#f7ead7)!important;border:1px solid #d9b96c!important;box-shadow:0 25px 80px rgba(0,0,0,.42)!important}
+.modal-box h2{color:var(--maroon)!important}
+.modal-box p{color:#725d55!important}
+.modal-stat{background:#fffaf0!important;border-color:#dfc88e!important}
+.modal-stat small{color:#8c704b!important}
+
+/* result */
+.result-page{background:
+ radial-gradient(circle at 8% 10%,rgba(123,0,0,.09),transparent 24%),
+ radial-gradient(circle at 90% 88%,rgba(216,179,90,.12),transparent 24%),
+ linear-gradient(135deg,#fffaf2,#f5e8d8)!important}
+.result-head h1{color:var(--maroon)!important}
+.result-head p{color:#806c61!important}
+.score-card,.result-card{background:rgba(255,253,248,.90)!important;border-color:rgba(180,132,48,.35)!important;box-shadow:var(--shadow)!important}
+.ring{background:conic-gradient(var(--gold) var(--score),#eadcc0 0)!important;box-shadow:0 12px 30px rgba(123,0,0,.12)}
+.ring:after{background:#fff8ec!important}
+.ring-inner strong{color:var(--maroon)!important}
+.ring-inner span{color:#856b52!important}
+.final-score h2{color:var(--maroon)!important}
+.metric{background:#fffaf1!important;border-color:#e0c88e!important}
+.metric span{color:#806a57!important}
+.blue{color:var(--maroon)!important}
+.insight{background:#fff5df!important;color:#674f3e!important;border-left:3px solid var(--gold)}
+.section-line{border-bottom-color:#ead7ad!important}
+.bar{background:#eadfcf!important}
+.bar i{background:linear-gradient(90deg,#8a0000,#d3ad57)!important}
+.review-q{background:#fffaf0!important;border-color:#e1cb95!important}
+.review-q b{color:var(--maroon)!important}
+
+@media(max-width:850px){
+ .test-layout{grid-template-columns:1fr!important}
+ .side{order:2!important}
+ .question-card{order:1!important}
+}
+@media(max-width:560px){
+ .testbar{background:linear-gradient(90deg,#3b0000,#6a0000)!important}
+ .test-layout{width:96%!important}
+}
+
+
+/* =========================================================
+   RESPONSIVE PATCH — DESKTOP / LAPTOP / TABLET / MOBILE
+   Existing desktop design is preserved.
+========================================================= */
+
+/* Prevent accidental horizontal scrolling */
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Better intrinsic sizing for long text */
+img,
+svg,
+video,
+canvas {
+  max-width: 100%;
+  height: auto;
+}
+
+button,
+a,
+input,
+textarea,
+select {
+  max-width: 100%;
+}
+
+/* ---------- LAPTOP ---------- */
+@media (max-width: 1100px) {
+
+  .container {
+    width: min(94%, 1020px);
+  }
+
+  .test-layout {
+    width: 96%;
+    grid-template-columns: 270px minmax(0, 1fr) !important;
+  }
+
+  .side {
+    min-width: 0;
+  }
+
+  .palette {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+
+  .num {
+    width: 100%;
+  }
+
+  .question-card {
+    min-width: 0;
+  }
+
+  .qbody {
+    min-width: 0;
+  }
+}
+
+
+/* ---------- TABLET LANDSCAPE / PORTRAIT ---------- */
+@media (max-width: 900px) {
+
+  .container {
+    width: 92%;
+  }
+
+  .topbar {
+    padding: 0 3.5%;
+  }
+
+  .hero {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .stats {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .intro-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .test-layout {
+    width: 94%;
+    grid-template-columns: 1fr !important;
+  }
+
+  /*
+     On tablet the question card comes first.
+     The palette becomes a full-width panel underneath.
+  */
+  .question-card {
+    order: 1 !important;
+  }
+
+  .side {
+    order: 2 !important;
+    position: relative !important;
+    top: auto !important;
+    width: 100%;
+  }
+
+  .palette {
+    grid-template-columns: repeat(10, minmax(0, 1fr));
+  }
+
+  .num {
+    min-width: 0;
+  }
+
+  .result-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .score-row {
+    grid-template-columns: 1fr;
+  }
+
+  .score-row .ring {
+    margin-bottom: 5px;
+  }
+
+  .testbar {
+    min-height: 68px;
+    height: auto;
+    flex-wrap: wrap;
+    gap: 9px;
+    padding: 9px 2.5%;
+  }
+
+  .testbar > div:last-child {
+    margin-left: auto !important;
+  }
+
+  .timers {
+    flex-wrap: wrap;
+  }
+}
+
+
+/* ---------- LARGE MOBILE / SMALL TABLET ---------- */
+@media (max-width: 700px) {
+
+  .topbar {
+    height: 62px;
+    padding: 0 16px;
+  }
+
+  .brand {
+    font-size: 15px;
+  }
+
+  .brandmark {
+    width: 34px;
+    height: 34px;
+  }
+
+  .hero {
+    padding: 45px 17px 50px;
+  }
+
+  .hero h1 {
+    font-size: clamp(32px, 8vw, 42px);
+    line-height: 1.08;
+  }
+
+  .hero p {
+    font-size: 14px;
+    line-height: 1.65;
+  }
+
+  .stats {
+    gap: 10px;
+  }
+
+  .stat {
+    padding: 17px 10px;
+  }
+
+  .stat strong {
+    font-size: 26px;
+  }
+
+  .intro-card,
+  .instruction-card {
+    padding: 20px;
+  }
+
+  .topic-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .pattern {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    white-space: nowrap;
+  }
+
+  .pattern th,
+  .pattern td {
+    padding: 11px;
+  }
+
+  .testbar {
+    padding: 9px 12px;
+  }
+
+  .section-badge {
+    max-width: 58%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .timers {
+    margin-left: auto;
+  }
+
+  .timer {
+    min-width: 91px;
+    padding: 7px 9px;
+  }
+
+  .timer small {
+    font-size: 8px;
+  }
+
+  .timer b {
+    font-size: 15px;
+  }
+
+  .test-layout {
+    width: calc(100% - 20px);
+    margin: 10px auto 18px !important;
+  }
+
+  .qhead {
+    padding: 15px;
+    flex-wrap: wrap;
+  }
+
+  .qbody {
+    padding: 18px 15px;
+  }
+
+  .question-text {
+    font-size: 16px;
+    line-height: 1.55;
+  }
+
+  .options {
+    grid-template-columns: 1fr;
+  }
+
+  .option {
+    min-height: 54px;
+    padding: 13px;
+  }
+
+  .qactions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .leftactions,
+  .rightactions {
+    width: 100%;
+  }
+
+  .action {
+    flex: 1;
+    min-height: 44px;
+  }
+
+  .side {
+    padding: 14px;
+  }
+
+  .palette {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+
+  .num {
+    min-height: 40px;
+  }
+
+  .modal {
+    padding: 14px;
+  }
+
+  .modal-box {
+    padding: 21px;
+  }
+
+  .result-page {
+    padding-top: 25px;
+  }
+
+  .score-card,
+  .result-card {
+    padding: 18px;
+  }
+
+  .ring {
+    width: 190px;
+    height: 190px;
+  }
+
+  .ring:after {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+
+/* ---------- MOBILE ---------- */
+@media (max-width: 480px) {
+
+  .topbar {
+    height: 58px;
+    padding: 0 12px;
+  }
+
+  .brand {
+    font-size: 14px;
+  }
+
+  .brandmark {
+    width: 31px;
+    height: 31px;
+    border-radius: 9px;
+  }
+
+  .navright {
+    display: none;
+  }
+
+  .hero {
+    padding: 38px 14px 45px;
+  }
+
+  .hero .eyebrow {
+    font-size: 9px;
+    letter-spacing: 1px;
+    padding: 7px 11px;
+  }
+
+  .dot {
+    width: 6px;
+    height: 6px;
+  }
+
+  .hero h1 {
+    font-size: clamp(29px, 9vw, 37px);
+    letter-spacing: -.7px;
+    margin-top: 15px;
+  }
+
+  .hero h1:after {
+    width: 48px;
+    height: 2px;
+    margin-top: 14px;
+  }
+
+  .hero p {
+    font-size: 12.5px;
+  }
+
+  .stats {
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    margin-top: 25px;
+  }
+
+  .stat {
+    border-radius: 12px;
+    padding: 15px 7px;
+  }
+
+  .stat strong {
+    font-size: 23px;
+  }
+
+  .stat span {
+    font-size: 9px;
+    letter-spacing: .7px;
+  }
+
+  .intro-card,
+  .instruction-card {
+    padding: 16px;
+    border-radius: 14px;
+  }
+
+  .intro-card h2 {
+    font-size: 18px;
+  }
+
+  .bullet {
+    font-size: 12px;
+    gap: 8px;
+  }
+
+  .check {
+    width: 20px;
+    height: 20px;
+  }
+
+  .section-title {
+    font-size: 24px;
+  }
+
+  .section-sub {
+    font-size: 12px;
+  }
+
+  .testbar {
+    min-height: 0;
+    padding: 8px;
+    align-items: stretch;
+  }
+
+  .testbar > .section-badge {
+    max-width: 100%;
+    width: 100%;
+    text-align: center;
+    padding: 9px 10px;
+  }
+
+  .testbar > div:last-child {
+    width: 100%;
+    margin-left: 0 !important;
+    justify-content: space-between;
+  }
+
+  .timers {
+    flex: 1;
+    justify-content: flex-end;
+  }
+
+  .timer {
+    min-width: 88px;
+    flex: 1;
+  }
+
+  /*
+     Keep total timer visible on phones.
+     Section timer remains visible too.
+  */
+  .timers .timer:first-child {
+    display: block;
+  }
+
+  .testbar .action {
+    flex: 0 0 auto;
+    padding: 10px 11px;
+    font-size: 10px;
+  }
+
+  .test-layout {
+    width: calc(100% - 14px);
+    margin: 8px auto 14px !important;
+  }
+
+  .question-card,
+  .side {
+    border-radius: 13px;
+  }
+
+  .qhead {
+    padding: 13px;
+  }
+
+  .qhead b {
+    font-size: 13px;
+  }
+
+  .qhead span {
+    font-size: 9px;
+  }
+
+  .qbody {
+    padding: 16px 12px;
+  }
+
+  .question-text {
+    font-size: 15px;
+    line-height: 1.55;
+    margin-bottom: 18px;
+  }
+
+  .option {
+    font-size: 13px;
+    padding: 12px;
+    min-height: 52px;
+  }
+
+  .letter {
+    width: 28px;
+    height: 28px;
+  }
+
+  .leftactions,
+  .rightactions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 7px;
+  }
+
+  .rightactions .action {
+    width: 100%;
+  }
+
+  .rightactions .next {
+    grid-column: 2;
+  }
+
+  .side {
+    padding: 13px;
+  }
+
+  .palette {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 6px;
+  }
+
+  .num {
+    height: 38px;
+    min-height: 38px;
+    border-radius: 7px;
+    font-size: 10px;
+  }
+
+  .legend {
+    gap: 7px;
+  }
+
+  .legend-row {
+    font-size: 10px;
+  }
+
+  .submit-side {
+    padding: 12px;
+  }
+
+  .modal-stats {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .modal-actions {
+    flex-direction: column-reverse;
+  }
+
+  .modal-actions button {
+    width: 100%;
+  }
+
+  .result-head h1 {
+    font-size: 24px;
+    line-height: 1.2;
+  }
+
+  .result-head p {
+    font-size: 11px;
+  }
+
+  .score-card,
+  .result-card {
+    padding: 15px;
+  }
+
+  .ring {
+    width: 175px;
+    height: 175px;
+  }
+
+  .ring:after {
+    width: 138px;
+    height: 138px;
+  }
+
+  .ring-inner strong {
+    font-size: 32px;
+  }
+
+  .metrics {
+    grid-template-columns: 1fr 1fr;
+    gap: 7px;
+  }
+
+  .metric {
+    padding: 12px 7px;
+  }
+
+  .metric b {
+    font-size: 20px;
+  }
+
+  .result-actions {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .result-actions button {
+    width: 100%;
+  }
+}
+
+
+/* ---------- VERY SMALL PHONES ---------- */
+@media (max-width: 360px) {
+
+  .hero h1 {
+    font-size: 28px;
+  }
+
+  .hero p {
+    font-size: 12px;
+  }
+
+  .stats {
+    gap: 6px;
+  }
+
+  .stat strong {
+    font-size: 21px;
+  }
+
+  .stat span {
+    font-size: 8px;
+  }
+
+  .testbar .action {
+    padding: 9px 8px;
+    font-size: 9px;
+  }
+
+  .timer {
+    min-width: 0;
+  }
+
+  .timer small {
+    font-size: 7px;
+  }
+
+  .timer b {
+    font-size: 13px;
+  }
+
+  .qhead b {
+    font-size: 12px;
+  }
+
+  .question-text {
+    font-size: 14px;
+  }
+
+  .palette {
+    gap: 5px;
+  }
+
+  .num {
+    height: 35px;
+    min-height: 35px;
+  }
+}
+
+
+/* ---------- TOUCH DEVICES ---------- */
+@media (hover: none) and (pointer: coarse) {
+
+  .primary:hover,
+  .mock-btn:hover,
+  .action:hover,
+  .option:hover {
+    transform: none;
+  }
+
+  .primary:active,
+  .action:active,
+  .option:active,
+  .submit-side:active {
+    transform: scale(.98);
+  }
+}
+
+
+/* ---------- ACCESSIBILITY ---------- */
+@media (prefers-reduced-motion: reduce) {
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- ================= INTRO ================= -->
+<section id="introPage" class="page landing">
+<div class="container">
+<section class="hero">
+  <div class="eyebrow"><span class="dot"></span> Staff Selection Commission</div>
+  <h1>Combined Graduate Level <span>Examination</span></h1>
+  <p>Practice with a full-length SSC CGL Tier-I mock designed around the current examination structure, with instant scoring and detailed performance analysis.</p>
+</section>
+
+<div class="stats">
+  <div class="stat"><strong>100</strong><span>Questions</span></div>
+  <div class="stat"><strong>60</strong><span>Minutes</span></div>
+  <div class="stat"><strong>200</strong><span>Total Marks</span></div>
+  <div class="stat"><strong>−0.50</strong><span>Wrong Answer</span></div>
+</div>
+
+<div class="intro-grid">
+  <div class="card intro-card">
+    <h2>Before You Begin</h2>
+    <div class="bullet"><span class="check">✓</span><span>100 objective multiple-choice questions across four sections.</span></div>
+    <div class="bullet"><span class="check">✓</span><span>Each correct answer carries <b>+2 marks</b>.</span></div>
+    <div class="bullet"><span class="check">✓</span><span>Each wrong answer carries <b>−0.50 marks</b>.</span></div>
+    <div class="bullet"><span class="check">✓</span><span>Unattempted questions receive no penalty.</span></div>
+    <div class="bullet"><span class="check">✓</span><span>A 15-minute sectional timer is used for each subject; the test advances automatically when a section ends.</span></div>
+    <div class="bullet"><span class="check">✓</span><span>You can jump directly to any question within the active section using the question palette.</span></div>
+  </div>
+
+  <div class="card intro-card">
+    <h2>Exam Pattern</h2>
+    <table class="pattern">
+      <tr><th>Section</th><th>Questions</th><th>Marks</th></tr>
+      <tr><td>General Intelligence &amp; Reasoning</td><td>25</td><td>50</td></tr>
+      <tr><td>General Awareness</td><td>25</td><td>50</td></tr>
+      <tr><td>Quantitative Aptitude</td><td>25</td><td>50</td></tr>
+      <tr><td>English Comprehension</td><td>25</td><td>50</td></tr>
+    </table>
+    <div class="note"><b>Scoring:</b> Final score = (Correct × 2) − (Wrong × 0.50). The result page will show the complete calculation.</div>
+  </div>
+</div>
+
+<div class="card intro-card" style="margin-top:18px">
+  <h2>Tier-I Syllabus — What You'll Practice</h2>
+  <div class="topic-grid">
+    <div class="topic"><b>General Intelligence &amp; Reasoning</b><small>Analogies, classification, series, coding-decoding, Venn diagrams, problem solving, spatial orientation, syllogism, statement conclusions, non-verbal reasoning, embedded figures and related reasoning topics.</small></div>
+    <div class="topic"><b>General Awareness</b><small>Current events, everyday scientific awareness, India and neighbouring countries, history, culture, geography, economic scene, general policy and scientific research.</small></div>
+    <div class="topic"><b>Quantitative Aptitude</b><small>Number system, arithmetic, percentage, ratio-proportion, averages, interest, profit-loss, discount, time-work, time-distance, algebra, geometry, mensuration, trigonometry and data-related topics.</small></div>
+    <div class="topic"><b>English Comprehension</b><small>Vocabulary, grammar, sentence structure, synonyms, antonyms, error spotting, fill in the blanks, idioms, one-word substitution, active/passive voice, direct/indirect speech and comprehension.</small></div>
+  </div>
+</div>
+
+<div class="startbox card">
+  <p>Read the instructions and make sure you can complete the test honestly without external help.</p>
+  <button class="primary" onclick="showInstructions()">Continue to Instructions &nbsp;→</button>
+</div>
+</div>
+</section>
+
+<!-- ================= INSTRUCTIONS / OATH ================= -->
+<section id="instructionsPage" class="page landing hidden">
+<div class="container instructions">
+<div class="card instruction-card">
+  <h1 class="section-title">Test Instructions</h1>
+  <p class="section-sub">Please read these instructions before beginning Mock Test 8.</p>
+
+  <table class="pattern">
+    <tr><th>Section</th><th>Questions</th><th>Time</th><th>Marks</th></tr>
+    <tr><td>General Intelligence &amp; Reasoning</td><td>25</td><td>15 min</td><td>50</td></tr>
+    <tr><td>General Awareness</td><td>25</td><td>15 min</td><td>50</td></tr>
+    <tr><td>Quantitative Aptitude</td><td>25</td><td>15 min</td><td>50</td></tr>
+    <tr><td>English Comprehension</td><td>25</td><td>15 min</td><td>50</td></tr>
+  </table>
+
+  <div class="note">
+    <b>Important:</b> The 2026 SSC CGL Tier-I notice specifies 25 questions per subject, 50 marks per subject, 1 hour total with a 15-minute sectional timer for each subject, and −0.50 marks for every wrong answer.
+  </div>
+
+  <h3 style="margin:20px 0 9px">Important Points</h3>
+  <div class="bullet"><span class="check">1</span><span>Use <b>Next</b> to move through questions or click a question number to jump directly within the current section.</span></div>
+  <div class="bullet"><span class="check">2</span><span><b>Mark for Review</b> keeps the question highlighted so you can revisit it before the section ends.</span></div>
+  <div class="bullet"><span class="check">3</span><span>You can submit the complete mock at any time. A confirmation will show the overall time remaining.</span></div>
+  <div class="bullet"><span class="check">4</span><span>If the total test time expires, the mock will be submitted automatically and the result will appear.</span></div>
+  <div class="bullet"><span class="check">5</span><span>Once submitted, your score is calculated using the +2 / −0.50 marking scheme.</span></div>
+
+  <div class="oath">
+    <label>
+      <input id="oath" type="checkbox">
+      <span>I undertake to attempt this mock test honestly and without using Google, books, notes, another person, AI tools, or any other unfair assistance. I understand that the purpose of this test is to measure my actual preparation.</span>
+    </label>
+  </div>
+
+  <div class="begin">
+    <button id="beginBtn" class="primary" disabled onclick="beginTest()">I Agree — Begin Test &nbsp;→</button>
+  </div>
+</div>
+</div>
+</section>
+
+<!-- ================= TEST ================= -->
+<section id="testPage" class="page test-page hidden">
+<header class="testbar">
+    <div class="section-badge" id="sectionBadge">SECTION 1 · REASONING</div>
+  <div style="display:flex;align-items:center;gap:8px;margin-left:auto">
+    <div class="timers">
+    <div class="timer" id="overallTimer"><small>Total Time Left</small><b>60:00</b></div>
+    <div class="timer" id="sectionTimer"><small>Section Time Left</small><b>15:00</b></div>
+    </div>
+    <button class="action" style="background:linear-gradient(135deg,#a30c0c,#650000);color:#fff4d6;border-color:#d8b35a" onclick="openSubmitModal()">End Test</button>
+  </div>
+</header>
+
+<div class="test-layout">
+  <main class="question-card">
+    <div class="qhead"><b id="questionCounter">Question 1 of 25</b><span id="progressLabel">0/25 Answered</span></div>
+    <div class="qbody">
+      <div class="question-text" id="questionText"></div>
+      <div class="options" id="options"></div>
+      <div class="qactions">
+        <div class="leftactions">
+          <button class="action clear" onclick="clearResponse()">Clear Response</button>
+          <button class="action review" id="reviewBtn" onclick="toggleReview()">Mark for Review</button>
+        </div>
+        <div class="rightactions">
+          <button class="action" onclick="prevQuestion()">← Previous</button>
+          <button class="action next" id="nextBtn" onclick="nextQuestion()">Next →</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <aside class="side">
+    <h3>Question Palette</h3>
+    <p>Jump directly to any question in this section.</p>
+    <div class="palette" id="palette"></div>
+
+    <div class="legend">
+      <div class="legend-row"><i class="legend-dot"></i> Not Answered</div>
+      <div class="legend-row"><i class="legend-dot a"></i> Answered</div>
+      <div class="legend-row"><i class="legend-dot r"></i> Marked for Review</div>
+      <div class="legend-row"><i class="legend-dot" style="background:#800000;border-color:#800000"></i> Current Question</div>
+    </div>
+
+    <button class="submit-side" onclick="openSubmitModal()">Submit Test</button>
+    <div class="notice">You can submit before the timer ends.</div>
+  </aside>
+</div>
+</section>
+
+<!-- ================= SUBMIT MODAL ================= -->
+<div id="submitModal" class="modal hidden">
+  <div class="modal-box">
+    <h2>Submit Mock Test?</h2>
+    <p>Are you sure you want to submit the test? You still have time remaining. Once submitted, you cannot continue this attempt.</p>
+    <div class="modal-stats">
+      <div class="modal-stat"><small>Total time left</small><b id="modalOverall">60:00</b></div>
+      <div class="modal-stat"><small>Current section left</small><b id="modalSection">15:00</b></div>
+      <div class="modal-stat"><small>Attempted</small><b id="modalAttempted">0 / 100</b></div>
+      <div class="modal-stat"><small>Marked for review</small><b id="modalReview">0</b></div>
+    </div>
+    <div class="modal-actions">
+      <button class="secondary" onclick="closeSubmitModal()">Continue Test</button>
+      <button class="primary" onclick="finishTest('manual')">Yes, Submit Test</button>
+    </div>
+  </div>
+</div>
+
+<!-- ================= RESULT ================= -->
+<section id="resultPage" class="page result-page hidden">
+<div class="container">
+<div class="result-head">
+  <h1>SSC CGL · Mock Test Completed! ⚡</h1>
+  <p id="resultSubtitle">Here's your complete performance summary.</p>
+</div>
+
+<div class="card score-card">
+  <div class="score-row">
+    <div class="ring" id="scoreRing">
+      <div class="ring-inner"><strong id="scoreValue">0</strong><span>out of 200</span></div>
+    </div>
+    <div class="final-score">
+      <h2 id="performanceTitle">Performance</h2>
+      <p class="formula" id="formula"></p>
+      <div class="metrics">
+        <div class="metric"><b class="green" id="correctMetric">0</b><span>Correct</span></div>
+        <div class="metric"><b class="red" id="wrongMetric">0</b><span>Wrong</span></div>
+        <div class="metric"><b class="blue" id="skippedMetric">0</b><span>Skipped</span></div>
+        <div class="metric"><b class="orange" id="accuracyMetric">0%</b><span>Accuracy</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="result-grid">
+  <div class="card result-card">
+    <h3>Section-wise Performance</h3>
+    <div id="sectionResults"></div>
+  </div>
+  <div class="card result-card">
+    <h3>Time Analysis</h3>
+    <div id="timeResults"></div>
+  </div>
+</div>
+
+<div class="card result-card" style="margin-top:16px">
+  <h3>Performance Insights 📈</h3>
+  <div id="insights"></div>
+</div>
+
+<div class="card result-card" style="margin-top:16px">
+  <h3>Review Answers</h3>
+  <div class="review-list" id="reviewList"></div>
+</div>
+
+<div class="result-actions">
+  <button class="primary" onclick="location.reload()">New Attempt</button>
+  <button class="secondary" onclick="location.href='../index.html'">Home</button>
+</div>
+</div>
+</section>
+
+<script>
+const QUESTIONS = [{"subject":"General Intelligence & Reasoning","q":"Identify the incorrect term in the series:\n4, 10, 22, 46, 94, 192","options":["10","22","46","192"],"answer":3},{"subject":"General Intelligence & Reasoning","q":"If DRIVER is coded as ESJWFS, how is ESJWFS coded?","options":["FTKWGT","FTKXGT","FUKXGT","FTJWGT"],"answer":1},{"subject":"General Intelligence & Reasoning","q":"If the 5th day of a month is two days after Wednesday, what day will it be on the 18th of the same month?","options":["Monday","Tuesday","Thursday","Sunday"],"answer":2},{"subject":"General Intelligence & Reasoning","q":"Statement:\nThe government launched electric buses to reduce pollution.\nConclusions:\nI. The government is promoting eco-friendly transport.\nII. Electric buses are cheaper than diesel buses.","options":["Only I follows","Only II follows","Both follow","Neither follows"],"answer":0},{"subject":"General Intelligence & Reasoning","q":"If × = + and + = -, then find the value of: 18 × 6 + 4?","options":["28","16","20","26"],"answer":2},{"subject":"General Intelligence & Reasoning","q":"Coding pattern: aabbcc : xxzzww :: bbccaa : ?","options":["zzwwxx","wwxzzw","zzxwwx","wwzzxx"],"answer":0},{"subject":"General Intelligence & Reasoning","q":"Find the next term:\nCYA, EWC, GUE, ?","options":["IQG","ITG","ISG","HTE"],"answer":2},{"subject":"General Intelligence & Reasoning","q":"If MARKET is written as MRKEAT, then how is SCHOOL written?","options":["SCOOHL","SHCOOL","SCOHLO","SHOOCL"],"answer":3},{"subject":"General Intelligence & Reasoning","q":"Find the odd one out:\nCube, Sphere, Cone, Cylinder, Square","options":["Cube","Sphere","Cone","Square"],"answer":3},{"subject":"General Intelligence & Reasoning","q":"Select the letter-cluster that replaces the question mark:\nBX, CW, DV, ?","options":["FU","FT","EV","EU"],"answer":3},{"subject":"General Intelligence & Reasoning","q":"A group of 16 people sit in a circle. Each person shakes hands with exactly 2 neighbors. How many handshakes\ntake place?","options":["24","16","32","48"],"answer":1},{"subject":"General Intelligence & Reasoning","q":"If 5 + 2 = 17, 7 + 7 = 56, then 6 + 5 = ?","options":["41","35","37","39"],"answer":2},{"subject":"General Intelligence & Reasoning","q":"Find the odd one out:","options":["Quit India Movement","Civil Disobedience Movement","Green Revolution","Non-Cooperation Movement"],"answer":2},{"subject":"General Intelligence & Reasoning","q":"Pointing to a man, Ravi said, “He is the brother of the daughter of my mother.” How is the man related to Ravi?","options":["Brother","Cousin","Uncle","Father"],"answer":0},{"subject":"General Intelligence & Reasoning","q":"Statement:\n1. All doctors are educated.\n2. All educated people are respected.\nConclusions:\nI. All doctors are respected.\nII. Some respected people are doctors.","options":["Only I follows","Only II follows","Both follow","Neither follows"],"answer":2},{"subject":"General Intelligence & Reasoning","q":"Seven persons P, Q, R, S, T, U and V live on seven different floors (1-7). P is not on the top floor. Q lives immediately\nabove R. S lives on third floor. Three persons live between S and V. R lives on first floor. T lives above U. Two persons\nlive between T and S. Who lives immediately above P?","options":["U","S","T","R"],"answer":0},{"subject":"General Intelligence & Reasoning","q":"Complete the series:\n72, 68, 64, 60, 56, ?","options":["48","50","52","54"],"answer":2},{"subject":"General Intelligence & Reasoning","q":"Find the odd one out:","options":["SEBI","RBI","NABARD","GDP"],"answer":3},{"subject":"General Intelligence & Reasoning","q":"Statement:\nRoad accidents are increasing in the city.\nCourse of Action:\n1. Increase traffic police deployment.\n2. Remove all traffic signals.","options":["Only 1 follows","Only 2 follows","Both follow","Neither follows"],"answer":0},{"subject":"General Intelligence & Reasoning","q":"A is the sister of B. B is the son of C. C is the wife of D. How is A related to D?","options":["Daughter","Niece","Granddaughter","Sister"],"answer":0},{"subject":"General Intelligence & Reasoning","q":"Solve the analogy:\nBD : EG :: FH : ?","options":["JK","JL","IK","JI"],"answer":2},{"subject":"General Intelligence & Reasoning","q":"Interchange two signs to make the equation correct:\n48 ÷ 6 + 10 - 4 × 2 = 46","options":["÷ and +","- and ×","÷ and ×","+ and -"],"answer":1},{"subject":"General Intelligence & Reasoning","q":"Complete the series:\n2, 7, 22, 67, 202, ?","options":["605","606","607","608"],"answer":2},{"subject":"General Intelligence & Reasoning","q":"Which word can be formed by changing only one letter in the word “TEACHING”?","options":["REACHING","TEACHERS","COACHING","PREACHING"],"answer":0},{"subject":"General Intelligence & Reasoning","q":"Identify the odd one out:","options":["10 % 2 = 5","12 % 3 = 4","14 % 7 = 2","15 % 4 = 3"],"answer":3},{"subject":"General Awareness","q":"The Global Hunger Index ranks countries based on:","options":["Military spending","Nutritional and child health indicators","GDP growth","Literacy rates"],"answer":1},{"subject":"General Awareness","q":"What is the primary purpose of Article 262 of the Indian Constitution?","options":["To empower Parliament to provide for the adjudication of inter-State river water disputes","To authorize the President to impose President’s Rule in States","To establish the Inter-State Council for policy coordination","To regulate trade and commerce within the territory of India"],"answer":0},{"subject":"General Awareness","q":"Regarding the 2025 Global Innovation Index:\n1. It ranks countries based on innovation capabilities.\n2. It is jointly published by WIPO and other global institutions.","options":["Only 1","Only 2","Both 1 and 2","Neither 1 nor 2"],"answer":2},{"subject":"General Awareness","q":"Under the Bharatiya Nyaya Sanhita, 2023, the offence of sedition has been:","options":["Strengthened with higher punishment","Completely removed and replaced","Renamed with expanded scope on sovereignty","Shifted to civil law"],"answer":2},{"subject":"General Awareness","q":"Which of the following is NOT an expected outcome of India’s Aditya-L1 mission?","options":["Study of solar corona","Monitoring of solar wind","Direct landing on the Sun’s surface","Understanding space weather dynamics"],"answer":2},{"subject":"General Awareness","q":"Which of the following statements about entropy is/are correct?\n1. Entropy increases in spontaneous processes.\n2. Entropy of the universe remains constant for irreversible processes.","options":["Only 1","Only 2","Both","Neither"],"answer":0},{"subject":"General Awareness","q":"Neeraj Chopra won his first Olympic gold medal in:","options":["Rio 2016","Tokyo 2020","Paris 2024","London 2012"],"answer":1},{"subject":"General Awareness","q":"India’s first lithium refinery project is planned in:","options":["Gujarat","Karnataka","Rajasthan","Odisha"],"answer":0},{"subject":"General Awareness","q":"Who won the International Booker Prize 2025 for a work translated into English?","options":["Jenny Erpenbeck","Fernanda Melchor","Geetanjali Shree","Wlodek Goldkorn"],"answer":0},{"subject":"General Awareness","q":"Who is serving as the Chief Statistician of India (CSI) as of 2024–25?","options":["Dr. Saurabh Garg","Rajeeva Laxman Karandikar","GP Samanta","Arvind Subramanian"],"answer":0},{"subject":"General Awareness","q":"The typical base plan of a Dravida-style temple is:","options":["Circular with dome","Square with pyramidal tower","Rectangular with flat roof","Octagonal with spire"],"answer":1},{"subject":"General Awareness","q":"Which battle marked the final defeat of Prithviraj Chauhan?","options":["First Battle of Tarain","Second Battle of Tarain","Battle of Khanwa","Battle of Panipat"],"answer":1},{"subject":"General Awareness","q":"Among the BRICS nations, which country currently has the largest GDP (nominal)?","options":["Brazil","China","India","South Africa"],"answer":1},{"subject":"General Awareness","q":"The primary instrument used in Pandavani folk performance is:","options":["Tambura (or Ektara)","Sarangi","Veena","Santoor"],"answer":0},{"subject":"General Awareness","q":"The Madai festival, associated with the worship of local deities and celebrated over several weeks in different\nvillages, is primarily observed in which state?","options":["Chhattisgarh","Jharkhand","Odisha","Assam"],"answer":0},{"subject":"General Awareness","q":"In boxing, a bout may be stopped if:","options":["A boxer receives three standing counts in a round","The referee declares technical knockout","A boxer commits a minor foul","Audience protests"],"answer":1},{"subject":"General Awareness","q":"Which of the following statements regarding manganese production in India is INCORRECT?","options":["Odisha is a major producer of manganese.","India imports all its manganese requirements.","Karnataka has significant manganese reserves.","Manganese is used in steel manufacturing."],"answer":1},{"subject":"General Awareness","q":"The National Education Policy (NEP) 2020 primarily aims to:","options":["Replace all private institutions with public universities","Introduce a 5+3+3+4 curricular structure","Abolish board examinations permanently","Remove vocational education streams"],"answer":1},{"subject":"General Awareness","q":"Consider the following statements:\n1. The President can grant pardon under Article 72.\n\f2. The Governor can grant pardon under Article 161.\nWhich of the above is/are correct?","options":["Only 1","Only 2","Both 1 and 2","Neither 1 nor 2"],"answer":2},{"subject":"General Awareness","q":"The Civil Disobedience Movement was formally launched after the:","options":["Jallianwala Bagh incident","Simon Commission report","Dandi March","Lucknow Pact"],"answer":2},{"subject":"General Awareness","q":"Which title was adopted by Samudragupta to signify supreme sovereignty?","options":["Chakravartin","Maharajadhiraja","Devaputra","Samrat"],"answer":1},{"subject":"General Awareness","q":"Which of the following pairs is NOT correctly matched?","options":["Bhabar – Pebble belt along foothills","Terai – Marshy land south of Bhabar","Khadar – Older alluvium","Bhangar –Older alluvium"],"answer":2},{"subject":"General Awareness","q":"According to Census 2011, which state recorded the highest sex ratio?","options":["Kerala","Tamil Nadu","Himachal Pradesh","Andhra Pradesh"],"answer":0},{"subject":"General Awareness","q":"In Garba dance, performers traditionally move in:","options":["Straight lines","Circular formations","Pairs only","Random patterns"],"answer":1},{"subject":"General Awareness","q":"Which ISRO mission achieved the first soft landing near the lunar south pole?","options":["Chandrayaan-1","Chandrayaan-2","Chandrayaan-3","Aditya-L1"],"answer":2},{"subject":"Quantitative Aptitude","q":"A shopkeeper mixes two types of pulses – one costing ₹80 per kg and the other costing ₹120 per kg, in the ratio\n3 : 2. If he sells the mixture at ₹105.60 per kg, find his profit or loss percent.","options":["10% Profit","10% Loss","12% Profit","12% Loss"],"answer":0},{"subject":"Quantitative Aptitude","q":"What is the ratio of the area of a regular hexagon to the area of an equilateral triangle if both have the same side\nlength?","options":["6:1","3:1","2:1","4:1"],"answer":0},{"subject":"Quantitative Aptitude","q":"A laptop, originally priced at ₹40,000, is sold after two successive discounts of 15% and 10%. Find the final selling\nprice.","options":["₹30,600","₹31,200","₹34,000","₹30,000"],"answer":0},{"subject":"Quantitative Aptitude","q":"Find the equation of the line passing through the point (2, 3) with a slope of 4.","options":["y = 4x - 5","y = 4x + 3","y = 4x - 11","y = 4x + 1"],"answer":0},{"subject":"Quantitative Aptitude","q":"Two circles of radii 𝑅1 and 𝑅2 have centers at a distance d apart. If the length of the transverse common tangent\nis 0, what can be said about d?","options":["d = 𝑅1 + 𝑅2","d = 𝑅1 − 𝑅2","d < 𝑅1 + 𝑅2","Circles are concentric"],"answer":0},{"subject":"Quantitative Aptitude","q":"If 𝑎3 + 𝑏3 = 91 and ab = 12, find the value of a + b.","options":["6","7","8","9"],"answer":1},{"subject":"Quantitative Aptitude","q":"If each exterior angle of a regular polygon is 45°, how many sides does the polygon have?","options":["6","8","10","12"],"answer":1},{"subject":"Quantitative Aptitude","q":"If x + y + z = 0 and x = 0.3, y = 0.5, z = -0.8, then what is (x^3 + y^3 + z^3) \\div (3xyz)?","options":["0","1","-1","3"],"answer":1},{"subject":"Quantitative Aptitude","q":"Which of the following is the smallest 6-digit number that is a perfect square?","options":["102400","101124","101761","100489"],"answer":3},{"subject":"Quantitative Aptitude","q":"If sin⁡ 𝜃 + cos⁡ 𝜃 = p, then find the value of 1 + 2sin⁡ 𝜃cos⁡ 𝜃.","options":["p","𝑝2","2p","p+1"],"answer":1},{"subject":"Quantitative Aptitude","q":"A dealer marks his goods 30% above the cost price and then allows a discount. If he still makes a profit of 4% on\nthe cost price, what was the discount percentage?","options":["10%","15%","20%","26%"],"answer":2},{"subject":"Quantitative Aptitude","q":"If the curved surface area of a hemisphere is 308 cm², find its diameter. (Take 𝜋 = 22/7)","options":["7 cm","14 cm","10.5 cm","21 cm"],"answer":1},{"subject":"Quantitative Aptitude","q":"If tan x = 1, find the value of sin⁡2 𝑥 + cos⁡2 𝑥 = ?","options":["0","1/2","1","2"],"answer":2},{"subject":"Quantitative Aptitude","q":"A person invested ₹12,000 at 5% simple interest and ₹8,000 at 10% simple interest for the same period. If the\ntotal interest earned is ₹2,800, what was the time duration?","options":["1 year","3 years","2 years","4 years"],"answer":2},{"subject":"Quantitative Aptitude","q":"A ladder leaning against a wall makes an angle of 60° with the ground. If the foot of the ladder is 2.5 meters away\nfrom the wall, what is the length of the ladder?","options":["2.5m","4m","5m","5√3𝑚"],"answer":2},{"subject":"Quantitative Aptitude","q":"The centroid of triangle ABC is G(2, 4). If A is (5, 2) and B is (-1, 6), find the coordinates of C.","options":["(2, 4)","(3, 5)","(2, 3)","(4, 4)"],"answer":0},{"subject":"Quantitative Aptitude","q":"A chord of a circle has a length of 12 cm. Its distance from the center is 8 cm. Find the radius of the circle.","options":["10 cm","12 cm","14 cm","15 cm"],"answer":0},{"subject":"Quantitative Aptitude","q":"If 20% of m is equal to 80% of n, what is the ratio m : n?","options":["1:4","4:1","1:2","2:1"],"answer":1},{"subject":"Quantitative Aptitude","q":"If x = 0.5 and y = 0.1, find the value of               .\n                                                  𝑥 3+𝑦 3","options":["4","8","16","64"],"answer":1},{"subject":"Quantitative Aptitude","q":"Evaluate: (√13 + √5)2 − (√13 − √5)","options":["4√65","2√65","8√65","36"],"answer":0},{"subject":"Quantitative Aptitude","q":"A cylindrical vessel is melted and recast into several smaller cylinders whose height is 1/4th and radius is 1/2 of\nthe original. What fraction of the original volume is represented by one small cylinder?","options":["1/16","1/8","1/4","1/32"],"answer":0},{"subject":"Quantitative Aptitude","q":"From point C on the ground, the angle of elevation to the top of a cliff is 30°. From point D, which is 60m closer\nto the cliff, the angle of elevation is 60°. Find the ratio of the distance of C from the cliff's foot to the distance of D from\nthe cliff's foot.","options":["1:3","2:1","3:1","4:1"],"answer":2},{"subject":"Quantitative Aptitude","q":"If √𝑥 + √𝑦 = 7 and √𝑥 − √𝑦 = 3, what is the value of x and y?","options":["x=16, y=9","x=49, y=16","x=36, y=1","x=25, y=4"],"answer":3},{"subject":"Quantitative Aptitude","q":"A prism has an equilateral triangular base with a side of 8 cm. It consists of 4 layers where the height of the first\nlayer is 3 cm and each subsequent layer increases by 2 cm. Find the total volume. (Use √3 = 1.732)","options":["332.54 cm³","665.088 cm³","498.82 cm³","554.24 cm³"],"answer":1},{"subject":"Quantitative Aptitude","q":"At what rate of simple interest per annum will ₹5,000 amount to ₹6,500 in 3 years?","options":["8%","10%","12%","15%"],"answer":1},{"subject":"English Comprehension","q":"Choose the correct meaning of idiom: Currying favour","options":["Seeking approval through flattery","Seeking financial gain","Avoiding confrontation","Making public criticism"],"answer":0},{"subject":"English Comprehension","q":"Select the correct option for the Direct Speech conversion of the sentence below.\nShe remarked that institutional trust would erode unless transparency were restored.","options":["She remarked, “Institutional trust erodes unless transparency is restored.”","She remarked, “Institutional trust will erode unless transparency is restored.”","She remarked, “Institutional trust would erode unless transparency were restored.”","She remarked, “Transparency restored, institutional trust eroded.”"],"answer":1},{"subject":"English Comprehension","q":"Select the most appropriate synonym of the given word: CIRCUMSPECT","options":["Hasty","Vigilant","Careless","Impulsive"],"answer":1},{"subject":"English Comprehension","q":"Choose the correct form:\nThe panel of experts, along with the chief advisor, ______ scheduled to submit the report tomorrow.","options":["are","were","is","have been"],"answer":2},{"subject":"English Comprehension","q":"Fill in the blank with the correct tense:\nShe ______ the presentation before the board arrived.","options":["completes","has completed","completed","had completed"],"answer":3},{"subject":"English Comprehension","q":"Choose the most suitable option to replace the highlighted part of the sentence:\nThis manuscript is more older than the one displayed in the archive.","options":["much older than","older than","more old than","oldest than"],"answer":1},{"subject":"English Comprehension","q":"Select the sentence containing the homonym of the highlighted word:\nThe medieval monk transcribed the codex with remarkable precision.","options":["The archivist restored the damaged codex from the monastery library.","The researcher analysed a digital codex designed to assist software development.","The codex was illuminated with intricate marginal illustrations.","The curator displayed the ancient codex in a climate-controlled chamber."],"answer":1},{"subject":"English Comprehension","q":"Choose the correct one-word substitution for: ‘A place where wild animals are kept’.","options":["Repository","Aquarium","Aviary","Menagerie"],"answer":3},{"subject":"English Comprehension","q":"Choose the most suitable option to replace the highlighted part of the sentence:\nShe persisted in her efforts despite of repeated setbacks.","options":["in spite repeated setbacks","despite repeated setbacks","although repeated setbacks","despite of repeated setbacks"],"answer":1},{"subject":"English Comprehension","q":"Find the part of the sentence that contains an error:\nThe committee’s recommendation, notwithstanding its ambiguity, (1)/ were considered by the reviewers (2)/ to\nprioritise procedural compliance (3)/ over substantive reform. (4)","options":["(1)","(2)","(3)","(4)"],"answer":1},{"subject":"English Comprehension","q":"Find the part of the sentence that contains an error:\nEach of the shortlisted candidates (1)/ have submitted their credentials (2)/ prior to the final interview (3)/ conducted\nlast week. (4)/","options":["(1)","(2)","(3)","(4)"],"answer":1},{"subject":"English Comprehension","q":"A sentence is provided in direct speech. From the four given options, choose the one that most accurately conveys\nthe sentence in its corresponding indirect speech.\nHe said, “I have completed the manuscript.”","options":["He said that he has completed the manuscript.","He said that he had completed the manuscript.","He said he completed the manuscript.","He said that he was completing the manuscript."],"answer":1},{"subject":"English Comprehension","q":"Choose the correct spelling for a word meaning ‘concise and forcefully expressive’.","options":["Pithy","Pithie","Pithey","Pithhy"],"answer":0},{"subject":"English Comprehension","q":"Convert the sentence provided below from its passive voice structure to an active voice structure:\nThe proposal was rejected by the panel after prolonged deliberation.","options":["The panel rejected the proposal after prolonged deliberation.","The panel had rejected the proposal.","The proposal rejected the panel after deliberation.","After prolonged deliberation, the proposal rejected the panel."],"answer":0},{"subject":"English Comprehension","q":"Rearrange the following sentences to form a coherent paragraph:\n1. Deforestation contributes to soil erosion, reduces carbon sequestration, and threatens countless plant and animal\nspecies.\n2. Reforestation initiatives aim to restore degraded landscapes, improve air quality, and provide habitats for wildlife.\n3. The removal of large tracts of forest can also alter local climate patterns and increase the frequency of natural\ndisasters.\n4. To address this problem, governments and environmental groups have launched programs that protect existing\nforests and promote tree planting.","options":["2, 3, 1, 4","3, 4, 1, 2","1, 3, 4, 2","4, 3, 1, 2"],"answer":2},{"subject":"English Comprehension","q":"Rearrange the following sentences in correct order to make a logical passage.\n1. This requires regulatory oversight and ethical governance.\n2. Artificial intelligence is rapidly transforming professional domains.\n3. Its integration into decision-making processes raises accountability concerns.\n4. Policymakers must therefore anticipate unintended consequences.","options":["2-3-4-1","2-1-3-4","3-2-4-1","4-2-3-1"],"answer":0},{"subject":"English Comprehension","q":"Choose the correct meaning of idiom: Hand and glove","options":["In open disagreement","In close association","Working reluctantly","Acting independently"],"answer":1},{"subject":"English Comprehension","q":"According to the passage, resilience primarily involves:\nRead the following passage and answer the questions based on the passage:\nResilience, frequently romanticized as an innate trait possessed by a fortunate few, is more accurately understood as\na cultivated capacity shaped by cognitive framing, social context, and adaptive practice. Rather than signifying mere\nendurance, resilience entails the dynamic recalibration of perspective in the face of adversity. It is not the negation of\nvulnerability but the strategic integration of it into a broader narrative of growth. At its psychological core, resilience\ninvolves metacognitive awareness—the ability to examine one’s own thought patterns and reconfigure maladaptive\ninterpretations. Individuals who demonstrate resilience often engage in cognitive reappraisal, transforming perceived\nsetbacks into provisional challenges rather than definitive failures. This reframing does not trivialize hardship; instead,\nit situates difficulty within a continuum of learning and adaptation. Sociologically, resilience is scaffolded by relational\nnetworks. Communities that cultivate solidarity, empathy, and reciprocal support provide a buffer against existential\nuncertainty. Isolation, conversely, amplifies fragility by constricting interpretive flexibility. Thus, resilience is not solely\nan intrapersonal phenomenon but an emergent property of collective belonging. Educational and organizational\ninstitutions further mediate resilience through their tolerance for error and experimentation. Environments that\nstigmatize failure engender risk aversion, whereas those that normalize iterative learning foster adaptive confidence.\nImportantly, resilience does not imply stoicism devoid of emotion; it necessitates emotional literacy—the capacity to\nrecognize, articulate, and regulate affective states without repression. Cultural narratives also contour the boundaries\nof resilience. Societies that equate worth with unbroken success may inadvertently pathologize struggle, obscuring the\ndevelopmental value of adversity. By contrast, cultures that acknowledge impermanence and flux often embed\nresilience within their ethical frameworks. Technological acceleration complicates this terrain by compressing feedback\ncycles and amplifying comparative pressures. Constant exposure to curated portrayals of achievement can distort self-\nappraisal, undermining resilience through unrealistic benchmarking. Consequently, intentional pauses—moments of\nreflection and disengagement—become critical to sustaining psychological equilibrium. Ultimately, resilience is neither\nstatic nor universally formulaic; it is a recursive praxis of reflection, adaptation, and communal interdependence.","options":["Suppressing emotional responses to hardship","Reframing adversity through adaptive cognition","Avoiding situations that entail risk","Demonstrating uninterrupted success"],"answer":1},{"subject":"English Comprehension","q":"What role do communities play in fostering resilience?\nRead the following passage and answer the questions based on the passage:\nResilience, frequently romanticized as an innate trait possessed by a fortunate few, is more accurately understood as\na cultivated capacity shaped by cognitive framing, social context, and adaptive practice. Rather than signifying mere\nendurance, resilience entails the dynamic recalibration of perspective in the face of adversity. It is not the negation of\nvulnerability but the strategic integration of it into a broader narrative of growth. At its psychological core, resilience\ninvolves metacognitive awareness—the ability to examine one’s own thought patterns and reconfigure maladaptive\ninterpretations. Individuals who demonstrate resilience often engage in cognitive reappraisal, transforming perceived\nsetbacks into provisional challenges rather than definitive failures. This reframing does not trivialize hardship; instead,\nit situates difficulty within a continuum of learning and adaptation. Sociologically, resilience is scaffolded by relational\nnetworks. Communities that cultivate solidarity, empathy, and reciprocal support provide a buffer against existential\nuncertainty. Isolation, conversely, amplifies fragility by constricting interpretive flexibility. Thus, resilience is not solely\nan intrapersonal phenomenon but an emergent property of collective belonging. Educational and organizational\ninstitutions further mediate resilience through their tolerance for error and experimentation. Environments that\nstigmatize failure engender risk aversion, whereas those that normalize iterative learning foster adaptive confidence.\nImportantly, resilience does not imply stoicism devoid of emotion; it necessitates emotional literacy—the capacity to\nrecognize, articulate, and regulate affective states without repression. Cultural narratives also contour the boundaries\nof resilience. Societies that equate worth with unbroken success may inadvertently pathologize struggle, obscuring the\n\fdevelopmental value of adversity. By contrast, cultures that acknowledge impermanence and flux often embed\nresilience within their ethical frameworks. Technological acceleration complicates this terrain by compressing feedback\ncycles and amplifying comparative pressures. Constant exposure to curated portrayals of achievement can distort self-\nappraisal, undermining resilience through unrealistic benchmarking. Consequently, intentional pauses—moments of\nreflection and disengagement—become critical to sustaining psychological equilibrium. Ultimately, resilience is neither\nstatic nor universally formulaic; it is a recursive praxis of reflection, adaptation, and communal interdependence.","options":["They eliminate all sources of uncertainty","They intensify individual vulnerability","They provide relational support that buffers adversity","They discourage emotional expression"],"answer":2},{"subject":"English Comprehension","q":"The phrase “iterative learning” in the passage most nearly implies:\nRead the following passage and answer the questions based on the passage:\nResilience, frequently romanticized as an innate trait possessed by a fortunate few, is more accurately understood as\na cultivated capacity shaped by cognitive framing, social context, and adaptive practice. Rather than signifying mere\nendurance, resilience entails the dynamic recalibration of perspective in the face of adversity. It is not the negation of\nvulnerability but the strategic integration of it into a broader narrative of growth. At its psychological core, resilience\ninvolves metacognitive awareness—the ability to examine one’s own thought patterns and reconfigure maladaptive\ninterpretations. Individuals who demonstrate resilience often engage in cognitive reappraisal, transforming perceived\nsetbacks into provisional challenges rather than definitive failures. This reframing does not trivialize hardship; instead,\nit situates difficulty within a continuum of learning and adaptation. Sociologically, resilience is scaffolded by relational\nnetworks. Communities that cultivate solidarity, empathy, and reciprocal support provide a buffer against existential\nuncertainty. Isolation, conversely, amplifies fragility by constricting interpretive flexibility. Thus, resilience is not solely\nan intrapersonal phenomenon but an emergent property of collective belonging. Educational and organizational\ninstitutions further mediate resilience through their tolerance for error and experimentation. Environments that\nstigmatize failure engender risk aversion, whereas those that normalize iterative learning foster adaptive confidence.\nImportantly, resilience does not imply stoicism devoid of emotion; it necessitates emotional literacy—the capacity to\nrecognize, articulate, and regulate affective states without repression. Cultural narratives also contour the boundaries\nof resilience. Societies that equate worth with unbroken success may inadvertently pathologize struggle, obscuring the\ndevelopmental value of adversity. By contrast, cultures that acknowledge impermanence and flux often embed\nresilience within their ethical frameworks. Technological acceleration complicates this terrain by compressing feedback\ncycles and amplifying comparative pressures. Constant exposure to curated portrayals of achievement can distort self-\nappraisal, undermining resilience through unrealistic benchmarking. Consequently, intentional pauses—moments of\nreflection and disengagement—become critical to sustaining psychological equilibrium. Ultimately, resilience is neither\nstatic nor universally formulaic; it is a recursive praxis of reflection, adaptation, and communal interdependence.","options":["Memorizing information repeatedly","Learning through cycles of trial and refinement","Avoiding experimentation","Competing with peers for validation"],"answer":1},{"subject":"English Comprehension","q":"Which of the following is NOT presented as a factor influencing resilience?\nRead the following passage and answer the questions based on the passage:\nResilience, frequently romanticized as an innate trait possessed by a fortunate few, is more accurately understood as\na cultivated capacity shaped by cognitive framing, social context, and adaptive practice. Rather than signifying mere\nendurance, resilience entails the dynamic recalibration of perspective in the face of adversity. It is not the negation of\nvulnerability but the strategic integration of it into a broader narrative of growth. At its psychological core, resilience\n\finvolves metacognitive awareness—the ability to examine one’s own thought patterns and reconfigure maladaptive\ninterpretations. Individuals who demonstrate resilience often engage in cognitive reappraisal, transforming perceived\nsetbacks into provisional challenges rather than definitive failures. This reframing does not trivialize hardship; instead,\nit situates difficulty within a continuum of learning and adaptation. Sociologically, resilience is scaffolded by relational\nnetworks. Communities that cultivate solidarity, empathy, and reciprocal support provide a buffer against existential\nuncertainty. Isolation, conversely, amplifies fragility by constricting interpretive flexibility. Thus, resilience is not solely\nan intrapersonal phenomenon but an emergent property of collective belonging. Educational and organizational\ninstitutions further mediate resilience through their tolerance for error and experimentation. Environments that\nstigmatize failure engender risk aversion, whereas those that normalize iterative learning foster adaptive confidence.\nImportantly, resilience does not imply stoicism devoid of emotion; it necessitates emotional literacy—the capacity to\nrecognize, articulate, and regulate affective states without repression. Cultural narratives also contour the boundaries\nof resilience. Societies that equate worth with unbroken success may inadvertently pathologize struggle, obscuring the\ndevelopmental value of adversity. By contrast, cultures that acknowledge impermanence and flux often embed\nresilience within their ethical frameworks. Technological acceleration complicates this terrain by compressing feedback\ncycles and amplifying comparative pressures. Constant exposure to curated portrayals of achievement can distort self-\nappraisal, undermining resilience through unrealistic benchmarking. Consequently, intentional pauses—moments of\nreflection and disengagement—become critical to sustaining psychological equilibrium. Ultimately, resilience is neither\nstatic nor universally formulaic; it is a recursive praxis of reflection, adaptation, and communal interdependence.","options":["Cultural narratives about success","Emotional literacy","Algorithmic amplification of comparison","Genetic determinism alone"],"answer":3},{"subject":"English Comprehension","q":". What is the closest synonym for “scaffolded” as used in the passage?\nRead the following passage and answer the questions based on the passage:\nResilience, frequently romanticized as an innate trait possessed by a fortunate few, is more accurately understood as\na cultivated capacity shaped by cognitive framing, social context, and adaptive practice. Rather than signifying mere\nendurance, resilience entails the dynamic recalibration of perspective in the face of adversity. It is not the negation of\nvulnerability but the strategic integration of it into a broader narrative of growth. At its psychological core, resilience\ninvolves metacognitive awareness—the ability to examine one’s own thought patterns and reconfigure maladaptive\ninterpretations. Individuals who demonstrate resilience often engage in cognitive reappraisal, transforming perceived\nsetbacks into provisional challenges rather than definitive failures. This reframing does not trivialize hardship; instead,\nit situates difficulty within a continuum of learning and adaptation. Sociologically, resilience is scaffolded by relational\nnetworks. Communities that cultivate solidarity, empathy, and reciprocal support provide a buffer against existential\nuncertainty. Isolation, conversely, amplifies fragility by constricting interpretive flexibility. Thus, resilience is not solely\nan intrapersonal phenomenon but an emergent property of collective belonging. Educational and organizational\ninstitutions further mediate resilience through their tolerance for error and experimentation. Environments that\nstigmatize failure engender risk aversion, whereas those that normalize iterative learning foster adaptive confidence.\nImportantly, resilience does not imply stoicism devoid of emotion; it necessitates emotional literacy—the capacity to\nrecognize, articulate, and regulate affective states without repression. Cultural narratives also contour the boundaries\nof resilience. Societies that equate worth with unbroken success may inadvertently pathologize struggle, obscuring the\ndevelopmental value of adversity. By contrast, cultures that acknowledge impermanence and flux often embed\nresilience within their ethical frameworks. Technological acceleration complicates this terrain by compressing feedback\ncycles and amplifying comparative pressures. Constant exposure to curated portrayals of achievement can distort self-\nappraisal, undermining resilience through unrealistic benchmarking. Consequently, intentional pauses—moments of\nreflection and disengagement—become critical to sustaining psychological equilibrium. Ultimately, resilience is neither\nstatic nor universally formulaic; it is a recursive praxis of reflection, adaptation, and communal interdependence.","options":["Undermined","Structured","Concealed","Fragmented"],"answer":1},{"subject":"English Comprehension","q":"Choose the correct one-word substitution for: ‘A building where dead bodies are kept temporarily’.","options":["Mausoleum","Crematorium","Mortuary","Sepulchre"],"answer":2},{"subject":"English Comprehension","q":"Select the most appropriate antonym of the given word: OBDURATE","options":["Resolute","Adamant","Pliant","Stubborn"],"answer":2},{"subject":"English Comprehension","q":"Change the following from active to passive:\nThe board is to announce the revised policy.","options":["The revised policy is to be announced by the board.","The revised policy was to be announced by the board.","The revised policy has been announced by the board.","The revised policy will announce by the board."],"answer":0}];
+const SECTIONS = [
+  {name:"General Intelligence & Reasoning", short:"REASONING"},
+  {name:"General Awareness", short:"GENERAL AWARENESS"},
+  {name:"Quantitative Aptitude", short:"QUANTITATIVE APTITUDE"},
+  {name:"English Comprehension", short:"ENGLISH"}
+];
+const STORAGE_KEY="sscCglMock2CompletedTests";
+
+let sectionIndex=0;
+let qIndex=0;
+let answers=Array(100).fill(null);
+let reviews=Array(100).fill(false);
+let visited=Array(100).fill(false);
+let totalRemaining=3600;
+let sectionRemaining=900;
+let startedAt=null;
+let finished=false;
+let ticker=null;
+
+const sectionRanges = [
+ [0,24],[25,49],[50,74],[75,99]
+];
+
+function qsForSection(){
+  const [a,b]=sectionRanges[sectionIndex];
+  return QUESTIONS.slice(a,b+1);
+}
+function globalIndex(){
+  return sectionRanges[sectionIndex][0]+qIndex;
+}
+function fmt(sec){
+  sec=Math.max(0,Math.floor(sec));
+  return String(Math.floor(sec/60)).padStart(2,"0")+":"+String(sec%60).padStart(2,"0");
+}
+function show(id){
+  document.getElementById(id).classList.remove("hidden");
+}
+function hide(id){
+  document.getElementById(id).classList.add("hidden");
+}
+function showInstructions(){
+  hide("introPage");show("instructionsPage");window.scrollTo(0,0);
+}
+function backToIntro(){
+  hide("instructionsPage");show("introPage");window.scrollTo(0,0);
+}
+document.getElementById("oath").addEventListener("change",e=>{
+  document.getElementById("beginBtn").disabled=!e.target.checked;
+});
+
+function beginTest(){
+  if(!document.getElementById("oath").checked)return;
+  hide("instructionsPage");show("testPage");
+  startedAt=Date.now();
+  sectionIndex=0;qIndex=0;totalRemaining=3600;sectionRemaining=900;
+  renderQuestion();startTimer();window.scrollTo(0,0);
+}
+
+function startTimer(){
+  clearInterval(ticker);
+  ticker=setInterval(()=>{
+    if(finished)return;
+    totalRemaining--;
+    sectionRemaining--;
+    updateTimers();
+    if(totalRemaining<=0){finishTest("auto");return;}
+    if(sectionRemaining<=0){advanceSection(true);}
+  },1000);
+}
+function updateTimers(){
+  const ot=document.querySelector("#overallTimer b");
+  const st=document.querySelector("#sectionTimer b");
+  ot.textContent=fmt(totalRemaining);st.textContent=fmt(sectionRemaining);
+  document.getElementById("overallTimer").classList.toggle("danger",totalRemaining<=300);
+  document.getElementById("sectionTimer").classList.toggle("danger",sectionRemaining<=120);
+}
+function renderQuestion(){
+  const q=QUESTIONS[globalIndex()];
+  visited[globalIndex()]=true;
+  document.getElementById("sectionBadge").textContent=`SECTION ${sectionIndex+1} · ${SECTIONS[sectionIndex].short}`;
+  document.getElementById("questionCounter").textContent=`Question ${qIndex+1} of 25`;
+  const range=sectionRanges[sectionIndex];
+  const answeredInSection=answers.slice(range[0],range[1]+1).filter(x=>x!==null).length;
+  document.getElementById("progressLabel").textContent=`${answeredInSection}/25 Answered`;
+  document.getElementById("questionText").textContent=q.q;
+
+  const opts=document.getElementById("options");
+  opts.innerHTML=q.options.map((o,i)=>`
+    <button class="option ${answers[globalIndex()]===i?"selected":""}" onclick="selectOption(${i})">
+      <span class="letter">${String.fromCharCode(65+i)}</span><span>${escapeHtml(o)}</span>
+    </button>`).join("");
+
+  const rb=document.getElementById("reviewBtn");
+  rb.textContent=reviews[globalIndex()]?"✓ Remove Review":"Mark for Review";
+  rb.style.background=reviews[globalIndex()]?"#fff0e7":"#fff";
+  rb.style.color=reviews[globalIndex()]?"#e65e00":"#4e5e73";
+
+  document.getElementById("nextBtn").textContent =
+    qIndex===24 ? (sectionIndex===3?"Finish / Submit":"Next Section →") : "Next →";
+
+  renderPalette();
+  updateTimers();
+}
+function escapeHtml(s){
+ return String(s).replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[m]));
+}
+function selectOption(i){
+  answers[globalIndex()]=i;renderQuestion();
+}
+function clearResponse(){
+  answers[globalIndex()]=null;renderQuestion();
+}
+function toggleReview(){
+  reviews[globalIndex()]=!reviews[globalIndex()];renderQuestion();
+}
+function renderPalette(){
+  const p=document.getElementById("palette");
+  p.innerHTML=qsForSection().map((_,i)=>{
+    const gi=sectionRanges[sectionIndex][0]+i;
+    let cls="num";
+    if(i===qIndex)cls+=" current";
+    else if(reviews[gi])cls+=" review";
+    else if(answers[gi]!==null)cls+=" answered";
+    return `<button class="${cls}" onclick="jumpTo(${i})">${i+1}</button>`;
+  }).join("");
+}
+function jumpTo(i){qIndex=i;renderQuestion();}
+function prevQuestion(){
+  if(qIndex>0){qIndex--;renderQuestion();}
+}
+function nextQuestion(){
+  if(qIndex<24){qIndex++;renderQuestion();return;}
+  if(sectionIndex<3){advanceSection(false);return;}
+  openSubmitModal();
+}
+function advanceSection(auto){
+  if(sectionIndex<3){
+    sectionIndex++;qIndex=0;sectionRemaining=900;renderQuestion();
+    if(auto)showToast("Section time ended. Moving to the next section.");
+    window.scrollTo(0,0);
+  }else{finishTest("auto");}
+}
+function showToast(msg){
+  const t=document.createElement("div");
+  t.textContent=msg;
+  t.style="position:fixed;left:50%;bottom:25px;transform:translateX(-50%);background:#241b1b;color:#fff;padding:11px 16px;border-radius:9px;font-size:12px;font-weight:800;z-index:200;box-shadow:0 10px 30px rgba(0,0,0,.2)";
+  document.body.appendChild(t);setTimeout(()=>t.remove(),2500);
+}
+function openSubmitModal(){
+  document.getElementById("modalOverall").textContent=fmt(totalRemaining);
+  document.getElementById("modalSection").textContent=fmt(sectionRemaining);
+  document.getElementById("modalAttempted").textContent=`${answers.filter(x=>x!==null).length} / 100`;
+  document.getElementById("modalReview").textContent=reviews.filter(Boolean).length;
+  show("submitModal");
+}
+function closeSubmitModal(){hide("submitModal")}
+
+function finishTest(reason){
+  if(finished)return;
+  finished=true;clearInterval(ticker);hide("submitModal");hide("testPage");show("resultPage");
+  const attempted=answers.filter(x=>x!==null).length;
+  let correct=0,wrong=0;
+  QUESTIONS.forEach((q,i)=>{
+    if(answers[i]===null)return;
+    if(answers[i]===q.answer)correct++;else wrong++;
+  });
+  const skipped=100-attempted;
+  const score=correct*2-wrong*.5;
+  const accuracy=attempted?correct/attempted*100:0;
+  const timeTaken=3600-totalRemaining;
+
+  const pct=Math.max(0,Math.min(100,score/2));
+  document.getElementById("scoreRing").style.setProperty("--score",pct+"%");
+  document.getElementById("scoreValue").textContent=score.toFixed(1);
+  document.getElementById("correctMetric").textContent=correct;
+  document.getElementById("wrongMetric").textContent=wrong;
+  document.getElementById("skippedMetric").textContent=skipped;
+  document.getElementById("accuracyMetric").textContent=accuracy.toFixed(0)+"%";
+  document.getElementById("formula").textContent=`Final score = (${correct} × 2) − (${wrong} × 0.50) = ${score.toFixed(1)} / 200`;
+  document.getElementById("resultSubtitle").textContent=reason==="auto"?"Time expired — your test was submitted automatically.":"Your test was submitted successfully.";
+
+  let title="Keep Practicing";
+  if(score>=160)title="Excellent Performance";
+  else if(score>=140)title="Very Strong Performance";
+  else if(score>=120)title="Strong Performance";
+  else if(score>=100)title="Good Start";
+  document.getElementById("performanceTitle").textContent=title;
+
+  const sectionResults=document.getElementById("sectionResults");
+  sectionResults.innerHTML=SECTIONS.map((s,si)=>{
+    const [a,b]=sectionRanges[si];
+    const secQs=QUESTIONS.slice(a,b+1);
+    let c=0,w=0,att=0;
+    secQs.forEach((q,j)=>{const v=answers[a+j];if(v!==null){att++;if(v===q.answer)c++;else w++;}});
+    const sc=c*2-w*.5;
+    const p=Math.max(0,Math.min(100,sc/50*100));
+    return `<div class="section-line"><div><b>${s.name}</b><div class="bar" style="margin-top:7px"><i style="width:${p}%"></i></div></div><span>${c}/${secQs.length}</span><strong>${sc.toFixed(1)}/50</strong></div>`;
+  }).join("");
+
+  document.getElementById("timeResults").innerHTML=`
+    <div class="insight"><b>Total Time Allowed:</b> 60:00</div>
+    <div class="insight"><b>Time Taken:</b> ${fmt(timeTaken)}</div>
+    <div class="insight"><b>Time Remaining:</b> ${fmt(totalRemaining)}</div>
+    <div class="insight"><b>Average Time / Attempt:</b> ${attempted?Math.floor(timeTaken/attempted):0} sec</div>
+    <div class="insight"><b>Submission:</b> ${reason==="auto"?"Automatic — time expired":"Manual — submitted by student"}</div>
+  `;
+
+  const insights=[];
+  if(accuracy>=85)insights.push("Your accuracy is strong. Focus on maintaining speed without increasing careless errors.");
+  else if(accuracy>=70)insights.push("Your accuracy is reasonable. Review the questions you got wrong before attempting the next mock.");
+  else insights.push("Accuracy needs improvement. Analyse every wrong answer and strengthen the relevant concepts.");
+  if(attempted<80)insights.push(`You attempted ${attempted}/100 questions. Work on decision-making and time allocation.`);
+  if(wrong>skipped)insights.push("Wrong answers are higher than skipped questions. Avoid guessing when you are not reasonably confident.");
+  else insights.push("Your skipped questions are higher than your wrong answers. Improve question selection and speed.");
+  if(totalRemaining>0)insights.push(`You finished with ${fmt(totalRemaining)} remaining. Use spare time to revisit marked questions in future mocks.`);
+  document.getElementById("insights").innerHTML=insights.map(x=>`<div class="insight">• ${x}</div>`).join("");
+
+  document.getElementById("reviewList").innerHTML=QUESTIONS.map((q,i)=>{
+    const v=answers[i];
+    const status=v===null?"Skipped":v===q.answer?"Correct":"Wrong";
+    const cls=status==="Correct"?"green":status==="Wrong"?"red":"blue";
+    return `<div class="review-q"><b>Q${i+1} · <span class="${cls}">${status}</span></b><br>${escapeHtml(q.q)}<br><span style="color:#667386">Your answer: ${v===null?"Not attempted":escapeHtml(q.options[v])} · Correct answer: ${escapeHtml(q.options[q.answer])}</span></div>`;
+  }).join("");
+
+  const done=JSON.parse(localStorage.getItem(STORAGE_KEY)||"[]");
+  if(!done.includes(1)){done.push(1);localStorage.setItem(STORAGE_KEY,JSON.stringify(done));}
+  localStorage.setItem("sscCglMock2Result",JSON.stringify({score,correct,wrong,skipped,accuracy,timeTaken,submittedAt:new Date().toISOString()}));
+  window.scrollTo(0,0);
+}
+</script>
+</body>
+</html>
