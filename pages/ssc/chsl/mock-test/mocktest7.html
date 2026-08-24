@@ -1,0 +1,1566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SSC CHSL Mock Test 1 | GOVT PREP EXAM</title>
+<meta name="description" content="SSC CHSL Tier-I Mock Test 1 - GOVT PREP EXAM">
+
+<style>
+:root{
+ --maroon:#800000;--maroon2:#a41313;--deep:#3e0707;--gold:#d7ad57;
+ --blue:#800000;--blue2:#a41313;--cream:#faf7f3;--ink:#172033;
+ --muted:#6d788a;--line:#dce7f1;--white:#fff;--green:#19a957;
+ --orange:#f06a00;--red:#e62b2b;--shadow:0 16px 45px rgba(31,51,72,.10);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{min-height:100%;font-family:Inter,Segoe UI,Arial,sans-serif;background:var(--cream);color:var(--ink)}
+button,input{font:inherit}
+button{cursor:pointer}
+.hidden{display:none!important}
+
+/* ---------- shared ---------- */
+.page{min-height:100vh}
+.topbar{height:68px;background:rgba(255,255,255,.96);border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;padding:0 5%;position:sticky;top:0;z-index:50;backdrop-filter:blur(12px)}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--maroon);font-weight:900;letter-spacing:-.3px}
+.brandmark{width:38px;height:38px;border-radius:11px;display:grid;place-items:center;color:#fff;background:linear-gradient(145deg,#a81717,#630000);box-shadow:0 8px 20px rgba(128,0,0,.2)}
+.topright{display:flex;align-items:center;gap:10px}
+.pill{border:1px solid var(--line);background:#fff;border-radius:30px;padding:9px 13px;color:#536176;font-size:12px;font-weight:800}
+.container{width:min(1080px,92%);margin:auto}
+.primary{border:0;color:#fff;background:linear-gradient(135deg,var(--maroon2),var(--maroon));box-shadow:0 12px 25px rgba(128,0,0,.20);border-radius:11px;padding:14px 25px;font-weight:900;transition:.2s}
+.primary:hover{transform:translateY(-2px);box-shadow:0 16px 30px rgba(128,0,0,.26)}
+.secondary{border:1px solid #cbd9e6;background:#fff;color:#31445c;border-radius:10px;padding:12px 20px;font-weight:800}
+.card{background:rgba(255,255,255,.94);border:1px solid var(--line);border-radius:18px;box-shadow:var(--shadow)}
+
+/* ---------- landing ---------- */
+.landing{background:
+ radial-gradient(circle at 8% 20%,rgba(128,0,0,.07),transparent 24%),
+ radial-gradient(circle at 90% 80%,rgba(47,120,183,.10),transparent 28%),
+ var(--cream);padding-bottom:70px}
+.hero{padding:68px 20px 35px;text-align:center}
+.hero .eyebrow{display:inline-flex;gap:8px;align-items:center;color:#7d6b55;background:#fff8e8;border:1px solid #ead6a9;padding:8px 13px;border-radius:30px;font-size:11px;font-weight:900;letter-spacing:1.2px;text-transform:uppercase}
+.dot{width:7px;height:7px;border-radius:50%;background:var(--gold);box-shadow:0 0 12px #d7ad57}
+.hero h1{font-family:Georgia,serif;font-size:clamp(38px,5vw,58px);line-height:1.06;margin:18px auto 14px;color:#152035;max-width:800px;letter-spacing:-1.5px}
+.hero h1 span{color:var(--maroon)}
+.hero h1:after{content:"";display:block;width:64px;height:3px;margin:18px auto 0;border-radius:10px;background:linear-gradient(90deg,var(--maroon),var(--gold))}
+.hero p{max-width:700px;margin:auto;color:#66758a;font-size:16px;line-height:1.7}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:35px auto 28px}
+.stat{padding:21px 15px;text-align:center;background:#fff;border:1px solid var(--line);border-radius:15px;box-shadow:0 9px 28px rgba(31,51,72,.06)}
+.stat strong{display:block;font-size:30px;color:#121d32;line-height:1;margin-bottom:8px}
+.stat span{font-size:11px;color:#6a7890;font-weight:900;letter-spacing:1px;text-transform:uppercase}
+.intro-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:18px}
+.intro-card{padding:25px}
+.intro-card h2{font-size:20px;margin-bottom:16px}
+.bullet{display:flex;gap:10px;align-items:flex-start;padding:9px 0;color:#56647a;font-size:13px;line-height:1.5}
+.check{width:22px;height:22px;border-radius:50%;background:#edf8f1;color:var(--green);display:grid;place-items:center;flex:0 0 auto;font-size:12px;font-weight:900}
+.topic-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.topic{padding:12px;border:1px solid #e5edf4;border-radius:11px;background:#fbfdff}
+.topic b{display:block;color:#2b3c53;font-size:12px;margin-bottom:5px}
+.topic small{color:#7b8797;line-height:1.45;font-size:11px}
+.startbox{margin-top:18px;padding:20px;background:linear-gradient(135deg,#fff,#fff8f5);border:1px solid #eadfd9;border-radius:15px;text-align:center}
+.startbox p{font-size:12px;color:#707c8d;margin-bottom:13px}
+
+/* ---------- instructions ---------- */
+.instructions{padding:40px 0 70px}
+.instruction-card{padding:28px;max-width:850px;margin:auto}
+.section-title{text-align:center;color:var(--maroon);font-size:28px;margin-bottom:7px}
+.section-sub{text-align:center;color:#788498;font-size:13px;margin-bottom:25px}
+.pattern{width:100%;border-collapse:collapse;margin-bottom:24px}
+.pattern th,.pattern td{border:1px solid #d9e5ef;padding:13px;text-align:left;font-size:13px}
+.pattern th{background:#f1f6fb;color:#23364e}
+.note{background:#fff8ed;border-left:4px solid var(--gold);padding:14px;border-radius:9px;margin:18px 0;color:#645538;font-size:12px;line-height:1.6}
+.oath{margin-top:25px;padding:21px;border:1px solid #eadfd9;background:#fffaf7;border-radius:14px}
+.oath label{display:flex;gap:12px;align-items:flex-start;font-size:13px;line-height:1.6;font-weight:700;color:#3c4350}
+.oath input{width:19px;height:19px;accent-color:var(--maroon);margin-top:2px}
+.begin{display:flex;justify-content:center;margin-top:20px}
+
+/* ---------- test UI ---------- */
+.test-page{background:#eef4f8;min-height:100vh}
+.testbar{height:66px;background:rgba(255,255,255,.96);border-bottom:1px solid #d9e4ed;display:flex;align-items:center;justify-content:space-between;padding:0 2%;position:sticky;top:0;z-index:40;box-shadow:0 5px 20px rgba(76,27,27,.08);backdrop-filter:blur(12px)}
+.test-brand{font-weight:900;color:var(--maroon);font-size:15px}
+.section-badge{background:linear-gradient(135deg,var(--maroon2),var(--maroon));color:#fff;border-radius:10px;padding:9px 13px;font-size:12px;font-weight:900}
+.timers{display:flex;gap:8px}
+.timer{min-width:105px;padding:8px 12px;border:1px solid #dce6ee;border-radius:9px;background:#fff;text-align:center}
+.timer small{display:block;color:#7b8797;font-size:9px;font-weight:900;text-transform:uppercase;letter-spacing:.8px}
+.timer b{color:#1f2e42;font-size:16px}
+.timer.danger b{color:var(--red)}
+.test-layout{width:min(1240px,97%);margin:14px auto;display:grid;grid-template-columns:1fr 295px;gap:14px}
+.question-card{background:#fff;border:1px solid #dbe6ef;border-radius:17px;box-shadow:0 12px 35px rgba(31,51,72,.08);overflow:hidden}
+.qhead{padding:18px 21px;border-bottom:1px solid #edf2f6;display:flex;justify-content:space-between;gap:10px}
+.qhead b{color:var(--blue);font-size:15px}
+.qhead span{color:#778497;font-size:11px;font-weight:800}
+.qbody{padding:25px 23px}
+.question-text{font-size:18px;line-height:1.65;font-weight:700;color:#20283a;margin-bottom:23px}
+.options{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.option{display:flex;gap:12px;align-items:center;border:1px solid #dfe9f1;background:#f5f9fc;padding:15px;border-radius:12px;text-align:left;color:#2d3848;transition:.15s;font-size:14px;min-height:57px}
+.option:hover{border-color:#82afd1;background:#eef7fd}
+.option.selected{border-color:var(--maroon);background:#f9ece9;box-shadow:0 0 0 2px rgba(47,120,183,.08)}
+.letter{width:30px;height:30px;border-radius:8px;background:#fff;border:1px solid #dbe5ed;display:grid;place-items:center;font-size:12px;font-weight:900;color:#617187;flex:0 0 auto}
+.option.selected .letter{background:var(--maroon);border-color:var(--maroon);color:#fff}
+.qactions{display:flex;justify-content:space-between;gap:10px;align-items:center;margin-top:25px;padding-top:18px;border-top:1px solid #edf2f6}
+.leftactions,.rightactions{display:flex;gap:9px}
+.action{border-radius:9px;padding:11px 15px;font-size:12px;font-weight:900;border:1px solid #d5e0e8;background:#fff;color:#4e5e73}
+.action.review{border-color:#f0b180;color:#e65e00;background:#fffaf6}
+.action.next{background:linear-gradient(135deg,var(--maroon2),var(--maroon));border-color:var(--maroon);color:#fff;box-shadow:0 8px 18px rgba(47,120,183,.2)}
+.action.clear{border-color:#f0b2b2;color:#e62b2b}
+.side{background:#fff;border:1px solid #dbe6ef;border-radius:17px;box-shadow:0 12px 35px rgba(31,51,72,.08);padding:17px;align-self:start;position:sticky;top:84px}
+.side h3{font-size:14px;margin-bottom:5px}
+.side p{font-size:11px;color:#788497;margin-bottom:15px}
+.palette{display:grid;grid-template-columns:repeat(5,1fr);gap:7px}
+.num{height:39px;border:1px solid #d7e0e8;border-radius:8px;background:#f3f6f8;color:#56657a;font-weight:900;font-size:11px}
+.num.current{background:var(--maroon);border-color:var(--maroon);color:#fff}
+.num.answered{background:#21b45f;border-color:#21b45f;color:#fff}
+.num.review{background:#f06a00;border-color:#f06a00;color:#fff}
+.legend{margin-top:17px;border-top:1px solid #edf1f5;padding-top:14px;display:grid;gap:8px}
+.legend-row{display:flex;align-items:center;gap:8px;font-size:11px;color:#667386}
+.legend-dot{width:14px;height:14px;border-radius:4px;background:#f3f6f8;border:1px solid #d7e0e8}
+.legend-dot.a{background:#21b45f;border-color:#21b45f}
+.legend-dot.r{background:#f06a00;border-color:#f06a00}
+.submit-side{margin-top:17px;width:100%;background:#e62b2b;color:#fff;border:0;border-radius:10px;padding:13px;font-weight:900;box-shadow:0 9px 20px rgba(230,43,43,.18)}
+.notice{font-size:10px;color:#8b5c5c;text-align:center;margin-top:9px;line-height:1.4}
+.modal{position:fixed;inset:0;background:rgba(20,27,38,.55);display:grid;place-items:center;z-index:100;padding:20px}
+.modal-box{background:#fff;border-radius:17px;max-width:440px;width:100%;padding:27px;box-shadow:0 25px 80px rgba(0,0,0,.25)}
+.modal-box h2{color:#7e1717;margin-bottom:9px}
+.modal-box p{color:#667386;font-size:13px;line-height:1.6}
+.modal-stats{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin:17px 0}
+.modal-stat{padding:13px;border:1px solid #e3e9ef;border-radius:10px;background:#fafcfd}
+.modal-stat small{display:block;color:#7b8797;font-size:10px}
+.modal-stat b{display:block;margin-top:3px}
+.modal-actions{display:flex;justify-content:flex-end;gap:9px}
+
+/* ---------- result ---------- */
+.result-page{padding:35px 0 70px;background:linear-gradient(#fbfcfd,var(--cream))}
+.result-head{text-align:center}
+.result-head h1{font-size:30px;color:#121c2e}
+.result-head p{color:#738095;font-size:13px;margin-top:7px}
+.score-card{margin:22px auto;width:min(860px,100%);padding:25px}
+.score-row{display:grid;grid-template-columns:1fr 1.2fr;gap:22px;align-items:center}
+.ring{width:210px;height:210px;margin:auto;border-radius:50%;display:grid;place-items:center;background:conic-gradient(var(--blue) var(--score),#e4edf5 0);position:relative}
+.ring:after{content:"";position:absolute;width:166px;height:166px;border-radius:50%;background:#fff}
+.ring-inner{position:relative;z-index:1;text-align:center}
+.ring-inner strong{display:block;font-size:38px;color:#162033}
+.ring-inner span{font-size:11px;color:#738095;font-weight:800}
+.final-score{text-align:center}
+.final-score h2{color:var(--maroon);font-size:22px}
+.final-score .formula{font-size:11px;color:#7a8493;margin-top:7px}
+.metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:22px}
+.metric{padding:16px;text-align:center;border:1px solid #dfe7ee;border-radius:12px;background:#fbfdff}
+.metric b{display:block;font-size:23px;margin-bottom:5px}
+.metric span{font-size:10px;color:#738095;font-weight:800}
+.green{color:var(--green)}.red{color:var(--red)}.blue{color:var(--maroon)}.orange{color:var(--orange)}
+.result-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:16px}
+.result-card{padding:22px}
+.result-card h3{font-size:17px;margin-bottom:15px}
+.section-line{display:grid;grid-template-columns:1fr 60px 70px;gap:8px;align-items:center;padding:11px 0;border-bottom:1px solid #edf1f5;font-size:12px}
+.section-line:last-child{border-bottom:0}
+.bar{height:8px;background:#e8eef3;border-radius:20px;overflow:hidden}
+.bar i{display:block;height:100%;background:var(--maroon);border-radius:20px}
+.insight{padding:12px;border-radius:10px;background:#f5f9fc;color:#526176;font-size:12px;line-height:1.55;margin:8px 0}
+.review-list{max-height:400px;overflow:auto;display:grid;gap:8px}
+.review-q{padding:12px;border:1px solid #e2e9ef;border-radius:10px;font-size:12px}
+.review-q b{color:var(--maroon)}
+.result-actions{display:flex;justify-content:center;gap:10px;margin-top:20px}
+@media(max-width:850px){
+ .intro-grid,.score-row,.result-grid{grid-template-columns:1fr}
+ .test-layout{grid-template-columns:1fr}
+ .side{position:relative;top:auto;order:2}
+ .stats{grid-template-columns:repeat(2,1fr)}
+ .testbar{height:auto;min-height:68px;gap:7px;flex-wrap:wrap;padding:10px 2%}
+}
+@media(max-width:560px){
+ .navright .pill{display:none}
+ .hero{padding-top:42px}
+ .topic-grid,.options{grid-template-columns:1fr}
+ .stats{gap:9px}
+ .stat strong{font-size:25px}
+ .qbody{padding:19px 15px}
+ .qactions{align-items:stretch;flex-direction:column}
+ .leftactions,.rightactions{width:100%}
+ .action{flex:1}
+ .timers .timer:first-child{display:none}
+ .timer{min-width:90px}
+ .metrics{grid-template-columns:1fr 1fr}
+ .result-actions{flex-wrap:wrap}
+}
+
+/* ---------- premium maroon texture ---------- */
+body{
+ background:
+   radial-gradient(circle at 12% 10%,rgba(128,0,0,.045),transparent 22%),
+   radial-gradient(circle at 88% 72%,rgba(215,173,87,.055),transparent 24%),
+   linear-gradient(180deg,#fdfbf9 0%,#faf7f3 48%,#f7f2ed 100%);
+}
+body:before{
+ content:"";
+ position:fixed;
+ inset:0;
+ pointer-events:none;
+ z-index:0;
+ opacity:.22;
+ background-image:radial-gradient(rgba(88,36,36,.13) .55px,transparent .55px);
+ background-size:18px 18px;
+ mask-image:linear-gradient(to bottom,rgba(0,0,0,.7),transparent 80%);
+}
+.page{position:relative;z-index:1}
+.hero{position:relative;overflow:hidden}
+.hero:before,.hero:after{
+ content:"";
+ position:absolute;
+ border:1px solid rgba(128,0,0,.08);
+ border-radius:50%;
+ pointer-events:none;
+}
+.hero:before{width:420px;height:420px;left:-240px;top:-170px}
+.hero:after{width:520px;height:520px;right:-280px;bottom:-310px}
+.landing .container,.instructions .container,.result-page .container{position:relative;z-index:2}
+.card,.stat,.question-card,.side,.score-card,.result-card,.instruction-card{
+ backdrop-filter:blur(8px);
+}
+
+
+/* ================= MAROON + GOLD PREMIUM EXAM THEME ================= */
+:root{
+ --maroon:#7b0000;
+ --maroon2:#a10b0b;
+ --deep:#2b0000;
+ --gold:#d8b35a;
+ --gold2:#f0d58b;
+ --cream:#f8f1e6;
+ --paper:#fffaf0;
+ --ink:#2a1717;
+ --muted:#8b7770;
+ --line:#d9b96c;
+ --white:#fffdf8;
+ --green:#20b866;
+ --orange:#f28a12;
+ --red:#d92b2b;
+ --shadow:0 18px 55px rgba(65,0,0,.18);
+}
+html,body{background:var(--cream)!important;color:var(--ink)}
+body{
+ background:
+ radial-gradient(circle at 8% 5%,rgba(123,0,0,.10),transparent 22%),
+ radial-gradient(circle at 92% 88%,rgba(216,179,90,.13),transparent 24%),
+ linear-gradient(135deg,#fffaf2 0%,#f7eee1 48%,#f4e7d6 100%)!important;
+}
+body:before{
+ opacity:.18!important;
+ background-image:radial-gradient(rgba(92,30,30,.18) .6px,transparent .6px)!important;
+ background-size:16px 16px!important;
+}
+
+/* intro / instructions */
+.landing{background:
+ radial-gradient(circle at 8% 18%,rgba(123,0,0,.10),transparent 25%),
+ radial-gradient(circle at 90% 78%,rgba(216,179,90,.12),transparent 26%),
+ linear-gradient(135deg,#fffaf2,#f6eadb)!important;
+}
+.hero .eyebrow{color:#6f4c1f!important;background:#fff7df!important;border-color:#d9b96c!important}
+.dot{background:var(--gold)!important;box-shadow:0 0 12px rgba(216,179,90,.7)!important}
+.hero h1{color:#2b1212!important}
+.hero h1 span{color:var(--maroon)!important}
+.hero h1:after{background:linear-gradient(90deg,var(--maroon),var(--gold),var(--maroon))!important}
+.hero p{color:#725e56!important}
+.card,.stat,.instruction-card{background:rgba(255,253,248,.88)!important;border-color:rgba(180,132,48,.32)!important;box-shadow:var(--shadow)!important}
+.stat{border-top:3px solid var(--gold)!important}
+.stat strong{color:var(--maroon)!important}
+.stat span{color:#79634c!important}
+.intro-card h2{color:#3b1717}
+.bullet{color:#684f49!important}
+.check{background:#fff3cf!important;color:var(--maroon)!important;border:1px solid rgba(216,179,90,.55)}
+.topic{background:#fffaf0!important;border-color:rgba(180,132,48,.25)!important}
+.topic b{color:var(--maroon)!important}
+.topic small{color:#806d64!important}
+.startbox{background:linear-gradient(135deg,#fffaf0,#f7ead7)!important;border-color:#d9b96c!important}
+.primary{background:linear-gradient(135deg,#a30d0d,#650000)!important;border:1px solid #d8b35a!important;box-shadow:0 12px 28px rgba(123,0,0,.28),inset 0 1px rgba(255,255,255,.16)!important}
+.primary:hover{box-shadow:0 16px 34px rgba(123,0,0,.34),inset 0 1px rgba(255,255,255,.16)!important}
+.secondary{background:#fffaf0!important;color:var(--maroon)!important;border-color:#d9b96c!important}
+.section-title{color:var(--maroon)!important}
+.pattern th{background:#5b0000!important;color:#fff4d5!important;border-color:#b98d3f!important}
+.pattern td{background:#fffaf0!important;border-color:#e3c985!important;color:#4d3732!important}
+.note{background:#fff4d7!important;border-left-color:var(--gold)!important;color:#694f27!important}
+.oath{background:#fff8ea!important;border-color:#d9b96c!important}
+.oath label{color:#4b3530!important}
+.oath input{accent-color:var(--maroon)!important}
+
+/* test shell */
+.test-page{
+ background:
+ radial-gradient(circle at 5% 10%,rgba(216,179,90,.10),transparent 20%),
+ radial-gradient(circle at 95% 90%,rgba(216,179,90,.08),transparent 20%),
+ linear-gradient(135deg,#3a0000 0%,#5c0000 38%,#2d0000 100%)!important;
+ min-height:100vh;
+}
+.test-page:before{
+ content:"";position:fixed;inset:0;pointer-events:none;opacity:.20;z-index:0;
+ background-image:radial-gradient(rgba(255,220,140,.24) .55px,transparent .55px);
+ background-size:19px 19px;
+}
+.testbar{
+ background:linear-gradient(90deg,rgba(51,0,0,.96),rgba(103,0,0,.94),rgba(51,0,0,.96))!important;
+ border-bottom:1px solid rgba(216,179,90,.55)!important;
+ box-shadow:0 8px 30px rgba(0,0,0,.28)!important;
+ backdrop-filter:blur(14px)!important;
+}
+.section-badge{
+ background:linear-gradient(135deg,#a50b0b,#670000)!important;
+ border:1px solid var(--gold)!important;
+ color:#fff7df!important;
+ box-shadow:inset 0 1px rgba(255,255,255,.12),0 8px 22px rgba(0,0,0,.25)!important;
+}
+.timer{
+ background:rgba(255,250,239,.98)!important;
+ border:1px solid rgba(216,179,90,.75)!important;
+ box-shadow:0 5px 16px rgba(0,0,0,.14)!important;
+}
+.timer small{color:#8b6b36!important}
+.timer b{color:#3d1717!important}
+.timer.danger b{color:#c91f1f!important}
+
+.test-layout{position:relative;z-index:2;grid-template-columns:295px 1fr!important;gap:14px!important;margin:18px auto!important}
+.side{order:1!important;background:linear-gradient(180deg,#520000,#3a0000)!important;border:1px solid rgba(216,179,90,.7)!important;box-shadow:0 18px 50px rgba(0,0,0,.28)!important;color:#fff8e7!important}
+.side:after{content:"";position:absolute;inset:auto 0 0;height:130px;pointer-events:none;background:radial-gradient(circle at 30% 100%,rgba(216,179,90,.12),transparent 65%)}
+.side h3{color:#ffe6a4!important;font-size:15px!important}
+.side p{color:#d8bfae!important}
+.palette{gap:8px!important}
+.num{background:rgba(255,248,231,.08)!important;border:1px solid rgba(216,179,90,.52)!important;color:#fff5df!important}
+.num:hover{background:rgba(216,179,90,.18)!important}
+.num.current{background:linear-gradient(135deg,#d9b55e,#a57926)!important;border-color:#ffe7a0!important;color:#3a1a00!important;box-shadow:0 5px 15px rgba(216,179,90,.24)!important}
+.num.answered{background:#17a957!important;border-color:#61d991!important;color:#fff!important}
+.num.review{background:#ef7607!important;border-color:#ffb24f!important;color:#fff!important}
+.legend{border-top-color:rgba(216,179,90,.35)!important}
+.legend-row{color:#e8d9c5!important}
+.legend-dot{background:#fffaf0!important;border-color:#d8b35a!important}
+.legend-dot.a{background:#17a957!important;border-color:#17a957!important}
+.legend-dot.r{background:#ef7607!important;border-color:#ef7607!important}
+.submit-side{position:relative;z-index:2;background:linear-gradient(135deg,#a80b0b,#5d0000)!important;border:1px solid var(--gold)!important;color:#fff2ca!important;box-shadow:0 10px 25px rgba(0,0,0,.28)!important}
+.notice{color:#d7bca7!important}
+
+.question-card{order:2!important;background:var(--paper)!important;border:1px solid rgba(216,179,90,.72)!important;box-shadow:0 18px 55px rgba(0,0,0,.28)!important}
+.qhead{background:linear-gradient(90deg,#fff9ec,#fffdf7)!important;border-bottom:1px solid #e0c47d!important}
+.qhead b{color:var(--maroon)!important}
+.qhead span{color:#8a6c45!important}
+.qbody{background:linear-gradient(180deg,#fffdf8,#fbf1e2)!important}
+.question-text{color:#351919!important}
+.option{background:#fffaf1!important;border:1px solid #ddc27f!important;color:#3f2a27!important}
+.option:hover{border-color:#b58a36!important;background:#fff3d7!important;transform:translateY(-1px)}
+.option.selected{border-color:var(--maroon)!important;background:#f8e8df!important;box-shadow:0 0 0 2px rgba(216,179,90,.22)!important}
+.letter{background:#fffdf8!important;border-color:#d7b96d!important;color:#785e42!important}
+.option.selected .letter{background:var(--maroon)!important;border-color:var(--maroon)!important;color:#fff!important}
+.qactions{border-top-color:#e6cf9d!important}
+.action{background:#fffaf1!important;border-color:#d9b96c!important;color:#6c4c3e!important}
+.action.review{border-color:#d9a35a!important;color:#9a5200!important;background:#fff7e7!important}
+.action.next{background:linear-gradient(135deg,#a30c0c,#650000)!important;border-color:#d8b35a!important;color:#fff4d6!important;box-shadow:0 9px 20px rgba(123,0,0,.28)!important}
+.action.clear{border-color:#dca7a7!important;color:#a81919!important;background:#fff8f6!important}
+
+/* modal */
+.modal{background:rgba(31,0,0,.72)!important;backdrop-filter:blur(5px)}
+.modal-box{background:linear-gradient(135deg,#fffaf0,#f7ead7)!important;border:1px solid #d9b96c!important;box-shadow:0 25px 80px rgba(0,0,0,.42)!important}
+.modal-box h2{color:var(--maroon)!important}
+.modal-box p{color:#725d55!important}
+.modal-stat{background:#fffaf0!important;border-color:#dfc88e!important}
+.modal-stat small{color:#8c704b!important}
+
+/* result */
+.result-page{background:
+ radial-gradient(circle at 8% 10%,rgba(123,0,0,.09),transparent 24%),
+ radial-gradient(circle at 90% 88%,rgba(216,179,90,.12),transparent 24%),
+ linear-gradient(135deg,#fffaf2,#f5e8d8)!important}
+.result-head h1{color:var(--maroon)!important}
+.result-head p{color:#806c61!important}
+.score-card,.result-card{background:rgba(255,253,248,.90)!important;border-color:rgba(180,132,48,.35)!important;box-shadow:var(--shadow)!important}
+.ring{background:conic-gradient(var(--gold) var(--score),#eadcc0 0)!important;box-shadow:0 12px 30px rgba(123,0,0,.12)}
+.ring:after{background:#fff8ec!important}
+.ring-inner strong{color:var(--maroon)!important}
+.ring-inner span{color:#856b52!important}
+.final-score h2{color:var(--maroon)!important}
+.metric{background:#fffaf1!important;border-color:#e0c88e!important}
+.metric span{color:#806a57!important}
+.blue{color:var(--maroon)!important}
+.insight{background:#fff5df!important;color:#674f3e!important;border-left:3px solid var(--gold)}
+.section-line{border-bottom-color:#ead7ad!important}
+.bar{background:#eadfcf!important}
+.bar i{background:linear-gradient(90deg,#8a0000,#d3ad57)!important}
+.review-q{background:#fffaf0!important;border-color:#e1cb95!important}
+.review-q b{color:var(--maroon)!important}
+
+@media(max-width:850px){
+ .test-layout{grid-template-columns:1fr!important}
+ .side{order:2!important}
+ .question-card{order:1!important}
+}
+@media(max-width:560px){
+ .testbar{background:linear-gradient(90deg,#3b0000,#6a0000)!important}
+ .test-layout{width:96%!important}
+}
+
+
+/* =========================================================
+   RESPONSIVE PATCH — DESKTOP / LAPTOP / TABLET / MOBILE
+   Existing desktop design is preserved.
+========================================================= */
+
+/* Prevent accidental horizontal scrolling */
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Better intrinsic sizing for long text */
+img,
+svg,
+video,
+canvas {
+  max-width: 100%;
+  height: auto;
+}
+
+button,
+a,
+input,
+textarea,
+select {
+  max-width: 100%;
+}
+
+/* ---------- LAPTOP ---------- */
+@media (max-width: 1100px) {
+
+  .container {
+    width: min(94%, 1020px);
+  }
+
+  .test-layout {
+    width: 96%;
+    grid-template-columns: 270px minmax(0, 1fr) !important;
+  }
+
+  .side {
+    min-width: 0;
+  }
+
+  .palette {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+
+  .num {
+    width: 100%;
+  }
+
+  .question-card {
+    min-width: 0;
+  }
+
+  .qbody {
+    min-width: 0;
+  }
+}
+
+
+/* ---------- TABLET LANDSCAPE / PORTRAIT ---------- */
+@media (max-width: 900px) {
+
+  .container {
+    width: 92%;
+  }
+
+  .topbar {
+    padding: 0 3.5%;
+  }
+
+  .hero {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .stats {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .intro-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .test-layout {
+    width: 94%;
+    grid-template-columns: 1fr !important;
+  }
+
+  /*
+     On tablet the question card comes first.
+     The palette becomes a full-width panel underneath.
+  */
+  .question-card {
+    order: 1 !important;
+  }
+
+  .side {
+    order: 2 !important;
+    position: relative !important;
+    top: auto !important;
+    width: 100%;
+  }
+
+  .palette {
+    grid-template-columns: repeat(10, minmax(0, 1fr));
+  }
+
+  .num {
+    min-width: 0;
+  }
+
+  .result-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .score-row {
+    grid-template-columns: 1fr;
+  }
+
+  .score-row .ring {
+    margin-bottom: 5px;
+  }
+
+  .testbar {
+    min-height: 68px;
+    height: auto;
+    flex-wrap: wrap;
+    gap: 9px;
+    padding: 9px 2.5%;
+  }
+
+  .testbar > div:last-child {
+    margin-left: auto !important;
+  }
+
+  .timers {
+    flex-wrap: wrap;
+  }
+}
+
+
+/* ---------- LARGE MOBILE / SMALL TABLET ---------- */
+@media (max-width: 700px) {
+
+  .topbar {
+    height: 62px;
+    padding: 0 16px;
+  }
+
+  .brand {
+    font-size: 15px;
+  }
+
+  .brandmark {
+    width: 34px;
+    height: 34px;
+  }
+
+  .hero {
+    padding: 45px 17px 50px;
+  }
+
+  .hero h1 {
+    font-size: clamp(32px, 8vw, 42px);
+    line-height: 1.08;
+  }
+
+  .hero p {
+    font-size: 14px;
+    line-height: 1.65;
+  }
+
+  .stats {
+    gap: 10px;
+  }
+
+  .stat {
+    padding: 17px 10px;
+  }
+
+  .stat strong {
+    font-size: 26px;
+  }
+
+  .intro-card,
+  .instruction-card {
+    padding: 20px;
+  }
+
+  .topic-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .pattern {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    white-space: nowrap;
+  }
+
+  .pattern th,
+  .pattern td {
+    padding: 11px;
+  }
+
+  .testbar {
+    padding: 9px 12px;
+  }
+
+  .section-badge {
+    max-width: 58%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .timers {
+    margin-left: auto;
+  }
+
+  .timer {
+    min-width: 91px;
+    padding: 7px 9px;
+  }
+
+  .timer small {
+    font-size: 8px;
+  }
+
+  .timer b {
+    font-size: 15px;
+  }
+
+  .test-layout {
+    width: calc(100% - 20px);
+    margin: 10px auto 18px !important;
+  }
+
+  .qhead {
+    padding: 15px;
+    flex-wrap: wrap;
+  }
+
+  .qbody {
+    padding: 18px 15px;
+  }
+
+  .question-text {
+    font-size: 16px;
+    line-height: 1.55;
+  }
+
+  .options {
+    grid-template-columns: 1fr;
+  }
+
+  .option {
+    min-height: 54px;
+    padding: 13px;
+  }
+
+  .qactions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .leftactions,
+  .rightactions {
+    width: 100%;
+  }
+
+  .action {
+    flex: 1;
+    min-height: 44px;
+  }
+
+  .side {
+    padding: 14px;
+  }
+
+  .palette {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+
+  .num {
+    min-height: 40px;
+  }
+
+  .modal {
+    padding: 14px;
+  }
+
+  .modal-box {
+    padding: 21px;
+  }
+
+  .result-page {
+    padding-top: 25px;
+  }
+
+  .score-card,
+  .result-card {
+    padding: 18px;
+  }
+
+  .ring {
+    width: 190px;
+    height: 190px;
+  }
+
+  .ring:after {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+
+/* ---------- MOBILE ---------- */
+@media (max-width: 480px) {
+
+  .topbar {
+    height: 58px;
+    padding: 0 12px;
+  }
+
+  .brand {
+    font-size: 14px;
+  }
+
+  .brandmark {
+    width: 31px;
+    height: 31px;
+    border-radius: 9px;
+  }
+
+  .navright {
+    display: none;
+  }
+
+  .hero {
+    padding: 38px 14px 45px;
+  }
+
+  .hero .eyebrow {
+    font-size: 9px;
+    letter-spacing: 1px;
+    padding: 7px 11px;
+  }
+
+  .dot {
+    width: 6px;
+    height: 6px;
+  }
+
+  .hero h1 {
+    font-size: clamp(29px, 9vw, 37px);
+    letter-spacing: -.7px;
+    margin-top: 15px;
+  }
+
+  .hero h1:after {
+    width: 48px;
+    height: 2px;
+    margin-top: 14px;
+  }
+
+  .hero p {
+    font-size: 12.5px;
+  }
+
+  .stats {
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    margin-top: 25px;
+  }
+
+  .stat {
+    border-radius: 12px;
+    padding: 15px 7px;
+  }
+
+  .stat strong {
+    font-size: 23px;
+  }
+
+  .stat span {
+    font-size: 9px;
+    letter-spacing: .7px;
+  }
+
+  .intro-card,
+  .instruction-card {
+    padding: 16px;
+    border-radius: 14px;
+  }
+
+  .intro-card h2 {
+    font-size: 18px;
+  }
+
+  .bullet {
+    font-size: 12px;
+    gap: 8px;
+  }
+
+  .check {
+    width: 20px;
+    height: 20px;
+  }
+
+  .section-title {
+    font-size: 24px;
+  }
+
+  .section-sub {
+    font-size: 12px;
+  }
+
+  .testbar {
+    min-height: 0;
+    padding: 8px;
+    align-items: stretch;
+  }
+
+  .testbar > .section-badge {
+    max-width: 100%;
+    width: 100%;
+    text-align: center;
+    padding: 9px 10px;
+  }
+
+  .testbar > div:last-child {
+    width: 100%;
+    margin-left: 0 !important;
+    justify-content: space-between;
+  }
+
+  .timers {
+    flex: 1;
+    justify-content: flex-end;
+  }
+
+  .timer {
+    min-width: 88px;
+    flex: 1;
+  }
+
+  /*
+     Keep total timer visible on phones.
+     Section timer remains visible too.
+  */
+  .timers .timer:first-child {
+    display: block;
+  }
+
+  .testbar .action {
+    flex: 0 0 auto;
+    padding: 10px 11px;
+    font-size: 10px;
+  }
+
+  .test-layout {
+    width: calc(100% - 14px);
+    margin: 8px auto 14px !important;
+  }
+
+  .question-card,
+  .side {
+    border-radius: 13px;
+  }
+
+  .qhead {
+    padding: 13px;
+  }
+
+  .qhead b {
+    font-size: 13px;
+  }
+
+  .qhead span {
+    font-size: 9px;
+  }
+
+  .qbody {
+    padding: 16px 12px;
+  }
+
+  .question-text {
+    font-size: 15px;
+    line-height: 1.55;
+    margin-bottom: 18px;
+  }
+
+  .option {
+    font-size: 13px;
+    padding: 12px;
+    min-height: 52px;
+  }
+
+  .letter {
+    width: 28px;
+    height: 28px;
+  }
+
+  .leftactions,
+  .rightactions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 7px;
+  }
+
+  .rightactions .action {
+    width: 100%;
+  }
+
+  .rightactions .next {
+    grid-column: 2;
+  }
+
+  .side {
+    padding: 13px;
+  }
+
+  .palette {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 6px;
+  }
+
+  .num {
+    height: 38px;
+    min-height: 38px;
+    border-radius: 7px;
+    font-size: 10px;
+  }
+
+  .legend {
+    gap: 7px;
+  }
+
+  .legend-row {
+    font-size: 10px;
+  }
+
+  .submit-side {
+    padding: 12px;
+  }
+
+  .modal-stats {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .modal-actions {
+    flex-direction: column-reverse;
+  }
+
+  .modal-actions button {
+    width: 100%;
+  }
+
+  .result-head h1 {
+    font-size: 24px;
+    line-height: 1.2;
+  }
+
+  .result-head p {
+    font-size: 11px;
+  }
+
+  .score-card,
+  .result-card {
+    padding: 15px;
+  }
+
+  .ring {
+    width: 175px;
+    height: 175px;
+  }
+
+  .ring:after {
+    width: 138px;
+    height: 138px;
+  }
+
+  .ring-inner strong {
+    font-size: 32px;
+  }
+
+  .metrics {
+    grid-template-columns: 1fr 1fr;
+    gap: 7px;
+  }
+
+  .metric {
+    padding: 12px 7px;
+  }
+
+  .metric b {
+    font-size: 20px;
+  }
+
+  .result-actions {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .result-actions button {
+    width: 100%;
+  }
+}
+
+
+/* ---------- VERY SMALL PHONES ---------- */
+@media (max-width: 360px) {
+
+  .hero h1 {
+    font-size: 28px;
+  }
+
+  .hero p {
+    font-size: 12px;
+  }
+
+  .stats {
+    gap: 6px;
+  }
+
+  .stat strong {
+    font-size: 21px;
+  }
+
+  .stat span {
+    font-size: 8px;
+  }
+
+  .testbar .action {
+    padding: 9px 8px;
+    font-size: 9px;
+  }
+
+  .timer {
+    min-width: 0;
+  }
+
+  .timer small {
+    font-size: 7px;
+  }
+
+  .timer b {
+    font-size: 13px;
+  }
+
+  .qhead b {
+    font-size: 12px;
+  }
+
+  .question-text {
+    font-size: 14px;
+  }
+
+  .palette {
+    gap: 5px;
+  }
+
+  .num {
+    height: 35px;
+    min-height: 35px;
+  }
+}
+
+
+/* ---------- TOUCH DEVICES ---------- */
+@media (hover: none) and (pointer: coarse) {
+
+  .primary:hover,
+  .mock-btn:hover,
+  .action:hover,
+  .option:hover {
+    transform: none;
+  }
+
+  .primary:active,
+  .action:active,
+  .option:active,
+  .submit-side:active {
+    transform: scale(.98);
+  }
+}
+
+
+/* ---------- ACCESSIBILITY ---------- */
+@media (prefers-reduced-motion: reduce) {
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+
+.section-nav{display:grid;grid-template-columns:1fr 1fr;gap:7px;margin:0 0 13px}
+.section-tab{border:1px solid rgba(216,179,90,.52);background:rgba(255,248,231,.08);color:#fff5df;border-radius:8px;padding:8px 6px;font-size:10px;font-weight:900;line-height:1.2}
+.section-tab.active{background:linear-gradient(135deg,#d9b55e,#a57926);border-color:#ffe7a0;color:#3a1a00}
+@media(max-width:700px){.section-nav{grid-template-columns:1fr 1fr}}
+</style>
+</head>
+
+<body>
+
+<!-- ================= INTRO ================= -->
+<section id="introPage" class="page landing">
+<div class="container">
+<section class="hero">
+  <div class="eyebrow"><span class="dot"></span> Staff Selection Commission</div>
+  <h1>Combined Higher Secondary Level <span>Examination</span></h1>
+  <p>Practice with a full-length SSC CHSL Tier-I mock based on the official examination structure, with instant scoring and detailed performance analysis.</p>
+</section>
+
+<div class="stats">
+  <div class="stat"><strong>100</strong><span>Questions</span></div>
+  <div class="stat"><strong>60</strong><span>Minutes</span></div>
+  <div class="stat"><strong>200</strong><span>Total Marks</span></div>
+  <div class="stat"><strong>−0.50</strong><span>Wrong Answer</span></div>
+</div>
+
+<div class="intro-grid">
+  <div class="card intro-card">
+    <h2>Before You Begin</h2>
+    <div class="bullet"><span class="check">✓</span><span>100 objective multiple-choice questions across four sections.</span></div>
+    <div class="bullet"><span class="check">✓</span><span>Each correct answer carries <b>+2 marks</b>.</span></div>
+    <div class="bullet"><span class="check">✓</span><span>Each wrong answer carries <b>−0.50 marks</b>.</span></div>
+    <div class="bullet"><span class="check">✓</span><span>Unattempted questions receive no penalty.</span></div>
+    <div class="bullet"><span class="check">✓</span><span>The complete test has a single <b>60-minute timer</b>; there is no sectional time limit.</span></div>
+    <div class="bullet"><span class="check">✓</span><span>You can move between all four sections and jump to questions using the section selector and question palette.</span></div>
+  </div>
+
+  <div class="card intro-card">
+    <h2>Exam Pattern</h2>
+    <table class="pattern">
+      <tr><th>Section</th><th>Questions</th><th>Marks</th></tr>
+      <tr><td>English Language</td><td>25</td><td>50</td></tr>
+      <tr><td>General Intelligence</td><td>25</td><td>50</td></tr>
+      <tr><td>Quantitative Aptitude</td><td>25</td><td>50</td></tr>
+      <tr><td>General Awareness</td><td>25</td><td>50</td></tr>
+    </table>
+    <div class="note"><b>Scoring:</b> Final score = (Correct × 2) − (Wrong × 0.50). The result page will show the complete calculation.</div>
+  </div>
+</div>
+
+<div class="card intro-card" style="margin-top:18px">
+  <h2>Tier-I Syllabus — What You'll Practice</h2>
+  <div class="topic-grid">
+    <div class="topic"><b>General Intelligence &amp; Reasoning</b><small>Analogies, classification, series, coding-decoding, Venn diagrams, problem solving, spatial orientation, syllogism, statement conclusions, non-verbal reasoning, embedded figures and related reasoning topics.</small></div>
+    <div class="topic"><b>General Awareness</b><small>Current events, everyday scientific awareness, India and neighbouring countries, history, culture, geography, economic scene, general policy and scientific research.</small></div>
+    <div class="topic"><b>Quantitative Aptitude</b><small>Number system, arithmetic, percentage, ratio-proportion, averages, interest, profit-loss, discount, time-work, time-distance, algebra, geometry, mensuration, trigonometry and data-related topics.</small></div>
+    <div class="topic"><b>English Comprehension</b><small>Vocabulary, grammar, sentence structure, synonyms, antonyms, error spotting, fill in the blanks, idioms, one-word substitution, active/passive voice, direct/indirect speech and comprehension.</small></div>
+  </div>
+</div>
+
+<div class="startbox card">
+  <p>Read the instructions and make sure you can complete the test honestly without external help.</p>
+  <button class="primary" onclick="showInstructions()">Continue to Instructions &nbsp;→</button>
+</div>
+</div>
+</section>
+
+<!-- ================= INSTRUCTIONS / OATH ================= -->
+<section id="instructionsPage" class="page landing hidden">
+<div class="container instructions">
+<div class="card instruction-card">
+  <h1 class="section-title">Test Instructions</h1>
+  <p class="section-sub">Please read these instructions before beginning SSC CHSL Mock Test.</p>
+
+  <table class="pattern">
+    <tr><th>Section</th><th>Questions</th><th>Time</th><th>Marks</th></tr>
+    <tr><td>English Language</td><td>25</td><td>—</td><td>50</td></tr>
+    <tr><td>General Intelligence</td><td>25</td><td>—</td><td>50</td></tr>
+    <tr><td>Quantitative Aptitude</td><td>25</td><td>—</td><td>50</td></tr>
+    <tr><td>General Awareness</td><td>25</td><td>—</td><td>50</td></tr>
+  </table>
+
+  <div class="note">
+    <b>Important:</b> SSC CHSL Tier-I has 25 questions in each of four parts, 50 marks per part, 60 minutes for all four parts together, and −0.50 marks for every wrong answer.
+  </div>
+
+  <h3 style="margin:20px 0 9px">Important Points</h3>
+  <div class="bullet"><span class="check">1</span><span>Use <b>Next</b> to move through questions or click a question number to jump directly within the current section.</span></div>
+  <div class="bullet"><span class="check">2</span><span><b>Mark for Review</b> keeps the question highlighted so you can revisit it before the section ends.</span></div>
+  <div class="bullet"><span class="check">3</span><span>You can submit the complete mock at any time. A confirmation will show the overall time remaining.</span></div>
+  <div class="bullet"><span class="check">4</span><span>If the total test time expires, the mock will be submitted automatically and the result will appear.</span></div>
+  <div class="bullet"><span class="check">5</span><span>Once submitted, your score is calculated using the +2 / −0.50 marking scheme.</span></div>
+
+  <div class="oath">
+    <label>
+      <input id="oath" type="checkbox">
+      <span>I undertake to attempt this mock test honestly and without using Google, books, notes, another person, AI tools, or any other unfair assistance. I understand that the purpose of this test is to measure my actual preparation.</span>
+    </label>
+  </div>
+
+  <div class="begin">
+    <button id="beginBtn" class="primary" disabled onclick="beginTest()">I Agree — Begin Test &nbsp;→</button>
+  </div>
+</div>
+</div>
+</section>
+
+<!-- ================= TEST ================= -->
+<section id="testPage" class="page test-page hidden">
+<header class="testbar">
+    <div class="section-badge" id="sectionBadge">SECTION 1 · ENGLISH</div>
+  <div style="display:flex;align-items:center;gap:8px;margin-left:auto">
+    <div class="timers">
+    <div class="timer" id="overallTimer"><small>Total Time Left</small><b>60:00</b></div>
+    
+    </div>
+    <button class="action" style="background:linear-gradient(135deg,#a30c0c,#650000);color:#fff4d6;border-color:#d8b35a" onclick="openSubmitModal()">End Test</button>
+  </div>
+</header>
+
+<div class="test-layout">
+  <main class="question-card">
+    <div class="qhead"><b id="questionCounter">Question 1 of 25</b><span id="progressLabel">0/25 Answered</span></div>
+    <div class="qbody">
+      <div class="question-text" id="questionText"></div>
+      <div class="options" id="options"></div>
+      <div class="qactions">
+        <div class="leftactions">
+          <button class="action clear" onclick="clearResponse()">Clear Response</button>
+          <button class="action review" id="reviewBtn" onclick="toggleReview()">Mark for Review</button>
+        </div>
+        <div class="rightactions">
+          <button class="action" onclick="prevQuestion()">← Previous</button>
+          <button class="action next" id="nextBtn" onclick="nextQuestion()">Next →</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <aside class="side">
+    <h3>Question Palette</h3>
+    <p>Choose a section, then jump to any question in that section.</p>
+    <div class="section-nav" id="sectionNav">
+      <button class="section-tab active" onclick="switchSection(0)">English</button>
+      <button class="section-tab" onclick="switchSection(1)">Reasoning</button>
+      <button class="section-tab" onclick="switchSection(2)">Quant</button>
+      <button class="section-tab" onclick="switchSection(3)">General Awareness</button>
+    </div>
+    <div class="palette" id="palette"></div>
+
+    <div class="legend">
+      <div class="legend-row"><i class="legend-dot"></i> Not Answered</div>
+      <div class="legend-row"><i class="legend-dot a"></i> Answered</div>
+      <div class="legend-row"><i class="legend-dot r"></i> Marked for Review</div>
+      <div class="legend-row"><i class="legend-dot" style="background:#800000;border-color:#800000"></i> Current Question</div>
+    </div>
+
+    <button class="submit-side" onclick="openSubmitModal()">Submit Test</button>
+    <div class="notice">All four sections share the same 60-minute timer.</div>
+  </aside>
+</div>
+</section>
+
+<!-- ================= SUBMIT MODAL ================= -->
+<div id="submitModal" class="modal hidden">
+  <div class="modal-box">
+    <h2>Submit Mock Test?</h2>
+    <p>Are you sure you want to submit the test? You still have time remaining. Once submitted, you cannot continue this attempt.</p>
+    <div class="modal-stats">
+      <div class="modal-stat"><small>Total time left</small><b id="modalOverall">60:00</b></div>
+      <div class="modal-stat"><small>Unattempted</small><b id="modalUnattempted">100</b></div>
+      <div class="modal-stat"><small>Attempted</small><b id="modalAttempted">0 / 100</b></div>
+      <div class="modal-stat"><small>Marked for review</small><b id="modalReview">0</b></div>
+    </div>
+    <div class="modal-actions">
+      <button class="secondary" onclick="closeSubmitModal()">Continue Test</button>
+      <button class="primary" onclick="finishTest('manual')">Yes, Submit Test</button>
+    </div>
+  </div>
+</div>
+
+<!-- ================= RESULT ================= -->
+<section id="resultPage" class="page result-page hidden">
+<div class="container">
+<div class="result-head">
+  <h1>SSC CHSL · Mock Test Completed! ⚡</h1>
+  <p id="resultSubtitle">Here's your complete performance summary.</p>
+</div>
+
+<div class="card score-card">
+  <div class="score-row">
+    <div class="ring" id="scoreRing">
+      <div class="ring-inner"><strong id="scoreValue">0</strong><span>out of 200</span></div>
+    </div>
+    <div class="final-score">
+      <h2 id="performanceTitle">Performance</h2>
+      <p class="formula" id="formula"></p>
+      <div class="metrics">
+        <div class="metric"><b class="green" id="correctMetric">0</b><span>Correct</span></div>
+        <div class="metric"><b class="red" id="wrongMetric">0</b><span>Wrong</span></div>
+        <div class="metric"><b class="blue" id="skippedMetric">0</b><span>Skipped</span></div>
+        <div class="metric"><b class="orange" id="accuracyMetric">0%</b><span>Accuracy</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="result-grid">
+  <div class="card result-card">
+    <h3>Section-wise Performance</h3>
+    <div id="sectionResults"></div>
+  </div>
+  <div class="card result-card">
+    <h3>Time Analysis</h3>
+    <div id="timeResults"></div>
+  </div>
+</div>
+
+<div class="card result-card" style="margin-top:16px">
+  <h3>Performance Insights 📈</h3>
+  <div id="insights"></div>
+</div>
+
+<div class="card result-card" style="margin-top:16px">
+  <h3>Review Answers</h3>
+  <div class="review-list" id="reviewList"></div>
+</div>
+
+<div class="result-actions">
+  <button class="primary" onclick="location.reload()">New Attempt</button>
+  <button class="secondary" onclick="location.href='../index.html'">Home</button>
+</div>
+</div>
+</section>
+
+<script>
+const QUESTIONS = [{"subject":"English","q":"The following sentence has been divided into parts. One of them may contain an error. Select the part that contains the error from the given options. If you don't find any error, mark 'No error' as your answer.\n\nThe project was completed / more quicker / than expected.","options":["more quicker","The project was completed","than expected","No error"],"answer":0},{"subject":"English","q":"The given sentence is divided into four segments. Identify the segment that contains a grammatical error.\n\nWhen it / come to football, / my brother is / an addict.","options":["When it","come to football,","my brother is","an addict."],"answer":1},{"subject":"English","q":"The following sentence has an error in its tense. Identify the error and select the correct sentence from the options.\n\nIf you had apprised me about your problem earlier, I would have allow you to go.","options":["If you apprised me about your problem earlier, I would have allowed you to go.","If you can apprise me about your problem earlier, I would have allowed you to go.","If you had apprised me about your problem earlier, I would have allowed you to go.","If you had apprised me about your problem earlier, I would allow you to go."],"answer":2},{"subject":"English","q":"Select the option with the correct use of article(s).","options":["I was rude to him when I was in the fit of rage.","I was rude to him when I was in an fit of rage.","I was rude to him when I was in a fit of rage.","I was rude to him when I was in fit of rage."],"answer":2},{"subject":"English","q":"There is an error in the given sentence. From the options given, identify the sentence that corrects the error to make it a grammatically accurate sentence.\n\nHarmit is not innocent such as Uday.","options":["Harmit is not as innocent as Uday.","Harmit is not as innocent more than Uday.","Harmit is not as much as innocent as Uday.","Harmit is not innocent than Uday."],"answer":0},{"subject":"English","q":"The following sentence has been divided into four segments. Identify the segment that contains an error.\n\nThrow of / the old shoes; / nobody will wear / them now.","options":["nobody will wear","Throw of","them now.","the old shoes;"],"answer":1},{"subject":"English","q":"Select the option with the correct use of article(s).","options":["She kept an lot of rules in her life, due to which she is flourishing today.","She kept lot of rules in her life, due to which she is flourishing today.","She kept the lot of rules in her life, due to which she is flourishing today.","She kept a lot of rules in her life, due to which she is flourishing today."],"answer":3},{"subject":"English","q":"Select the option with the correct use of present tense.","options":["She had spend all her money on make-up in order to look beautiful.","She spends all her money on make-up in order to look beautiful.","She has spend all her money on make-up in order to look beautiful.","She spended all her money on make-up in order to look beautiful."],"answer":1},{"subject":"English","q":"Select the most appropriate ANTONYM of the underlined word in the given sentence.\n\nHis opponents viewed him as stubborn, dogmatic, and inflexible.","options":["Careless","Dishonest","Biased","Amenable"],"answer":3},{"subject":"English","q":"Select the option that will improve the underlined part of the given sentence.\n\nThis win could enhance to be a historic turning point in the fortunes of the team.","options":["prove","demonstrate","confirm","accomplish"],"answer":0},{"subject":"English","q":"Select the INCORRECTLY spelt word in the given sentence.\n\n‘Vande Mataram’, a poignant poem, is obviously and indisputebly the premier national song of India.","options":["Premier","Poignant","Indisputebly","Obviously"],"answer":2},{"subject":"English","q":"Select the option that will improve the underlined part of the given sentence.\n\nMothers have great animosity for their children.","options":["affection","affectation","absurdity","abasement"],"answer":0},{"subject":"English","q":"Select the most appropriate meaning of the given idiom.\n\nBlowing smoke","options":["To tease someone relentlessly","To lie to perplex others","To burn something important","To hide something"],"answer":1},{"subject":"English","q":"Identify the INCORRECTLY spelt word in the following sentence and select its correct spelling from the given options.\n\nThe committee heard that he had been negliegent in his duty.","options":["dutie","comittee","negligent","hurd"],"answer":2},{"subject":"English","q":"Select the most appropriate option that can substitute the underlined segment in the given sentence.\n\nRiding a horse was a piece of cake for him.","options":["confusing work","an everyday affair","a very easy task","a very difficult task"],"answer":2},{"subject":"English","q":"Select the most appropriate ANTONYM of the underlined word in the given sentence.\n\nThe organisation’s furtive actions must be taken into notice and dealt with accordingly.","options":["Shady","Truthful","Foxy","Futuristic"],"answer":1},{"subject":"English","q":"Select the most appropriate synonym of the given word.\n\nRespect","options":["Disrespect","Invalidate","Honour","Attend"],"answer":2},{"subject":"English","q":"Select the most appropriate option that can substitute the underlined segment in the given sentence.\n\nSonam’s cat used to chase the mouse into the kitchen and knock through a tower of pots and pans.","options":["knock over a tower of pots","knock out a tower of pots","knock away a tower of pots","knock inside a tower of pots"],"answer":0},{"subject":"English","q":"Select the most appropriate option that can substitute the underlined word in the given sentence.\n\nThe family was saved from the burning building by the brave firefighter.","options":["unafraid","timid","fearless","cowardly"],"answer":2},{"subject":"English","q":"Select the most appropriate ANTONYM of the underlined word in the given sentence.\n\nPrajakta is a very vain girl.","options":["Hopeful","Honourable","Humble","Honest"],"answer":2},{"subject":"English","q":"Select the most appropriate option that can best replace the bracketed word to fill in the blank.\n\nHis ________ stature was not a measure of his overall personality. (scrawny)","options":["thin","sickly","keen","muscular"],"answer":0},{"subject":"English","q":"There is a spelling error in the given sentence. Select the option that contains the INCORRECTLY spelt word.\n\nThe precious bookshelf was carefully decorated with religiuos books.","options":["religiuos","carefully","precious","decorated"],"answer":0},{"subject":"English","q":"Select the most appropriate option to substitute the underlined segment in the following sentence.\n\nThe company do not broke the law at any time.","options":["did not broken","do not brakes","does not break","did not breaking"],"answer":2},{"subject":"English","q":"Select the most appropriate synonym of the given word.\n\nTitanic","options":["Deep","Huge","Disastrous","Attractive"],"answer":1},{"subject":"English","q":"Select the most appropriate homonym to fill in the blank.\n\nSonu eats _______ like a rabbit.","options":["carat","carrot","caret","karat"],"answer":1},{"subject":"General Intelligence","q":"Select the set in which the numbers are related in the same way as are the numbers of the given sets.\n\n(111, 16, 7)\n(167, 14, 12)\n\nNOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits.","options":["(108, 9, 12)","(190, 21, 9)","(131, 12, 11)","(140, 8, 17)"],"answer":2},{"subject":"General Intelligence","q":"If 1 January 2020 was a Wednesday, then what day of the week was it on 1 January 2021?","options":["Wednesday","Thursday","Tuesday","Friday"],"answer":1},{"subject":"General Intelligence","q":"If 15 August 2006 is a Tuesday, then what will the day of the week on 19 February 2012?","options":["Friday","Saturday","Sunday","Tuesday"],"answer":2},{"subject":"General Intelligence","q":"What should come in place of the question mark (?) in the given series?\n\n4, 20, 100, 500, 2500, ?","options":["12700","12500","12600","12200"],"answer":1},{"subject":"General Intelligence","q":"What will come in the place of the question mark (?) in the following equation, if ‘+’ and ‘−’ are interchanged and ‘×’ and ‘+’ are interchanged?\n\n91 × 7 + 27 − 13 = ?","options":["99","66","77","88"],"answer":2},{"subject":"General Intelligence","q":"In a certain language, ‘make someone happy’ is written as ‘Ab Te Dp’ and ‘someone robbed him’ is written as ‘Te Ko Vi’. How is ‘someone’ written in the given language?","options":["Ko","Ab","Te","Vi"],"answer":2},{"subject":"General Intelligence","q":"What should come in place of ? in the given series based on the English alphabetical order?\n\nCKS, LRC, ?, DFW, MMG","options":["HGO","VMO","YAM","UYM"],"answer":3},{"subject":"General Intelligence","q":"The position of how many letters will change if each of the letters in the word TROUBLEMAKING is arranged from left to right in alphabetical order?","options":["Eleven","All","Twelve","Ten"],"answer":2},{"subject":"General Intelligence","q":"Which of the following numbers will replace the question mark (?) in the given series?\n\n119, 171, 223, 275, 327, ?","options":["386","357","369","379"],"answer":3},{"subject":"General Intelligence","q":"What should come in place of ? in the following series based on the English alphabetical order?\n\nDLT, ZHP, VDL, ?, NVD","options":["BLV","DNX","CMW","RZH"],"answer":3},{"subject":"General Intelligence","q":"What should come in place of ? in the given series?\n\n4, 13, ?, 58, 94, 139, 193","options":["36","31","27","26"],"answer":1},{"subject":"General Intelligence","q":"If ‘A’ stands for ‘÷’, ‘B’ stands for ‘×’, ‘C’ stands for ‘+’ and ‘D’ stands for ‘−’, then the resultant of which of the following will be 217?","options":["32 A 5 D 10 B 2 C 62","32 B 5 D 10 A 2 C 62","32 B 5 D 10 C 2 A 62","32 D 5 B 10 A 2 C 62"],"answer":1},{"subject":"General Intelligence","q":"Three of the following four letter-clusters are alike in a certain way and thus form a group. Which letter-cluster does NOT belong to that group?\n\n(Note: The odd one out is not based on the number of consonants/vowels or their position in the letter cluster.)","options":["OPSN","VWZU","EFHD","MNQL"],"answer":2},{"subject":"General Intelligence","q":"Select the set in which the numbers are related in the same way as are the numbers of the following sets.\n\n(59, 83, 97)\n(63, 87, 101)","options":["(67, 91, 115)","(71, 95, 109)","(51, 65, 89)","(48, 82, 96)"],"answer":1},{"subject":"General Intelligence","q":"In a certain language, ‘this is music’ is written as ‘Ta Bu Ka’ and ‘who touched this’ is written as ‘Pi Ka Bi’. How is ‘this’ written in the given language?","options":["Bu","Ta","Bi","Ka"],"answer":3},{"subject":"General Intelligence","q":"FHGE is related to IKJH in a certain way based on the English alphabetical order. In the same way, HJIG is related to KMLJ. To which of the following is RTSQ related, following the same logic?","options":["TVUS","UVWT","VWUT","UWVT"],"answer":3},{"subject":"General Intelligence","q":"What will come in the place of ‘?’ in the following equation, if ‘+’ and ‘−’ are interchanged and ‘×’ and ‘+’ are interchanged?\n\n14 + 6 × 3 + 7 − 2 = ?","options":["10","2","3","8"],"answer":1},{"subject":"General Intelligence","q":"Read the given statements and conclusions carefully. Assuming that the information given in the statements is true, decide which of the given conclusions logically follow(s) from the statements.\n\nStatements:\nAll watches are dials.\nAll dials are phones.\nSome phones are mobiles.\n\nConclusions:\n(I) No watch is a phone.\n(II) Some dials are mobiles.","options":["Only conclusion II follows","Only conclusion I follows","None of the conclusions follow","Both conclusions I and II follow"],"answer":2},{"subject":"General Intelligence","q":"Select the pair which follows the same pattern as that followed by the two set of pairs given below. Both pairs follow the same pattern.\n\nCJM : FMP\nAHL : DKO","options":["GHA : AHG","LTV : TVL","KOQ : PLJ","NRS : QUV"],"answer":3},{"subject":"General Intelligence","q":"CZ22 is related to HE33 in a certain way. In the same way, QN47 is related to VS58. To which of the following is WT7 related following the same logic?","options":["GA18","GA21","BY18","BY21"],"answer":2},{"subject":"General Intelligence","q":"What should come in place of the question mark (?) in the given series based on the English alphabetical order?\n\nLDP, GHO, BLN, WPM, ?","options":["RSN","QSM","RTL","QSN"],"answer":2},{"subject":"General Intelligence","q":"In a certain code language, ‘M & N’ means ‘M is the father of N’, ‘M@N’ means ‘M is the daughter of N’, ‘M#N’ means ‘M is the brother of N’, and ‘M % N’ means ‘M is the mother of N’. Based on this, how is A related to E, if ‘A & B # C @ D % E’?","options":["Father’s brother","Son","Father","Brother"],"answer":2},{"subject":"General Intelligence","q":"105 is related to 15 following a certain logic. Following the same logic, 154 is related to 22. To which of the following is 189 related following the same logic?","options":["27","29","21","23"],"answer":0},{"subject":"General Intelligence","q":"What should come in place of ‘?’ in the given series?\n\n21, 60, 177, 528, 1581, ?","options":["4570","4892","4636","4740"],"answer":3},{"subject":"General Intelligence","q":"Select the word-pair that best represents a similar relationship to the one expressed in the pair of words given below.\n\nModest : Humble","options":["Success : Failure","Brave : Fearful","Obvious : Evident","Knowledge : Ignorance"],"answer":2},{"subject":"Quantitative Aptitude","q":"Find the circumference of a circle whose area is 154 m².","options":["52 m","44 m","39 m","29.5 m"],"answer":1},{"subject":"Quantitative Aptitude","q":"Diagonals of a trapezium ABCD with AB ∥ DC intersect each other at the point O. If AB = 2.5CD, find the ratio of the area of triangle AOB to the area of triangle COD.","options":["16:1","25:4","9:2","5:2"],"answer":1},{"subject":"Quantitative Aptitude","q":"CD is a tangent to a circle of circumference of 88 cm with its centre at O. OC cuts the circle at P while OD cuts the circle at V such that ∠COD = 90°. Length of PC is 6 cm. What is half of CD (in cm) if OD exceeds OC by 1 cm?","options":["14.5","15.5","16.5","31"],"answer":0},{"subject":"Quantitative Aptitude","q":"Find the lowest positive value of (c − b) such that the 7-digit number 1738b9c is divisible by 12.","options":["4","7","1","2"],"answer":2},{"subject":"Quantitative Aptitude","q":"A shopkeeper gives a 10% discount and still earns 10% profit. The marked price of the item is how many times (correct to 2 decimal places) the cost price?","options":["1.28","1.20","1.22","1.24"],"answer":2},{"subject":"Quantitative Aptitude","q":"The population of a city was 5000000 in 2020. The population grows 7.5% annually. The population in 2022 is ______.","options":["5558875","5887125","5875215","5778125"],"answer":3},{"subject":"Quantitative Aptitude","q":"If 1234567y is divisible by 11, then what is the value of y?","options":["3","2","1","4"],"answer":3},{"subject":"Quantitative Aptitude","q":"Successive division of a number by 2, 3, 5 and 7 gives remainders 1, 4, 0 and 5, respectively. What will be the sum of the remainders if the same number is divided by 7, 5, 3 and 2 successively?","options":["17","8","10","9"],"answer":3},{"subject":"Quantitative Aptitude","q":"If the selling price of 100 pens is equal to the cost price of 140 pens, find the profit percentage.","options":["30%","40%","45%","36%"],"answer":1},{"subject":"Quantitative Aptitude","q":"The surface area of a sphere is 2464 cm². Find its volume.","options":["13121⅓ cm³","11498⅔ cm³","11892⅔ cm³","11621⅓ cm³"],"answer":1},{"subject":"Quantitative Aptitude","q":"A man can row 18 km/h in still water. It takes him two times as long to row up as to row down the river. Find the rate of the stream.","options":["9 km/h","12 km/h","24 km/h","6 km/h"],"answer":3},{"subject":"Quantitative Aptitude","q":"Sumit’s income in 2020 was ₹21,000. He gets an increment of 10% every year. What was his income in 2022?","options":["₹29,100","₹26,530","₹25,410","₹23,100"],"answer":2},{"subject":"Quantitative Aptitude","q":"An amount becomes double in 7 years on simple interest. The amount would be four times in ______ years on the same rate of simple interest.","options":["14","18","21","28"],"answer":2},{"subject":"Quantitative Aptitude","q":"If the selling price of 40 articles is equal to the cost price of 50 articles, then the percentage gain is:","options":["20%","35%","25%","30%"],"answer":2},{"subject":"Quantitative Aptitude","q":"P pays Q a sum of ₹150 using coins of ₹2, ₹5 and ₹10. He uses a total of 50 coins. If the ratio of ₹2 and ₹5 coins used is 5 : 2, then how many coins of ₹10 are used in the payment?","options":["2","1","4","5"],"answer":1},{"subject":"Quantitative Aptitude","q":"The simple interest on the sum for 12 years is three-fifth of the sum. The rate of interest per annum is:","options":["3%","6%","4%","5%"],"answer":3},{"subject":"Quantitative Aptitude","q":"In what ratio must a grocer mix two varieties of pulses costing ₹60 and ₹75 per kg, respectively, so as to get a mixture worth ₹65 per kg?","options":["3 : 4","2 : 1","2 : 3","1 : 2"],"answer":1},{"subject":"Quantitative Aptitude","q":"In an election, a candidate secured 41% of the votes polled and lost the election by 97,632. What is the number of votes obtained by the winning candidate?","options":["542400","320016","360072","222384"],"answer":1},{"subject":"Quantitative Aptitude","q":"Following Pie chart presents monthly expenditure by Sushma and Preeti in different heads. Sushma and Preeti make equal expenditure every month.\n\nWhat is the difference between the expenditure (in ₹) done on Food by Sushma and Preeti?","options":["1500","500","1000","750"],"answer":0},{"subject":"Quantitative Aptitude","q":"M varies inversely as (N² + 3). If M = 3 when N = 3, then what will be the value of M when N² = 69?","options":["1","1/4","√69","1/2"],"answer":3},{"subject":"Quantitative Aptitude","q":"The cost price of an item increased from ₹2,500 to ₹3,000. Find the increase percentage.","options":["30%","20%","15%","25%"],"answer":1},{"subject":"Quantitative Aptitude","q":"The difference between two numbers is 48. The ratio of these two numbers is 7 : 3. What is the sum of the two numbers?","options":["110","100","90","120"],"answer":3},{"subject":"Quantitative Aptitude","q":"In an election between two candidates A and B, A got 33% of total votes casted and still lost by 55,522 votes. Find the total number of votes got by B.","options":["1,09,411","1,04,911","1,09,141","1,09,114"],"answer":0},{"subject":"Quantitative Aptitude","q":"Which of the following are the sides of a right-angled triangle?","options":["16 cm, 31 cm, 34 cm","12 cm, 16 cm, 20 cm","6 cm, 7 cm, 10 cm","5 cm, 11 cm, 13 cm"],"answer":1},{"subject":"Quantitative Aptitude","q":"Simplify:\n\n(36 ÷ 6) ÷ 3 + (18 ÷ 9) × 4 − (12 ÷ 6) × (5 ÷ 2) =","options":["15","21","10","5"],"answer":3},{"subject":"General Awareness","q":"Which folk music is based on the Mahabharata with Bhima portrayed as hero?","options":["Dandiya","Pandavani","Alha","Mando"],"answer":1},{"subject":"General Awareness","q":"Who among the following was the founder of ‘Vikramshila Vishwavidyalaya’?","options":["Mahipala I","Dharmapala","Ramapala","Govindapala"],"answer":1},{"subject":"General Awareness","q":"In his ‘Drain of Wealth’ argument, who among the following stated that Britain was completely draining India?","options":["Badruddin Tyabji","Lala Lajpat Rai","Dadabhai Naoroji","Bal Gangadhar Tilak"],"answer":2},{"subject":"General Awareness","q":"Who wrote the Indian patriotic song, ‘Sare Jahan se acchha, Hindustan hamara’?","options":["Mahatma Gandhi","Ishwar Chandra Vidyasagar","Rabindranath Tagore","Mohammad Iqbal"],"answer":3},{"subject":"General Awareness","q":"How might ICT enhance the openness of e-land records?","options":["Enabling quick search and retrieval of land records","Facilitating manual record updates and amendments","Enforcing strict regulations on land transactions","Reducing the need for land surveys and assessments"],"answer":0},{"subject":"General Awareness","q":"Which of the following Articles of the Constitution of India deal with citizenship?","options":["Article 5 – 11","Article 12 – 18","Article 10 – 17","Article 8 – 15"],"answer":0},{"subject":"General Awareness","q":"In field hockey, ________ occurs when a player pushes the ball and raises it off the ground.","options":["bully","slap","flick","centre pass"],"answer":2},{"subject":"General Awareness","q":"Who discovered the atomic number based on X-ray wavelength in 1913?","options":["RA Millikan","Henry Moseley","Dmitri Mendeleev","AEB de Chancourtois"],"answer":1},{"subject":"General Awareness","q":"In 2022, the National Green Tribunal advised which of the following Ministries to form a three-member panel to formulate safeguards and guidelines to be followed by the State Environment Impact Assessment Authorities?","options":["Ministry of Home Affairs","Ministry of Law and Justice","Ministry of Health and Family Welfare","Ministry of Environment, Forest and Climate Change"],"answer":3},{"subject":"General Awareness","q":"Which of the following is NOT a domestic cricket tournament organised by the Board of Control for Cricket in India (BCCI) in India?","options":["Vizzy Trophy","ZR Irani Cup","Super Fours","Ranji Trophy"],"answer":2},{"subject":"General Awareness","q":"Which of the following states launched the first Migration Monitoring System in the year 2022?","options":["Maharashtra","Karnataka","Kerala","Goa"],"answer":0},{"subject":"General Awareness","q":"Mendel proposed the law of independent assortment on the basis of __________.","options":["dihybrid crosses","Monohybrid crosses","genes","alleles"],"answer":0},{"subject":"General Awareness","q":"Who is known as the ‘Father of Carnatic Music’?","options":["Vidyaranya","Purandara Dasa","Thirunal Rama Varma","Vishwanath Iyer"],"answer":1},{"subject":"General Awareness","q":"Mewar festival is celebrated during the _______ festival at Udaipur.","options":["Gangaur","Teej","Dusshera","Holi"],"answer":0},{"subject":"General Awareness","q":"Writ of Mandamus is a Fundamental Right classifiable under:","options":["cultural and educational rights","the right to freedom of religion","constitutional remedies","the right to equality"],"answer":2},{"subject":"General Awareness","q":"Which of the following Articles prohibits traffic in human beings and forced labour?","options":["Article 25","Article 23","Article 22","Article 28"],"answer":1},{"subject":"General Awareness","q":"Which country do the ‘Veddas’ traditional forest dwellers who foraged, hunted and lived in close-knit groups in caves in the dense jungles?","options":["Sri Lanka","Nepal","Myanmar","Bhutan"],"answer":0},{"subject":"General Awareness","q":"If there is a fall in the demand of a good, the equilibrium price is expected to:","options":["first rise, and then fall sharply","fall","Rise","neither fall nor rise"],"answer":1},{"subject":"General Awareness","q":"Which amongst the following terms was used for the land given to Brahmins during the Chola empire?","options":["Vellanvagai","Shalabhoga","Brahmadeya","Tirunmatukkani"],"answer":2},{"subject":"General Awareness","q":"In which country is the ‘Kachin Manaw Festival’ celebrated?","options":["Myanmar","Maldives","Sri Lanka","Nepal"],"answer":0},{"subject":"General Awareness","q":"How is the structure of health infrastructure and health care system in India?","options":["Three-tier system","Five-tier system","Two-tier system","Four-tier system"],"answer":0},{"subject":"General Awareness","q":"The zone separating the troposphere from the stratosphere is called the ________________.","options":["Tropopause","stratospause","Stratomerge","Tropomerge"],"answer":0},{"subject":"General Awareness","q":"Which group of animals has a segmented spinal column together with a few primitive forms in which the backbone is represented by a notochord?","options":["Vertebrata","Echinodermata","Mollusca","Arthropoda"],"answer":0},{"subject":"General Awareness","q":"Correctly match the following.\n\nType of Industries: 1. Public sector, 2. Private sector, 3. Joint sector\nName of Company: a. Tata Iron and Steel Company, b. Bharat Heavy Electricals Limited, c. Oil India Ltd","options":["1-c, 2-b, 3-a","1-b, 2-c, 3-a","1-b, 2-a, 3-c","1-a, 2-b, 3-c"],"answer":2},{"subject":"General Awareness","q":"What is the name of the highest peak of the Eastern Ghats?","options":["Kangchenjunga","Mahendragiri","Khasi","Anamudi"],"answer":1}];
+const SECTIONS = [
+  {name:"English Language", short:"ENGLISH"},
+  {name:"General Intelligence", short:"REASONING"},
+  {name:"Quantitative Aptitude", short:"QUANT"},
+  {name:"General Awareness", short:"GENERAL AWARENESS"}
+];
+const STORAGE_KEY="sscChslMock1CompletedTests";
+
+let sectionIndex=0;
+let qIndex=0;
+let answers=Array(100).fill(null);
+let reviews=Array(100).fill(false);
+let visited=Array(100).fill(false);
+let totalRemaining=3600;
+let startedAt=null;
+let finished=false;
+let ticker=null;
+
+const sectionRanges = [
+ [0,24],[25,49],[50,74],[75,99]
+];
+
+function qsForSection(){
+  const [a,b]=sectionRanges[sectionIndex];
+  return QUESTIONS.slice(a,b+1);
+}
+function globalIndex(){
+  return sectionRanges[sectionIndex][0]+qIndex;
+}
+function fmt(sec){
+  sec=Math.max(0,Math.floor(sec));
+  return String(Math.floor(sec/60)).padStart(2,"0")+":"+String(sec%60).padStart(2,"0");
+}
+function show(id){
+  document.getElementById(id).classList.remove("hidden");
+}
+function hide(id){
+  document.getElementById(id).classList.add("hidden");
+}
+function showInstructions(){
+  hide("introPage");show("instructionsPage");window.scrollTo(0,0);
+}
+function backToIntro(){
+  hide("instructionsPage");show("introPage");window.scrollTo(0,0);
+}
+document.getElementById("oath").addEventListener("change",e=>{
+  document.getElementById("beginBtn").disabled=!e.target.checked;
+});
+
+function beginTest(){
+  if(!document.getElementById("oath").checked)return;
+  hide("instructionsPage");show("testPage");
+  startedAt=Date.now();
+  sectionIndex=0;qIndex=0;totalRemaining=3600;
+  renderQuestion();startTimer();window.scrollTo(0,0);
+}
+
+function startTimer(){
+  clearInterval(ticker);
+  ticker=setInterval(()=>{
+    if(finished)return;
+    totalRemaining--;
+    updateTimers();
+    if(totalRemaining<=0){finishTest("auto");}
+  },1000);
+}
+function updateTimers(){
+  const ot=document.querySelector("#overallTimer b");
+  ot.textContent=fmt(totalRemaining);
+  document.getElementById("overallTimer").classList.toggle("danger",totalRemaining<=300);
+}
+function renderQuestion(){
+  const q=QUESTIONS[globalIndex()];
+  visited[globalIndex()]=true;
+  document.getElementById("sectionBadge").textContent=`SECTION ${sectionIndex+1} · ${SECTIONS[sectionIndex].short}`;
+  document.getElementById("questionCounter").textContent=`Question ${globalIndex()+1} of 100`;
+  const range=sectionRanges[sectionIndex];
+  const answeredInSection=answers.slice(range[0],range[1]+1).filter(x=>x!==null).length;
+  document.getElementById("progressLabel").textContent=`${answeredInSection}/25 Answered`;
+  document.getElementById("questionText").textContent=q.q;
+
+  const opts=document.getElementById("options");
+  opts.innerHTML=q.options.map((o,i)=>`
+    <button class="option ${answers[globalIndex()]===i?"selected":""}" onclick="selectOption(${i})">
+      <span class="letter">${String.fromCharCode(65+i)}</span><span>${escapeHtml(o)}</span>
+    </button>`).join("");
+
+  const rb=document.getElementById("reviewBtn");
+  rb.textContent=reviews[globalIndex()]?"✓ Remove Review":"Mark for Review";
+  rb.style.background=reviews[globalIndex()]?"#fff0e7":"#fff";
+  rb.style.color=reviews[globalIndex()]?"#e65e00":"#4e5e73";
+
+  document.getElementById("nextBtn").textContent =
+    (qIndex===24 && sectionIndex===3) ? "Finish / Submit" : "Next →";
+  document.querySelectorAll(".section-tab").forEach((b,i)=>b.classList.toggle("active",i===sectionIndex));
+
+  renderPalette();
+  updateTimers();
+}
+function escapeHtml(s){
+ return String(s).replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[m]));
+}
+function selectOption(i){
+  answers[globalIndex()]=i;renderQuestion();
+}
+function clearResponse(){
+  answers[globalIndex()]=null;renderQuestion();
+}
+function toggleReview(){
+  reviews[globalIndex()]=!reviews[globalIndex()];renderQuestion();
+}
+function renderPalette(){
+  const p=document.getElementById("palette");
+  p.innerHTML=qsForSection().map((_,i)=>{
+    const gi=sectionRanges[sectionIndex][0]+i;
+    let cls="num";
+    if(i===qIndex)cls+=" current";
+    else if(reviews[gi])cls+=" review";
+    else if(answers[gi]!==null)cls+=" answered";
+    return `<button class="${cls}" onclick="jumpTo(${i})">${i+1}</button>`;
+  }).join("");
+}
+function jumpTo(i){qIndex=i;renderQuestion();}
+function prevQuestion(){
+  if(qIndex>0){qIndex--;renderQuestion();return;}
+  if(sectionIndex>0){sectionIndex--;qIndex=24;renderQuestion();window.scrollTo(0,0);}
+}
+function nextQuestion(){
+  if(qIndex<24){qIndex++;renderQuestion();return;}
+  if(sectionIndex<3){sectionIndex++;qIndex=0;renderQuestion();window.scrollTo(0,0);return;}
+  openSubmitModal();
+}
+function switchSection(si){
+  if(si<0 || si>3)return;
+  sectionIndex=si;qIndex=0;renderQuestion();window.scrollTo(0,0);
+}
+function showToast(msg){
+  const t=document.createElement("div");
+  t.textContent=msg;
+  t.style="position:fixed;left:50%;bottom:25px;transform:translateX(-50%);background:#241b1b;color:#fff;padding:11px 16px;border-radius:9px;font-size:12px;font-weight:800;z-index:200;box-shadow:0 10px 30px rgba(0,0,0,.2)";
+  document.body.appendChild(t);setTimeout(()=>t.remove(),2500);
+}
+function openSubmitModal(){
+  document.getElementById("modalOverall").textContent=fmt(totalRemaining);
+  document.getElementById("modalUnattempted").textContent=100-answers.filter(x=>x!==null).length;
+  document.getElementById("modalAttempted").textContent=`${answers.filter(x=>x!==null).length} / 100`;
+  document.getElementById("modalReview").textContent=reviews.filter(Boolean).length;
+  show("submitModal");
+}
+function closeSubmitModal(){hide("submitModal")}
+
+function finishTest(reason){
+  if(finished)return;
+  finished=true;clearInterval(ticker);hide("submitModal");hide("testPage");show("resultPage");
+  const attempted=answers.filter(x=>x!==null).length;
+  let correct=0,wrong=0;
+  QUESTIONS.forEach((q,i)=>{
+    if(answers[i]===null)return;
+    if(answers[i]===q.answer)correct++;else wrong++;
+  });
+  const skipped=100-attempted;
+  const score=correct*2-wrong*.5;
+  const accuracy=attempted?correct/attempted*100:0;
+  const timeTaken=3600-totalRemaining;
+
+  const pct=Math.max(0,Math.min(100,score/2));
+  document.getElementById("scoreRing").style.setProperty("--score",pct+"%");
+  document.getElementById("scoreValue").textContent=score.toFixed(1);
+  document.getElementById("correctMetric").textContent=correct;
+  document.getElementById("wrongMetric").textContent=wrong;
+  document.getElementById("skippedMetric").textContent=skipped;
+  document.getElementById("accuracyMetric").textContent=accuracy.toFixed(0)+"%";
+  document.getElementById("formula").textContent=`Final score = (${correct} × 2) − (${wrong} × 0.50) = ${score.toFixed(1)} / 200`;
+  document.getElementById("resultSubtitle").textContent=reason==="auto"?"Time expired — your test was submitted automatically.":"Your test was submitted successfully.";
+
+  let title="Keep Practicing";
+  if(score>=160)title="Excellent Performance";
+  else if(score>=140)title="Very Strong Performance";
+  else if(score>=120)title="Strong Performance";
+  else if(score>=100)title="Good Start";
+  document.getElementById("performanceTitle").textContent=title;
+
+  const sectionResults=document.getElementById("sectionResults");
+  sectionResults.innerHTML=SECTIONS.map((s,si)=>{
+    const [a,b]=sectionRanges[si];
+    const secQs=QUESTIONS.slice(a,b+1);
+    let c=0,w=0,att=0;
+    secQs.forEach((q,j)=>{const v=answers[a+j];if(v!==null){att++;if(v===q.answer)c++;else w++;}});
+    const sc=c*2-w*.5;
+    const p=Math.max(0,Math.min(100,sc/50*100));
+    return `<div class="section-line"><div><b>${s.name}</b><div class="bar" style="margin-top:7px"><i style="width:${p}%"></i></div></div><span>${c}/${secQs.length}</span><strong>${sc.toFixed(1)}/50</strong></div>`;
+  }).join("");
+
+  document.getElementById("timeResults").innerHTML=`
+    <div class="insight"><b>Total Time Allowed:</b> 60:00</div>
+    <div class="insight"><b>Time Taken:</b> ${fmt(timeTaken)}</div>
+    <div class="insight"><b>Time Remaining:</b> ${fmt(totalRemaining)}</div>
+    <div class="insight"><b>Average Time / Attempt:</b> ${attempted?Math.floor(timeTaken/attempted):0} sec</div>
+    <div class="insight"><b>Submission:</b> ${reason==="auto"?"Automatic — time expired":"Manual — submitted by student"}</div>
+  `;
+
+  const insights=[];
+  if(accuracy>=85)insights.push("Your accuracy is strong. Focus on maintaining speed without increasing careless errors.");
+  else if(accuracy>=70)insights.push("Your accuracy is reasonable. Review the questions you got wrong before attempting the next mock.");
+  else insights.push("Accuracy needs improvement. Analyse every wrong answer and strengthen the relevant concepts.");
+  if(attempted<80)insights.push(`You attempted ${attempted}/100 questions. Work on decision-making and time allocation.`);
+  if(wrong>skipped)insights.push("Wrong answers are higher than skipped questions. Avoid guessing when you are not reasonably confident.");
+  else insights.push("Your skipped questions are higher than your wrong answers. Improve question selection and speed.");
+  if(totalRemaining>0)insights.push(`You finished with ${fmt(totalRemaining)} remaining. Use spare time to revisit marked questions in future mocks.`);
+  document.getElementById("insights").innerHTML=insights.map(x=>`<div class="insight">• ${x}</div>`).join("");
+
+  document.getElementById("reviewList").innerHTML=QUESTIONS.map((q,i)=>{
+    const v=answers[i];
+    const status=v===null?"Skipped":v===q.answer?"Correct":"Wrong";
+    const cls=status==="Correct"?"green":status==="Wrong"?"red":"blue";
+    return `<div class="review-q"><b>Q${i+1} · <span class="${cls}">${status}</span></b><br>${escapeHtml(q.q)}<br><span style="color:#667386">Your answer: ${v===null?"Not attempted":escapeHtml(q.options[v])} · Correct answer: ${escapeHtml(q.options[q.answer])}</span></div>`;
+  }).join("");
+
+  const done=JSON.parse(localStorage.getItem(STORAGE_KEY)||"[]");
+  if(!done.includes(1)){done.push(1);localStorage.setItem(STORAGE_KEY,JSON.stringify(done));}
+  localStorage.setItem("sscChslMock1Result",JSON.stringify({score,correct,wrong,skipped,accuracy,timeTaken,submittedAt:new Date().toISOString()}));
+  window.scrollTo(0,0);
+}
+</script>
+</body>
+</html>
