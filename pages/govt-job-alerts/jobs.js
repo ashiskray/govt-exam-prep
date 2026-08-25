@@ -1,5 +1,3343 @@
 const jobAlerts = [
     {
+        "id": "abgh-senior-resident-7-posts-2026",
+        "type": "job",
+        "category": "State",
+        "title": "Senior Resident – 7 Posts",
+        "subtitle": "ABGH — Senior Resident – 7 Posts",
+        "recruitmentBoard": "ABGH",
+        "qualification": "Diploma, DNB, MS/MD",
+        "applicationStart": "24/08/2026",
+        "lastDate": "27-08-2026",
+        "vacancies": "7 Posts",
+        "state": "Delhi",
+        "advertisement": "–",
+        "status": "active",
+        "officialNotification": "https://asbh.delhi.gov.in/recruitment",
+        "applyLink": "https://asbh.delhi.gov.in/recruitment",
+        "officialWebsite": "https://asbh.delhi.gov.in/recruitment",
+        "description": "ABGH has announced recruitment for Senior Resident – 7 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (Diploma, DNB, MS/MD). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment is for healthcare, clinical, laboratory or health-programme positions. Candidates should verify the discipline-specific eligibility, experience, age and selection conditions in the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application / Eligibility Screening",
+            "Interview / Walk-in Selection as prescribed",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official ABGH website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://asbh.delhi.gov.in/recruitment",
+            "notification": "https://asbh.delhi.gov.in/recruitment",
+            "applyOnline": "https://asbh.delhi.gov.in/recruitment"
+        }
+    },
+    {
+        "id": "aiims-delhi-project-research-scientist-i-1-posts-2026",
+        "type": "job",
+        "category": "State",
+        "title": "Project Research Scientist - I – 1 Posts",
+        "subtitle": "AIIMS Delhi — Project Research Scientist - I – 1 Posts",
+        "recruitmentBoard": "AIIMS Delhi",
+        "qualification": "M.Pharma, M.Sc",
+        "applicationStart": "24/08/2026",
+        "lastDate": "05-09-2026",
+        "vacancies": "1 Posts",
+        "state": "Delhi",
+        "advertisement": "–",
+        "status": "active",
+        "officialNotification": "https://www.aiims.edu/",
+        "applyLink": "https://www.aiims.edu/",
+        "officialWebsite": "https://www.aiims.edu/",
+        "description": "AIIMS Delhi has announced recruitment for Project Research Scientist - I – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (M.Pharma, M.Sc). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment is for research or project-based positions. The exact discipline, project requirements, experience, tenure and selection method are post-specific and should be checked in the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application Screening",
+            "Written / Skill Test or Shortlisting as prescribed",
+            "Interview where applicable",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official AIIMS Delhi website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://www.aiims.edu/",
+            "notification": "https://www.aiims.edu/",
+            "applyOnline": "https://www.aiims.edu/"
+        }
+    },
+    {
+        "id": "aiims-delhi-research-assistant-field-investigator-4-posts-2026",
+        "type": "job",
+        "category": "State",
+        "title": "Research Assistant, Field Investigator – 4 Posts",
+        "subtitle": "AIIMS Delhi — Research Assistant, Field Investigator – 4 Posts",
+        "recruitmentBoard": "AIIMS Delhi",
+        "qualification": "B.A, B.Sc, BSW, M.A, M.Phil/Ph.D, M.Sc, MSW",
+        "applicationStart": "24/08/2026",
+        "lastDate": "07-09-2026",
+        "vacancies": "4 Posts",
+        "state": "Delhi",
+        "advertisement": "–",
+        "status": "active",
+        "officialNotification": "https://www.aiims.edu/",
+        "applyLink": "https://www.aiims.edu/",
+        "officialWebsite": "https://www.aiims.edu/",
+        "description": "AIIMS Delhi has announced recruitment for Research Assistant, Field Investigator – 4 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (B.A, B.Sc, BSW, M.A, M.Phil/Ph.D, M.Sc, MSW). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment is for research or project-based positions. The exact discipline, project requirements, experience, tenure and selection method are post-specific and should be checked in the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application / Eligibility Screening",
+            "Interview / Walk-in Selection as prescribed",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official AIIMS Delhi website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://www.aiims.edu/",
+            "notification": "https://www.aiims.edu/",
+            "applyOnline": "https://www.aiims.edu/"
+        }
+    },
+    {
+        "id": "aiims-gorakhpur-executive-engineer-registrar-and-more-posts-10-posts-2026",
+        "type": "job",
+        "category": "State",
+        "title": "Executive Engineer, Registrar and More Posts – 10 Posts",
+        "subtitle": "AIIMS Gorakhpur — Executive Engineer, Registrar and More Posts – 10 Posts",
+        "recruitmentBoard": "AIIMS Gorakhpur",
+        "qualification": "Any Post Graduate, MBA/PGDM, Diploma, PG Diploma",
+        "applicationStart": "24/08/2026",
+        "lastDate": "21-09-2026",
+        "vacancies": "10 Posts",
+        "state": "Uttar Pradesh",
+        "advertisement": "AIIMS/GKP/RECT/DEPUTATION/2026-27/208",
+        "status": "active",
+        "officialNotification": "https://aiimsgorakhpur.edu.in/",
+        "applyLink": "https://aiimsgorakhpur.edu.in/",
+        "officialWebsite": "https://aiimsgorakhpur.edu.in/",
+        "description": "AIIMS Gorakhpur has announced recruitment for Executive Engineer, Registrar and More Posts – 10 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (Any Post Graduate, MBA/PGDM, Diploma, PG Diploma). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment is for technical, engineering or technology-support roles. Candidates should check the required discipline, experience, age, selection process and supporting documents in the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application Screening",
+            "Written / Skill Test or Shortlisting as prescribed",
+            "Interview where applicable",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official AIIMS Gorakhpur website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://aiimsgorakhpur.edu.in/",
+            "notification": "https://aiimsgorakhpur.edu.in/",
+            "applyOnline": "https://aiimsgorakhpur.edu.in/"
+        }
+    },
+    {
+        "id": "aiims-jodhpur-project-nurse-iii-project-technical-support-iii-2-posts-2026",
+        "type": "job",
+        "category": "State",
+        "title": "Project Nurse III, Project Technical Support III – 2 Posts",
+        "subtitle": "AIIMS Jodhpur — Project Nurse III, Project Technical Support III – 2 Posts",
+        "recruitmentBoard": "AIIMS Jodhpur",
+        "qualification": "B.Sc, B.Tech/B.E, BMLT",
+        "applicationStart": "24/08/2026",
+        "lastDate": "31-08-2026",
+        "vacancies": "2 Posts",
+        "state": "Rajasthan",
+        "advertisement": "AIIMS/JDH/NEO/2026/8/592",
+        "status": "active",
+        "officialNotification": "https://www.aiimsjodhpur.edu.in/",
+        "applyLink": "https://www.aiimsjodhpur.edu.in/",
+        "officialWebsite": "https://www.aiimsjodhpur.edu.in/",
+        "description": "AIIMS Jodhpur has announced recruitment for Project Nurse III, Project Technical Support III – 2 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (B.Sc, B.Tech/B.E, BMLT). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment is for healthcare, clinical, laboratory or health-programme positions. Candidates should verify the discipline-specific eligibility, experience, age and selection conditions in the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application / Eligibility Screening",
+            "Interview / Walk-in Selection as prescribed",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official AIIMS Jodhpur website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://www.aiimsjodhpur.edu.in/",
+            "notification": "https://www.aiimsjodhpur.edu.in/",
+            "applyOnline": "https://www.aiimsjodhpur.edu.in/"
+        }
+    },
+    {
+        "id": "angrau-teaching-associate-teaching-assistant-11-posts-2026",
+        "type": "job",
+        "category": "State",
+        "title": "Teaching Associate, Teaching Assistant – 11 Posts",
+        "subtitle": "ANGRAU — Teaching Associate, Teaching Assistant – 11 Posts",
+        "recruitmentBoard": "ANGRAU",
+        "qualification": "M.Phil/Ph.D",
+        "applicationStart": "24/08/2026",
+        "lastDate": "31-08-2026",
+        "vacancies": "11 Posts",
+        "state": "Andhra Pradesh",
+        "advertisement": "–",
+        "status": "active",
+        "officialNotification": "https://angrau.ac.in/",
+        "applyLink": "https://angrau.ac.in/",
+        "officialWebsite": "https://angrau.ac.in/",
+        "description": "ANGRAU has announced recruitment for Teaching Associate, Teaching Assistant – 11 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (M.Phil/Ph.D). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment is for teaching, academic or educational-support roles. Candidates should verify the subject-wise qualification, experience, age, selection method and document requirements from the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application / Eligibility Screening",
+            "Interview / Walk-in Selection as prescribed",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official ANGRAU website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://angrau.ac.in/",
+            "notification": "https://angrau.ac.in/",
+            "applyOnline": "https://angrau.ac.in/"
+        }
+    },
+    {
+        "id": "arps-principal-1-posts-2026",
+        "type": "job",
+        "category": "Defence",
+        "title": "Principal – 1 Posts",
+        "subtitle": "ARPS — Principal – 1 Posts",
+        "recruitmentBoard": "ARPS",
+        "qualification": "Any Post Graduate, B.Ed",
+        "applicationStart": "24/08/2026",
+        "lastDate": "05-09-2026",
+        "vacancies": "1 Posts",
+        "state": "All India",
+        "advertisement": "–",
+        "status": "active",
+        "officialNotification": "https://www.assamrifles.gov.in/",
+        "applyLink": "https://www.assamrifles.gov.in/",
+        "officialWebsite": "https://www.assamrifles.gov.in/",
+        "description": "ARPS has announced recruitment for Principal – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (Any Post Graduate, B.Ed). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment is for teaching, academic or educational-support roles. Candidates should verify the subject-wise qualification, experience, age, selection method and document requirements from the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application Screening",
+            "Written / Skill Test or Shortlisting as prescribed",
+            "Interview where applicable",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official ARPS website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://www.assamrifles.gov.in/",
+            "notification": "https://www.assamrifles.gov.in/",
+            "applyOnline": "https://www.assamrifles.gov.in/"
+        }
+    },
+    {
+        "id": "aud-delhi-professor-assistant-professor-and-associate-professor-89-posts-2026",
+        "type": "job",
+        "category": "State",
+        "title": "Professor, Assistant Professor and Associate Professor – 89 Posts",
+        "subtitle": "AUD Delhi — Professor, Assistant Professor and Associate Professor – 89 Posts",
+        "recruitmentBoard": "AUD Delhi",
+        "qualification": "B.Ed, M.Phil/Ph.D",
+        "applicationStart": "24/08/2026",
+        "lastDate": "05-09-2026",
+        "vacancies": "89 Posts",
+        "state": "Delhi",
+        "advertisement": "AUD/55-1(67)/Rect./2026/838",
+        "status": "active",
+        "officialNotification": "https://aud.ac.in/",
+        "applyLink": "https://aud.ac.in/",
+        "officialWebsite": "https://aud.ac.in/",
+        "description": "AUD Delhi has announced recruitment for Professor, Assistant Professor and Associate Professor – 89 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (B.Ed, M.Phil/Ph.D). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment is for teaching, academic or educational-support roles. Candidates should verify the subject-wise qualification, experience, age, selection method and document requirements from the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application Screening",
+            "Written / Skill Test or Shortlisting as prescribed",
+            "Interview where applicable",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official AUD Delhi website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://aud.ac.in/",
+            "notification": "https://aud.ac.in/",
+            "applyOnline": "https://aud.ac.in/"
+        }
+    },
+    {
+        "id": "assam-rifles-public-school-accountant-1-posts-2026",
+        "type": "job",
+        "category": "Defence",
+        "title": "Accountant – 1 Posts",
+        "subtitle": "Assam Rifles Public School — Accountant – 1 Posts",
+        "recruitmentBoard": "Assam Rifles Public School",
+        "qualification": "Any Graduate, Diploma",
+        "applicationStart": "24/08/2026",
+        "lastDate": "05-09-2026",
+        "vacancies": "1 Posts",
+        "state": "All India",
+        "advertisement": "–",
+        "status": "active",
+        "officialNotification": "https://www.assamrifles.gov.in/",
+        "applyLink": "https://www.assamrifles.gov.in/",
+        "officialWebsite": "https://www.assamrifles.gov.in/",
+        "description": "Assam Rifles Public School has announced recruitment for Accountant – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (Any Graduate, Diploma). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment is for the advertised administrative, support, professional or field role. Candidates should verify the detailed eligibility, age, experience, selection process and document requirements in the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application Screening",
+            "Written / Skill Test or Shortlisting as prescribed",
+            "Interview where applicable",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official Assam Rifles Public School website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://www.assamrifles.gov.in/",
+            "notification": "https://www.assamrifles.gov.in/",
+            "applyOnline": "https://www.assamrifles.gov.in/"
+        }
+    },
+    {
+        "id": "bric-instem-management-assistant-technical-assistant-and-more-14-posts-2026",
+        "type": "job",
+        "category": "State",
+        "title": "Management Assistant, Technical Assistant and More – 14 Posts",
+        "subtitle": "BRIC INSTEM — Management Assistant, Technical Assistant and More – 14 Posts",
+        "recruitmentBoard": "BRIC INSTEM",
+        "qualification": "Any Graduate, B.Tech/B.E, Diploma, PG Diploma",
+        "applicationStart": "24/08/2026",
+        "lastDate": "25-08-2026",
+        "vacancies": "14 Posts",
+        "state": "Karnataka",
+        "advertisement": "BRIC-inStem/02/2026",
+        "status": "active",
+        "officialNotification": "https://instem.res.in/",
+        "applyLink": "https://instem.res.in/",
+        "officialWebsite": "https://instem.res.in/",
+        "description": "BRIC INSTEM has announced recruitment for Management Assistant, Technical Assistant and More – 14 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (Any Graduate, B.Tech/B.E, Diploma, PG Diploma). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment is for technical, engineering or technology-support roles. Candidates should check the required discipline, experience, age, selection process and supporting documents in the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application Screening",
+            "Written / Skill Test or Shortlisting as prescribed",
+            "Interview where applicable",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official BRIC INSTEM website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://instem.res.in/",
+            "notification": "https://instem.res.in/",
+            "applyOnline": "https://instem.res.in/"
+        }
+    },
+    {
+        "id": "bombay-high-court-cook-18-posts-2026",
+        "type": "job",
+        "category": "State",
+        "title": "Cook – 18 Posts",
+        "subtitle": "Bombay High Court — Cook – 18 Posts",
+        "recruitmentBoard": "Bombay High Court",
+        "qualification": "Diploma, 12TH, 10TH, 4th",
+        "applicationStart": "24/08/2026",
+        "lastDate": "10-09-2026",
+        "vacancies": "18 Posts",
+        "state": "Maharashtra",
+        "advertisement": "Admin/1420/2026, Date: 17/08/2026",
+        "status": "active",
+        "officialNotification": "https://bombayhighcourt.nic.in/",
+        "applyLink": "https://bombayhighcourt.nic.in/",
+        "officialWebsite": "https://bombayhighcourt.nic.in/",
+        "description": "Bombay High Court has announced recruitment for Cook – 18 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (Diploma, 12TH, 10TH, 4th). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment is for the advertised administrative, support, professional or field role. Candidates should verify the detailed eligibility, age, experience, selection process and document requirements in the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application Screening",
+            "Written / Skill Test or Shortlisting as prescribed",
+            "Interview where applicable",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official Bombay High Court website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://bombayhighcourt.nic.in/",
+            "notification": "https://bombayhighcourt.nic.in/",
+            "applyOnline": "https://bombayhighcourt.nic.in/"
+        }
+    },
+    {
+        "id": "cmho-surguja-staff-nurse-pharmacist-and-more-60-posts-2026",
+        "type": "job",
+        "category": "State",
+        "title": "Staff Nurse, Pharmacist and More – 60 Posts",
+        "subtitle": "CMHO Surguja — Staff Nurse, Pharmacist and More – 60 Posts",
+        "recruitmentBoard": "CMHO Surguja",
+        "qualification": "B.Sc, 10TH, GNM, BPT, Any Post Graduate, Master of Dental Surgery, D.Pharm",
+        "applicationStart": "24/08/2026",
+        "lastDate": "08-09-2026",
+        "vacancies": "60 Posts",
+        "state": "Chhattisgarh",
+        "advertisement": "1191/NHM/HR/2026",
+        "status": "active",
+        "officialNotification": "https://surguja.gov.in/",
+        "applyLink": "https://surguja.gov.in/",
+        "officialWebsite": "https://surguja.gov.in/",
+        "description": "CMHO Surguja has announced recruitment for Staff Nurse, Pharmacist and More – 60 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (B.Sc, 10TH, GNM, BPT, Any Post Graduate, Master of Dental Surgery, D.Pharm). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment is for healthcare, clinical, laboratory or health-programme positions. Candidates should verify the discipline-specific eligibility, experience, age and selection conditions in the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application Screening",
+            "Written / Skill Test or Shortlisting as prescribed",
+            "Interview where applicable",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official CMHO Surguja website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://surguja.gov.in/",
+            "notification": "https://surguja.gov.in/",
+            "applyOnline": "https://surguja.gov.in/"
+        }
+    },
+    {
+        "id": "csir-csmcri-project-associate-i-1-posts-2026",
+        "type": "job",
+        "category": "State",
+        "title": "Project Associate-I – 1 Posts",
+        "subtitle": "CSIR CSMCRI — Project Associate-I – 1 Posts",
+        "recruitmentBoard": "CSIR CSMCRI",
+        "qualification": "B.Tech/B.E",
+        "applicationStart": "24/08/2026",
+        "lastDate": "09-09-2026",
+        "vacancies": "1 Posts",
+        "state": "Gujarat",
+        "advertisement": "CSIR-CSMCRI/SMC/FTT-050610/2026-27",
+        "status": "active",
+        "officialNotification": "https://www.csmcri.res.in/",
+        "applyLink": "https://www.csmcri.res.in/",
+        "officialWebsite": "https://www.csmcri.res.in/",
+        "description": "CSIR CSMCRI has announced recruitment for Project Associate-I – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (B.Tech/B.E). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment is for research or project-based positions. The exact discipline, project requirements, experience, tenure and selection method are post-specific and should be checked in the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application Screening",
+            "Written / Skill Test or Shortlisting as prescribed",
+            "Interview where applicable",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official CSIR CSMCRI website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://www.csmcri.res.in/",
+            "notification": "https://www.csmcri.res.in/",
+            "applyOnline": "https://www.csmcri.res.in/"
+        }
+    },
+    {
+        "id": "csir-neeri-project-associate-2-posts-2026",
+        "type": "job",
+        "category": "State",
+        "title": "Project Associate – 2 Posts",
+        "subtitle": "CSIR NEERI — Project Associate – 2 Posts",
+        "recruitmentBoard": "CSIR NEERI",
+        "qualification": "B.Tech/B.E",
+        "applicationStart": "24/08/2026",
+        "lastDate": "28-08-2026",
+        "vacancies": "2 Posts",
+        "state": "Maharashtra",
+        "advertisement": "RECRUIT\\_SD\\_10A\\_CRIAD\\_21082026",
+        "status": "active",
+        "officialNotification": "https://www.neeri.res.in/",
+        "applyLink": "https://www.neeri.res.in/",
+        "officialWebsite": "https://www.neeri.res.in/",
+        "description": "CSIR NEERI has announced recruitment for Project Associate – 2 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (B.Tech/B.E). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment is for research or project-based positions. The exact discipline, project requirements, experience, tenure and selection method are post-specific and should be checked in the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application Screening",
+            "Written / Skill Test or Shortlisting as prescribed",
+            "Interview where applicable",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official CSIR NEERI website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://www.neeri.res.in/",
+            "notification": "https://www.neeri.res.in/",
+            "applyOnline": "https://www.neeri.res.in/"
+        }
+    },
+    {
+        "id": "cuo-research-associate-field-investigator-4-posts-2026",
+        "type": "job",
+        "category": "State",
+        "title": "Research Associate, Field Investigator – 4 Posts",
+        "subtitle": "CUO — Research Associate, Field Investigator – 4 Posts",
+        "recruitmentBoard": "CUO",
+        "qualification": "Any Graduate, M.Phil/Ph.D",
+        "applicationStart": "24/08/2026",
+        "lastDate": "25-08-2026",
+        "vacancies": "4 Posts",
+        "state": "Odisha",
+        "advertisement": "CUO/DEDN/ICSSR/RP/PVTG/Advt./2026-27/01",
+        "status": "active",
+        "officialNotification": "https://cuo.ac.in/",
+        "applyLink": "https://cuo.ac.in/",
+        "officialWebsite": "https://cuo.ac.in/",
+        "description": "CUO has announced recruitment for Research Associate, Field Investigator – 4 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (Any Graduate, M.Phil/Ph.D). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment is for research or project-based positions. The exact discipline, project requirements, experience, tenure and selection method are post-specific and should be checked in the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application / Eligibility Screening",
+            "Interview / Walk-in Selection as prescribed",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official CUO website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://cuo.ac.in/",
+            "notification": "https://cuo.ac.in/",
+            "applyOnline": "https://cuo.ac.in/"
+        }
+    },
+    {
+        "id": "curaj-assistant-professor-8-posts-2026",
+        "type": "job",
+        "category": "State",
+        "title": "Assistant Professor – 8 Posts",
+        "subtitle": "CURAJ — Assistant Professor – 8 Posts",
+        "recruitmentBoard": "CURAJ",
+        "qualification": "B.Arch, B.Pharma, B.Tech/B.E, M.Arch, M.E/M.Tech, M.Pharma, M.Phil/Ph.D, M.Plan, M.Sc",
+        "applicationStart": "24/08/2026",
+        "lastDate": "02-09-2026",
+        "vacancies": "8 Posts",
+        "state": "Rajasthan",
+        "advertisement": "CURAJ/R/F.178/Rectt./2026/6616",
+        "status": "active",
+        "officialNotification": "https://www.curaj.ac.in/",
+        "applyLink": "https://www.curaj.ac.in/",
+        "officialWebsite": "https://www.curaj.ac.in/",
+        "description": "CURAJ has announced recruitment for Assistant Professor – 8 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (B.Arch, B.Pharma, B.Tech/B.E, M.Arch, M.E/M.Tech, M.Pharma, M.Phil/Ph.D, M.Plan, M.Sc). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment is for teaching, academic or educational-support roles. Candidates should verify the subject-wise qualification, experience, age, selection method and document requirements from the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application Screening",
+            "Written / Skill Test or Shortlisting as prescribed",
+            "Interview where applicable",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official CURAJ website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://www.curaj.ac.in/",
+            "notification": "https://www.curaj.ac.in/",
+            "applyOnline": "https://www.curaj.ac.in/"
+        }
+    },
+    {
+        "id": "curaj-junior-research-fellow-1-posts-2026",
+        "type": "job",
+        "category": "State",
+        "title": "Junior Research Fellow – 1 Posts",
+        "subtitle": "CURAJ — Junior Research Fellow – 1 Posts",
+        "recruitmentBoard": "CURAJ",
+        "qualification": "M.Sc",
+        "applicationStart": "24/08/2026",
+        "lastDate": "09-09-2026",
+        "vacancies": "1 Posts",
+        "state": "Rajasthan",
+        "advertisement": "ANRF/PAIR/2025/000006/PAIR-A",
+        "status": "active",
+        "officialNotification": "https://www.curaj.ac.in/",
+        "applyLink": "https://www.curaj.ac.in/",
+        "officialWebsite": "https://www.curaj.ac.in/",
+        "description": "CURAJ has announced recruitment for Junior Research Fellow – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (M.Sc). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment is for research or project-based positions. The exact discipline, project requirements, experience, tenure and selection method are post-specific and should be checked in the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application Screening",
+            "Written / Skill Test or Shortlisting as prescribed",
+            "Interview where applicable",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official CURAJ website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://www.curaj.ac.in/",
+            "notification": "https://www.curaj.ac.in/",
+            "applyOnline": "https://www.curaj.ac.in/"
+        }
+    },
+    {
+        "id": "cusb-research-associate-i-project-associate-1-and-more-3-posts-2026",
+        "type": "job",
+        "category": "State",
+        "title": "Research Associate I, Project Associate 1 and More – 3 Posts",
+        "subtitle": "CUSB — Research Associate I, Project Associate 1 and More – 3 Posts",
+        "recruitmentBoard": "CUSB",
+        "qualification": "B.Sc, M.E/M.Tech, M.Phil/Ph.D, M.Sc",
+        "applicationStart": "24/08/2026",
+        "lastDate": "10-09-2026",
+        "vacancies": "3 Posts",
+        "state": "Bihar",
+        "advertisement": "–",
+        "status": "active",
+        "officialNotification": "https://www.cusb.ac.in/",
+        "applyLink": "https://www.cusb.ac.in/",
+        "officialWebsite": "https://www.cusb.ac.in/",
+        "description": "CUSB has announced recruitment for Research Associate I, Project Associate 1 and More – 3 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (B.Sc, M.E/M.Tech, M.Phil/Ph.D, M.Sc). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment is for research or project-based positions. The exact discipline, project requirements, experience, tenure and selection method are post-specific and should be checked in the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application Screening",
+            "Written / Skill Test or Shortlisting as prescribed",
+            "Interview where applicable",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official CUSB website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://www.cusb.ac.in/",
+            "notification": "https://www.cusb.ac.in/",
+            "applyOnline": "https://www.cusb.ac.in/"
+        }
+    },
+    {
+        "id": "cutn-guest-faculty-8-posts-2026",
+        "type": "job",
+        "category": "State",
+        "title": "Guest Faculty – 8 Posts",
+        "subtitle": "CUTN — Guest Faculty – 8 Posts",
+        "recruitmentBoard": "CUTN",
+        "qualification": "Any Masters Degree, M.Phil/Ph.D",
+        "applicationStart": "24/08/2026",
+        "lastDate": "26-08-2026",
+        "vacancies": "8 Posts",
+        "state": "Tamil Nadu",
+        "advertisement": "CUTN/CC/GF/08/2026",
+        "status": "active",
+        "officialNotification": "https://cutn.ac.in/",
+        "applyLink": "https://cutn.ac.in/",
+        "officialWebsite": "https://cutn.ac.in/",
+        "description": "CUTN has announced recruitment for Guest Faculty – 8 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (Any Masters Degree, M.Phil/Ph.D). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment is for teaching, academic or educational-support roles. Candidates should verify the subject-wise qualification, experience, age, selection method and document requirements from the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application / Eligibility Screening",
+            "Interview / Walk-in Selection as prescribed",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official CUTN website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://cutn.ac.in/",
+            "notification": "https://cutn.ac.in/",
+            "applyOnline": "https://cutn.ac.in/"
+        }
+    },
+    {
+        "id": "dcpu-chengalpattu-cook-night-watchman-and-more-posts-34-posts-2026",
+        "type": "job",
+        "category": "State",
+        "title": "Cook, Night Watchman and More Posts – 34 Posts",
+        "subtitle": "DCPU Chengalpattu — Cook, Night Watchman and More Posts – 34 Posts",
+        "recruitmentBoard": "DCPU Chengalpattu",
+        "qualification": "Any Post Graduate, B.A, LLB, 10TH, 12TH, 8TH, Diploma",
+        "applicationStart": "24/08/2026",
+        "lastDate": "31-08-2026",
+        "vacancies": "34 Posts",
+        "state": "Tamil Nadu",
+        "advertisement": "–",
+        "status": "active",
+        "officialNotification": "https://chengalpattu.nic.in/",
+        "applyLink": "https://chengalpattu.nic.in/",
+        "officialWebsite": "https://chengalpattu.nic.in/",
+        "description": "DCPU Chengalpattu has announced recruitment for Cook, Night Watchman and More Posts – 34 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (Any Post Graduate, B.A, LLB, 10TH, 12TH, 8TH, Diploma). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment is for the advertised administrative, support, professional or field role. Candidates should verify the detailed eligibility, age, experience, selection process and document requirements in the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application Screening",
+            "Written / Skill Test or Shortlisting as prescribed",
+            "Interview where applicable",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official DCPU Chengalpattu website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://chengalpattu.nic.in/",
+            "notification": "https://chengalpattu.nic.in/",
+            "applyOnline": "https://chengalpattu.nic.in/"
+        }
+    },
+    {
+        "id": "dcpu-theni-social-worker-ii-1-posts-2026",
+        "type": "job",
+        "category": "State",
+        "title": "Social Worker II – 1 Posts",
+        "subtitle": "DCPU Theni — Social Worker II – 1 Posts",
+        "recruitmentBoard": "DCPU Theni",
+        "qualification": "B.A",
+        "applicationStart": "24/08/2026",
+        "lastDate": "01-09-2026",
+        "vacancies": "1 Posts",
+        "state": "Tamil Nadu",
+        "advertisement": "–",
+        "status": "active",
+        "officialNotification": "https://theni.nic.in/",
+        "applyLink": "https://theni.nic.in/",
+        "officialWebsite": "https://theni.nic.in/",
+        "description": "DCPU Theni has announced recruitment for Social Worker II – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (B.A). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment is for the advertised administrative, support, professional or field role. Candidates should verify the detailed eligibility, age, experience, selection process and document requirements in the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application Screening",
+            "Written / Skill Test or Shortlisting as prescribed",
+            "Interview where applicable",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official DCPU Theni website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://theni.nic.in/",
+            "notification": "https://theni.nic.in/",
+            "applyOnline": "https://theni.nic.in/"
+        }
+    },
+    {
+        "id": "dhs-cuddalore-lab-technician-yoga-trainer-and-more-54-posts-2026",
+        "type": "job",
+        "category": "State",
+        "title": "Lab Technician, Yoga Trainer and More – 54 Posts",
+        "subtitle": "DHS Cuddalore — Lab Technician, Yoga Trainer and More – 54 Posts",
+        "recruitmentBoard": "DHS Cuddalore",
+        "qualification": "BDS, B.Sc, MBBS, Diploma, 12TH, 10TH, ANM, D.Pharm",
+        "applicationStart": "24/08/2026",
+        "lastDate": "09-09-2026",
+        "vacancies": "54 Posts",
+        "state": "Tamil Nadu",
+        "advertisement": "–",
+        "status": "active",
+        "officialNotification": "https://cuddalore.nic.in/",
+        "applyLink": "https://cuddalore.nic.in/",
+        "officialWebsite": "https://cuddalore.nic.in/",
+        "description": "DHS Cuddalore has announced recruitment for Lab Technician, Yoga Trainer and More – 54 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (BDS, B.Sc, MBBS, Diploma, 12TH, 10TH, ANM, D.Pharm). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment is for healthcare, clinical, laboratory or health-programme positions. Candidates should verify the discipline-specific eligibility, experience, age and selection conditions in the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application Screening",
+            "Written / Skill Test or Shortlisting as prescribed",
+            "Interview where applicable",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official DHS Cuddalore website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://cuddalore.nic.in/",
+            "notification": "https://cuddalore.nic.in/",
+            "applyOnline": "https://cuddalore.nic.in/"
+        }
+    },
+    {
+        "id": "dhsgsu-guest-faculty-4-posts-2026",
+        "type": "job",
+        "category": "State",
+        "title": "Guest Faculty – 4 Posts",
+        "subtitle": "DHSGSU — Guest Faculty – 4 Posts",
+        "recruitmentBoard": "DHSGSU",
+        "qualification": "B.Tech/B.E, M.E/M.Tech, M.Sc, M.Phil/Ph.D",
+        "applicationStart": "24/08/2026",
+        "lastDate": "01-09-2026",
+        "vacancies": "4 Posts",
+        "state": "Madhya Pradesh",
+        "advertisement": "–",
+        "status": "active",
+        "officialNotification": "https://dhsgsu.edu.in/",
+        "applyLink": "https://dhsgsu.edu.in/",
+        "officialWebsite": "https://dhsgsu.edu.in/",
+        "description": "DHSGSU has announced recruitment for Guest Faculty – 4 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (B.Tech/B.E, M.E/M.Tech, M.Sc, M.Phil/Ph.D). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment is for teaching, academic or educational-support roles. Candidates should verify the subject-wise qualification, experience, age, selection method and document requirements from the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application / Eligibility Screening",
+            "Interview / Walk-in Selection as prescribed",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official DHSGSU website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://dhsgsu.edu.in/",
+            "notification": "https://dhsgsu.edu.in/",
+            "applyOnline": "https://dhsgsu.edu.in/"
+        }
+    },
+    {
+        "id": "delhi-cantonment-board-hospital-administrator-1-posts-2026",
+        "type": "job",
+        "category": "State",
+        "title": "Hospital Administrator – 1 Posts",
+        "subtitle": "Delhi Cantonment Board — Hospital Administrator – 1 Posts",
+        "recruitmentBoard": "Delhi Cantonment Board",
+        "qualification": "Retired Staff",
+        "applicationStart": "24/08/2026",
+        "lastDate": "07-09-2026",
+        "vacancies": "1 Posts",
+        "state": "Delhi",
+        "advertisement": "DCB/IT/HA/2026",
+        "status": "active",
+        "officialNotification": "https://delhi.cantt.gov.in/",
+        "applyLink": "https://delhi.cantt.gov.in/",
+        "officialWebsite": "https://delhi.cantt.gov.in/",
+        "description": "Delhi Cantonment Board has announced recruitment for Hospital Administrator – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (Retired Staff). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment is for the advertised administrative, support, professional or field role. Candidates should verify the detailed eligibility, age, experience, selection process and document requirements in the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application Screening",
+            "Written / Skill Test or Shortlisting as prescribed",
+            "Interview where applicable",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official Delhi Cantonment Board website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://delhi.cantt.gov.in/",
+            "notification": "https://delhi.cantt.gov.in/",
+            "applyOnline": "https://delhi.cantt.gov.in/"
+        }
+    },
+    {
+        "id": "ecor-act-apprentice-1-599-2026",
+        "type": "job",
+        "category": "Railway",
+        "title": "Act Apprentice – 1,599",
+        "subtitle": "ECoR — Act Apprentice – 1,599",
+        "recruitmentBoard": "ECoR",
+        "qualification": "ITI",
+        "applicationStart": "24/08/2026",
+        "lastDate": "15-09-2026",
+        "vacancies": "As per official notification",
+        "state": "All India",
+        "advertisement": "ECoR/Pers/RRC/Act Apprentice/2026-27",
+        "status": "active",
+        "officialNotification": "https://eastcoastrail.indianrailways.gov.in/",
+        "applyLink": "https://eastcoastrail.indianrailways.gov.in/",
+        "officialWebsite": "https://eastcoastrail.indianrailways.gov.in/",
+        "description": "ECoR has announced recruitment for Act Apprentice – 1,599. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (ITI). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment offers apprenticeship training in the advertised trade or discipline. Candidates should verify the prescribed educational/trade qualification, age, training conditions and selection process from the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application Screening",
+            "Merit / Shortlisting as prescribed",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official ECoR website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://eastcoastrail.indianrailways.gov.in/",
+            "notification": "https://eastcoastrail.indianrailways.gov.in/",
+            "applyOnline": "https://eastcoastrail.indianrailways.gov.in/"
+        }
+    },
+    {
+        "id": "emrs-tamenglong-hindi-teacher-music-teacher-and-more-5-posts-2026",
+        "type": "job",
+        "category": "State",
+        "title": "Hindi Teacher, Music Teacher And More – 5 Posts",
+        "subtitle": "EMRS Tamenglong — Hindi Teacher, Music Teacher And More – 5 Posts",
+        "recruitmentBoard": "EMRS Tamenglong",
+        "qualification": "Any Bachelors Degree, BPEd",
+        "applicationStart": "24/08/2026",
+        "lastDate": "04-09-2026",
+        "vacancies": "5 Posts",
+        "state": "Manipur",
+        "advertisement": "–",
+        "status": "active",
+        "officialNotification": "https://emrs.tribal.gov.in/",
+        "applyLink": "https://emrs.tribal.gov.in/",
+        "officialWebsite": "https://emrs.tribal.gov.in/",
+        "description": "EMRS Tamenglong has announced recruitment for Hindi Teacher, Music Teacher And More – 5 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (Any Bachelors Degree, BPEd). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment is for teaching, academic or educational-support roles. Candidates should verify the subject-wise qualification, experience, age, selection method and document requirements from the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application Screening",
+            "Written / Skill Test or Shortlisting as prescribed",
+            "Interview where applicable",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official EMRS Tamenglong website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://emrs.tribal.gov.in/",
+            "notification": "https://emrs.tribal.gov.in/",
+            "applyOnline": "https://emrs.tribal.gov.in/"
+        }
+    },
+    {
+        "id": "esic-professor-senior-resident-and-more-29-posts-2026",
+        "type": "job",
+        "category": "State",
+        "title": "Professor, Senior Resident and More – 29 Posts",
+        "subtitle": "ESIC — Professor, Senior Resident and More – 29 Posts",
+        "recruitmentBoard": "ESIC",
+        "qualification": "Any Post Graduate, M.Phil/Ph.D, MBBS",
+        "applicationStart": "24/08/2026",
+        "lastDate": "27-08-2026",
+        "vacancies": "29 Posts",
+        "state": "Maharashtra",
+        "advertisement": "–",
+        "status": "active",
+        "officialNotification": "https://www.esic.gov.in/",
+        "applyLink": "https://www.esic.gov.in/",
+        "officialWebsite": "https://www.esic.gov.in/",
+        "description": "ESIC has announced recruitment for Professor, Senior Resident and More – 29 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (Any Post Graduate, M.Phil/Ph.D, MBBS). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment is for teaching, academic or educational-support roles. Candidates should verify the subject-wise qualification, experience, age, selection method and document requirements from the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application / Eligibility Screening",
+            "Interview / Walk-in Selection as prescribed",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official ESIC website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://www.esic.gov.in/",
+            "notification": "https://www.esic.gov.in/",
+            "applyOnline": "https://www.esic.gov.in/"
+        }
+    },
+    {
+        "id": "esic-medical-college-bihta-senior-resident-41-posts-2026",
+        "type": "job",
+        "category": "State",
+        "title": "Senior Resident – 41 Posts",
+        "subtitle": "ESIC Medical College Bihta — Senior Resident – 41 Posts",
+        "recruitmentBoard": "ESIC Medical College Bihta",
+        "qualification": "DNB, MS/MD",
+        "applicationStart": "24/08/2026",
+        "lastDate": "10-09-2026",
+        "vacancies": "41 Posts",
+        "state": "Bihar",
+        "advertisement": "11 of 2026",
+        "status": "active",
+        "officialNotification": "https://www.esic.gov.in/",
+        "applyLink": "https://www.esic.gov.in/",
+        "officialWebsite": "https://www.esic.gov.in/",
+        "description": "ESIC Medical College Bihta has announced recruitment for Senior Resident – 41 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (DNB, MS/MD). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment is for healthcare, clinical, laboratory or health-programme positions. Candidates should verify the discipline-specific eligibility, experience, age and selection conditions in the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application / Eligibility Screening",
+            "Interview / Walk-in Selection as prescribed",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official ESIC Medical College Bihta website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://www.esic.gov.in/",
+            "notification": "https://www.esic.gov.in/",
+            "applyOnline": "https://www.esic.gov.in/"
+        }
+    },
+    {
+        "id": "federal-bank-sales-officer-2026",
+        "type": "job",
+        "category": "Banking",
+        "title": "Sales Officer",
+        "subtitle": "Federal Bank — Sales Officer",
+        "recruitmentBoard": "Federal Bank",
+        "qualification": "Any Graduate",
+        "applicationStart": "24/08/2026",
+        "lastDate": "31-08-2026",
+        "vacancies": "As per official notification",
+        "state": "All India",
+        "advertisement": "–",
+        "status": "active",
+        "officialNotification": "https://www.federalbank.co.in/",
+        "applyLink": "https://www.federalbank.co.in/",
+        "officialWebsite": "https://www.federalbank.co.in/",
+        "description": "Federal Bank has announced recruitment for Sales Officer. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (Any Graduate). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment is for the advertised administrative, support, professional or field role. Candidates should verify the detailed eligibility, age, experience, selection process and document requirements in the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application Screening",
+            "Written / Skill Test or Shortlisting as prescribed",
+            "Interview where applicable",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official Federal Bank website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://www.federalbank.co.in/",
+            "notification": "https://www.federalbank.co.in/",
+            "applyOnline": "https://www.federalbank.co.in/"
+        }
+    },
+    {
+        "id": "hll-associate-manager-and-project-coordinator-6-posts-2026",
+        "type": "job",
+        "category": "State",
+        "title": "Associate Manager and Project Coordinator – 6 Posts",
+        "subtitle": "HLL — Associate Manager and Project Coordinator – 6 Posts",
+        "recruitmentBoard": "HLL",
+        "qualification": "Diploma, M.E/M.Tech",
+        "applicationStart": "24/08/2026",
+        "lastDate": "02-09-2026",
+        "vacancies": "6 Posts",
+        "state": "Maharashtra",
+        "advertisement": "HLL/HR/079/2026 and HLL/HR/080/2026",
+        "status": "active",
+        "officialNotification": "https://www.hlllifecare.com/",
+        "applyLink": "https://www.hlllifecare.com/",
+        "officialWebsite": "https://www.hlllifecare.com/",
+        "description": "HLL has announced recruitment for Associate Manager and Project Coordinator – 6 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (Diploma, M.E/M.Tech). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment is for research or project-based positions. The exact discipline, project requirements, experience, tenure and selection method are post-specific and should be checked in the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application Screening",
+            "Written / Skill Test or Shortlisting as prescribed",
+            "Interview where applicable",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official HLL website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://www.hlllifecare.com/",
+            "notification": "https://www.hlllifecare.com/",
+            "applyOnline": "https://www.hlllifecare.com/"
+        }
+    },
+    {
+        "id": "icar-iari-junior-research-fellow-2-posts-2026",
+        "type": "job",
+        "category": "State",
+        "title": "Junior Research Fellow – 2 Posts",
+        "subtitle": "ICAR IARI — Junior Research Fellow – 2 Posts",
+        "recruitmentBoard": "ICAR IARI",
+        "qualification": "B.Tech/B.E, M.E/M.Tech, M.Sc",
+        "applicationStart": "24/08/2026",
+        "lastDate": "05-09-2026",
+        "vacancies": "2 Posts",
+        "state": "Delhi",
+        "advertisement": "–",
+        "status": "active",
+        "officialNotification": "https://www.iari.res.in/",
+        "applyLink": "https://www.iari.res.in/",
+        "officialWebsite": "https://www.iari.res.in/",
+        "description": "ICAR IARI has announced recruitment for Junior Research Fellow – 2 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (B.Tech/B.E, M.E/M.Tech, M.Sc). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment is for research or project-based positions. The exact discipline, project requirements, experience, tenure and selection method are post-specific and should be checked in the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application Screening",
+            "Written / Skill Test or Shortlisting as prescribed",
+            "Interview where applicable",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official ICAR IARI website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://www.iari.res.in/",
+            "notification": "https://www.iari.res.in/",
+            "applyOnline": "https://www.iari.res.in/"
+        }
+    },
+    {
+        "id": "icar-iari-young-professional-3-posts-2026",
+        "type": "job",
+        "category": "State",
+        "title": "Young Professional – 3 Posts",
+        "subtitle": "ICAR IARI — Young Professional – 3 Posts",
+        "recruitmentBoard": "ICAR IARI",
+        "qualification": "Any Post Graduate, B.Sc, B.Com, B.A, BCA, Any Graduate",
+        "applicationStart": "24/08/2026",
+        "lastDate": "07-09-2026",
+        "vacancies": "3 Posts",
+        "state": "Assam",
+        "advertisement": "2-4/2024-R&P-Part(3) (E-436740)",
+        "status": "active",
+        "officialNotification": "https://www.iari.res.in/",
+        "applyLink": "https://www.iari.res.in/",
+        "officialWebsite": "https://www.iari.res.in/",
+        "description": "ICAR IARI has announced recruitment for Young Professional – 3 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (Any Post Graduate, B.Sc, B.Com, B.A, BCA, Any Graduate). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment is for the advertised administrative, support, professional or field role. Candidates should verify the detailed eligibility, age, experience, selection process and document requirements in the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application Screening",
+            "Written / Skill Test or Shortlisting as prescribed",
+            "Interview where applicable",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official ICAR IARI website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://www.iari.res.in/",
+            "notification": "https://www.iari.res.in/",
+            "applyOnline": "https://www.iari.res.in/"
+        }
+    },
+    {
+        "id": "icmr-nirwoh-senior-consultant-1-posts-2026",
+        "type": "job",
+        "category": "State",
+        "title": "Senior Consultant – 1 Posts",
+        "subtitle": "ICMR NIRWoH — Senior Consultant – 1 Posts",
+        "recruitmentBoard": "ICMR NIRWoH",
+        "qualification": "MBBS",
+        "applicationStart": "24/08/2026",
+        "lastDate": "03-09-2026",
+        "vacancies": "1 Posts",
+        "state": "Maharashtra",
+        "advertisement": "C-11015/120/2025-Admn/02/E-288459",
+        "status": "active",
+        "officialNotification": "https://nirrch.res.in/",
+        "applyLink": "https://nirrch.res.in/",
+        "officialWebsite": "https://nirrch.res.in/",
+        "description": "ICMR NIRWoH has announced recruitment for Senior Consultant – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (MBBS). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment is for the advertised administrative, support, professional or field role. Candidates should verify the detailed eligibility, age, experience, selection process and document requirements in the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application Screening",
+            "Written / Skill Test or Shortlisting as prescribed",
+            "Interview where applicable",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official ICMR NIRWoH website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://nirrch.res.in/",
+            "notification": "https://nirrch.res.in/",
+            "applyOnline": "https://nirrch.res.in/"
+        }
+    },
+    {
+        "id": "icsil-assistant-programmer-1-posts-2026",
+        "type": "job",
+        "category": "State",
+        "title": "Assistant Programmer – 1 Posts",
+        "subtitle": "ICSIL — Assistant Programmer – 1 Posts",
+        "recruitmentBoard": "ICSIL",
+        "qualification": "B.Tech/B.E, M.Sc",
+        "applicationStart": "24/08/2026",
+        "lastDate": "31-08-2026",
+        "vacancies": "1 Posts",
+        "state": "Delhi",
+        "advertisement": "ICSIL/RC/10-A/Assistant Programmer/PAO/2026-27",
+        "status": "active",
+        "officialNotification": "https://www.icsil.in/",
+        "applyLink": "https://www.icsil.in/",
+        "officialWebsite": "https://www.icsil.in/",
+        "description": "ICSIL has announced recruitment for Assistant Programmer – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (B.Tech/B.E, M.Sc). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment is for technical, engineering or technology-support roles. Candidates should check the required discipline, experience, age, selection process and supporting documents in the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application Screening",
+            "Written / Skill Test or Shortlisting as prescribed",
+            "Interview where applicable",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official ICSIL website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://www.icsil.in/",
+            "notification": "https://www.icsil.in/",
+            "applyOnline": "https://www.icsil.in/"
+        }
+    },
+    {
+        "id": "icsil-driver-2-posts-2026",
+        "type": "job",
+        "category": "State",
+        "title": "Driver – 2 Posts",
+        "subtitle": "ICSIL — Driver – 2 Posts",
+        "recruitmentBoard": "ICSIL",
+        "qualification": "10TH",
+        "applicationStart": "24/08/2026",
+        "lastDate": "01-09-2026",
+        "vacancies": "2 Posts",
+        "state": "Delhi",
+        "advertisement": "ICSIL/RC/10-A/DRIVER/DTTDC/2026-27",
+        "status": "active",
+        "officialNotification": "https://www.icsil.in/",
+        "applyLink": "https://www.icsil.in/",
+        "officialWebsite": "https://www.icsil.in/",
+        "description": "ICSIL has announced recruitment for Driver – 2 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (10TH). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment is for the advertised administrative, support, professional or field role. Candidates should verify the detailed eligibility, age, experience, selection process and document requirements in the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application Screening",
+            "Written / Skill Test or Shortlisting as prescribed",
+            "Interview where applicable",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official ICSIL website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://www.icsil.in/",
+            "notification": "https://www.icsil.in/",
+            "applyOnline": "https://www.icsil.in/"
+        }
+    },
+    {
+        "id": "icssr-research-assistant-field-investigator-5-posts-2026",
+        "type": "job",
+        "category": "State",
+        "title": "Research Assistant, Field Investigator – 5 Posts",
+        "subtitle": "ICSSR — Research Assistant, Field Investigator – 5 Posts",
+        "recruitmentBoard": "ICSSR",
+        "qualification": "M.Phil/Ph.D, M.Sc",
+        "applicationStart": "24/08/2026",
+        "lastDate": "02-09-2026",
+        "vacancies": "5 Posts",
+        "state": "Delhi",
+        "advertisement": "–",
+        "status": "active",
+        "officialNotification": "https://www.icssr.org/",
+        "applyLink": "https://www.icssr.org/",
+        "officialWebsite": "https://www.icssr.org/",
+        "description": "ICSSR has announced recruitment for Research Assistant, Field Investigator – 5 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (M.Phil/Ph.D, M.Sc). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment is for research or project-based positions. The exact discipline, project requirements, experience, tenure and selection method are post-specific and should be checked in the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application / Eligibility Screening",
+            "Interview / Walk-in Selection as prescribed",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official ICSSR website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://www.icssr.org/",
+            "notification": "https://www.icssr.org/",
+            "applyOnline": "https://www.icssr.org/"
+        }
+    },
+    {
+        "id": "igrua-aircraft-maintenance-engineer-2-posts-2026",
+        "type": "job",
+        "category": "State",
+        "title": "Aircraft Maintenance Engineer – 2 Posts",
+        "subtitle": "IGRUA — Aircraft Maintenance Engineer – 2 Posts",
+        "recruitmentBoard": "IGRUA",
+        "qualification": "B.Sc",
+        "applicationStart": "24/08/2026",
+        "lastDate": "10-09-2026",
+        "vacancies": "2 Posts",
+        "state": "Uttar Pradesh",
+        "advertisement": "IGRUA/ADVT/28/2026",
+        "status": "active",
+        "officialNotification": "https://igrua.gov.in/",
+        "applyLink": "https://igrua.gov.in/",
+        "officialWebsite": "https://igrua.gov.in/",
+        "description": "IGRUA has announced recruitment for Aircraft Maintenance Engineer – 2 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (B.Sc). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment is for technical, engineering or technology-support roles. Candidates should check the required discipline, experience, age, selection process and supporting documents in the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application Screening",
+            "Written / Skill Test or Shortlisting as prescribed",
+            "Interview where applicable",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official IGRUA website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://igrua.gov.in/",
+            "notification": "https://igrua.gov.in/",
+            "applyOnline": "https://igrua.gov.in/"
+        }
+    },
+    {
+        "id": "iit-bhu-junior-research-assistant-1-posts-2026-2",
+        "type": "job",
+        "category": "State",
+        "title": "Junior Research Assistant – 1 Posts",
+        "subtitle": "IIT BHU — Junior Research Assistant – 1 Posts",
+        "recruitmentBoard": "IIT BHU",
+        "qualification": "B.Tech/B.E, M.E/M.Tech",
+        "applicationStart": "24/08/2026",
+        "lastDate": "10-09-2026",
+        "vacancies": "1 Posts",
+        "state": "Uttar Pradesh",
+        "advertisement": "RISE/ECE/CSTUP/26-27/45/temp",
+        "status": "active",
+        "officialNotification": "https://www.iitbhu.ac.in/",
+        "applyLink": "https://www.iitbhu.ac.in/",
+        "officialWebsite": "https://www.iitbhu.ac.in/",
+        "description": "IIT BHU has announced recruitment for Junior Research Assistant – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (B.Tech/B.E, M.E/M.Tech). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment is for research or project-based positions. The exact discipline, project requirements, experience, tenure and selection method are post-specific and should be checked in the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application Screening",
+            "Written / Skill Test or Shortlisting as prescribed",
+            "Interview where applicable",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official IIT BHU website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://www.iitbhu.ac.in/",
+            "notification": "https://www.iitbhu.ac.in/",
+            "applyOnline": "https://www.iitbhu.ac.in/"
+        }
+    },
+    {
+        "id": "iit-bhu-junior-research-fellow-2-posts-2026",
+        "type": "job",
+        "category": "State",
+        "title": "Junior Research Fellow – 2 Posts",
+        "subtitle": "IIT BHU — Junior Research Fellow – 2 Posts",
+        "recruitmentBoard": "IIT BHU",
+        "qualification": "B.Tech/B.E, M.E/M.Tech, MS",
+        "applicationStart": "24/08/2026",
+        "lastDate": "11-09-2026",
+        "vacancies": "2 Posts",
+        "state": "Uttar Pradesh",
+        "advertisement": "–",
+        "status": "active",
+        "officialNotification": "https://www.iitbhu.ac.in/",
+        "applyLink": "https://www.iitbhu.ac.in/",
+        "officialWebsite": "https://www.iitbhu.ac.in/",
+        "description": "IIT BHU has announced recruitment for Junior Research Fellow – 2 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (B.Tech/B.E, M.E/M.Tech, MS). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment is for research or project-based positions. The exact discipline, project requirements, experience, tenure and selection method are post-specific and should be checked in the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application Screening",
+            "Written / Skill Test or Shortlisting as prescribed",
+            "Interview where applicable",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official IIT BHU website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://www.iitbhu.ac.in/",
+            "notification": "https://www.iitbhu.ac.in/",
+            "applyOnline": "https://www.iitbhu.ac.in/"
+        }
+    },
+    {
+        "id": "iit-bhu-project-assistant-1-posts-2026",
+        "type": "job",
+        "category": "State",
+        "title": "Project Assistant – 1 Posts",
+        "subtitle": "IIT BHU — Project Assistant – 1 Posts",
+        "recruitmentBoard": "IIT BHU",
+        "qualification": "Any Post Graduate",
+        "applicationStart": "24/08/2026",
+        "lastDate": "10-09-2026",
+        "vacancies": "1 Posts",
+        "state": "Uttar Pradesh",
+        "advertisement": "ANRF/ECRG/2025/003818/ENS",
+        "status": "active",
+        "officialNotification": "https://www.iitbhu.ac.in/",
+        "applyLink": "https://www.iitbhu.ac.in/",
+        "officialWebsite": "https://www.iitbhu.ac.in/",
+        "description": "IIT BHU has announced recruitment for Project Assistant – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (Any Post Graduate). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment is for research or project-based positions. The exact discipline, project requirements, experience, tenure and selection method are post-specific and should be checked in the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application Screening",
+            "Written / Skill Test or Shortlisting as prescribed",
+            "Interview where applicable",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official IIT BHU website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://www.iitbhu.ac.in/",
+            "notification": "https://www.iitbhu.ac.in/",
+            "applyOnline": "https://www.iitbhu.ac.in/"
+        }
+    },
+    {
+        "id": "iit-bhilai-research-associate-iii-and-junior-research-fellow-2-posts-2026",
+        "type": "job",
+        "category": "State",
+        "title": "Research Associate-III and Junior Research Fellow – 2 Posts",
+        "subtitle": "IIT Bhilai — Research Associate-III and Junior Research Fellow – 2 Posts",
+        "recruitmentBoard": "IIT Bhilai",
+        "qualification": "M.E/M.Tech, Any Post Graduate, MS/MD, M.Phil/Ph.D",
+        "applicationStart": "24/08/2026",
+        "lastDate": "09-09-2026",
+        "vacancies": "2 Posts",
+        "state": "Chhattisgarh",
+        "advertisement": "–",
+        "status": "active",
+        "officialNotification": "https://www.iitbhilai.ac.in/",
+        "applyLink": "https://www.iitbhilai.ac.in/",
+        "officialWebsite": "https://www.iitbhilai.ac.in/",
+        "description": "IIT Bhilai has announced recruitment for Research Associate-III and Junior Research Fellow – 2 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (M.E/M.Tech, Any Post Graduate, MS/MD, M.Phil/Ph.D). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment is for research or project-based positions. The exact discipline, project requirements, experience, tenure and selection method are post-specific and should be checked in the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application Screening",
+            "Written / Skill Test or Shortlisting as prescribed",
+            "Interview where applicable",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official IIT Bhilai website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://www.iitbhilai.ac.in/",
+            "notification": "https://www.iitbhilai.ac.in/",
+            "applyOnline": "https://www.iitbhilai.ac.in/"
+        }
+    },
+    {
+        "id": "iit-delhi-project-assistant-2-posts-2026",
+        "type": "job",
+        "category": "State",
+        "title": "Project Assistant – 2 Posts",
+        "subtitle": "IIT Delhi — Project Assistant – 2 Posts",
+        "recruitmentBoard": "IIT Delhi",
+        "qualification": "B.Tech/B.E",
+        "applicationStart": "24/08/2026",
+        "lastDate": "03-09-2026",
+        "vacancies": "2 Posts",
+        "state": "Delhi",
+        "advertisement": "IITD/IRD/RM00109G\\_SN/ 540871",
+        "status": "active",
+        "officialNotification": "https://home.iitd.ac.in/",
+        "applyLink": "https://home.iitd.ac.in/",
+        "officialWebsite": "https://home.iitd.ac.in/",
+        "description": "IIT Delhi has announced recruitment for Project Assistant – 2 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (B.Tech/B.E). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment is for research or project-based positions. The exact discipline, project requirements, experience, tenure and selection method are post-specific and should be checked in the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application Screening",
+            "Written / Skill Test or Shortlisting as prescribed",
+            "Interview where applicable",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official IIT Delhi website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://home.iitd.ac.in/",
+            "notification": "https://home.iitd.ac.in/",
+            "applyOnline": "https://home.iitd.ac.in/"
+        }
+    },
+    {
+        "id": "iit-gandhinagar-junior-research-fellow-1-posts-2026",
+        "type": "job",
+        "category": "State",
+        "title": "Junior Research Fellow – 1 Posts",
+        "subtitle": "IIT Gandhinagar — Junior Research Fellow – 1 Posts",
+        "recruitmentBoard": "IIT Gandhinagar",
+        "qualification": "M.Sc",
+        "applicationStart": "24/08/2026",
+        "lastDate": "30-08-2026",
+        "vacancies": "1 Posts",
+        "state": "Gujarat",
+        "advertisement": "SPON/62031/Advt0304",
+        "status": "active",
+        "officialNotification": "https://iitgn.ac.in/",
+        "applyLink": "https://iitgn.ac.in/",
+        "officialWebsite": "https://iitgn.ac.in/",
+        "description": "IIT Gandhinagar has announced recruitment for Junior Research Fellow – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (M.Sc). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment is for research or project-based positions. The exact discipline, project requirements, experience, tenure and selection method are post-specific and should be checked in the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application Screening",
+            "Written / Skill Test or Shortlisting as prescribed",
+            "Interview where applicable",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official IIT Gandhinagar website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://iitgn.ac.in/",
+            "notification": "https://iitgn.ac.in/",
+            "applyOnline": "https://iitgn.ac.in/"
+        }
+    },
+    {
+        "id": "iit-gandhinagar-post-doctoral-fellow-1-posts-2026-2",
+        "type": "job",
+        "category": "State",
+        "title": "Post-Doctoral Fellow – 1 Posts",
+        "subtitle": "IIT Gandhinagar — Post-Doctoral Fellow – 1 Posts",
+        "recruitmentBoard": "IIT Gandhinagar",
+        "qualification": "M.Phil/Ph.D, 10TH, 12TH, Any Graduate",
+        "applicationStart": "24/08/2026",
+        "lastDate": "05-09-2026",
+        "vacancies": "1 Posts",
+        "state": "Gujarat",
+        "advertisement": "IP/70091/Adv0303",
+        "status": "active",
+        "officialNotification": "https://iitgn.ac.in/",
+        "applyLink": "https://iitgn.ac.in/",
+        "officialWebsite": "https://iitgn.ac.in/",
+        "description": "IIT Gandhinagar has announced recruitment for Post-Doctoral Fellow – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (M.Phil/Ph.D, 10TH, 12TH, Any Graduate). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment is for research or project-based positions. The exact discipline, project requirements, experience, tenure and selection method are post-specific and should be checked in the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application Screening",
+            "Written / Skill Test or Shortlisting as prescribed",
+            "Interview where applicable",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official IIT Gandhinagar website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://iitgn.ac.in/",
+            "notification": "https://iitgn.ac.in/",
+            "applyOnline": "https://iitgn.ac.in/"
+        }
+    },
+    {
+        "id": "iit-gandhinagar-program-assistant-i-6-posts-2026",
+        "type": "job",
+        "category": "State",
+        "title": "Program Assistant I – 6 Posts",
+        "subtitle": "IIT Gandhinagar — Program Assistant I – 6 Posts",
+        "recruitmentBoard": "IIT Gandhinagar",
+        "qualification": "BPEd",
+        "applicationStart": "24/08/2026",
+        "lastDate": "06-09-2026",
+        "vacancies": "6 Posts",
+        "state": "Gujarat",
+        "advertisement": "–",
+        "status": "active",
+        "officialNotification": "https://iitgn.ac.in/",
+        "applyLink": "https://iitgn.ac.in/",
+        "officialWebsite": "https://iitgn.ac.in/",
+        "description": "IIT Gandhinagar has announced recruitment for Program Assistant I – 6 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (BPEd). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment is for the advertised administrative, support, professional or field role. Candidates should verify the detailed eligibility, age, experience, selection process and document requirements in the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application Screening",
+            "Written / Skill Test or Shortlisting as prescribed",
+            "Interview where applicable",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official IIT Gandhinagar website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://iitgn.ac.in/",
+            "notification": "https://iitgn.ac.in/",
+            "applyOnline": "https://iitgn.ac.in/"
+        }
+    },
+    {
+        "id": "iit-gandhinagar-project-scientist-1-posts-2026",
+        "type": "job",
+        "category": "State",
+        "title": "Project Scientist – 1 Posts",
+        "subtitle": "IIT Gandhinagar — Project Scientist – 1 Posts",
+        "recruitmentBoard": "IIT Gandhinagar",
+        "qualification": "M.E/M.Tech, M.Phil/Ph.D, MS",
+        "applicationStart": "24/08/2026",
+        "lastDate": "18-09-2026",
+        "vacancies": "1 Posts",
+        "state": "Gujarat",
+        "advertisement": "SPON/10455/Advt0302",
+        "status": "active",
+        "officialNotification": "https://iitgn.ac.in/",
+        "applyLink": "https://iitgn.ac.in/",
+        "officialWebsite": "https://iitgn.ac.in/",
+        "description": "IIT Gandhinagar has announced recruitment for Project Scientist – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (M.E/M.Tech, M.Phil/Ph.D, MS). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment is for research or project-based positions. The exact discipline, project requirements, experience, tenure and selection method are post-specific and should be checked in the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application Screening",
+            "Written / Skill Test or Shortlisting as prescribed",
+            "Interview where applicable",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official IIT Gandhinagar website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://iitgn.ac.in/",
+            "notification": "https://iitgn.ac.in/",
+            "applyOnline": "https://iitgn.ac.in/"
+        }
+    },
+    {
+        "id": "iit-guwahati-project-associate-2-posts-2026",
+        "type": "job",
+        "category": "State",
+        "title": "Project Associate – 2 Posts",
+        "subtitle": "IIT Guwahati — Project Associate – 2 Posts",
+        "recruitmentBoard": "IIT Guwahati",
+        "qualification": "M.Des",
+        "applicationStart": "24/08/2026",
+        "lastDate": "27-08-2026",
+        "vacancies": "2 Posts",
+        "state": "Assam",
+        "advertisement": "–",
+        "status": "active",
+        "officialNotification": "https://www.iitg.ac.in/",
+        "applyLink": "https://www.iitg.ac.in/",
+        "officialWebsite": "https://www.iitg.ac.in/",
+        "description": "IIT Guwahati has announced recruitment for Project Associate – 2 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (M.Des). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment is for research or project-based positions. The exact discipline, project requirements, experience, tenure and selection method are post-specific and should be checked in the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application Screening",
+            "Written / Skill Test or Shortlisting as prescribed",
+            "Interview where applicable",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official IIT Guwahati website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://www.iitg.ac.in/",
+            "notification": "https://www.iitg.ac.in/",
+            "applyOnline": "https://www.iitg.ac.in/"
+        }
+    },
+    {
+        "id": "iit-indore-project-associate-i-1-posts-2026",
+        "type": "job",
+        "category": "State",
+        "title": "Project Associate – I – 1 Posts",
+        "subtitle": "IIT Indore — Project Associate – I – 1 Posts",
+        "recruitmentBoard": "IIT Indore",
+        "qualification": "M.Phil/Ph.D, B.Tech/B.E",
+        "applicationStart": "24/08/2026",
+        "lastDate": "31-08-2026",
+        "vacancies": "1 Posts",
+        "state": "Madhya Pradesh",
+        "advertisement": "IITI/DOP/ANRF-ECRG/2026/01",
+        "status": "active",
+        "officialNotification": "https://www.iiti.ac.in/",
+        "applyLink": "https://www.iiti.ac.in/",
+        "officialWebsite": "https://www.iiti.ac.in/",
+        "description": "IIT Indore has announced recruitment for Project Associate – I – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (M.Phil/Ph.D, B.Tech/B.E). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment is for research or project-based positions. The exact discipline, project requirements, experience, tenure and selection method are post-specific and should be checked in the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application Screening",
+            "Written / Skill Test or Shortlisting as prescribed",
+            "Interview where applicable",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official IIT Indore website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://www.iiti.ac.in/",
+            "notification": "https://www.iiti.ac.in/",
+            "applyOnline": "https://www.iiti.ac.in/"
+        }
+    },
+    {
+        "id": "iit-indore-research-associate-and-technical-assistant-3-posts-2026",
+        "type": "job",
+        "category": "State",
+        "title": "Research Associate and Technical Assistant – 3 Posts",
+        "subtitle": "IIT Indore — Research Associate and Technical Assistant – 3 Posts",
+        "recruitmentBoard": "IIT Indore",
+        "qualification": "M.E/M.Tech, MS/MD, B.Sc, M.Phil/Ph.D, Diploma",
+        "applicationStart": "24/08/2026",
+        "lastDate": "18-09-2026",
+        "vacancies": "3 Posts",
+        "state": "Madhya Pradesh",
+        "advertisement": "–",
+        "status": "active",
+        "officialNotification": "https://www.iiti.ac.in/",
+        "applyLink": "https://www.iiti.ac.in/",
+        "officialWebsite": "https://www.iiti.ac.in/",
+        "description": "IIT Indore has announced recruitment for Research Associate and Technical Assistant – 3 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (M.E/M.Tech, MS/MD, B.Sc, M.Phil/Ph.D, Diploma). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment is for research or project-based positions. The exact discipline, project requirements, experience, tenure and selection method are post-specific and should be checked in the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application Screening",
+            "Written / Skill Test or Shortlisting as prescribed",
+            "Interview where applicable",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official IIT Indore website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://www.iiti.ac.in/",
+            "notification": "https://www.iiti.ac.in/",
+            "applyOnline": "https://www.iiti.ac.in/"
+        }
+    },
+    {
+        "id": "iit-kharagpur-junior-research-fellow-1-posts-2026-2",
+        "type": "job",
+        "category": "State",
+        "title": "Junior Research Fellow – 1 Posts",
+        "subtitle": "IIT Kharagpur — Junior Research Fellow – 1 Posts",
+        "recruitmentBoard": "IIT Kharagpur",
+        "qualification": "B.Sc, M.Sc",
+        "applicationStart": "24/08/2026",
+        "lastDate": "03-09-2026",
+        "vacancies": "1 Posts",
+        "state": "West Bengal",
+        "advertisement": "–",
+        "status": "active",
+        "officialNotification": "https://www.iitkgp.ac.in/",
+        "applyLink": "https://www.iitkgp.ac.in/",
+        "officialWebsite": "https://www.iitkgp.ac.in/",
+        "description": "IIT Kharagpur has announced recruitment for Junior Research Fellow – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (B.Sc, M.Sc). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment is for research or project-based positions. The exact discipline, project requirements, experience, tenure and selection method are post-specific and should be checked in the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application Screening",
+            "Written / Skill Test or Shortlisting as prescribed",
+            "Interview where applicable",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official IIT Kharagpur website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://www.iitkgp.ac.in/",
+            "notification": "https://www.iitkgp.ac.in/",
+            "applyOnline": "https://www.iitkgp.ac.in/"
+        }
+    },
+    {
+        "id": "iit-kharagpur-senior-research-fellow-1-posts-2026-2",
+        "type": "job",
+        "category": "State",
+        "title": "Senior Research Fellow – 1 Posts",
+        "subtitle": "IIT Kharagpur — Senior Research Fellow – 1 Posts",
+        "recruitmentBoard": "IIT Kharagpur",
+        "qualification": "M.Sc",
+        "applicationStart": "24/08/2026",
+        "lastDate": "03-09-2026",
+        "vacancies": "1 Posts",
+        "state": "West Bengal",
+        "advertisement": "LIT/SRIC/R/AEH/2026/114",
+        "status": "active",
+        "officialNotification": "https://www.iitkgp.ac.in/",
+        "applyLink": "https://www.iitkgp.ac.in/",
+        "officialWebsite": "https://www.iitkgp.ac.in/",
+        "description": "IIT Kharagpur has announced recruitment for Senior Research Fellow – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (M.Sc). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment is for research or project-based positions. The exact discipline, project requirements, experience, tenure and selection method are post-specific and should be checked in the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application Screening",
+            "Written / Skill Test or Shortlisting as prescribed",
+            "Interview where applicable",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official IIT Kharagpur website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://www.iitkgp.ac.in/",
+            "notification": "https://www.iitkgp.ac.in/",
+            "applyOnline": "https://www.iitkgp.ac.in/"
+        }
+    },
+    {
+        "id": "iit-patna-counsellor-1-posts-2026",
+        "type": "job",
+        "category": "State",
+        "title": "Counsellor – 1 Posts",
+        "subtitle": "IIT Patna — Counsellor – 1 Posts",
+        "recruitmentBoard": "IIT Patna",
+        "qualification": "Any Post Graduate, Diploma, PG Diploma",
+        "applicationStart": "24/08/2026",
+        "lastDate": "10-09-2026",
+        "vacancies": "1 Posts",
+        "state": "Bihar",
+        "advertisement": "IITP/SA/2026-27/02",
+        "status": "active",
+        "officialNotification": "https://www.iitp.ac.in/",
+        "applyLink": "https://www.iitp.ac.in/",
+        "officialWebsite": "https://www.iitp.ac.in/",
+        "description": "IIT Patna has announced recruitment for Counsellor – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (Any Post Graduate, Diploma, PG Diploma). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment is for the advertised administrative, support, professional or field role. Candidates should verify the detailed eligibility, age, experience, selection process and document requirements in the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application / Eligibility Screening",
+            "Interview / Walk-in Selection as prescribed",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official IIT Patna website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://www.iitp.ac.in/",
+            "notification": "https://www.iitp.ac.in/",
+            "applyOnline": "https://www.iitp.ac.in/"
+        }
+    },
+    {
+        "id": "iit-roorkee-post-doctoral-fellow-1-posts-2026-2",
+        "type": "job",
+        "category": "State",
+        "title": "Post Doctoral Fellow – 1 Posts",
+        "subtitle": "IIT Roorkee — Post Doctoral Fellow – 1 Posts",
+        "recruitmentBoard": "IIT Roorkee",
+        "qualification": "M.Phil/Ph.D",
+        "applicationStart": "24/08/2026",
+        "lastDate": "15-09-2026",
+        "vacancies": "1 Posts",
+        "state": "Uttarakhand",
+        "advertisement": "MIED/PDF/2096",
+        "status": "active",
+        "officialNotification": "https://iitr.ac.in/",
+        "applyLink": "https://iitr.ac.in/",
+        "officialWebsite": "https://iitr.ac.in/",
+        "description": "IIT Roorkee has announced recruitment for Post Doctoral Fellow – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (M.Phil/Ph.D). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment is for research or project-based positions. The exact discipline, project requirements, experience, tenure and selection method are post-specific and should be checked in the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application Screening",
+            "Written / Skill Test or Shortlisting as prescribed",
+            "Interview where applicable",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official IIT Roorkee website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://iitr.ac.in/",
+            "notification": "https://iitr.ac.in/",
+            "applyOnline": "https://iitr.ac.in/"
+        }
+    },
+    {
+        "id": "iit-roorkee-post-doctoral-fellow-1-posts-2026-3",
+        "type": "job",
+        "category": "State",
+        "title": "Post-Doctoral Fellow – 1 Posts",
+        "subtitle": "IIT Roorkee — Post-Doctoral Fellow – 1 Posts",
+        "recruitmentBoard": "IIT Roorkee",
+        "qualification": "M.Phil/Ph.D",
+        "applicationStart": "24/08/2026",
+        "lastDate": "30-08-2026",
+        "vacancies": "1 Posts",
+        "state": "Uttarakhand",
+        "advertisement": "2374",
+        "status": "active",
+        "officialNotification": "https://iitr.ac.in/",
+        "applyLink": "https://iitr.ac.in/",
+        "officialWebsite": "https://iitr.ac.in/",
+        "description": "IIT Roorkee has announced recruitment for Post-Doctoral Fellow – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (M.Phil/Ph.D). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment is for research or project-based positions. The exact discipline, project requirements, experience, tenure and selection method are post-specific and should be checked in the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application Screening",
+            "Written / Skill Test or Shortlisting as prescribed",
+            "Interview where applicable",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official IIT Roorkee website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://iitr.ac.in/",
+            "notification": "https://iitr.ac.in/",
+            "applyOnline": "https://iitr.ac.in/"
+        }
+    },
+    {
+        "id": "iit-roorkee-postdoctoral-fellow-1-posts-2026-2",
+        "type": "job",
+        "category": "State",
+        "title": "Postdoctoral Fellow – 1 Posts",
+        "subtitle": "IIT Roorkee — Postdoctoral Fellow – 1 Posts",
+        "recruitmentBoard": "IIT Roorkee",
+        "qualification": "M.Phil/Ph.D",
+        "applicationStart": "24/08/2026",
+        "lastDate": "30-08-2026",
+        "vacancies": "1 Posts",
+        "state": "Uttarakhand",
+        "advertisement": "–",
+        "status": "active",
+        "officialNotification": "https://iitr.ac.in/",
+        "applyLink": "https://iitr.ac.in/",
+        "officialWebsite": "https://iitr.ac.in/",
+        "description": "IIT Roorkee has announced recruitment for Postdoctoral Fellow – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (M.Phil/Ph.D). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment is for research or project-based positions. The exact discipline, project requirements, experience, tenure and selection method are post-specific and should be checked in the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application Screening",
+            "Written / Skill Test or Shortlisting as prescribed",
+            "Interview where applicable",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official IIT Roorkee website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://iitr.ac.in/",
+            "notification": "https://iitr.ac.in/",
+            "applyOnline": "https://iitr.ac.in/"
+        }
+    },
+    {
+        "id": "iit-roorkee-program-coordinator-project-associate-3-posts-2026",
+        "type": "job",
+        "category": "State",
+        "title": "Program Coordinator / Project Associate – 3 Posts",
+        "subtitle": "IIT Roorkee — Program Coordinator / Project Associate – 3 Posts",
+        "recruitmentBoard": "IIT Roorkee",
+        "qualification": "B.Tech/B.E, M.E/M.Tech, M.Sc, M.Phil/Ph.D, B.Arch, M.Arch",
+        "applicationStart": "24/08/2026",
+        "lastDate": "01-09-2026",
+        "vacancies": "3 Posts",
+        "state": "Uttarakhand",
+        "advertisement": "–",
+        "status": "active",
+        "officialNotification": "https://iitr.ac.in/",
+        "applyLink": "https://iitr.ac.in/",
+        "officialWebsite": "https://iitr.ac.in/",
+        "description": "IIT Roorkee has announced recruitment for Program Coordinator / Project Associate – 3 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (B.Tech/B.E, M.E/M.Tech, M.Sc, M.Phil/Ph.D, B.Arch, M.Arch). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment is for research or project-based positions. The exact discipline, project requirements, experience, tenure and selection method are post-specific and should be checked in the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application Screening",
+            "Written / Skill Test or Shortlisting as prescribed",
+            "Interview where applicable",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official IIT Roorkee website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://iitr.ac.in/",
+            "notification": "https://iitr.ac.in/",
+            "applyOnline": "https://iitr.ac.in/"
+        }
+    },
+    {
+        "id": "kerala-high-court-clerical-assistant-1-posts-2026",
+        "type": "job",
+        "category": "State",
+        "title": "Clerical Assistant – 1 Posts",
+        "subtitle": "Kerala High Court — Clerical Assistant – 1 Posts",
+        "recruitmentBoard": "Kerala High Court",
+        "qualification": "12TH",
+        "applicationStart": "24/08/2026",
+        "lastDate": "26-09-2026",
+        "vacancies": "1 Posts",
+        "state": "Kerala",
+        "advertisement": "–",
+        "status": "active",
+        "officialNotification": "https://highcourtofkerala.nic.in/",
+        "applyLink": "https://highcourtofkerala.nic.in/",
+        "officialWebsite": "https://highcourtofkerala.nic.in/",
+        "description": "Kerala High Court has announced recruitment for Clerical Assistant – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (12TH). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment is for the advertised administrative, support, professional or field role. Candidates should verify the detailed eligibility, age, experience, selection process and document requirements in the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application Screening",
+            "Written / Skill Test or Shortlisting as prescribed",
+            "Interview where applicable",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official Kerala High Court website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://highcourtofkerala.nic.in/",
+            "notification": "https://highcourtofkerala.nic.in/",
+            "applyOnline": "https://highcourtofkerala.nic.in/"
+        }
+    },
+    {
+        "id": "mahatransco-apprentice-68-posts-2026",
+        "type": "job",
+        "category": "State",
+        "title": "Apprentice – 68 Posts",
+        "subtitle": "MAHATRANSCO — Apprentice – 68 Posts",
+        "recruitmentBoard": "MAHATRANSCO",
+        "qualification": "ITI",
+        "applicationStart": "24/08/2026",
+        "lastDate": "07-09-2026",
+        "vacancies": "68 Posts",
+        "state": "Maharashtra",
+        "advertisement": "–",
+        "status": "active",
+        "officialNotification": "https://www.mahatransco.in/",
+        "applyLink": "https://www.mahatransco.in/",
+        "officialWebsite": "https://www.mahatransco.in/",
+        "description": "MAHATRANSCO has announced recruitment for Apprentice – 68 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (ITI). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment offers apprenticeship training in the advertised trade or discipline. Candidates should verify the prescribed educational/trade qualification, age, training conditions and selection process from the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application Screening",
+            "Merit / Shortlisting as prescribed",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official MAHATRANSCO website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://www.mahatransco.in/",
+            "notification": "https://www.mahatransco.in/",
+            "applyOnline": "https://www.mahatransco.in/"
+        }
+    },
+    {
+        "id": "mgu-coordinator-1-posts-2026",
+        "type": "job",
+        "category": "State",
+        "title": "Coordinator – 1 Posts",
+        "subtitle": "MGU — Coordinator – 1 Posts",
+        "recruitmentBoard": "MGU",
+        "qualification": "M.Phil/Ph.D",
+        "applicationStart": "24/08/2026",
+        "lastDate": "05-09-2026",
+        "vacancies": "1 Posts",
+        "state": "Kerala",
+        "advertisement": "–",
+        "status": "active",
+        "officialNotification": "https://www.mgu.ac.in/",
+        "applyLink": "https://www.mgu.ac.in/",
+        "officialWebsite": "https://www.mgu.ac.in/",
+        "description": "MGU has announced recruitment for Coordinator – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (M.Phil/Ph.D). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment is for the advertised administrative, support, professional or field role. Candidates should verify the detailed eligibility, age, experience, selection process and document requirements in the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application Screening",
+            "Written / Skill Test or Shortlisting as prescribed",
+            "Interview where applicable",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official MGU website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://www.mgu.ac.in/",
+            "notification": "https://www.mgu.ac.in/",
+            "applyOnline": "https://www.mgu.ac.in/"
+        }
+    },
+    {
+        "id": "mgu-kerala-computer-lab-in-charge-2-posts-2026",
+        "type": "job",
+        "category": "State",
+        "title": "Computer Lab In-Charge – 2 Posts",
+        "subtitle": "MGU Kerala — Computer Lab In-Charge – 2 Posts",
+        "recruitmentBoard": "MGU Kerala",
+        "qualification": "B.Sc, BCA, Diploma",
+        "applicationStart": "24/08/2026",
+        "lastDate": "05-09-2026",
+        "vacancies": "2 Posts",
+        "state": "Kerala",
+        "advertisement": "157913/AD A4-3/2021/AD A 4",
+        "status": "active",
+        "officialNotification": "https://www.mgu.ac.in/",
+        "applyLink": "https://www.mgu.ac.in/",
+        "officialWebsite": "https://www.mgu.ac.in/",
+        "description": "MGU Kerala has announced recruitment for Computer Lab In-Charge – 2 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (B.Sc, BCA, Diploma). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment is for the advertised administrative, support, professional or field role. Candidates should verify the detailed eligibility, age, experience, selection process and document requirements in the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application Screening",
+            "Written / Skill Test or Shortlisting as prescribed",
+            "Interview where applicable",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official MGU Kerala website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://www.mgu.ac.in/",
+            "notification": "https://www.mgu.ac.in/",
+            "applyOnline": "https://www.mgu.ac.in/"
+        }
+    },
+    {
+        "id": "mppgcl-iti-apprentice-95-posts-2026",
+        "type": "job",
+        "category": "State",
+        "title": "ITI Apprentice – 95 Posts",
+        "subtitle": "MPPGCL — ITI Apprentice – 95 Posts",
+        "recruitmentBoard": "MPPGCL",
+        "qualification": "ITI",
+        "applicationStart": "24/08/2026",
+        "lastDate": "21-09-2026",
+        "vacancies": "95 Posts",
+        "state": "Madhya Pradesh",
+        "advertisement": "511-0100/SE(TRG)/ITI-APPR/2026-27/212",
+        "status": "active",
+        "officialNotification": "https://www.mppgcl.mp.gov.in/",
+        "applyLink": "https://www.mppgcl.mp.gov.in/",
+        "officialWebsite": "https://www.mppgcl.mp.gov.in/",
+        "description": "MPPGCL has announced recruitment for ITI Apprentice – 95 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (ITI). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment offers apprenticeship training in the advertised trade or discipline. Candidates should verify the prescribed educational/trade qualification, age, training conditions and selection process from the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application Screening",
+            "Merit / Shortlisting as prescribed",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official MPPGCL website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://www.mppgcl.mp.gov.in/",
+            "notification": "https://www.mppgcl.mp.gov.in/",
+            "applyOnline": "https://www.mppgcl.mp.gov.in/"
+        }
+    },
+    {
+        "id": "nehu-guest-faculty-107-posts-2026",
+        "type": "job",
+        "category": "State",
+        "title": "Guest Faculty – 107 Posts",
+        "subtitle": "NEHU — Guest Faculty – 107 Posts",
+        "recruitmentBoard": "NEHU",
+        "qualification": "B.Ed, Any Post Graduate",
+        "applicationStart": "24/08/2026",
+        "lastDate": "31-08-2026",
+        "vacancies": "107 Posts",
+        "state": "All India",
+        "advertisement": "8-2/Estt.II(B)/GL/Advertisement/2026-3",
+        "status": "active",
+        "officialNotification": "https://nehu.ac.in/",
+        "applyLink": "https://nehu.ac.in/",
+        "officialWebsite": "https://nehu.ac.in/",
+        "description": "NEHU has announced recruitment for Guest Faculty – 107 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (B.Ed, Any Post Graduate). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment is for teaching, academic or educational-support roles. Candidates should verify the subject-wise qualification, experience, age, selection method and document requirements from the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application / Eligibility Screening",
+            "Interview / Walk-in Selection as prescribed",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official NEHU website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://nehu.ac.in/",
+            "notification": "https://nehu.ac.in/",
+            "applyOnline": "https://nehu.ac.in/"
+        }
+    },
+    {
+        "id": "nit-tiruchirappalli-project-associate-ii-1-posts-2026",
+        "type": "job",
+        "category": "State",
+        "title": "Project Associate II – 1 Posts",
+        "subtitle": "NIT Tiruchirappalli — Project Associate II – 1 Posts",
+        "recruitmentBoard": "NIT Tiruchirappalli",
+        "qualification": "B.Tech/B.E, M.E/M.Tech",
+        "applicationStart": "24/08/2026",
+        "lastDate": "29-08-2026",
+        "vacancies": "1 Posts",
+        "state": "Tamil Nadu",
+        "advertisement": "–",
+        "status": "active",
+        "officialNotification": "https://www.nitt.edu/",
+        "applyLink": "https://www.nitt.edu/",
+        "officialWebsite": "https://www.nitt.edu/",
+        "description": "NIT Tiruchirappalli has announced recruitment for Project Associate II – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (B.Tech/B.E, M.E/M.Tech). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment is for research or project-based positions. The exact discipline, project requirements, experience, tenure and selection method are post-specific and should be checked in the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application Screening",
+            "Written / Skill Test or Shortlisting as prescribed",
+            "Interview where applicable",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official NIT Tiruchirappalli website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://www.nitt.edu/",
+            "notification": "https://www.nitt.edu/",
+            "applyOnline": "https://www.nitt.edu/"
+        }
+    },
+    {
+        "id": "nmrc-senior-section-engineer-34-posts-2026",
+        "type": "job",
+        "category": "Railway",
+        "title": "Senior Section Engineer – 34 Posts",
+        "subtitle": "NMRC — Senior Section Engineer – 34 Posts",
+        "recruitmentBoard": "NMRC",
+        "qualification": "Any Bachelors Degree, B.Com, LLB, Diploma, CA, MBA/PGDM, PG Diploma",
+        "applicationStart": "24/08/2026",
+        "lastDate": "22-09-2026",
+        "vacancies": "34 Posts",
+        "state": "All India",
+        "advertisement": "NMRC/HR/Rectt./05/2026",
+        "status": "active",
+        "officialNotification": "https://www.nmrcnoida.com/",
+        "applyLink": "https://www.nmrcnoida.com/",
+        "officialWebsite": "https://www.nmrcnoida.com/",
+        "description": "NMRC has announced recruitment for Senior Section Engineer – 34 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (Any Bachelors Degree, B.Com, LLB, Diploma, CA, MBA/PGDM, PG Diploma). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment is for technical, engineering or technology-support roles. Candidates should check the required discipline, experience, age, selection process and supporting documents in the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application Screening",
+            "Written / Skill Test or Shortlisting as prescribed",
+            "Interview where applicable",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official NMRC website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://www.nmrcnoida.com/",
+            "notification": "https://www.nmrcnoida.com/",
+            "applyOnline": "https://www.nmrcnoida.com/"
+        }
+    },
+    {
+        "id": "nalanda-university-faculty-19-posts-2026",
+        "type": "job",
+        "category": "State",
+        "title": "Faculty – 19 Posts",
+        "subtitle": "Nalanda University — Faculty – 19 Posts",
+        "recruitmentBoard": "Nalanda University",
+        "qualification": "M.Phil/Ph.D",
+        "applicationStart": "24/08/2026",
+        "lastDate": "15-09-2026",
+        "vacancies": "19 Posts",
+        "state": "Bihar",
+        "advertisement": "–",
+        "status": "active",
+        "officialNotification": "https://nalandauniv.edu.in/",
+        "applyLink": "https://nalandauniv.edu.in/",
+        "officialWebsite": "https://nalandauniv.edu.in/",
+        "description": "Nalanda University has announced recruitment for Faculty – 19 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (M.Phil/Ph.D). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment is for teaching, academic or educational-support roles. Candidates should verify the subject-wise qualification, experience, age, selection method and document requirements from the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application Screening",
+            "Written / Skill Test or Shortlisting as prescribed",
+            "Interview where applicable",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official Nalanda University website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://nalandauniv.edu.in/",
+            "notification": "https://nalandauniv.edu.in/",
+            "applyOnline": "https://nalandauniv.edu.in/"
+        }
+    },
+    {
+        "id": "oav-balangir-warden-chowkidar-and-more-2026",
+        "type": "job",
+        "category": "State",
+        "title": "Warden, Chowkidar and More",
+        "subtitle": "OAV Balangir — Warden, Chowkidar and More",
+        "recruitmentBoard": "OAV Balangir",
+        "qualification": "10TH",
+        "applicationStart": "24/08/2026",
+        "lastDate": "08-09-2026",
+        "vacancies": "As per official notification",
+        "state": "Odisha",
+        "advertisement": "001",
+        "status": "active",
+        "officialNotification": "https://balangir.odisha.gov.in/",
+        "applyLink": "https://balangir.odisha.gov.in/",
+        "officialWebsite": "https://balangir.odisha.gov.in/",
+        "description": "OAV Balangir has announced recruitment for Warden, Chowkidar and More. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (10TH). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment is for the advertised administrative, support, professional or field role. Candidates should verify the detailed eligibility, age, experience, selection process and document requirements in the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application Screening",
+            "Written / Skill Test or Shortlisting as prescribed",
+            "Interview where applicable",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official OAV Balangir website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://balangir.odisha.gov.in/",
+            "notification": "https://balangir.odisha.gov.in/",
+            "applyOnline": "https://balangir.odisha.gov.in/"
+        }
+    },
+    {
+        "id": "oav-garudabasa-warden-1-posts-2026",
+        "type": "job",
+        "category": "State",
+        "title": "Warden – 1 Posts",
+        "subtitle": "OAV Garudabasa — Warden – 1 Posts",
+        "recruitmentBoard": "OAV Garudabasa",
+        "qualification": "B.Sc, B.A",
+        "applicationStart": "24/08/2026",
+        "lastDate": "11-09-2026",
+        "vacancies": "1 Posts",
+        "state": "Odisha",
+        "advertisement": "02",
+        "status": "active",
+        "officialNotification": "https://mayurbhanj.odisha.gov.in/",
+        "applyLink": "https://mayurbhanj.odisha.gov.in/",
+        "officialWebsite": "https://mayurbhanj.odisha.gov.in/",
+        "description": "OAV Garudabasa has announced recruitment for Warden – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (B.Sc, B.A). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment is for the advertised administrative, support, professional or field role. Candidates should verify the detailed eligibility, age, experience, selection process and document requirements in the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application Screening",
+            "Written / Skill Test or Shortlisting as prescribed",
+            "Interview where applicable",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official OAV Garudabasa website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://mayurbhanj.odisha.gov.in/",
+            "notification": "https://mayurbhanj.odisha.gov.in/",
+            "applyOnline": "https://mayurbhanj.odisha.gov.in/"
+        }
+    },
+    {
+        "id": "one-stop-centre-sri-sathya-sai-security-guard-night-guard-1-posts-2026",
+        "type": "job",
+        "category": "State",
+        "title": "Security Guard/Night Guard – 1 Posts",
+        "subtitle": "One Stop Centre Sri Sathya Sai — Security Guard/Night Guard – 1 Posts",
+        "recruitmentBoard": "One Stop Centre Sri Sathya Sai",
+        "qualification": "Retired Staff",
+        "applicationStart": "24/08/2026",
+        "lastDate": "29-08-2026",
+        "vacancies": "1 Posts",
+        "state": "Andhra Pradesh",
+        "advertisement": "RC No. 20292/A/2025",
+        "status": "active",
+        "officialNotification": "https://srikakulam.ap.gov.in/",
+        "applyLink": "https://srikakulam.ap.gov.in/",
+        "officialWebsite": "https://srikakulam.ap.gov.in/",
+        "description": "One Stop Centre Sri Sathya Sai has announced recruitment for Security Guard/Night Guard – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (Retired Staff). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment is for the advertised administrative, support, professional or field role. Candidates should verify the detailed eligibility, age, experience, selection process and document requirements in the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application Screening",
+            "Written / Skill Test or Shortlisting as prescribed",
+            "Interview where applicable",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official One Stop Centre Sri Sathya Sai website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://srikakulam.ap.gov.in/",
+            "notification": "https://srikakulam.ap.gov.in/",
+            "applyOnline": "https://srikakulam.ap.gov.in/"
+        }
+    },
+    {
+        "id": "pau-field-worker-1-posts-2026",
+        "type": "job",
+        "category": "State",
+        "title": "Field Worker – 1 Posts",
+        "subtitle": "PAU — Field Worker – 1 Posts",
+        "recruitmentBoard": "PAU",
+        "qualification": "10TH",
+        "applicationStart": "24/08/2026",
+        "lastDate": "03-09-2026",
+        "vacancies": "1 Posts",
+        "state": "Punjab",
+        "advertisement": "–",
+        "status": "active",
+        "officialNotification": "https://www.pau.edu/",
+        "applyLink": "https://www.pau.edu/",
+        "officialWebsite": "https://www.pau.edu/",
+        "description": "PAU has announced recruitment for Field Worker – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (10TH). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment is for the advertised administrative, support, professional or field role. Candidates should verify the detailed eligibility, age, experience, selection process and document requirements in the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application Screening",
+            "Written / Skill Test or Shortlisting as prescribed",
+            "Interview where applicable",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official PAU website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://www.pau.edu/",
+            "notification": "https://www.pau.edu/",
+            "applyOnline": "https://www.pau.edu/"
+        }
+    },
+    {
+        "id": "psssb-sevadar-chowkidar-2026",
+        "type": "job",
+        "category": "State",
+        "title": "Sevadar, Chowkidar",
+        "subtitle": "PSSSB — Sevadar, Chowkidar",
+        "recruitmentBoard": "PSSSB",
+        "qualification": "10TH",
+        "applicationStart": "24/08/2026",
+        "lastDate": "04-09-2026",
+        "vacancies": "As per official notification",
+        "state": "Punjab",
+        "advertisement": "04 of 2026",
+        "status": "active",
+        "officialNotification": "https://sssb.punjab.gov.in/",
+        "applyLink": "https://sssb.punjab.gov.in/",
+        "officialWebsite": "https://sssb.punjab.gov.in/",
+        "description": "PSSSB has announced recruitment for Sevadar, Chowkidar. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (10TH). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment is for the advertised administrative, support, professional or field role. Candidates should verify the detailed eligibility, age, experience, selection process and document requirements in the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application Screening",
+            "Written / Skill Test or Shortlisting as prescribed",
+            "Interview where applicable",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official PSSSB website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://sssb.punjab.gov.in/",
+            "notification": "https://sssb.punjab.gov.in/",
+            "applyOnline": "https://sssb.punjab.gov.in/"
+        }
+    },
+    {
+        "id": "residential-schools-chatra-part-time-bell-based-teacher-26-posts-2026",
+        "type": "job",
+        "category": "State",
+        "title": "Part-time Bell-based Teacher – 26 Posts",
+        "subtitle": "Residential Schools Chatra — Part-time Bell-based Teacher – 26 Posts",
+        "recruitmentBoard": "Residential Schools Chatra",
+        "qualification": "B.Ed",
+        "applicationStart": "24/08/2026",
+        "lastDate": "06-09-2026",
+        "vacancies": "26 Posts",
+        "state": "Jharkhand",
+        "advertisement": "–",
+        "status": "active",
+        "officialNotification": "https://chatra.nic.in/",
+        "applyLink": "https://chatra.nic.in/",
+        "officialWebsite": "https://chatra.nic.in/",
+        "description": "Residential Schools Chatra has announced recruitment for Part-time Bell-based Teacher – 26 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (B.Ed). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment is for teaching, academic or educational-support roles. Candidates should verify the subject-wise qualification, experience, age, selection method and document requirements from the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application Screening",
+            "Written / Skill Test or Shortlisting as prescribed",
+            "Interview where applicable",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official Residential Schools Chatra website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://chatra.nic.in/",
+            "notification": "https://chatra.nic.in/",
+            "applyOnline": "https://chatra.nic.in/"
+        }
+    },
+    {
+        "id": "slbsnsu-library-professional-trainee-4-posts-2026-2",
+        "type": "job",
+        "category": "Defence",
+        "title": "Library Professional Trainee – 4 Posts",
+        "subtitle": "SLBSNSU — Library Professional Trainee – 4 Posts",
+        "recruitmentBoard": "SLBSNSU",
+        "qualification": "B.Lib",
+        "applicationStart": "24/08/2026",
+        "lastDate": "25-08-2026",
+        "vacancies": "4 Posts",
+        "state": "Delhi",
+        "advertisement": "No.F.5(99xLib Trainee)/LBSNSU/Lib/2025/359",
+        "status": "active",
+        "officialNotification": "https://slbsrsv.ac.in/",
+        "applyLink": "https://slbsrsv.ac.in/",
+        "officialWebsite": "https://slbsrsv.ac.in/",
+        "description": "SLBSNSU has announced recruitment for Library Professional Trainee – 4 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (B.Lib). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment is for the advertised administrative, support, professional or field role. Candidates should verify the detailed eligibility, age, experience, selection process and document requirements in the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application Screening",
+            "Written / Skill Test or Shortlisting as prescribed",
+            "Interview where applicable",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official SLBSNSU website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://slbsrsv.ac.in/",
+            "notification": "https://slbsrsv.ac.in/",
+            "applyOnline": "https://slbsrsv.ac.in/"
+        }
+    },
+    {
+        "id": "slbsnsu-ncc-instructor-1-posts-2026",
+        "type": "job",
+        "category": "Defence",
+        "title": "NCC Instructor – 1 Posts",
+        "subtitle": "SLBSNSU — NCC Instructor – 1 Posts",
+        "recruitmentBoard": "SLBSNSU",
+        "qualification": "Other",
+        "applicationStart": "24/08/2026",
+        "lastDate": "04-09-2026",
+        "vacancies": "1 Posts",
+        "state": "All India",
+        "advertisement": "–",
+        "status": "active",
+        "officialNotification": "https://slbsrsv.ac.in/",
+        "applyLink": "https://slbsrsv.ac.in/",
+        "officialWebsite": "https://slbsrsv.ac.in/",
+        "description": "SLBSNSU has announced recruitment for NCC Instructor – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (Other). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment is for teaching, academic or educational-support roles. Candidates should verify the subject-wise qualification, experience, age, selection method and document requirements from the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application Screening",
+            "Written / Skill Test or Shortlisting as prescribed",
+            "Interview where applicable",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official SLBSNSU website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://slbsrsv.ac.in/",
+            "notification": "https://slbsrsv.ac.in/",
+            "applyOnline": "https://slbsrsv.ac.in/"
+        }
+    },
+    {
+        "id": "srcc-project-associate-ii-1-posts-2026",
+        "type": "job",
+        "category": "State",
+        "title": "Project Associate II – 1 Posts",
+        "subtitle": "SRCC — Project Associate II – 1 Posts",
+        "recruitmentBoard": "SRCC",
+        "qualification": "M.Sc",
+        "applicationStart": "24/08/2026",
+        "lastDate": "05-09-2026",
+        "vacancies": "1 Posts",
+        "state": "Delhi",
+        "advertisement": "–",
+        "status": "active",
+        "officialNotification": "https://www.srcc.edu/",
+        "applyLink": "https://www.srcc.edu/",
+        "officialWebsite": "https://www.srcc.edu/",
+        "description": "SRCC has announced recruitment for Project Associate II – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (M.Sc). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment is for research or project-based positions. The exact discipline, project requirements, experience, tenure and selection method are post-specific and should be checked in the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application Screening",
+            "Written / Skill Test or Shortlisting as prescribed",
+            "Interview where applicable",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official SRCC website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://www.srcc.edu/",
+            "notification": "https://www.srcc.edu/",
+            "applyOnline": "https://www.srcc.edu/"
+        }
+    },
+    {
+        "id": "thsti-multi-tasking-staff-data-manager-and-more-6-posts-2026",
+        "type": "job",
+        "category": "State",
+        "title": "Multi Tasking Staff, Data Manager and More – 6 Posts",
+        "subtitle": "THSTI — Multi Tasking Staff, Data Manager and More – 6 Posts",
+        "recruitmentBoard": "THSTI",
+        "qualification": "12TH, Any Graduate, Any Masters Degree, DMLT, MLT",
+        "applicationStart": "24/08/2026",
+        "lastDate": "15-09-2026",
+        "vacancies": "6 Posts",
+        "state": "Haryana",
+        "advertisement": "–",
+        "status": "active",
+        "officialNotification": "https://thsti.res.in/",
+        "applyLink": "https://thsti.res.in/",
+        "officialWebsite": "https://thsti.res.in/",
+        "description": "THSTI has announced recruitment for Multi Tasking Staff, Data Manager and More – 6 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (12TH, Any Graduate, Any Masters Degree, DMLT, MLT). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment is for the advertised administrative, support, professional or field role. Candidates should verify the detailed eligibility, age, experience, selection process and document requirements in the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application Screening",
+            "Written / Skill Test or Shortlisting as prescribed",
+            "Interview where applicable",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official THSTI website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://thsti.res.in/",
+            "notification": "https://thsti.res.in/",
+            "applyOnline": "https://thsti.res.in/"
+        }
+    },
+    {
+        "id": "telangana-anganwadi-anganwadi-teacher-52-posts-2026",
+        "type": "job",
+        "category": "State",
+        "title": "Anganwadi Teacher – 52 Posts",
+        "subtitle": "Telangana Anganwadi — Anganwadi Teacher – 52 Posts",
+        "recruitmentBoard": "Telangana Anganwadi",
+        "qualification": "12TH",
+        "applicationStart": "24/08/2026",
+        "lastDate": "02-09-2026",
+        "vacancies": "52 Posts",
+        "state": "Telangana",
+        "advertisement": "–",
+        "status": "active",
+        "officialNotification": "https://wdcw.tg.nic.in/",
+        "applyLink": "https://wdcw.tg.nic.in/",
+        "officialWebsite": "https://wdcw.tg.nic.in/",
+        "description": "Telangana Anganwadi has announced recruitment for Anganwadi Teacher – 52 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (12TH). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment is for teaching, academic or educational-support roles. Candidates should verify the subject-wise qualification, experience, age, selection method and document requirements from the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application Screening",
+            "Written / Skill Test or Shortlisting as prescribed",
+            "Interview where applicable",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official Telangana Anganwadi website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://wdcw.tg.nic.in/",
+            "notification": "https://wdcw.tg.nic.in/",
+            "applyOnline": "https://wdcw.tg.nic.in/"
+        }
+    },
+    {
+        "id": "up-anganwadi-anganwadi-helper-214-posts-2026",
+        "type": "job",
+        "category": "State",
+        "title": "Anganwadi Helper – 214 Posts",
+        "subtitle": "UP Anganwadi — Anganwadi Helper – 214 Posts",
+        "recruitmentBoard": "UP Anganwadi",
+        "qualification": "12TH, 10TH",
+        "applicationStart": "24/08/2026",
+        "lastDate": "11-09-2026",
+        "vacancies": "214 Posts",
+        "state": "Uttar Pradesh",
+        "advertisement": "–",
+        "status": "active",
+        "officialNotification": "https://balvikasup.gov.in/",
+        "applyLink": "https://balvikasup.gov.in/",
+        "officialWebsite": "https://balvikasup.gov.in/",
+        "description": "UP Anganwadi has announced recruitment for Anganwadi Helper – 214 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (12TH, 10TH). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment is for the advertised administrative, support, professional or field role. Candidates should verify the detailed eligibility, age, experience, selection process and document requirements in the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application Screening",
+            "Written / Skill Test or Shortlisting as prescribed",
+            "Interview where applicable",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official UP Anganwadi website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://balvikasup.gov.in/",
+            "notification": "https://balvikasup.gov.in/",
+            "applyOnline": "https://balvikasup.gov.in/"
+        }
+    },
+    {
+        "id": "visakhapatnam-port-authority-trade-apprentice-20-posts-2026",
+        "type": "job",
+        "category": "State",
+        "title": "Trade Apprentice – 20 Posts",
+        "subtitle": "Visakhapatnam Port Authority — Trade Apprentice – 20 Posts",
+        "recruitmentBoard": "Visakhapatnam Port Authority",
+        "qualification": "ITI",
+        "applicationStart": "24/08/2026",
+        "lastDate": "23-09-2026",
+        "vacancies": "20 Posts",
+        "state": "Andhra Pradesh",
+        "advertisement": "–",
+        "status": "active",
+        "officialNotification": "https://www.vizagport.com/",
+        "applyLink": "https://www.vizagport.com/",
+        "officialWebsite": "https://www.vizagport.com/",
+        "description": "Visakhapatnam Port Authority has announced recruitment for Trade Apprentice – 20 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (ITI). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
+        "aboutExam": "This recruitment offers apprenticeship training in the advertised trade or discipline. Candidates should verify the prescribed educational/trade qualification, age, training conditions and selection process from the official notification.",
+        "ageLimit": "As prescribed in the official notification",
+        "selectionProcess": [
+            "Application Screening",
+            "Merit / Shortlisting as prescribed",
+            "Document Verification",
+            "Final Selection"
+        ],
+        "applicationFee": "As prescribed in the official notification",
+        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
+        "howToApply": [
+            "Visit the official Visakhapatnam Port Authority website or official recruitment portal.",
+            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
+            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
+            "Complete the application through the method prescribed in the official notice and attach the required documents.",
+            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
+            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
+        ],
+        "importantLinks": {
+            "officialWebsite": "https://www.vizagport.com/",
+            "notification": "https://www.vizagport.com/",
+            "applyOnline": "https://www.vizagport.com/"
+        }
+    },
+    {
         "id": "sebi-security-coordinator-1-posts-2026",
         "type": "job",
         "category": "Banking",
@@ -40,49 +3378,6 @@ const jobAlerts = [
             "officialWebsite": "https://www.sebi.gov.in/",
             "notification": "https://www.sebi.gov.in/",
             "applyOnline": "https://www.sebi.gov.in/"
-        }
-    },
-    {
-        "id": "nabfins-customer-service-officer-field-work-2026",
-        "type": "job",
-        "category": "Banking",
-        "title": "Customer Service Officer - Field Work",
-        "subtitle": "NABFINS — Customer Service Officer - Field Work",
-        "recruitmentBoard": "NABFINS",
-        "qualification": "12TH",
-        "applicationStart": "20/08/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "As per official notification",
-        "state": "All India",
-        "advertisement": "–",
-        "status": "active",
-        "officialNotification": "https://www.nabfins.org/",
-        "applyLink": "https://www.nabfins.org/",
-        "officialWebsite": "https://www.nabfins.org/",
-        "description": "NABFINS has announced recruitment for Customer Service Officer - Field Work. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (12TH). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "This is a banking-sector recruitment. Candidates should verify the required qualification, age, local-language conditions, experience and examination or interview process from the official notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written Examination / Shortlisting as prescribed",
-            "Interview where applicable",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://www.nabfins.org/",
-            "notification": "https://www.nabfins.org/",
-            "applyOnline": "https://www.nabfins.org/"
         }
     },
     {
@@ -470,49 +3765,6 @@ const jobAlerts = [
             "officialWebsite": "https://sbi.bank.in/",
             "notification": "https://sbi.bank.in/",
             "applyOnline": "https://sbi.bank.in/"
-        }
-    },
-    {
-        "id": "iob-local-bank-officer-250-posts-2026",
-        "type": "job",
-        "category": "Banking",
-        "title": "Local Bank Officer – 250 Posts",
-        "subtitle": "IOB — Local Bank Officer – 250 Posts",
-        "recruitmentBoard": "IOB",
-        "qualification": "Any Graduate",
-        "applicationStart": "08/08/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "250 Posts",
-        "state": "All India",
-        "advertisement": "HRDD/RECT/02/2026-27",
-        "status": "active",
-        "officialNotification": "https://www.iob.bank.in/",
-        "applyLink": "https://www.iob.bank.in/",
-        "officialWebsite": "https://www.iob.bank.in/",
-        "description": "IOB has announced recruitment for Local Bank Officer – 250 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (Any Graduate). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "This is a banking-sector recruitment. Candidates should verify the required qualification, age, local-language conditions, experience and examination or interview process from the official notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written Examination / Shortlisting as prescribed",
-            "Interview where applicable",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://www.iob.bank.in/",
-            "notification": "https://www.iob.bank.in/",
-            "applyOnline": "https://www.iob.bank.in/"
         }
     },
     {
@@ -1712,48 +4964,6 @@ const jobAlerts = [
         }
     },
     {
-        "id": "rcfl-management-trainee-94-posts-2026",
-        "type": "job",
-        "category": "Other Govt",
-        "title": "Management Trainee – 94 Posts",
-        "subtitle": "RCFL — Management Trainee – 94 Posts",
-        "recruitmentBoard": "RCFL",
-        "qualification": "B.Tech/B.E, CA, MBA/PGDM",
-        "applicationStart": "08/08/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "94 Posts",
-        "state": "All India",
-        "advertisement": "16022026",
-        "status": "active",
-        "officialNotification": "https://www.rcfltd.com/",
-        "applyLink": "https://www.rcfltd.com/",
-        "officialWebsite": "https://www.rcfltd.com/",
-        "description": "RCFL has announced recruitment for Management Trainee – 94 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (B.Tech/B.E, CA, MBA/PGDM). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "Candidates should verify the detailed eligibility, age limit, selection procedure, fee and document requirements in the official recruitment notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://www.rcfltd.com/",
-            "notification": "https://www.rcfltd.com/",
-            "applyOnline": "https://www.rcfltd.com/"
-        }
-    },
-    {
         "id": "iocl-technician-graduate-and-trade-apprentice-433-posts-2026",
         "type": "job",
         "category": "Other Govt",
@@ -1961,49 +5171,6 @@ const jobAlerts = [
             "officialWebsite": "https://rites.com/",
             "notification": "https://rites.com/",
             "applyOnline": "https://rites.com/"
-        }
-    },
-    {
-        "id": "icmr-nihr-administrative-officer-and-field-officer-and-more-5-posts-2026",
-        "type": "job",
-        "category": "Other Govt",
-        "title": "Administrative Officer and Field Officer and More – 5 Posts",
-        "subtitle": "ICMR NIHR — Administrative Officer and Field Officer and More – 5 Posts",
-        "recruitmentBoard": "ICMR NIHR",
-        "qualification": "Any Bachelors Degree, M.Pharma, M.Sc, M.Phil/Ph.D, MHA, D.Pharm, MPH",
-        "applicationStart": "05/08/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "5 Posts",
-        "state": "All India",
-        "advertisement": "–",
-        "status": "active",
-        "officialNotification": "https://www.icmr.gov.in/",
-        "applyLink": "https://www.icmr.gov.in/",
-        "officialWebsite": "https://www.icmr.gov.in/",
-        "description": "ICMR NIHR has announced recruitment for Administrative Officer and Field Officer and More – 5 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (Any Bachelors Degree, M.Pharma, M.Sc, M.Phil/Ph.D, MHA, D.Pharm, MPH). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "Candidates should verify the detailed eligibility, age limit, selection procedure, fee and document requirements in the official recruitment notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written Examination / Shortlisting as prescribed",
-            "Interview where applicable",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://www.icmr.gov.in/",
-            "notification": "https://www.icmr.gov.in/",
-            "applyOnline": "https://www.icmr.gov.in/"
         }
     },
     {
@@ -2259,91 +5426,6 @@ const jobAlerts = [
             "officialWebsite": "https://www.territorialarmy.in/",
             "notification": "https://www.territorialarmy.in/",
             "applyOnline": "https://www.territorialarmy.in/"
-        }
-    },
-    {
-        "id": "nfr-sportspersons-56-posts-2026",
-        "type": "job",
-        "category": "Other Govt",
-        "title": "Sportspersons – 56 Posts",
-        "subtitle": "NFR — Sportspersons – 56 Posts",
-        "recruitmentBoard": "NFR",
-        "qualification": "ITI, 12TH, 10TH",
-        "applicationStart": "25/07/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "56 Posts",
-        "state": "All India",
-        "advertisement": "04/2026",
-        "status": "active",
-        "officialNotification": "https://nfr.indianrailways.gov.in/",
-        "applyLink": "https://nfr.indianrailways.gov.in/",
-        "officialWebsite": "https://nfr.indianrailways.gov.in/",
-        "description": "NFR has announced recruitment for Sportspersons – 56 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (ITI, 12TH, 10TH). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "Candidates should verify the detailed eligibility, age limit, selection procedure, fee and document requirements in the official recruitment notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://nfr.indianrailways.gov.in/",
-            "notification": "https://nfr.indianrailways.gov.in/",
-            "applyOnline": "https://nfr.indianrailways.gov.in/"
-        }
-    },
-    {
-        "id": "prl-administrative-officer-accounts-officer-and-more-posts-5-posts-2026",
-        "type": "job",
-        "category": "Other Govt",
-        "title": "Administrative Officer, Accounts Officer and More Posts – 5 Posts",
-        "subtitle": "PRL — Administrative Officer, Accounts Officer and More Posts – 5 Posts",
-        "recruitmentBoard": "PRL",
-        "qualification": "B.B.A, B.Com, Diploma, Other, BBM, M.Com, MBA/PGDM",
-        "applicationStart": "25/07/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "5 Posts",
-        "state": "All India",
-        "advertisement": "01/2026",
-        "status": "active",
-        "officialNotification": "https://www.prl.res.in/",
-        "applyLink": "https://www.prl.res.in/",
-        "officialWebsite": "https://www.prl.res.in/",
-        "description": "PRL has announced recruitment for Administrative Officer, Accounts Officer and More Posts – 5 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (B.B.A, B.Com, Diploma, Other, BBM, M.Com, MBA/PGDM). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "Candidates should verify the detailed eligibility, age limit, selection procedure, fee and document requirements in the official recruitment notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written Examination / Shortlisting as prescribed",
-            "Interview where applicable",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://www.prl.res.in/",
-            "notification": "https://www.prl.res.in/",
-            "applyOnline": "https://www.prl.res.in/"
         }
     },
     {
@@ -3794,48 +6876,6 @@ const jobAlerts = [
         }
     },
     {
-        "id": "rwfsa-sportspersons-5-posts-2026",
-        "type": "job",
-        "category": "Railway",
-        "title": "Sportspersons – 5 Posts",
-        "subtitle": "RWFSA — Sportspersons – 5 Posts",
-        "recruitmentBoard": "RWFSA",
-        "qualification": "Other",
-        "applicationStart": "04/08/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "5 Posts",
-        "state": "All India",
-        "advertisement": "–",
-        "status": "active",
-        "officialNotification": "https://rwf.indianrailways.gov.in/",
-        "applyLink": "https://rwf.indianrailways.gov.in/",
-        "officialWebsite": "https://rwf.indianrailways.gov.in/",
-        "description": "RWFSA has announced recruitment for Sportspersons – 5 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (Other). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "This opportunity is associated with the railway sector. Eligibility, medical standards, examination stages and document requirements vary by recruitment and post.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://rwf.indianrailways.gov.in/",
-            "notification": "https://rwf.indianrailways.gov.in/",
-            "applyOnline": "https://rwf.indianrailways.gov.in/"
-        }
-    },
-    {
         "id": "krcl-junior-engineer-technician-and-more-201-posts-2026",
         "type": "job",
         "category": "Railway",
@@ -3879,48 +6919,6 @@ const jobAlerts = [
         }
     },
     {
-        "id": "rwf-sports-person-15-posts-2026",
-        "type": "job",
-        "category": "Railway",
-        "title": "Sports Person – 15 Posts",
-        "subtitle": "RWF — Sports Person – 15 Posts",
-        "recruitmentBoard": "RWF",
-        "qualification": "ITI, 12TH, 10TH",
-        "applicationStart": "27/07/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "15 Posts",
-        "state": "All India",
-        "advertisement": "No.RWF/RC-101/996",
-        "status": "active",
-        "officialNotification": "https://rwf.indianrailways.gov.in/",
-        "applyLink": "https://rwf.indianrailways.gov.in/",
-        "officialWebsite": "https://rwf.indianrailways.gov.in/",
-        "description": "RWF has announced recruitment for Sports Person – 15 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (ITI, 12TH, 10TH). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "This opportunity is associated with the railway sector. Eligibility, medical standards, examination stages and document requirements vary by recruitment and post.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://rwf.indianrailways.gov.in/",
-            "notification": "https://rwf.indianrailways.gov.in/",
-            "applyOnline": "https://rwf.indianrailways.gov.in/"
-        }
-    },
-    {
         "id": "rrc-eastern-railway-scouts-guides-quota-15-posts-2026",
         "type": "job",
         "category": "Railway",
@@ -3960,49 +6958,6 @@ const jobAlerts = [
             "officialWebsite": "https://rrcer.org/",
             "notification": "https://rrcer.org/",
             "applyOnline": "https://rrcer.org/"
-        }
-    },
-    {
-        "id": "mpmrcl-general-manager-additional-general-manager-2-posts-2026",
-        "type": "job",
-        "category": "Railway",
-        "title": "General Manager / Additional General Manager – 2 Posts",
-        "subtitle": "MPMRCL — General Manager / Additional General Manager – 2 Posts",
-        "recruitmentBoard": "MPMRCL",
-        "qualification": "B.Tech/B.E",
-        "applicationStart": "24/07/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "2 Posts",
-        "state": "All India",
-        "advertisement": "–",
-        "status": "active",
-        "officialNotification": "https://www.mpmetrorail.com/",
-        "applyLink": "https://www.mpmetrorail.com/",
-        "officialWebsite": "https://www.mpmetrorail.com/",
-        "description": "MPMRCL has announced recruitment for General Manager / Additional General Manager – 2 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (B.Tech/B.E). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "This opportunity is associated with the railway sector. Eligibility, medical standards, examination stages and document requirements vary by recruitment and post.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written Examination / Shortlisting as prescribed",
-            "Interview where applicable",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://www.mpmetrorail.com/",
-            "notification": "https://www.mpmetrorail.com/",
-            "applyOnline": "https://www.mpmetrorail.com/"
         }
     },
     {
@@ -4345,90 +7300,6 @@ const jobAlerts = [
         }
     },
     {
-        "id": "hbch-rc-radiation-technologist-1-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Radiation Technologist – 1 Posts",
-        "subtitle": "HBCH&RC — Radiation Technologist – 1 Posts",
-        "recruitmentBoard": "HBCH&RC",
-        "qualification": "B.Sc",
-        "applicationStart": "13/08/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "1 Posts",
-        "state": "Andhra Pradesh",
-        "advertisement": "OS/VIZAG/26/29",
-        "status": "active",
-        "officialNotification": "https://tmc.gov.in/",
-        "applyLink": "https://tmc.gov.in/",
-        "officialWebsite": "https://tmc.gov.in/",
-        "description": "HBCH&RC has announced recruitment for Radiation Technologist – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (B.Sc). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "Candidates should verify the detailed eligibility, age limit, selection procedure, fee and document requirements in the official recruitment notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://tmc.gov.in/",
-            "notification": "https://tmc.gov.in/",
-            "applyOnline": "https://tmc.gov.in/"
-        }
-    },
-    {
-        "id": "aiims-mangalagiri-faculty-79-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Faculty – 79 Posts",
-        "subtitle": "AIIMS Mangalagiri — Faculty – 79 Posts",
-        "recruitmentBoard": "AIIMS Mangalagiri",
-        "qualification": "MBBS, DNB, Any Post Graduate, MS/MD, M.Ch, DM",
-        "applicationStart": "12/08/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "79 Posts",
-        "state": "Andhra Pradesh",
-        "advertisement": "AIIMS/MG/Admin/Recruitment/03/Faculty/2026/01",
-        "status": "active",
-        "officialNotification": "https://aiimsmangalagiri.edu.in/",
-        "applyLink": "https://aiimsmangalagiri.edu.in/",
-        "officialWebsite": "https://aiimsmangalagiri.edu.in/",
-        "description": "AIIMS Mangalagiri has announced recruitment for Faculty – 79 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (MBBS, DNB, Any Post Graduate, MS/MD, M.Ch, DM). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "Candidates should verify the detailed eligibility, age limit, selection procedure, fee and document requirements in the official recruitment notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://aiimsmangalagiri.edu.in/",
-            "notification": "https://aiimsmangalagiri.edu.in/",
-            "applyOnline": "https://aiimsmangalagiri.edu.in/"
-        }
-    },
-    {
         "id": "aiims-mangalagiri-clinical-psychologist-mo-and-more-4-posts-2026",
         "type": "job",
         "category": "State",
@@ -4446,48 +7317,6 @@ const jobAlerts = [
         "applyLink": "https://aiimsmangalagiri.edu.in/",
         "officialWebsite": "https://aiimsmangalagiri.edu.in/",
         "description": "AIIMS Mangalagiri has announced recruitment for Clinical Psychologist, MO and More – 4 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (M.Phil/Ph.D, M.Sc). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "Candidates should verify the detailed eligibility, age limit, selection procedure, fee and document requirements in the official recruitment notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://aiimsmangalagiri.edu.in/",
-            "notification": "https://aiimsmangalagiri.edu.in/",
-            "applyOnline": "https://aiimsmangalagiri.edu.in/"
-        }
-    },
-    {
-        "id": "aiims-mangalagiri-nuclear-medicine-technologist-2-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Nuclear Medicine Technologist – 2 Posts",
-        "subtitle": "AIIMS Mangalagiri — Nuclear Medicine Technologist – 2 Posts",
-        "recruitmentBoard": "AIIMS Mangalagiri",
-        "qualification": "Any Graduate",
-        "applicationStart": "05/08/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "2 Posts",
-        "state": "Andhra Pradesh",
-        "advertisement": "AIIMS/MG/Admin/Recruitment /03/Non Faculty/2026/01",
-        "status": "active",
-        "officialNotification": "https://aiimsmangalagiri.edu.in/",
-        "applyLink": "https://aiimsmangalagiri.edu.in/",
-        "officialWebsite": "https://aiimsmangalagiri.edu.in/",
-        "description": "AIIMS Mangalagiri has announced recruitment for Nuclear Medicine Technologist – 2 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (Any Graduate). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
         "aboutExam": "Candidates should verify the detailed eligibility, age limit, selection procedure, fee and document requirements in the official recruitment notification.",
         "ageLimit": "As prescribed in the official notification",
         "selectionProcess": [
@@ -4787,48 +7616,6 @@ const jobAlerts = [
         "selectionProcess": [
             "Eligibility Screening",
             "Interview / Walk-in Selection",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://www.iitg.ac.in/",
-            "notification": "https://www.iitg.ac.in/",
-            "applyOnline": "https://www.iitg.ac.in/"
-        }
-    },
-    {
-        "id": "iit-guwahati-junior-research-fellow-1-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Junior Research Fellow – 1 Posts",
-        "subtitle": "IIT Guwahati — Junior Research Fellow – 1 Posts",
-        "recruitmentBoard": "IIT Guwahati",
-        "qualification": "B.Tech/B.E, M.E/M.Tech, M.Sc",
-        "applicationStart": "20/08/2026",
-        "lastDate": "25-08-2026",
-        "vacancies": "1 Posts",
-        "state": "Assam",
-        "advertisement": "–",
-        "status": "active",
-        "officialNotification": "https://www.iitg.ac.in/",
-        "applyLink": "https://www.iitg.ac.in/",
-        "officialWebsite": "https://www.iitg.ac.in/",
-        "description": "IIT Guwahati has announced recruitment for Junior Research Fellow – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (B.Tech/B.E, M.E/M.Tech, M.Sc). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "This recruitment is aimed at professional, research or project-based roles. The exact discipline, experience and selection method are post-specific and must be checked in the official notice.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
             "Document Verification",
             "Final Selection"
         ],
@@ -5228,48 +8015,6 @@ const jobAlerts = [
         }
     },
     {
-        "id": "district-court-bongaigaon-peon-and-driver-2-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Peon and Driver – 2 Posts",
-        "subtitle": "District Court Bongaigaon — Peon and Driver – 2 Posts",
-        "recruitmentBoard": "District Court Bongaigaon",
-        "qualification": "10TH, 8TH",
-        "applicationStart": "05/08/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "2 Posts",
-        "state": "Assam",
-        "advertisement": "–",
-        "status": "active",
-        "officialNotification": "https://ecourts.gov.in/",
-        "applyLink": "https://ecourts.gov.in/",
-        "officialWebsite": "https://ecourts.gov.in/",
-        "description": "District Court Bongaigaon has announced recruitment for Peon and Driver – 2 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (10TH, 8TH). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "Candidates should verify the detailed eligibility, age limit, selection procedure, fee and document requirements in the official recruitment notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://ecourts.gov.in/",
-            "notification": "https://ecourts.gov.in/",
-            "applyOnline": "https://ecourts.gov.in/"
-        }
-    },
-    {
         "id": "apsc-research-assistant-1-posts-2026",
         "type": "job",
         "category": "State",
@@ -5394,49 +8139,6 @@ const jobAlerts = [
             "officialWebsite": null,
             "notification": null,
             "applyOnline": null
-        }
-    },
-    {
-        "id": "apsc-assistant-manager-35-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Assistant Manager – 35 Posts",
-        "subtitle": "APSC — Assistant Manager – 35 Posts",
-        "recruitmentBoard": "APSC",
-        "qualification": "B.Tech/B.E, MBA/PGDM",
-        "applicationStart": "15/07/2026",
-        "lastDate": "23-08-2026",
-        "vacancies": "35 Posts",
-        "state": "Assam",
-        "advertisement": "09/2026",
-        "status": "active",
-        "officialNotification": "https://apsc.nic.in/",
-        "applyLink": "https://apsc.nic.in/",
-        "officialWebsite": "https://apsc.nic.in/",
-        "description": "APSC has announced recruitment for Assistant Manager – 35 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (B.Tech/B.E, MBA/PGDM). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "Candidates should verify the detailed eligibility, age limit, selection procedure, fee and document requirements in the official recruitment notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written Examination / Shortlisting as prescribed",
-            "Interview where applicable",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://apsc.nic.in/",
-            "notification": "https://apsc.nic.in/",
-            "applyOnline": "https://apsc.nic.in/"
         }
     },
     {
@@ -5904,48 +8606,6 @@ const jobAlerts = [
         }
     },
     {
-        "id": "btsc-technician-assistant-bacteriologist-13-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Technician, Assistant Bacteriologist – 13 Posts",
-        "subtitle": "BTSC — Technician, Assistant Bacteriologist – 13 Posts",
-        "recruitmentBoard": "BTSC",
-        "qualification": "B.Sc",
-        "applicationStart": "24/07/2026",
-        "lastDate": "23-08-2026",
-        "vacancies": "13 Posts",
-        "state": "Bihar",
-        "advertisement": "26/2026, 25/2026",
-        "status": "active",
-        "officialNotification": "https://btsc.bihar.gov.in/",
-        "applyLink": "https://btsc.bihar.gov.in/",
-        "officialWebsite": "https://btsc.bihar.gov.in/",
-        "description": "BTSC has announced recruitment for Technician, Assistant Bacteriologist – 13 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (B.Sc). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "Candidates should verify the detailed eligibility, age limit, selection procedure, fee and document requirements in the official recruitment notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://btsc.bihar.gov.in/",
-            "notification": "https://btsc.bihar.gov.in/",
-            "applyOnline": "https://btsc.bihar.gov.in/"
-        }
-    },
-    {
         "id": "bbmb-hindi-translator-9-posts-2026",
         "type": "job",
         "category": "State",
@@ -6157,48 +8817,6 @@ const jobAlerts = [
         }
     },
     {
-        "id": "pgimer-senior-project-assistant-1-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Senior Project Assistant – 1 Posts",
-        "subtitle": "PGIMER — Senior Project Assistant – 1 Posts",
-        "recruitmentBoard": "PGIMER",
-        "qualification": "M.Sc",
-        "applicationStart": "12/08/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "1 Posts",
-        "state": "Chandigarh",
-        "advertisement": "No.GE/2026/5400000866",
-        "status": "active",
-        "officialNotification": "https://pgimer.edu.in/",
-        "applyLink": "https://pgimer.edu.in/",
-        "officialWebsite": "https://pgimer.edu.in/",
-        "description": "PGIMER has announced recruitment for Senior Project Assistant – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (M.Sc). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "This recruitment is aimed at professional, research or project-based roles. The exact discipline, experience and selection method are post-specific and must be checked in the official notice.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://pgimer.edu.in/",
-            "notification": "https://pgimer.edu.in/",
-            "applyOnline": "https://pgimer.edu.in/"
-        }
-    },
-    {
         "id": "punjab-verka-milkfed-deputy-manager-172-posts-2026",
         "type": "job",
         "category": "State",
@@ -6239,48 +8857,6 @@ const jobAlerts = [
             "officialWebsite": null,
             "notification": null,
             "applyOnline": null
-        }
-    },
-    {
-        "id": "nit-raipur-project-associate-i-1-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Project Associate -I – 1 Posts",
-        "subtitle": "NIT Raipur — Project Associate -I – 1 Posts",
-        "recruitmentBoard": "NIT Raipur",
-        "qualification": "B.Tech/B.E",
-        "applicationStart": "20/08/2026",
-        "lastDate": "23-08-2026",
-        "vacancies": "1 Posts",
-        "state": "Chhattisgarh",
-        "advertisement": "ANRF/ARG/2025/002949/ENS",
-        "status": "active",
-        "officialNotification": "https://nitrr.ac.in/",
-        "applyLink": "https://nitrr.ac.in/",
-        "officialWebsite": "https://nitrr.ac.in/",
-        "description": "NIT Raipur has announced recruitment for Project Associate -I – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (B.Tech/B.E). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "This recruitment is aimed at professional, research or project-based roles. The exact discipline, experience and selection method are post-specific and must be checked in the official notice.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://nitrr.ac.in/",
-            "notification": "https://nitrr.ac.in/",
-            "applyOnline": "https://nitrr.ac.in/"
         }
     },
     {
@@ -6365,48 +8941,6 @@ const jobAlerts = [
             "officialWebsite": "https://nitrr.ac.in/",
             "notification": "https://nitrr.ac.in/",
             "applyOnline": "https://nitrr.ac.in/"
-        }
-    },
-    {
-        "id": "dplc-dantewada-peon-office-assistant-and-more-5-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Peon, Office Assistant and More – 5 Posts",
-        "subtitle": "DPLC Dantewada — Peon, Office Assistant and More – 5 Posts",
-        "recruitmentBoard": "DPLC Dantewada",
-        "qualification": "12TH, 5th, Any Graduate, Diploma",
-        "applicationStart": "18/08/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "5 Posts",
-        "state": "Chhattisgarh",
-        "advertisement": "180/Recruitment/DPLCS.D/2026-27",
-        "status": "active",
-        "officialNotification": null,
-        "applyLink": null,
-        "officialWebsite": null,
-        "description": "DPLC Dantewada has announced recruitment for Peon, Office Assistant and More – 5 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (12TH, 5th, Any Graduate, Diploma). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "Candidates should verify the detailed eligibility, age limit, selection procedure, fee and document requirements in the official recruitment notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": null,
-            "notification": null,
-            "applyOnline": null
         }
     },
     {
@@ -6553,48 +9087,6 @@ const jobAlerts = [
         "applyLink": null,
         "officialWebsite": null,
         "description": "ITI Narayanpur has announced recruitment for Guest Lecturer – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (Diploma). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "Candidates should verify the detailed eligibility, age limit, selection procedure, fee and document requirements in the official recruitment notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": null,
-            "notification": null,
-            "applyOnline": null
-        }
-    },
-    {
-        "id": "iti-rajpur-guest-lecturer-2-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Guest Lecturer – 2 Posts",
-        "subtitle": "ITI Rajpur — Guest Lecturer – 2 Posts",
-        "recruitmentBoard": "ITI Rajpur",
-        "qualification": "Diploma",
-        "applicationStart": "12/08/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "2 Posts",
-        "state": "Chhattisgarh",
-        "advertisement": "ESTB/28026/2026",
-        "status": "active",
-        "officialNotification": null,
-        "applyLink": null,
-        "officialWebsite": null,
-        "description": "ITI Rajpur has announced recruitment for Guest Lecturer – 2 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (Diploma). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
         "aboutExam": "Candidates should verify the detailed eligibility, age limit, selection procedure, fee and document requirements in the official recruitment notification.",
         "ageLimit": "As prescribed in the official notification",
         "selectionProcess": [
@@ -6786,49 +9278,6 @@ const jobAlerts = [
             "officialWebsite": "https://iimraipur.ac.in/",
             "notification": "https://iimraipur.ac.in/",
             "applyOnline": "https://iimraipur.ac.in/"
-        }
-    },
-    {
-        "id": "sukma-district-rural-horticulture-extension-officer-6-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Rural Horticulture Extension Officer – 6 Posts",
-        "subtitle": "Sukma District — Rural Horticulture Extension Officer – 6 Posts",
-        "recruitmentBoard": "Sukma District",
-        "qualification": "Any Graduate",
-        "applicationStart": "06/08/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "6 Posts",
-        "state": "Chhattisgarh",
-        "advertisement": "05/08/2026",
-        "status": "active",
-        "officialNotification": null,
-        "applyLink": null,
-        "officialWebsite": null,
-        "description": "Sukma District has announced recruitment for Rural Horticulture Extension Officer – 6 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (Any Graduate). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "Candidates should verify the detailed eligibility, age limit, selection procedure, fee and document requirements in the official recruitment notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written Examination / Shortlisting as prescribed",
-            "Interview where applicable",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": null,
-            "notification": null,
-            "applyOnline": null
         }
     },
     {
@@ -8689,48 +11138,6 @@ const jobAlerts = [
         }
     },
     {
-        "id": "iit-delhi-junior-research-fellow-1-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Junior Research Fellow – 1 Posts",
-        "subtitle": "IIT Delhi — Junior Research Fellow – 1 Posts",
-        "recruitmentBoard": "IIT Delhi",
-        "qualification": "M.Sc",
-        "applicationStart": "18/08/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "1 Posts",
-        "state": "Delhi",
-        "advertisement": "–",
-        "status": "active",
-        "officialNotification": "https://home.iitd.ac.in/",
-        "applyLink": "https://home.iitd.ac.in/",
-        "officialWebsite": "https://home.iitd.ac.in/",
-        "description": "IIT Delhi has announced recruitment for Junior Research Fellow – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (M.Sc). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "This recruitment is aimed at professional, research or project-based roles. The exact discipline, experience and selection method are post-specific and must be checked in the official notice.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://home.iitd.ac.in/",
-            "notification": "https://home.iitd.ac.in/",
-            "applyOnline": "https://home.iitd.ac.in/"
-        }
-    },
-    {
         "id": "iit-delhi-research-associate-1-posts-2026",
         "type": "job",
         "category": "State",
@@ -8770,48 +11177,6 @@ const jobAlerts = [
             "officialWebsite": "https://home.iitd.ac.in/",
             "notification": "https://home.iitd.ac.in/",
             "applyOnline": "https://home.iitd.ac.in/"
-        }
-    },
-    {
-        "id": "aiims-delhi-project-technical-support-iii-2-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Project Technical Support III – 2 Posts",
-        "subtitle": "AIIMS Delhi — Project Technical Support III – 2 Posts",
-        "recruitmentBoard": "AIIMS Delhi",
-        "qualification": "Any Graduate",
-        "applicationStart": "18/08/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "2 Posts",
-        "state": "Delhi",
-        "advertisement": "–",
-        "status": "active",
-        "officialNotification": "https://www.aiims.edu/",
-        "applyLink": "https://www.aiims.edu/",
-        "officialWebsite": "https://www.aiims.edu/",
-        "description": "AIIMS Delhi has announced recruitment for Project Technical Support III – 2 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (Any Graduate). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "This recruitment is aimed at professional, research or project-based roles. The exact discipline, experience and selection method are post-specific and must be checked in the official notice.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://www.aiims.edu/",
-            "notification": "https://www.aiims.edu/",
-            "applyOnline": "https://www.aiims.edu/"
         }
     },
     {
@@ -9026,48 +11391,6 @@ const jobAlerts = [
         }
     },
     {
-        "id": "nit-delhi-research-associate-iii-1-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Research Associate - III – 1 Posts",
-        "subtitle": "NIT Delhi — Research Associate - III – 1 Posts",
-        "recruitmentBoard": "NIT Delhi",
-        "qualification": "M.E/M.Tech, M.Phil/Ph.D",
-        "applicationStart": "13/08/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "1 Posts",
-        "state": "Delhi",
-        "advertisement": "NITD/MEFCCP/2026/04",
-        "status": "active",
-        "officialNotification": "https://nitdelhi.ac.in/",
-        "applyLink": "https://nitdelhi.ac.in/",
-        "officialWebsite": "https://nitdelhi.ac.in/",
-        "description": "NIT Delhi has announced recruitment for Research Associate - III – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (M.E/M.Tech, M.Phil/Ph.D). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "This recruitment is aimed at professional, research or project-based roles. The exact discipline, experience and selection method are post-specific and must be checked in the official notice.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Eligibility Screening",
-            "Interview / Walk-in Selection",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://nitdelhi.ac.in/",
-            "notification": "https://nitdelhi.ac.in/",
-            "applyOnline": "https://nitdelhi.ac.in/"
-        }
-    },
-    {
         "id": "icar-iari-research-associate-iii-senior-research-fellow-2-posts-2026",
         "type": "job",
         "category": "State",
@@ -9150,90 +11473,6 @@ const jobAlerts = [
             "officialWebsite": "https://home.iitd.ac.in/",
             "notification": "https://home.iitd.ac.in/",
             "applyOnline": "https://home.iitd.ac.in/"
-        }
-    },
-    {
-        "id": "gtbh-consultants-17-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Consultants – 17 Posts",
-        "subtitle": "GTBH — Consultants – 17 Posts",
-        "recruitmentBoard": "GTBH",
-        "qualification": "Other",
-        "applicationStart": "13/08/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "17 Posts",
-        "state": "Delhi",
-        "advertisement": "F.1(840)/E-I/GTBH/outsourcingmisc./2025-Part(1)",
-        "status": "active",
-        "officialNotification": null,
-        "applyLink": null,
-        "officialWebsite": null,
-        "description": "GTBH has announced recruitment for Consultants – 17 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (Other). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "Candidates should verify the detailed eligibility, age limit, selection procedure, fee and document requirements in the official recruitment notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": null,
-            "notification": null,
-            "applyOnline": null
-        }
-    },
-    {
-        "id": "aiims-delhi-project-research-scientist-i-project-nurse-i-2-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Project Research Scientist I, Project Nurse I – 2 Posts",
-        "subtitle": "AIIMS Delhi — Project Research Scientist I, Project Nurse I – 2 Posts",
-        "recruitmentBoard": "AIIMS Delhi",
-        "qualification": "ANM, B.Sc, BDS, MBBS",
-        "applicationStart": "13/08/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "2 Posts",
-        "state": "Delhi",
-        "advertisement": "–",
-        "status": "active",
-        "officialNotification": "https://www.aiims.edu/",
-        "applyLink": "https://www.aiims.edu/",
-        "officialWebsite": "https://www.aiims.edu/",
-        "description": "AIIMS Delhi has announced recruitment for Project Research Scientist I, Project Nurse I – 2 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (ANM, B.Sc, BDS, MBBS). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "This recruitment is aimed at professional, research or project-based roles. The exact discipline, experience and selection method are post-specific and must be checked in the official notice.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://www.aiims.edu/",
-            "notification": "https://www.aiims.edu/",
-            "applyOnline": "https://www.aiims.edu/"
         }
     },
     {
@@ -9406,48 +11645,6 @@ const jobAlerts = [
         }
     },
     {
-        "id": "aiims-delhi-project-technical-support-iii-3-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Project Technical Support-III – 3 Posts",
-        "subtitle": "AIIMS Delhi — Project Technical Support-III – 3 Posts",
-        "recruitmentBoard": "AIIMS Delhi",
-        "qualification": "B.Tech/B.E",
-        "applicationStart": "12/08/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "3 Posts",
-        "state": "Delhi",
-        "advertisement": "N-2674",
-        "status": "active",
-        "officialNotification": "https://www.aiims.edu/",
-        "applyLink": "https://www.aiims.edu/",
-        "officialWebsite": "https://www.aiims.edu/",
-        "description": "AIIMS Delhi has announced recruitment for Project Technical Support-III – 3 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (B.Tech/B.E). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "This recruitment is aimed at professional, research or project-based roles. The exact discipline, experience and selection method are post-specific and must be checked in the official notice.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://www.aiims.edu/",
-            "notification": "https://www.aiims.edu/",
-            "applyOnline": "https://www.aiims.edu/"
-        }
-    },
-    {
         "id": "icar-iari-young-professional-ii-4-posts-2026",
         "type": "job",
         "category": "State",
@@ -9529,132 +11726,6 @@ const jobAlerts = [
             "officialWebsite": "https://www.du.ac.in/",
             "notification": "https://www.du.ac.in/",
             "applyOnline": "https://www.du.ac.in/"
-        }
-    },
-    {
-        "id": "aiims-delhi-project-research-scientist-ii-1-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Project Research Scientist II – 1 Posts",
-        "subtitle": "AIIMS Delhi — Project Research Scientist II – 1 Posts",
-        "recruitmentBoard": "AIIMS Delhi",
-        "qualification": "Any Post Graduate, MS/MD, MBBS, BDS, M.Phil/Ph.D, BVSC, MVSC, MPH",
-        "applicationStart": "12/08/2026",
-        "lastDate": "23-08-2026",
-        "vacancies": "1 Posts",
-        "state": "Delhi",
-        "advertisement": "–",
-        "status": "active",
-        "officialNotification": "https://www.aiims.edu/",
-        "applyLink": "https://www.aiims.edu/",
-        "officialWebsite": "https://www.aiims.edu/",
-        "description": "AIIMS Delhi has announced recruitment for Project Research Scientist II – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (Any Post Graduate, MS/MD, MBBS, BDS, M.Phil/Ph.D, BVSC, MVSC, MPH). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "This recruitment is aimed at professional, research or project-based roles. The exact discipline, experience and selection method are post-specific and must be checked in the official notice.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://www.aiims.edu/",
-            "notification": "https://www.aiims.edu/",
-            "applyOnline": "https://www.aiims.edu/"
-        }
-    },
-    {
-        "id": "apeda-associate-1-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Associate – 1 Posts",
-        "subtitle": "APEDA — Associate – 1 Posts",
-        "recruitmentBoard": "APEDA",
-        "qualification": "M.A",
-        "applicationStart": "12/08/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "1 Posts",
-        "state": "Delhi",
-        "advertisement": "–",
-        "status": "active",
-        "officialNotification": null,
-        "applyLink": null,
-        "officialWebsite": null,
-        "description": "APEDA has announced recruitment for Associate – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (M.A). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "Candidates should verify the detailed eligibility, age limit, selection procedure, fee and document requirements in the official recruitment notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": null,
-            "notification": null,
-            "applyOnline": null
-        }
-    },
-    {
-        "id": "aiims-delhi-research-staff-6-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Research Staff – 6 Posts",
-        "subtitle": "AIIMS Delhi — Research Staff – 6 Posts",
-        "recruitmentBoard": "AIIMS Delhi",
-        "qualification": "MBBS, M.Phil/Ph.D, Any Graduate",
-        "applicationStart": "12/08/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "6 Posts",
-        "state": "Delhi",
-        "advertisement": "N-2675",
-        "status": "active",
-        "officialNotification": "https://www.aiims.edu/",
-        "applyLink": "https://www.aiims.edu/",
-        "officialWebsite": "https://www.aiims.edu/",
-        "description": "AIIMS Delhi has announced recruitment for Research Staff – 6 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (MBBS, M.Phil/Ph.D, Any Graduate). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "This recruitment is aimed at professional, research or project-based roles. The exact discipline, experience and selection method are post-specific and must be checked in the official notice.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://www.aiims.edu/",
-            "notification": "https://www.aiims.edu/",
-            "applyOnline": "https://www.aiims.edu/"
         }
     },
     {
@@ -9870,48 +11941,6 @@ const jobAlerts = [
         }
     },
     {
-        "id": "manuu-assistant-professor-6-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Assistant Professor – 6 Posts",
-        "subtitle": "MANUU — Assistant Professor – 6 Posts",
-        "recruitmentBoard": "MANUU",
-        "qualification": "Any Post Graduate, B.Ed, M.Phil/Ph.D",
-        "applicationStart": "11/08/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "6 Posts",
-        "state": "Delhi",
-        "advertisement": "–",
-        "status": "active",
-        "officialNotification": "https://manuu.edu.in/",
-        "applyLink": "https://manuu.edu.in/",
-        "officialWebsite": "https://manuu.edu.in/",
-        "description": "MANUU has announced recruitment for Assistant Professor – 6 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (Any Post Graduate, B.Ed, M.Phil/Ph.D). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "Candidates should verify the detailed eligibility, age limit, selection procedure, fee and document requirements in the official recruitment notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://manuu.edu.in/",
-            "notification": "https://manuu.edu.in/",
-            "applyOnline": "https://manuu.edu.in/"
-        }
-    },
-    {
         "id": "zakir-husain-delhi-college-assistant-professor-6-posts-2026",
         "type": "job",
         "category": "State",
@@ -9951,48 +11980,6 @@ const jobAlerts = [
             "officialWebsite": null,
             "notification": null,
             "applyOnline": null
-        }
-    },
-    {
-        "id": "dpsru-assistant-professor-principal-and-more-posts-39-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Assistant Professor, Principal and More Posts – 39 Posts",
-        "subtitle": "DPSRU — Assistant Professor, Principal and More Posts – 39 Posts",
-        "recruitmentBoard": "DPSRU",
-        "qualification": "Any Post Graduate, MS/MD, M.Pharma, M.Phil/Ph.D, BPT, MPT",
-        "applicationStart": "11/08/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "39 Posts",
-        "state": "Delhi",
-        "advertisement": "DPSRU/STA-GF/2026/02",
-        "status": "active",
-        "officialNotification": "https://dpsru.edu.in/",
-        "applyLink": "https://dpsru.edu.in/",
-        "officialWebsite": "https://dpsru.edu.in/",
-        "description": "DPSRU has announced recruitment for Assistant Professor, Principal and More Posts – 39 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (Any Post Graduate, MS/MD, M.Pharma, M.Phil/Ph.D, BPT, MPT). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "Candidates should verify the detailed eligibility, age limit, selection procedure, fee and document requirements in the official recruitment notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://dpsru.edu.in/",
-            "notification": "https://dpsru.edu.in/",
-            "applyOnline": "https://dpsru.edu.in/"
         }
     },
     {
@@ -10334,48 +12321,6 @@ const jobAlerts = [
         }
     },
     {
-        "id": "aiims-delhi-research-associate-iii-1-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Research Associate III – 1 Posts",
-        "subtitle": "AIIMS Delhi — Research Associate III – 1 Posts",
-        "recruitmentBoard": "AIIMS Delhi",
-        "qualification": "MS/MD, M.Sc, M.Phil/Ph.D, MPH",
-        "applicationStart": "08/08/2026",
-        "lastDate": "23-08-2026",
-        "vacancies": "1 Posts",
-        "state": "Delhi",
-        "advertisement": "–",
-        "status": "active",
-        "officialNotification": "https://www.aiims.edu/",
-        "applyLink": "https://www.aiims.edu/",
-        "officialWebsite": "https://www.aiims.edu/",
-        "description": "AIIMS Delhi has announced recruitment for Research Associate III – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (MS/MD, M.Sc, M.Phil/Ph.D, MPH). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "This recruitment is aimed at professional, research or project-based roles. The exact discipline, experience and selection method are post-specific and must be checked in the official notice.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Eligibility Screening",
-            "Interview / Walk-in Selection",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://www.aiims.edu/",
-            "notification": "https://www.aiims.edu/",
-            "applyOnline": "https://www.aiims.edu/"
-        }
-    },
-    {
         "id": "dtu-professor-assistant-professor-2-posts-2026",
         "type": "job",
         "category": "State",
@@ -10713,48 +12658,6 @@ const jobAlerts = [
         }
     },
     {
-        "id": "trai-senior-associate-consultant-1-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Senior Associate Consultant – 1 Posts",
-        "subtitle": "TRAI — Senior Associate Consultant – 1 Posts",
-        "recruitmentBoard": "TRAI",
-        "qualification": "B.Tech/B.E, M.E/M.Tech, M.Sc, MCA",
-        "applicationStart": "04/08/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "1 Posts",
-        "state": "Delhi",
-        "advertisement": "–",
-        "status": "active",
-        "officialNotification": "https://www.trai.gov.in/",
-        "applyLink": "https://www.trai.gov.in/",
-        "officialWebsite": "https://www.trai.gov.in/",
-        "description": "TRAI has announced recruitment for Senior Associate Consultant – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (B.Tech/B.E, M.E/M.Tech, M.Sc, MCA). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "Candidates should verify the detailed eligibility, age limit, selection procedure, fee and document requirements in the official recruitment notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://www.trai.gov.in/",
-            "notification": "https://www.trai.gov.in/",
-            "applyOnline": "https://www.trai.gov.in/"
-        }
-    },
-    {
         "id": "stpi-chief-administrative-officer-cum-registrar-a-viii-1-posts-2026",
         "type": "job",
         "category": "State",
@@ -10925,91 +12828,6 @@ const jobAlerts = [
         }
     },
     {
-        "id": "dsir-junior-technical-assistant-5-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Junior Technical Assistant – 5 Posts",
-        "subtitle": "DSIR — Junior Technical Assistant – 5 Posts",
-        "recruitmentBoard": "DSIR",
-        "qualification": "Any Bachelors Degree, Diploma",
-        "applicationStart": "27/07/2026",
-        "lastDate": "23-08-2026",
-        "vacancies": "5 Posts",
-        "state": "Delhi",
-        "advertisement": "–",
-        "status": "active",
-        "officialNotification": null,
-        "applyLink": null,
-        "officialWebsite": null,
-        "description": "DSIR has announced recruitment for Junior Technical Assistant – 5 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (Any Bachelors Degree, Diploma). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "Candidates should verify the detailed eligibility, age limit, selection procedure, fee and document requirements in the official recruitment notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": null,
-            "notification": null,
-            "applyOnline": null
-        }
-    },
-    {
-        "id": "spmcil-assistant-manager-deputy-manager-24-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Assistant Manager, Deputy Manager – 24 Posts",
-        "subtitle": "SPMCIL — Assistant Manager, Deputy Manager – 24 Posts",
-        "recruitmentBoard": "SPMCIL",
-        "qualification": "B.Com, B.Tech/B.E, M.A, MBA/PGDM, MCA, MSW",
-        "applicationStart": "25/07/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "24 Posts",
-        "state": "Delhi",
-        "advertisement": "02/2026",
-        "status": "active",
-        "officialNotification": "https://www.spmcil.com/",
-        "applyLink": "https://www.spmcil.com/",
-        "officialWebsite": "https://www.spmcil.com/",
-        "description": "SPMCIL has announced recruitment for Assistant Manager, Deputy Manager – 24 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (B.Com, B.Tech/B.E, M.A, MBA/PGDM, MCA, MSW). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "Candidates should verify the detailed eligibility, age limit, selection procedure, fee and document requirements in the official recruitment notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written Examination / Shortlisting as prescribed",
-            "Interview where applicable",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://www.spmcil.com/",
-            "notification": "https://www.spmcil.com/",
-            "applyOnline": "https://www.spmcil.com/"
-        }
-    },
-    {
         "id": "dpcc-legal-assistant-scientist-and-more-54-posts-2026",
         "type": "job",
         "category": "State",
@@ -11052,49 +12870,6 @@ const jobAlerts = [
         }
     },
     {
-        "id": "ncrtc-dy-general-manager-assistant-manager-and-more-17-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Dy. General Manager, Assistant Manager and More – 17 Posts",
-        "subtitle": "NCRTC — Dy. General Manager, Assistant Manager and More – 17 Posts",
-        "recruitmentBoard": "NCRTC",
-        "qualification": "B.Tech/B.E",
-        "applicationStart": "24/07/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "17 Posts",
-        "state": "Delhi",
-        "advertisement": "–",
-        "status": "active",
-        "officialNotification": "https://ncrtc.in/",
-        "applyLink": "https://ncrtc.in/",
-        "officialWebsite": "https://ncrtc.in/",
-        "description": "NCRTC has announced recruitment for Dy. General Manager, Assistant Manager and More – 17 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (B.Tech/B.E). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "Candidates should verify the detailed eligibility, age limit, selection procedure, fee and document requirements in the official recruitment notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written Examination / Shortlisting as prescribed",
-            "Interview where applicable",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://ncrtc.in/",
-            "notification": "https://ncrtc.in/",
-            "applyOnline": "https://ncrtc.in/"
-        }
-    },
-    {
         "id": "drdo-sspl-junior-research-fellow-research-associate-23-posts-2026",
         "type": "job",
         "category": "State",
@@ -11134,48 +12909,6 @@ const jobAlerts = [
             "officialWebsite": "https://www.drdo.gov.in/",
             "notification": "https://www.drdo.gov.in/",
             "applyOnline": "https://www.drdo.gov.in/"
-        }
-    },
-    {
-        "id": "stpi-director-general-1-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Director General – 1 Posts",
-        "subtitle": "STPI — Director General – 1 Posts",
-        "recruitmentBoard": "STPI",
-        "qualification": "Any Post Graduate, M.Sc, M.Phil/Ph.D, Any Graduate",
-        "applicationStart": "16/07/2026",
-        "lastDate": "23-08-2026",
-        "vacancies": "1 Posts",
-        "state": "Delhi",
-        "advertisement": "–",
-        "status": "active",
-        "officialNotification": "https://www.stpi.in/",
-        "applyLink": "https://www.stpi.in/",
-        "officialWebsite": "https://www.stpi.in/",
-        "description": "STPI has announced recruitment for Director General – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (Any Post Graduate, M.Sc, M.Phil/Ph.D, Any Graduate). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "Candidates should verify the detailed eligibility, age limit, selection procedure, fee and document requirements in the official recruitment notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://www.stpi.in/",
-            "notification": "https://www.stpi.in/",
-            "applyOnline": "https://www.stpi.in/"
         }
     },
     {
@@ -11305,48 +13038,6 @@ const jobAlerts = [
             "officialWebsite": "https://gpsc.gujarat.gov.in/",
             "notification": "https://gpsc.gujarat.gov.in/",
             "applyOnline": "https://gpsc.gujarat.gov.in/"
-        }
-    },
-    {
-        "id": "csir-nio-project-associate-ii-1-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Project Associate II – 1 Posts",
-        "subtitle": "CSIR NIO — Project Associate II – 1 Posts",
-        "recruitmentBoard": "CSIR NIO",
-        "qualification": "M.Sc",
-        "applicationStart": "20/08/2026",
-        "lastDate": "28-08-2026",
-        "vacancies": "1 Posts",
-        "state": "Goa",
-        "advertisement": "NIO/904/2025-26",
-        "status": "active",
-        "officialNotification": "https://www.csir.res.in/",
-        "applyLink": "https://www.csir.res.in/",
-        "officialWebsite": "https://www.csir.res.in/",
-        "description": "CSIR NIO has announced recruitment for Project Associate II – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (M.Sc). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "This recruitment is aimed at professional, research or project-based roles. The exact discipline, experience and selection method are post-specific and must be checked in the official notice.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://www.csir.res.in/",
-            "notification": "https://www.csir.res.in/",
-            "applyOnline": "https://www.csir.res.in/"
         }
     },
     {
@@ -11646,49 +13337,6 @@ const jobAlerts = [
         }
     },
     {
-        "id": "iit-gandhinagar-project-engineer-2-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Project Engineer – 2 Posts",
-        "subtitle": "IIT Gandhinagar — Project Engineer – 2 Posts",
-        "recruitmentBoard": "IIT Gandhinagar",
-        "qualification": "M.E/M.Tech, M.Phil/Ph.D",
-        "applicationStart": "20/08/2026",
-        "lastDate": "23-08-2026",
-        "vacancies": "2 Posts",
-        "state": "Gujarat",
-        "advertisement": "SPON/10455/Adv(0292)",
-        "status": "active",
-        "officialNotification": "https://iitgn.ac.in/",
-        "applyLink": "https://iitgn.ac.in/",
-        "officialWebsite": "https://iitgn.ac.in/",
-        "description": "IIT Gandhinagar has announced recruitment for Project Engineer – 2 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (M.E/M.Tech, M.Phil/Ph.D). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "This recruitment is aimed at professional, research or project-based roles. The exact discipline, experience and selection method are post-specific and must be checked in the official notice.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written Examination / Shortlisting as prescribed",
-            "Interview where applicable",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://iitgn.ac.in/",
-            "notification": "https://iitgn.ac.in/",
-            "applyOnline": "https://iitgn.ac.in/"
-        }
-    },
-    {
         "id": "aiims-rajkot-junior-research-assistant-project-technical-support-ii-2-posts-2026",
         "type": "job",
         "category": "State",
@@ -11854,48 +13502,6 @@ const jobAlerts = [
             "officialWebsite": null,
             "notification": null,
             "applyOnline": null
-        }
-    },
-    {
-        "id": "iit-gandhinagar-post-doctoral-fellow-1-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Post Doctoral Fellow – 1 Posts",
-        "subtitle": "IIT Gandhinagar — Post Doctoral Fellow – 1 Posts",
-        "recruitmentBoard": "IIT Gandhinagar",
-        "qualification": "M.Phil/Ph.D",
-        "applicationStart": "19/08/2026",
-        "lastDate": "25-08-2026",
-        "vacancies": "1 Posts",
-        "state": "Gujarat",
-        "advertisement": "SPON/70142/Adv00300",
-        "status": "active",
-        "officialNotification": "https://iitgn.ac.in/",
-        "applyLink": "https://iitgn.ac.in/",
-        "officialWebsite": "https://iitgn.ac.in/",
-        "description": "IIT Gandhinagar has announced recruitment for Post Doctoral Fellow – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (M.Phil/Ph.D). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "Candidates should verify the detailed eligibility, age limit, selection procedure, fee and document requirements in the official recruitment notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://iitgn.ac.in/",
-            "notification": "https://iitgn.ac.in/",
-            "applyOnline": "https://iitgn.ac.in/"
         }
     },
     {
@@ -12153,91 +13759,6 @@ const jobAlerts = [
         }
     },
     {
-        "id": "iit-gandhinagar-project-engineer-1-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Project Engineer – 1 Posts",
-        "subtitle": "IIT Gandhinagar — Project Engineer – 1 Posts",
-        "recruitmentBoard": "IIT Gandhinagar",
-        "qualification": "M.E/M.Tech, M.Phil/Ph.D, MS",
-        "applicationStart": "17/08/2026",
-        "lastDate": "11-09-2026",
-        "vacancies": "1 Posts",
-        "state": "Gujarat",
-        "advertisement": "SPON/10455/Advt0297",
-        "status": "closed",
-        "officialNotification": "https://iitgn.ac.in/",
-        "applyLink": "https://iitgn.ac.in/",
-        "officialWebsite": "https://iitgn.ac.in/",
-        "description": "IIT Gandhinagar has announced recruitment for Project Engineer – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (M.E/M.Tech, M.Phil/Ph.D, MS). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "This recruitment is aimed at professional, research or project-based roles. The exact discipline, experience and selection method are post-specific and must be checked in the official notice.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written Examination / Shortlisting as prescribed",
-            "Interview where applicable",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://iitgn.ac.in/",
-            "notification": "https://iitgn.ac.in/",
-            "applyOnline": "https://iitgn.ac.in/"
-        }
-    },
-    {
-        "id": "svnit-surat-teaching-assistant-2-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Teaching Assistant – 2 Posts",
-        "subtitle": "SVNIT Surat — Teaching Assistant – 2 Posts",
-        "recruitmentBoard": "SVNIT Surat",
-        "qualification": "B.Tech/B.E, M.E/M.Tech, M.Phil/Ph.D",
-        "applicationStart": "14/08/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "2 Posts",
-        "state": "Gujarat",
-        "advertisement": "–",
-        "status": "active",
-        "officialNotification": null,
-        "applyLink": null,
-        "officialWebsite": null,
-        "description": "SVNIT Surat has announced recruitment for Teaching Assistant – 2 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (B.Tech/B.E, M.E/M.Tech, M.Phil/Ph.D). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "Candidates should verify the detailed eligibility, age limit, selection procedure, fee and document requirements in the official recruitment notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": null,
-            "notification": null,
-            "applyOnline": null
-        }
-    },
-    {
         "id": "vmc-apprentice-2026",
         "type": "job",
         "category": "State",
@@ -12277,48 +13798,6 @@ const jobAlerts = [
             "officialWebsite": null,
             "notification": null,
             "applyOnline": null
-        }
-    },
-    {
-        "id": "iim-ahmedabad-research-assistant-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Research Assistant",
-        "subtitle": "IIM Ahmedabad — Research Assistant",
-        "recruitmentBoard": "IIM Ahmedabad",
-        "qualification": "Any Post Graduate",
-        "applicationStart": "13/08/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "As per official notification",
-        "state": "Gujarat",
-        "advertisement": "–",
-        "status": "active",
-        "officialNotification": "https://www.iima.ac.in/",
-        "applyLink": "https://www.iima.ac.in/",
-        "officialWebsite": "https://www.iima.ac.in/",
-        "description": "IIM Ahmedabad has announced recruitment for Research Assistant. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (Any Post Graduate). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "This recruitment is aimed at professional, research or project-based roles. The exact discipline, experience and selection method are post-specific and must be checked in the official notice.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://www.iima.ac.in/",
-            "notification": "https://www.iima.ac.in/",
-            "applyOnline": "https://www.iima.ac.in/"
         }
     },
     {
@@ -12364,49 +13843,6 @@ const jobAlerts = [
         }
     },
     {
-        "id": "nfsu-database-engineer-team-lead-and-more-10-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Database Engineer, Team Lead and More – 10 Posts",
-        "subtitle": "NFSU — Database Engineer, Team Lead and More – 10 Posts",
-        "recruitmentBoard": "NFSU",
-        "qualification": "B.Tech/B.E, M.E/M.Tech, MCA",
-        "applicationStart": "13/08/2026",
-        "lastDate": "23-08-2026",
-        "vacancies": "10 Posts",
-        "state": "Gujarat",
-        "advertisement": "–",
-        "status": "active",
-        "officialNotification": "https://nfsu.ac.in/",
-        "applyLink": "https://nfsu.ac.in/",
-        "officialWebsite": "https://nfsu.ac.in/",
-        "description": "NFSU has announced recruitment for Database Engineer, Team Lead and More – 10 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (B.Tech/B.E, M.E/M.Tech, MCA). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "Candidates should verify the detailed eligibility, age limit, selection procedure, fee and document requirements in the official recruitment notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written Examination / Shortlisting as prescribed",
-            "Interview where applicable",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://nfsu.ac.in/",
-            "notification": "https://nfsu.ac.in/",
-            "applyOnline": "https://nfsu.ac.in/"
-        }
-    },
-    {
         "id": "gujarat-high-court-wireman-1-posts-2026",
         "type": "job",
         "category": "State",
@@ -12446,133 +13882,6 @@ const jobAlerts = [
             "officialWebsite": "https://ecourts.gov.in/",
             "notification": "https://ecourts.gov.in/",
             "applyOnline": "https://ecourts.gov.in/"
-        }
-    },
-    {
-        "id": "mehsana-urban-co-op-bank-assistant-treasury-officer-agm-3-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Assistant Treasury Officer, AGM – 3 Posts",
-        "subtitle": "Mehsana Urban Co-op. Bank — Assistant Treasury Officer, AGM – 3 Posts",
-        "recruitmentBoard": "Mehsana Urban Co-op. Bank",
-        "qualification": "B.Tech/B.E, CA, M.E/M.Tech, MBA/PGDM",
-        "applicationStart": "12/08/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "3 Posts",
-        "state": "Gujarat",
-        "advertisement": "–",
-        "status": "active",
-        "officialNotification": null,
-        "applyLink": null,
-        "officialWebsite": null,
-        "description": "Mehsana Urban Co-op. Bank has announced recruitment for Assistant Treasury Officer, AGM – 3 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (B.Tech/B.E, CA, M.E/M.Tech, MBA/PGDM). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "This is a banking-sector recruitment. Candidates should verify the required qualification, age, local-language conditions, experience and examination or interview process from the official notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written Examination / Shortlisting as prescribed",
-            "Interview where applicable",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": null,
-            "notification": null,
-            "applyOnline": null
-        }
-    },
-    {
-        "id": "gmdc-teacher-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Teacher",
-        "subtitle": "GMDC — Teacher",
-        "recruitmentBoard": "GMDC",
-        "qualification": "Other",
-        "applicationStart": "11/08/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "As per official notification",
-        "state": "Gujarat",
-        "advertisement": "–",
-        "status": "active",
-        "officialNotification": null,
-        "applyLink": null,
-        "officialWebsite": null,
-        "description": "GMDC has announced recruitment for Teacher. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (Other). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "Candidates should verify the detailed eligibility, age limit, selection procedure, fee and document requirements in the official recruitment notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": null,
-            "notification": null,
-            "applyOnline": null
-        }
-    },
-    {
-        "id": "fddi-junior-faculty-and-academic-support-staff-4-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Junior Faculty and Academic Support Staff – 4 Posts",
-        "subtitle": "FDDI — Junior Faculty and Academic Support Staff – 4 Posts",
-        "recruitmentBoard": "FDDI",
-        "qualification": "12TH, Any Masters Degree",
-        "applicationStart": "11/08/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "4 Posts",
-        "state": "Gujarat",
-        "advertisement": "FDDI/ANK/HR/ADHOC/REQ/01",
-        "status": "active",
-        "officialNotification": null,
-        "applyLink": null,
-        "officialWebsite": null,
-        "description": "FDDI has announced recruitment for Junior Faculty and Academic Support Staff – 4 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (12TH, Any Masters Degree). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "Candidates should verify the detailed eligibility, age limit, selection procedure, fee and document requirements in the official recruitment notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": null,
-            "notification": null,
-            "applyOnline": null
         }
     },
     {
@@ -12616,90 +13925,6 @@ const jobAlerts = [
             "officialWebsite": "https://iitgn.ac.in/",
             "notification": "https://iitgn.ac.in/",
             "applyOnline": "https://iitgn.ac.in/"
-        }
-    },
-    {
-        "id": "msu-baroda-project-assistant-research-associate-i-3-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Project Assistant, Research Associate I – 3 Posts",
-        "subtitle": "MSU Baroda — Project Assistant, Research Associate I – 3 Posts",
-        "recruitmentBoard": "MSU Baroda",
-        "qualification": "M.E/M.Tech, M.Phil/Ph.D",
-        "applicationStart": "10/08/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "3 Posts",
-        "state": "Gujarat",
-        "advertisement": "–",
-        "status": "active",
-        "officialNotification": "https://msubaroda.ac.in/",
-        "applyLink": "https://msubaroda.ac.in/",
-        "officialWebsite": "https://msubaroda.ac.in/",
-        "description": "MSU Baroda has announced recruitment for Project Assistant, Research Associate I – 3 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (M.E/M.Tech, M.Phil/Ph.D). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "This recruitment is aimed at professional, research or project-based roles. The exact discipline, experience and selection method are post-specific and must be checked in the official notice.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Eligibility Screening",
-            "Interview / Walk-in Selection",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://msubaroda.ac.in/",
-            "notification": "https://msubaroda.ac.in/",
-            "applyOnline": "https://msubaroda.ac.in/"
-        }
-    },
-    {
-        "id": "gdec-principal-1-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Principal – 1 Posts",
-        "subtitle": "GDEC — Principal – 1 Posts",
-        "recruitmentBoard": "GDEC",
-        "qualification": "M.Phil/Ph.D",
-        "applicationStart": "10/08/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "1 Posts",
-        "state": "Gujarat",
-        "advertisement": "–",
-        "status": "active",
-        "officialNotification": null,
-        "applyLink": null,
-        "officialWebsite": null,
-        "description": "GDEC has announced recruitment for Principal – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (M.Phil/Ph.D). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "Candidates should verify the detailed eligibility, age limit, selection procedure, fee and document requirements in the official recruitment notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": null,
-            "notification": null,
-            "applyOnline": null
         }
     },
     {
@@ -13419,49 +14644,6 @@ const jobAlerts = [
             "officialWebsite": null,
             "notification": null,
             "applyOnline": null
-        }
-    },
-    {
-        "id": "wapcos-general-manager-chief-engineer-and-more-posts-8-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "General Manager, Chief Engineer and More Posts – 8 Posts",
-        "subtitle": "WAPCOS — General Manager, Chief Engineer and More Posts – 8 Posts",
-        "recruitmentBoard": "WAPCOS",
-        "qualification": "B.Tech/B.E, MBA/PGDM, Any Graduate",
-        "applicationStart": "25/07/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "8 Posts",
-        "state": "Haryana",
-        "advertisement": "WAP/HR/Dep/Advt/2026_01",
-        "status": "active",
-        "officialNotification": "https://www.wapcos.gov.in/",
-        "applyLink": "https://www.wapcos.gov.in/",
-        "officialWebsite": "https://www.wapcos.gov.in/",
-        "description": "WAPCOS has announced recruitment for General Manager, Chief Engineer and More Posts – 8 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (B.Tech/B.E, MBA/PGDM, Any Graduate). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "Candidates should verify the detailed eligibility, age limit, selection procedure, fee and document requirements in the official recruitment notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written Examination / Shortlisting as prescribed",
-            "Interview where applicable",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://www.wapcos.gov.in/",
-            "notification": "https://www.wapcos.gov.in/",
-            "applyOnline": "https://www.wapcos.gov.in/"
         }
     },
     {
@@ -14602,48 +15784,6 @@ const jobAlerts = [
         }
     },
     {
-        "id": "nit-jamshedpur-guest-faculty-coach-4-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Guest Faculty/ Coach – 4 Posts",
-        "subtitle": "NIT Jamshedpur — Guest Faculty/ Coach – 4 Posts",
-        "recruitmentBoard": "NIT Jamshedpur",
-        "qualification": "Any Post Graduate, M.P.Ed",
-        "applicationStart": "19/08/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "4 Posts",
-        "state": "Jharkhand",
-        "advertisement": "–",
-        "status": "active",
-        "officialNotification": "https://www.nitjsr.ac.in/",
-        "applyLink": "https://www.nitjsr.ac.in/",
-        "officialWebsite": "https://www.nitjsr.ac.in/",
-        "description": "NIT Jamshedpur has announced recruitment for Guest Faculty/ Coach – 4 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (Any Post Graduate, M.P.Ed). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "Candidates should verify the detailed eligibility, age limit, selection procedure, fee and document requirements in the official recruitment notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://www.nitjsr.ac.in/",
-            "notification": "https://www.nitjsr.ac.in/",
-            "applyOnline": "https://www.nitjsr.ac.in/"
-        }
-    },
-    {
         "id": "iit-ism-dhanbad-anrf-junior-research-fellow-1-posts-2026",
         "type": "job",
         "category": "State",
@@ -14829,48 +15969,6 @@ const jobAlerts = [
         "applyLink": null,
         "officialWebsite": null,
         "description": "DHS Godda has announced recruitment for Lab Technician, Staff Nurse and More – 64 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (Any Graduate, B.A, B.Sc, B.Tech/B.E, MBBS, Diploma, 12TH, 10TH, BSW, GNM, Any Post Graduate, M.A, M.Pharma, M.Sc, PG Diploma, MS/MD, MSW, ANM, DMLT, MPH). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "Candidates should verify the detailed eligibility, age limit, selection procedure, fee and document requirements in the official recruitment notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": null,
-            "notification": null,
-            "applyOnline": null
-        }
-    },
-    {
-        "id": "cuj-assistant-professor-1-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Assistant Professor – 1 Posts",
-        "subtitle": "CUJ — Assistant Professor – 1 Posts",
-        "recruitmentBoard": "CUJ",
-        "qualification": "Any Post Graduate, B.Ed, M.Phil/Ph.D",
-        "applicationStart": "11/08/2026",
-        "lastDate": "23-08-2026",
-        "vacancies": "1 Posts",
-        "state": "Jharkhand",
-        "advertisement": "CUJ/SFP/2026/56",
-        "status": "active",
-        "officialNotification": null,
-        "applyLink": null,
-        "officialWebsite": null,
-        "description": "CUJ has announced recruitment for Assistant Professor – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (Any Post Graduate, B.Ed, M.Phil/Ph.D). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
         "aboutExam": "Candidates should verify the detailed eligibility, age limit, selection procedure, fee and document requirements in the official recruitment notification.",
         "ageLimit": "As prescribed in the official notification",
         "selectionProcess": [
@@ -15359,48 +16457,6 @@ const jobAlerts = [
         }
     },
     {
-        "id": "rgipt-it-system-and-network-assistant-1-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "IT System and Network Assistant – 1 Posts",
-        "subtitle": "RGIPT — IT System and Network Assistant – 1 Posts",
-        "recruitmentBoard": "RGIPT",
-        "qualification": "B.Sc, BCA",
-        "applicationStart": "19/08/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "1 Posts",
-        "state": "Karnataka",
-        "advertisement": "RGIPT/BLR/NTS/CONTRACT/01/2026",
-        "status": "active",
-        "officialNotification": null,
-        "applyLink": null,
-        "officialWebsite": null,
-        "description": "RGIPT has announced recruitment for IT System and Network Assistant – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (B.Sc, BCA). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "Candidates should verify the detailed eligibility, age limit, selection procedure, fee and document requirements in the official recruitment notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": null,
-            "notification": null,
-            "applyOnline": null
-        }
-    },
-    {
         "id": "jncasr-project-secretary-1-posts-2026",
         "type": "job",
         "category": "State",
@@ -15738,48 +16794,6 @@ const jobAlerts = [
             "officialWebsite": "https://ecourts.gov.in/",
             "notification": "https://ecourts.gov.in/",
             "applyOnline": "https://ecourts.gov.in/"
-        }
-    },
-    {
-        "id": "csir-cftri-project-associate-ii-1-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Project Associate – II – 1 Posts",
-        "subtitle": "CSIR CFTRI — Project Associate – II – 1 Posts",
-        "recruitmentBoard": "CSIR CFTRI",
-        "qualification": "B.Tech/B.E",
-        "applicationStart": "13/08/2026",
-        "lastDate": "23-08-2026",
-        "vacancies": "1 Posts",
-        "state": "Karnataka",
-        "advertisement": "PAT 45/2026",
-        "status": "active",
-        "officialNotification": "https://www.csir.res.in/",
-        "applyLink": "https://www.csir.res.in/",
-        "officialWebsite": "https://www.csir.res.in/",
-        "description": "CSIR CFTRI has announced recruitment for Project Associate – II – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (B.Tech/B.E). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "This recruitment is aimed at professional, research or project-based roles. The exact discipline, experience and selection method are post-specific and must be checked in the official notice.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://www.csir.res.in/",
-            "notification": "https://www.csir.res.in/",
-            "applyOnline": "https://www.csir.res.in/"
         }
     },
     {
@@ -16161,48 +17175,6 @@ const jobAlerts = [
         }
     },
     {
-        "id": "hal-visiting-consultant-1-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Visiting Consultant – 1 Posts",
-        "subtitle": "HAL — Visiting Consultant – 1 Posts",
-        "recruitmentBoard": "HAL",
-        "qualification": "MS/MD, MBBS, DNB",
-        "applicationStart": "10/08/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "1 Posts",
-        "state": "Karnataka",
-        "advertisement": "IHC/HR/25/17/2026",
-        "status": "active",
-        "officialNotification": "https://hal-india.co.in/",
-        "applyLink": "https://hal-india.co.in/",
-        "officialWebsite": "https://hal-india.co.in/",
-        "description": "HAL has announced recruitment for Visiting Consultant – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (MS/MD, MBBS, DNB). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "Candidates should verify the detailed eligibility, age limit, selection procedure, fee and document requirements in the official recruitment notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://hal-india.co.in/",
-            "notification": "https://hal-india.co.in/",
-            "applyOnline": "https://hal-india.co.in/"
-        }
-    },
-    {
         "id": "kea-nursing-officer-pharmacy-officer-233-posts-2026",
         "type": "job",
         "category": "State",
@@ -16501,48 +17473,6 @@ const jobAlerts = [
         }
     },
     {
-        "id": "bangalore-university-guest-faculty-1-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Guest Faculty – 1 Posts",
-        "subtitle": "Bangalore University — Guest Faculty – 1 Posts",
-        "recruitmentBoard": "Bangalore University",
-        "qualification": "M.Phil/Ph.D, 12TH",
-        "applicationStart": "05/08/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "1 Posts",
-        "state": "Karnataka",
-        "advertisement": "EST:II:E9:G.F:Notification:2026",
-        "status": "active",
-        "officialNotification": null,
-        "applyLink": null,
-        "officialWebsite": null,
-        "description": "Bangalore University has announced recruitment for Guest Faculty – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (M.Phil/Ph.D, 12TH). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "Candidates should verify the detailed eligibility, age limit, selection procedure, fee and document requirements in the official recruitment notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": null,
-            "notification": null,
-            "applyOnline": null
-        }
-    },
-    {
         "id": "chamarajanagar-district-court-peon-stenographer-and-more-25-posts-2026",
         "type": "job",
         "category": "State",
@@ -16582,48 +17512,6 @@ const jobAlerts = [
             "officialWebsite": "https://ecourts.gov.in/",
             "notification": "https://ecourts.gov.in/",
             "applyOnline": "https://ecourts.gov.in/"
-        }
-    },
-    {
-        "id": "ucsl-graduate-diploma-apprentice-6-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Graduate/ Diploma Apprentice – 6 Posts",
-        "subtitle": "UCSL — Graduate/ Diploma Apprentice – 6 Posts",
-        "recruitmentBoard": "UCSL",
-        "qualification": "Diploma",
-        "applicationStart": "03/08/2026",
-        "lastDate": "23-08-2026",
-        "vacancies": "6 Posts",
-        "state": "Karnataka",
-        "advertisement": "–",
-        "status": "active",
-        "officialNotification": null,
-        "applyLink": null,
-        "officialWebsite": null,
-        "description": "UCSL has announced recruitment for Graduate/ Diploma Apprentice – 6 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (Diploma). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "This is an apprenticeship or trainee opportunity. Selection and engagement are governed by the applicable apprenticeship rules and the organisation’s official notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Shortlisting / Merit as prescribed",
-            "Document Verification",
-            "Apprenticeship Engagement"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": null,
-            "notification": null,
-            "applyOnline": null
         }
     },
     {
@@ -16711,48 +17599,6 @@ const jobAlerts = [
         }
     },
     {
-        "id": "bengaluru-rural-district-development-cell-pourakarmika-civil-servant-26-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Pourakarmika/ Civil Servant – 26 Posts",
-        "subtitle": "Bengaluru Rural District Development Cell — Pourakarmika/ Civil Servant – 26 Posts",
-        "recruitmentBoard": "Bengaluru Rural District Development Cell",
-        "qualification": "Other",
-        "applicationStart": "31/07/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "26 Posts",
-        "state": "Karnataka",
-        "advertisement": "–",
-        "status": "active",
-        "officialNotification": null,
-        "applyLink": null,
-        "officialWebsite": null,
-        "description": "Bengaluru Rural District Development Cell has announced recruitment for Pourakarmika/ Civil Servant – 26 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (Other). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "Candidates should verify the detailed eligibility, age limit, selection procedure, fee and document requirements in the official recruitment notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": null,
-            "notification": null,
-            "applyOnline": null
-        }
-    },
-    {
         "id": "ramanagara-district-court-typist-peon-and-more-55-posts-2026",
         "type": "job",
         "category": "State",
@@ -16795,48 +17641,6 @@ const jobAlerts = [
         }
     },
     {
-        "id": "wcd-yadgir-anganwadi-worker-helper-232-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Anganwadi Worker & Helper – 232 Posts",
-        "subtitle": "WCD Yadgir — Anganwadi Worker & Helper – 232 Posts",
-        "recruitmentBoard": "WCD Yadgir",
-        "qualification": "10TH",
-        "applicationStart": "30/07/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "232 Posts",
-        "state": "Karnataka",
-        "advertisement": "–",
-        "status": "active",
-        "officialNotification": null,
-        "applyLink": null,
-        "officialWebsite": null,
-        "description": "WCD Yadgir has announced recruitment for Anganwadi Worker & Helper – 232 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (10TH). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "Candidates should verify the detailed eligibility, age limit, selection procedure, fee and document requirements in the official recruitment notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": null,
-            "notification": null,
-            "applyOnline": null
-        }
-    },
-    {
         "id": "isro-ursc-apprentice-410-posts-2026",
         "type": "job",
         "category": "State",
@@ -16876,90 +17680,6 @@ const jobAlerts = [
             "officialWebsite": "https://www.isro.gov.in/",
             "notification": "https://www.isro.gov.in/",
             "applyOnline": "https://www.isro.gov.in/"
-        }
-    },
-    {
-        "id": "district-court-tumkur-stenographer-typist-24-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Stenographer, Typist – 24 Posts",
-        "subtitle": "District Court Tumkur — Stenographer, Typist – 24 Posts",
-        "recruitmentBoard": "District Court Tumkur",
-        "qualification": "12TH, PG Diploma",
-        "applicationStart": "27/07/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "24 Posts",
-        "state": "Karnataka",
-        "advertisement": "–",
-        "status": "active",
-        "officialNotification": "https://ecourts.gov.in/",
-        "applyLink": "https://ecourts.gov.in/",
-        "officialWebsite": "https://ecourts.gov.in/",
-        "description": "District Court Tumkur has announced recruitment for Stenographer, Typist – 24 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (12TH, PG Diploma). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "Candidates should verify the detailed eligibility, age limit, selection procedure, fee and document requirements in the official recruitment notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://ecourts.gov.in/",
-            "notification": "https://ecourts.gov.in/",
-            "applyOnline": "https://ecourts.gov.in/"
-        }
-    },
-    {
-        "id": "shivamogga-district-court-peon-56-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Peon – 56 Posts",
-        "subtitle": "Shivamogga District Court — Peon – 56 Posts",
-        "recruitmentBoard": "Shivamogga District Court",
-        "qualification": "10TH",
-        "applicationStart": "23/07/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "56 Posts",
-        "state": "Karnataka",
-        "advertisement": "–",
-        "status": "active",
-        "officialNotification": "https://ecourts.gov.in/",
-        "applyLink": "https://ecourts.gov.in/",
-        "officialWebsite": "https://ecourts.gov.in/",
-        "description": "Shivamogga District Court has announced recruitment for Peon – 56 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (10TH). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "Candidates should verify the detailed eligibility, age limit, selection procedure, fee and document requirements in the official recruitment notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://ecourts.gov.in/",
-            "notification": "https://ecourts.gov.in/",
-            "applyOnline": "https://ecourts.gov.in/"
         }
     },
     {
@@ -17554,48 +18274,6 @@ const jobAlerts = [
         }
     },
     {
-        "id": "nhm-thiruvananthapuram-specialist-doctor-1-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Specialist Doctor – 1 Posts",
-        "subtitle": "NHM Thiruvananthapuram — Specialist Doctor – 1 Posts",
-        "recruitmentBoard": "NHM Thiruvananthapuram",
-        "qualification": "Any Post Graduate, MBBS, DNB, Diploma",
-        "applicationStart": "18/08/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "1 Posts",
-        "state": "Kerala",
-        "advertisement": "No.NHM/1486/2026-D9",
-        "status": "active",
-        "officialNotification": null,
-        "applyLink": null,
-        "officialWebsite": null,
-        "description": "NHM Thiruvananthapuram has announced recruitment for Specialist Doctor – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (Any Post Graduate, MBBS, DNB, Diploma). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "Candidates should verify the detailed eligibility, age limit, selection procedure, fee and document requirements in the official recruitment notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": null,
-            "notification": null,
-            "applyOnline": null
-        }
-    },
-    {
         "id": "csl-senior-project-officer-project-officer-2-posts-2026",
         "type": "job",
         "category": "State",
@@ -17932,175 +18610,6 @@ const jobAlerts = [
             "officialWebsite": "https://www.keralapsc.gov.in/",
             "notification": "https://www.keralapsc.gov.in/",
             "applyOnline": "https://www.keralapsc.gov.in/"
-        }
-    },
-    {
-        "id": "cusat-assistant-professor-3-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Assistant Professor – 3 Posts",
-        "subtitle": "CUSAT — Assistant Professor – 3 Posts",
-        "recruitmentBoard": "CUSAT",
-        "qualification": "Any Masters Degree, LLM, M.Com, M.Phil/Ph.D, MBA/PGDM",
-        "applicationStart": "27/07/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "3 Posts",
-        "state": "Kerala",
-        "advertisement": "–",
-        "status": "active",
-        "officialNotification": "https://cusat.ac.in/",
-        "applyLink": "https://cusat.ac.in/",
-        "officialWebsite": "https://cusat.ac.in/",
-        "description": "CUSAT has announced recruitment for Assistant Professor – 3 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (Any Masters Degree, LLM, M.Com, M.Phil/Ph.D, MBA/PGDM). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "Candidates should verify the detailed eligibility, age limit, selection procedure, fee and document requirements in the official recruitment notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://cusat.ac.in/",
-            "notification": "https://cusat.ac.in/",
-            "applyOnline": "https://cusat.ac.in/"
-        }
-    },
-    {
-        "id": "fcri-research-engineer-junior-research-engineer-19-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Research Engineer, Junior Research Engineer – 19 Posts",
-        "subtitle": "FCRI — Research Engineer, Junior Research Engineer – 19 Posts",
-        "recruitmentBoard": "FCRI",
-        "qualification": "B.Tech/B.E, M.E/M.Tech",
-        "applicationStart": "24/07/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "19 Posts",
-        "state": "Kerala",
-        "advertisement": "–",
-        "status": "active",
-        "officialNotification": null,
-        "applyLink": null,
-        "officialWebsite": null,
-        "description": "FCRI has announced recruitment for Research Engineer, Junior Research Engineer – 19 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (B.Tech/B.E, M.E/M.Tech). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "This recruitment is aimed at professional, research or project-based roles. The exact discipline, experience and selection method are post-specific and must be checked in the official notice.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written Examination / Shortlisting as prescribed",
-            "Interview where applicable",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": null,
-            "notification": null,
-            "applyOnline": null
-        }
-    },
-    {
-        "id": "gail-part-time-visiting-consultant-1-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Part-Time Visiting Consultant – 1 Posts",
-        "subtitle": "GAIL — Part-Time Visiting Consultant – 1 Posts",
-        "recruitmentBoard": "GAIL",
-        "qualification": "MBBS, PG Diploma, DNB",
-        "applicationStart": "20/08/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "1 Posts",
-        "state": "Madhya Pradesh",
-        "advertisement": "GAIL/VIJP/MED/PART CONSL/2/2026",
-        "status": "active",
-        "officialNotification": "https://gailonline.com/",
-        "applyLink": "https://gailonline.com/",
-        "officialWebsite": "https://gailonline.com/",
-        "description": "GAIL has announced recruitment for Part-Time Visiting Consultant – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (MBBS, PG Diploma, DNB). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "Candidates should verify the detailed eligibility, age limit, selection procedure, fee and document requirements in the official recruitment notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://gailonline.com/",
-            "notification": "https://gailonline.com/",
-            "applyOnline": "https://gailonline.com/"
-        }
-    },
-    {
-        "id": "gail-authorised-medical-attendant-1-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Authorised Medical Attendant – 1 Posts",
-        "subtitle": "GAIL — Authorised Medical Attendant – 1 Posts",
-        "recruitmentBoard": "GAIL",
-        "qualification": "MBBS, MS/MD",
-        "applicationStart": "20/08/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "1 Posts",
-        "state": "Madhya Pradesh",
-        "advertisement": "GAIL/KCS/MED/PART CONSL/1/2026",
-        "status": "active",
-        "officialNotification": "https://gailonline.com/",
-        "applyLink": "https://gailonline.com/",
-        "officialWebsite": "https://gailonline.com/",
-        "description": "GAIL has announced recruitment for Authorised Medical Attendant – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (MBBS, MS/MD). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "Candidates should verify the detailed eligibility, age limit, selection procedure, fee and document requirements in the official recruitment notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://gailonline.com/",
-            "notification": "https://gailonline.com/",
-            "applyOnline": "https://gailonline.com/"
         }
     },
     {
@@ -18694,48 +19203,6 @@ const jobAlerts = [
         }
     },
     {
-        "id": "manit-bhopal-assistant-professor-31-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Assistant Professor – 31 Posts",
-        "subtitle": "MANIT Bhopal — Assistant Professor – 31 Posts",
-        "recruitmentBoard": "MANIT Bhopal",
-        "qualification": "M.Phil/Ph.D",
-        "applicationStart": "25/07/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "31 Posts",
-        "state": "Madhya Pradesh",
-        "advertisement": "Rectt/FR/2026/01",
-        "status": "active",
-        "officialNotification": null,
-        "applyLink": null,
-        "officialWebsite": null,
-        "description": "MANIT Bhopal has announced recruitment for Assistant Professor – 31 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (M.Phil/Ph.D). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "Candidates should verify the detailed eligibility, age limit, selection procedure, fee and document requirements in the official recruitment notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": null,
-            "notification": null,
-            "applyOnline": null
-        }
-    },
-    {
         "id": "mppsc-iaeo-aao-and-more-06-posts-2026",
         "type": "job",
         "category": "State",
@@ -18945,48 +19412,6 @@ const jobAlerts = [
             "officialWebsite": "https://www.tifr.res.in/",
             "notification": "https://www.tifr.res.in/",
             "applyOnline": "https://www.tifr.res.in/"
-        }
-    },
-    {
-        "id": "nfdc-executive-assistant-1-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Executive Assistant – 1 Posts",
-        "subtitle": "NFDC — Executive Assistant – 1 Posts",
-        "recruitmentBoard": "NFDC",
-        "qualification": "MBA/PGDM, Diploma, Any Graduate",
-        "applicationStart": "20/08/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "1 Posts",
-        "state": "Maharashtra",
-        "advertisement": "ADV-65/Contractual/14/08/2026",
-        "status": "active",
-        "officialNotification": null,
-        "applyLink": null,
-        "officialWebsite": null,
-        "description": "NFDC has announced recruitment for Executive Assistant – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (MBA/PGDM, Diploma, Any Graduate). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "Candidates should verify the detailed eligibility, age limit, selection procedure, fee and document requirements in the official recruitment notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": null,
-            "notification": null,
-            "applyOnline": null
         }
     },
     {
@@ -19413,48 +19838,6 @@ const jobAlerts = [
         }
     },
     {
-        "id": "csir-nio-project-associate-i-1-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Project Associate I – 1 Posts",
-        "subtitle": "CSIR NIO — Project Associate I – 1 Posts",
-        "recruitmentBoard": "CSIR NIO",
-        "qualification": "M.Sc",
-        "applicationStart": "19/08/2026",
-        "lastDate": "23-08-2026",
-        "vacancies": "1 Posts",
-        "state": "Maharashtra",
-        "advertisement": "–",
-        "status": "active",
-        "officialNotification": "https://www.csir.res.in/",
-        "applyLink": "https://www.csir.res.in/",
-        "officialWebsite": "https://www.csir.res.in/",
-        "description": "CSIR NIO has announced recruitment for Project Associate I – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (M.Sc). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "This recruitment is aimed at professional, research or project-based roles. The exact discipline, experience and selection method are post-specific and must be checked in the official notice.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://www.csir.res.in/",
-            "notification": "https://www.csir.res.in/",
-            "applyOnline": "https://www.csir.res.in/"
-        }
-    },
-    {
         "id": "iiser-pune-senior-project-associate-project-assistant-2-posts-2026",
         "type": "job",
         "category": "State",
@@ -19708,48 +20091,6 @@ const jobAlerts = [
         }
     },
     {
-        "id": "rari-pune-project-technical-support-ii-2-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Project Technical Support II – 2 Posts",
-        "subtitle": "RARI Pune — Project Technical Support II – 2 Posts",
-        "recruitmentBoard": "RARI Pune",
-        "qualification": "B.Sc, B.Pharma",
-        "applicationStart": "14/08/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "2 Posts",
-        "state": "Maharashtra",
-        "advertisement": "Pune-TECH011/8/2025-TECH 864",
-        "status": "active",
-        "officialNotification": null,
-        "applyLink": null,
-        "officialWebsite": null,
-        "description": "RARI Pune has announced recruitment for Project Technical Support II – 2 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (B.Sc, B.Pharma). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "This recruitment is aimed at professional, research or project-based roles. The exact discipline, experience and selection method are post-specific and must be checked in the official notice.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": null,
-            "notification": null,
-            "applyOnline": null
-        }
-    },
-    {
         "id": "vnit-nagpur-junior-research-fellow-1-posts-2026",
         "type": "job",
         "category": "State",
@@ -19877,49 +20218,6 @@ const jobAlerts = [
         }
     },
     {
-        "id": "tmc-project-manager-1-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Project Manager – 1 Posts",
-        "subtitle": "TMC — Project Manager – 1 Posts",
-        "recruitmentBoard": "TMC",
-        "qualification": "BAMS, BDS, BHMS, MBBS, MPH, PG Diploma",
-        "applicationStart": "13/08/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "1 Posts",
-        "state": "Maharashtra",
-        "advertisement": "–",
-        "status": "active",
-        "officialNotification": "https://tmc.gov.in/",
-        "applyLink": "https://tmc.gov.in/",
-        "officialWebsite": "https://tmc.gov.in/",
-        "description": "TMC has announced recruitment for Project Manager – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (BAMS, BDS, BHMS, MBBS, MPH, PG Diploma). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "This recruitment is aimed at professional, research or project-based roles. The exact discipline, experience and selection method are post-specific and must be checked in the official notice.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written Examination / Shortlisting as prescribed",
-            "Interview where applicable",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://tmc.gov.in/",
-            "notification": "https://tmc.gov.in/",
-            "applyOnline": "https://tmc.gov.in/"
-        }
-    },
-    {
         "id": "dibd-engagement-manager-1-posts-2026",
         "type": "job",
         "category": "State",
@@ -19960,48 +20258,6 @@ const jobAlerts = [
             "officialWebsite": null,
             "notification": null,
             "applyOnline": null
-        }
-    },
-    {
-        "id": "tmc-actrec-administrative-assistant-1-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Administrative Assistant – 1 Posts",
-        "subtitle": "TMC ACTREC — Administrative Assistant – 1 Posts",
-        "recruitmentBoard": "TMC ACTREC",
-        "qualification": "Any Graduate",
-        "applicationStart": "13/08/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "1 Posts",
-        "state": "Maharashtra",
-        "advertisement": "Advt.- OS-A/CCE/01/2026",
-        "status": "active",
-        "officialNotification": "https://actrec.gov.in/",
-        "applyLink": "https://actrec.gov.in/",
-        "officialWebsite": "https://actrec.gov.in/",
-        "description": "TMC ACTREC has announced recruitment for Administrative Assistant – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (Any Graduate). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "Candidates should verify the detailed eligibility, age limit, selection procedure, fee and document requirements in the official recruitment notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://actrec.gov.in/",
-            "notification": "https://actrec.gov.in/",
-            "applyOnline": "https://actrec.gov.in/"
         }
     },
     {
@@ -20128,48 +20384,6 @@ const jobAlerts = [
             "officialWebsite": "https://actrec.gov.in/",
             "notification": "https://actrec.gov.in/",
             "applyOnline": "https://actrec.gov.in/"
-        }
-    },
-    {
-        "id": "iips-consultant-5-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Consultant – 5 Posts",
-        "subtitle": "IIPS — Consultant – 5 Posts",
-        "recruitmentBoard": "IIPS",
-        "qualification": "B.B.A, B.Com, B.Tech/B.E, Diploma, LLB, LLM",
-        "applicationStart": "11/08/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "5 Posts",
-        "state": "Maharashtra",
-        "advertisement": "–",
-        "status": "active",
-        "officialNotification": "https://www.iipsindia.ac.in/",
-        "applyLink": "https://www.iipsindia.ac.in/",
-        "officialWebsite": "https://www.iipsindia.ac.in/",
-        "description": "IIPS has announced recruitment for Consultant – 5 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (B.B.A, B.Com, B.Tech/B.E, Diploma, LLB, LLM). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "Candidates should verify the detailed eligibility, age limit, selection procedure, fee and document requirements in the official recruitment notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://www.iipsindia.ac.in/",
-            "notification": "https://www.iipsindia.ac.in/",
-            "applyOnline": "https://www.iipsindia.ac.in/"
         }
     },
     {
@@ -20639,48 +20853,6 @@ const jobAlerts = [
         }
     },
     {
-        "id": "nehu-research-associate-1-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Research Associate – 1 Posts",
-        "subtitle": "NEHU — Research Associate – 1 Posts",
-        "recruitmentBoard": "NEHU",
-        "qualification": "M.Phil/Ph.D",
-        "applicationStart": "13/08/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "1 Posts",
-        "state": "Meghalaya",
-        "advertisement": "–",
-        "status": "active",
-        "officialNotification": "https://www.nehu.ac.in/",
-        "applyLink": "https://www.nehu.ac.in/",
-        "officialWebsite": "https://www.nehu.ac.in/",
-        "description": "NEHU has announced recruitment for Research Associate – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (M.Phil/Ph.D). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "This recruitment is aimed at professional, research or project-based roles. The exact discipline, experience and selection method are post-specific and must be checked in the official notice.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Eligibility Screening",
-            "Interview / Walk-in Selection",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://www.nehu.ac.in/",
-            "notification": "https://www.nehu.ac.in/",
-            "applyOnline": "https://www.nehu.ac.in/"
-        }
-    },
-    {
         "id": "neepco-junior-engineer-07-posts-2026",
         "type": "job",
         "category": "State",
@@ -20721,49 +20893,6 @@ const jobAlerts = [
             "officialWebsite": null,
             "notification": null,
             "applyOnline": null
-        }
-    },
-    {
-        "id": "iim-shillong-manager-assistant-manager-3-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Manager & Assistant Manager – 3 Posts",
-        "subtitle": "IIM Shillong — Manager & Assistant Manager – 3 Posts",
-        "recruitmentBoard": "IIM Shillong",
-        "qualification": "B.B.A, B.Com, MBA/PGDM",
-        "applicationStart": "27/07/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "3 Posts",
-        "state": "Meghalaya",
-        "advertisement": "–",
-        "status": "active",
-        "officialNotification": "https://www.iimshillong.ac.in/",
-        "applyLink": "https://www.iimshillong.ac.in/",
-        "officialWebsite": "https://www.iimshillong.ac.in/",
-        "description": "IIM Shillong has announced recruitment for Manager & Assistant Manager – 3 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (B.B.A, B.Com, MBA/PGDM). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "Candidates should verify the detailed eligibility, age limit, selection procedure, fee and document requirements in the official recruitment notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written Examination / Shortlisting as prescribed",
-            "Interview where applicable",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://www.iimshillong.ac.in/",
-            "notification": "https://www.iimshillong.ac.in/",
-            "applyOnline": "https://www.iimshillong.ac.in/"
         }
     },
     {
@@ -20978,49 +21107,6 @@ const jobAlerts = [
         }
     },
     {
-        "id": "mizoram-psc-jr-grade-of-mizoram-legal-service-legal-officer-2-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Jr. Grade of Mizoram Legal Service (Legal Officer) – 2 Posts",
-        "subtitle": "Mizoram PSC — Jr. Grade of Mizoram Legal Service (Legal Officer) – 2 Posts",
-        "recruitmentBoard": "Mizoram PSC",
-        "qualification": "LLB",
-        "applicationStart": "22/07/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "2 Posts",
-        "state": "Mizoram",
-        "advertisement": "17 of 2026-2027",
-        "status": "active",
-        "officialNotification": "https://mpsc.mizoram.gov.in/",
-        "applyLink": "https://mpsc.mizoram.gov.in/",
-        "officialWebsite": "https://mpsc.mizoram.gov.in/",
-        "description": "Mizoram PSC has announced recruitment for Jr. Grade of Mizoram Legal Service (Legal Officer) – 2 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (LLB). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "Candidates should verify the detailed eligibility, age limit, selection procedure, fee and document requirements in the official recruitment notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written Examination / Shortlisting as prescribed",
-            "Interview where applicable",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://mpsc.mizoram.gov.in/",
-            "notification": "https://mpsc.mizoram.gov.in/",
-            "applyOnline": "https://mpsc.mizoram.gov.in/"
-        }
-    },
-    {
         "id": "npsc-stenographer-27-posts-2026",
         "type": "job",
         "category": "State",
@@ -21190,48 +21276,6 @@ const jobAlerts = [
         }
     },
     {
-        "id": "wcd-odisha-anganwadi-worker-2-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Anganwadi Worker – 2 Posts",
-        "subtitle": "WCD Odisha — Anganwadi Worker – 2 Posts",
-        "recruitmentBoard": "WCD Odisha",
-        "qualification": "12TH",
-        "applicationStart": "20/08/2026",
-        "lastDate": "03-09-2026",
-        "vacancies": "2 Posts",
-        "state": "Odisha",
-        "advertisement": "125e /ICDS,",
-        "status": "closed",
-        "officialNotification": null,
-        "applyLink": null,
-        "officialWebsite": null,
-        "description": "WCD Odisha has announced recruitment for Anganwadi Worker – 2 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (12TH). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "Candidates should verify the detailed eligibility, age limit, selection procedure, fee and document requirements in the official recruitment notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": null,
-            "notification": null,
-            "applyOnline": null
-        }
-    },
-    {
         "id": "opsc-assistant-agriculture-engineer-48-posts-2026",
         "type": "job",
         "category": "State",
@@ -21275,132 +21319,6 @@ const jobAlerts = [
         }
     },
     {
-        "id": "iit-bhubaneswar-photographer-cum-videographer-1-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Photographer-cum-Videographer – 1 Posts",
-        "subtitle": "IIT Bhubaneswar — Photographer-cum-Videographer – 1 Posts",
-        "recruitmentBoard": "IIT Bhubaneswar",
-        "qualification": "Diploma",
-        "applicationStart": "19/08/2026",
-        "lastDate": "23-08-2026",
-        "vacancies": "1 Posts",
-        "state": "Odisha",
-        "advertisement": "PRA/875/26-27",
-        "status": "active",
-        "officialNotification": "https://www.iitbbs.ac.in/",
-        "applyLink": "https://www.iitbbs.ac.in/",
-        "officialWebsite": "https://www.iitbbs.ac.in/",
-        "description": "IIT Bhubaneswar has announced recruitment for Photographer-cum-Videographer – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (Diploma). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "Candidates should verify the detailed eligibility, age limit, selection procedure, fee and document requirements in the official recruitment notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://www.iitbbs.ac.in/",
-            "notification": "https://www.iitbbs.ac.in/",
-            "applyOnline": "https://www.iitbbs.ac.in/"
-        }
-    },
-    {
-        "id": "iit-bhu-junior-research-fellow-1-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Junior Research Fellow – 1 Posts",
-        "subtitle": "IIT BHU — Junior Research Fellow – 1 Posts",
-        "recruitmentBoard": "IIT BHU",
-        "qualification": "M.E/M.Tech, Any Post Graduate, M.Sc",
-        "applicationStart": "19/08/2026",
-        "lastDate": "10-09-2026",
-        "vacancies": "1 Posts",
-        "state": "Odisha",
-        "advertisement": "R&D/ANRF/4211/MAHAEV/EE/25-26/679-AKM",
-        "status": "closed",
-        "officialNotification": "https://iitbhu.ac.in/",
-        "applyLink": "https://iitbhu.ac.in/",
-        "officialWebsite": "https://iitbhu.ac.in/",
-        "description": "IIT BHU has announced recruitment for Junior Research Fellow – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (M.E/M.Tech, Any Post Graduate, M.Sc). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "This recruitment is aimed at professional, research or project-based roles. The exact discipline, experience and selection method are post-specific and must be checked in the official notice.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://iitbhu.ac.in/",
-            "notification": "https://iitbhu.ac.in/",
-            "applyOnline": "https://iitbhu.ac.in/"
-        }
-    },
-    {
-        "id": "iit-bhubaneswar-pr-professional-1-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "PR Professional – 1 Posts",
-        "subtitle": "IIT Bhubaneswar — PR Professional – 1 Posts",
-        "recruitmentBoard": "IIT Bhubaneswar",
-        "qualification": "Any Post Graduate",
-        "applicationStart": "19/08/2026",
-        "lastDate": "23-08-2026",
-        "vacancies": "1 Posts",
-        "state": "Odisha",
-        "advertisement": "–",
-        "status": "active",
-        "officialNotification": "https://www.iitbbs.ac.in/",
-        "applyLink": "https://www.iitbbs.ac.in/",
-        "officialWebsite": "https://www.iitbbs.ac.in/",
-        "description": "IIT Bhubaneswar has announced recruitment for PR Professional – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (Any Post Graduate). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "Candidates should verify the detailed eligibility, age limit, selection procedure, fee and document requirements in the official recruitment notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://www.iitbbs.ac.in/",
-            "notification": "https://www.iitbbs.ac.in/",
-            "applyOnline": "https://www.iitbbs.ac.in/"
-        }
-    },
-    {
         "id": "oav-bargarh-warden-chowkidar-and-more-5-posts-2026",
         "type": "job",
         "category": "State",
@@ -21440,48 +21358,6 @@ const jobAlerts = [
             "officialWebsite": null,
             "notification": null,
             "applyOnline": null
-        }
-    },
-    {
-        "id": "icar-crri-agricultural-field-operator-2-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Agricultural Field Operator – 2 Posts",
-        "subtitle": "ICAR CRRI — Agricultural Field Operator – 2 Posts",
-        "recruitmentBoard": "ICAR CRRI",
-        "qualification": "10TH",
-        "applicationStart": "18/08/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "2 Posts",
-        "state": "Odisha",
-        "advertisement": "24/AFO/2026-27",
-        "status": "active",
-        "officialNotification": "https://icar-crri.in/",
-        "applyLink": "https://icar-crri.in/",
-        "officialWebsite": "https://icar-crri.in/",
-        "description": "ICAR CRRI has announced recruitment for Agricultural Field Operator – 2 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (10TH). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "Candidates should verify the detailed eligibility, age limit, selection procedure, fee and document requirements in the official recruitment notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://icar-crri.in/",
-            "notification": "https://icar-crri.in/",
-            "applyOnline": "https://icar-crri.in/"
         }
     },
     {
@@ -21777,48 +21653,6 @@ const jobAlerts = [
             "officialWebsite": null,
             "notification": null,
             "applyOnline": null
-        }
-    },
-    {
-        "id": "iit-bhubaneswar-erp-implementation-architect-3-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "ERP Implementation Architect – 3 Posts",
-        "subtitle": "IIT Bhubaneswar — ERP Implementation Architect – 3 Posts",
-        "recruitmentBoard": "IIT Bhubaneswar",
-        "qualification": "B.Tech/B.E",
-        "applicationStart": "08/08/2026",
-        "lastDate": "23-08-2026",
-        "vacancies": "3 Posts",
-        "state": "Odisha",
-        "advertisement": "Rectt-Contract/02/Non-Teaching/2026",
-        "status": "active",
-        "officialNotification": "https://www.iitbbs.ac.in/",
-        "applyLink": "https://www.iitbbs.ac.in/",
-        "officialWebsite": "https://www.iitbbs.ac.in/",
-        "description": "IIT Bhubaneswar has announced recruitment for ERP Implementation Architect – 3 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (B.Tech/B.E). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "Candidates should verify the detailed eligibility, age limit, selection procedure, fee and document requirements in the official recruitment notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://www.iitbbs.ac.in/",
-            "notification": "https://www.iitbbs.ac.in/",
-            "applyOnline": "https://www.iitbbs.ac.in/"
         }
     },
     {
@@ -22118,91 +21952,6 @@ const jobAlerts = [
         }
     },
     {
-        "id": "opsc-assistant-fisheries-officer-44-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Assistant Fisheries Officer – 44 Posts",
-        "subtitle": "OPSC — Assistant Fisheries Officer – 44 Posts",
-        "recruitmentBoard": "OPSC",
-        "qualification": "BFSc",
-        "applicationStart": "18/07/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "44 Posts",
-        "state": "Odisha",
-        "advertisement": "05 of 2026-27",
-        "status": "active",
-        "officialNotification": "https://www.opsc.gov.in/",
-        "applyLink": "https://www.opsc.gov.in/",
-        "officialWebsite": "https://www.opsc.gov.in/",
-        "description": "OPSC has announced recruitment for Assistant Fisheries Officer – 44 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (BFSc). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "Candidates should verify the detailed eligibility, age limit, selection procedure, fee and document requirements in the official recruitment notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written Examination / Shortlisting as prescribed",
-            "Interview where applicable",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://www.opsc.gov.in/",
-            "notification": "https://www.opsc.gov.in/",
-            "applyOnline": "https://www.opsc.gov.in/"
-        }
-    },
-    {
-        "id": "opsc-veterinary-assistant-surgeon-436-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Veterinary Assistant Surgeon – 436 Posts",
-        "subtitle": "OPSC — Veterinary Assistant Surgeon – 436 Posts",
-        "recruitmentBoard": "OPSC",
-        "qualification": "BVSC",
-        "applicationStart": "18/07/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "436 Posts",
-        "state": "Odisha",
-        "advertisement": "04 of 2026-27",
-        "status": "active",
-        "officialNotification": "https://www.opsc.gov.in/",
-        "applyLink": "https://www.opsc.gov.in/",
-        "officialWebsite": "https://www.opsc.gov.in/",
-        "description": "OPSC has announced recruitment for Veterinary Assistant Surgeon – 436 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (BVSC). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "Candidates should verify the detailed eligibility, age limit, selection procedure, fee and document requirements in the official recruitment notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://www.opsc.gov.in/",
-            "notification": "https://www.opsc.gov.in/",
-            "applyOnline": "https://www.opsc.gov.in/"
-        }
-    },
-    {
         "id": "sail-rsp-apprentice-1110-posts-2026",
         "type": "job",
         "category": "State",
@@ -22242,90 +21991,6 @@ const jobAlerts = [
             "officialWebsite": "https://sail.co.in/",
             "notification": "https://sail.co.in/",
             "applyOnline": "https://sail.co.in/"
-        }
-    },
-    {
-        "id": "svnirtar-assistant-assistant-professor-and-more-11-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Assistant, Assistant Professor and More – 11 Posts",
-        "subtitle": "SVNIRTAR — Assistant, Assistant Professor and More – 11 Posts",
-        "recruitmentBoard": "SVNIRTAR",
-        "qualification": "B.Com, B.Ed, 12TH, M.A, M.Ed, M.Sc, PG Diploma, MASLP",
-        "applicationStart": "17/07/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "11 Posts",
-        "state": "Odisha",
-        "advertisement": "–",
-        "status": "active",
-        "officialNotification": null,
-        "applyLink": null,
-        "officialWebsite": null,
-        "description": "SVNIRTAR has announced recruitment for Assistant, Assistant Professor and More – 11 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (B.Com, B.Ed, 12TH, M.A, M.Ed, M.Sc, PG Diploma, MASLP). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "Candidates should verify the detailed eligibility, age limit, selection procedure, fee and document requirements in the official recruitment notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": null,
-            "notification": null,
-            "applyOnline": null
-        }
-    },
-    {
-        "id": "svnirtar-consultant-7-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Consultant – 7 Posts",
-        "subtitle": "SVNIRTAR — Consultant – 7 Posts",
-        "recruitmentBoard": "SVNIRTAR",
-        "qualification": "B.Sc, BASLP, BOT, Diploma, GNM",
-        "applicationStart": "17/07/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "7 Posts",
-        "state": "Odisha",
-        "advertisement": "AD 6B 37/07/2026",
-        "status": "active",
-        "officialNotification": null,
-        "applyLink": null,
-        "officialWebsite": null,
-        "description": "SVNIRTAR has announced recruitment for Consultant – 7 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (B.Sc, BASLP, BOT, Diploma, GNM). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "Candidates should verify the detailed eligibility, age limit, selection procedure, fee and document requirements in the official recruitment notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": null,
-            "notification": null,
-            "applyOnline": null
         }
     },
     {
@@ -23043,48 +22708,6 @@ const jobAlerts = [
         }
     },
     {
-        "id": "gurdaspur-district-court-lift-operator-4-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Lift Operator – 4 Posts",
-        "subtitle": "Gurdaspur District Court — Lift Operator – 4 Posts",
-        "recruitmentBoard": "Gurdaspur District Court",
-        "qualification": "10TH, ITI",
-        "applicationStart": "07/08/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "4 Posts",
-        "state": "Punjab",
-        "advertisement": "–",
-        "status": "active",
-        "officialNotification": "https://ecourts.gov.in/",
-        "applyLink": "https://ecourts.gov.in/",
-        "officialWebsite": "https://ecourts.gov.in/",
-        "description": "Gurdaspur District Court has announced recruitment for Lift Operator – 4 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (10TH, ITI). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "Candidates should verify the detailed eligibility, age limit, selection procedure, fee and document requirements in the official recruitment notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://ecourts.gov.in/",
-            "notification": "https://ecourts.gov.in/",
-            "applyOnline": "https://ecourts.gov.in/"
-        }
-    },
-    {
         "id": "erd-punjab-physical-training-instructor-2000-posts-2026",
         "type": "job",
         "category": "State",
@@ -23124,48 +22747,6 @@ const jobAlerts = [
             "officialWebsite": null,
             "notification": null,
             "applyOnline": null
-        }
-    },
-    {
-        "id": "aiims-jodhpur-research-associate-iii-1-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Research Associate-III – 1 Posts",
-        "subtitle": "AIIMS Jodhpur — Research Associate-III – 1 Posts",
-        "recruitmentBoard": "AIIMS Jodhpur",
-        "qualification": "M.E/M.Tech, MS/MD, M.Sc, M.Pharma, M.Phil/Ph.D, MVSC",
-        "applicationStart": "19/08/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "1 Posts",
-        "state": "Rajasthan",
-        "advertisement": "–",
-        "status": "active",
-        "officialNotification": "https://www.aiimsjodhpur.edu.in/",
-        "applyLink": "https://www.aiimsjodhpur.edu.in/",
-        "officialWebsite": "https://www.aiimsjodhpur.edu.in/",
-        "description": "AIIMS Jodhpur has announced recruitment for Research Associate-III – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (M.E/M.Tech, MS/MD, M.Sc, M.Pharma, M.Phil/Ph.D, MVSC). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "This recruitment is aimed at professional, research or project-based roles. The exact discipline, experience and selection method are post-specific and must be checked in the official notice.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Eligibility Screening",
-            "Interview / Walk-in Selection",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://www.aiimsjodhpur.edu.in/",
-            "notification": "https://www.aiimsjodhpur.edu.in/",
-            "applyOnline": "https://www.aiimsjodhpur.edu.in/"
         }
     },
     {
@@ -23423,48 +23004,6 @@ const jobAlerts = [
         }
     },
     {
-        "id": "edcil-chief-consultant-district-consultants-and-more-57-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Chief Consultant, District Consultants and More – 57 Posts",
-        "subtitle": "EdCIL — Chief Consultant, District Consultants and More – 57 Posts",
-        "recruitmentBoard": "EdCIL",
-        "qualification": "LLB, CA, ICWA, LLM, M.E/M.Tech, MCA",
-        "applicationStart": "12/08/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "57 Posts",
-        "state": "Rajasthan",
-        "advertisement": "EdCIL/TSG/Rajasthan/PMU-SS/2026-01",
-        "status": "active",
-        "officialNotification": "https://www.edcilindia.co.in/",
-        "applyLink": "https://www.edcilindia.co.in/",
-        "officialWebsite": "https://www.edcilindia.co.in/",
-        "description": "EdCIL has announced recruitment for Chief Consultant, District Consultants and More – 57 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (LLB, CA, ICWA, LLM, M.E/M.Tech, MCA). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "Candidates should verify the detailed eligibility, age limit, selection procedure, fee and document requirements in the official recruitment notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://www.edcilindia.co.in/",
-            "notification": "https://www.edcilindia.co.in/",
-            "applyOnline": "https://www.edcilindia.co.in/"
-        }
-    },
-    {
         "id": "aiims-jodhpur-senior-research-fellow-project-nurse-and-more-6-posts-2026",
         "type": "job",
         "category": "State",
@@ -23482,48 +23021,6 @@ const jobAlerts = [
         "applyLink": "https://www.aiimsjodhpur.edu.in/",
         "officialWebsite": "https://www.aiimsjodhpur.edu.in/",
         "description": "AIIMS Jodhpur has announced recruitment for Senior Research Fellow, Project Nurse and More – 6 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (B.A, BAMS, BSW, DMLT, M.A, M.Sc, MLT). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "This recruitment is aimed at professional, research or project-based roles. The exact discipline, experience and selection method are post-specific and must be checked in the official notice.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://www.aiimsjodhpur.edu.in/",
-            "notification": "https://www.aiimsjodhpur.edu.in/",
-            "applyOnline": "https://www.aiimsjodhpur.edu.in/"
-        }
-    },
-    {
-        "id": "aiims-jodhpur-project-research-scientist-i-1-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Project Research Scientist I – 1 Posts",
-        "subtitle": "AIIMS Jodhpur — Project Research Scientist I – 1 Posts",
-        "recruitmentBoard": "AIIMS Jodhpur",
-        "qualification": "Any Post Graduate",
-        "applicationStart": "05/08/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "1 Posts",
-        "state": "Rajasthan",
-        "advertisement": "AIIMS/JDH/CMFM/PRR-Res-Adv-32",
-        "status": "active",
-        "officialNotification": "https://www.aiimsjodhpur.edu.in/",
-        "applyLink": "https://www.aiimsjodhpur.edu.in/",
-        "officialWebsite": "https://www.aiimsjodhpur.edu.in/",
-        "description": "AIIMS Jodhpur has announced recruitment for Project Research Scientist I – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (Any Post Graduate). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
         "aboutExam": "This recruitment is aimed at professional, research or project-based roles. The exact discipline, experience and selection method are post-specific and must be checked in the official notice.",
         "ageLimit": "As prescribed in the official notification",
         "selectionProcess": [
@@ -24602,48 +24099,6 @@ const jobAlerts = [
         }
     },
     {
-        "id": "bharathiar-university-temporary-guest-faculty-9-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Temporary Guest Faculty – 9 Posts",
-        "subtitle": "Bharathiar University — Temporary Guest Faculty – 9 Posts",
-        "recruitmentBoard": "Bharathiar University",
-        "qualification": "Any Post Graduate, M.Phil/Ph.D",
-        "applicationStart": "13/08/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "9 Posts",
-        "state": "Tamil Nadu",
-        "advertisement": "–",
-        "status": "active",
-        "officialNotification": "https://b-u.ac.in/",
-        "applyLink": "https://b-u.ac.in/",
-        "officialWebsite": "https://b-u.ac.in/",
-        "description": "Bharathiar University has announced recruitment for Temporary Guest Faculty – 9 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (Any Post Graduate, M.Phil/Ph.D). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "Candidates should verify the detailed eligibility, age limit, selection procedure, fee and document requirements in the official recruitment notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://b-u.ac.in/",
-            "notification": "https://b-u.ac.in/",
-            "applyOnline": "https://b-u.ac.in/"
-        }
-    },
-    {
         "id": "iit-madras-junior-executive-1-posts-2026",
         "type": "job",
         "category": "State",
@@ -24745,48 +24200,6 @@ const jobAlerts = [
         "applyLink": null,
         "officialWebsite": null,
         "description": "Govt Raja Mirasudhar Hospital has announced recruitment for Audiologist cum Speech Therapist – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (BASLP). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "Candidates should verify the detailed eligibility, age limit, selection procedure, fee and document requirements in the official recruitment notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": null,
-            "notification": null,
-            "applyOnline": null
-        }
-    },
-    {
-        "id": "dcpu-erode-counselor-1-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Counselor – 1 Posts",
-        "subtitle": "DCPU Erode — Counselor – 1 Posts",
-        "recruitmentBoard": "DCPU Erode",
-        "qualification": "B.A, B.Sc, BSW, PG Diploma",
-        "applicationStart": "11/08/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "1 Posts",
-        "state": "Tamil Nadu",
-        "advertisement": "–",
-        "status": "active",
-        "officialNotification": null,
-        "applyLink": null,
-        "officialWebsite": null,
-        "description": "DCPU Erode has announced recruitment for Counselor – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (B.A, B.Sc, BSW, PG Diploma). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
         "aboutExam": "Candidates should verify the detailed eligibility, age limit, selection procedure, fee and document requirements in the official recruitment notification.",
         "ageLimit": "As prescribed in the official notification",
         "selectionProcess": [
@@ -25275,48 +24688,6 @@ const jobAlerts = [
         }
     },
     {
-        "id": "nit-warangal-junior-research-fellow-1-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Junior Research Fellow – 1 Posts",
-        "subtitle": "NIT Warangal — Junior Research Fellow – 1 Posts",
-        "recruitmentBoard": "NIT Warangal",
-        "qualification": "B.Tech/B.E, M.E/M.Tech",
-        "applicationStart": "19/08/2026",
-        "lastDate": "31-08-2026",
-        "vacancies": "1 Posts",
-        "state": "Telangana",
-        "advertisement": "G/3660/2026-MEG/3660/2026-ME",
-        "status": "active",
-        "officialNotification": "https://nitw.ac.in/",
-        "applyLink": "https://nitw.ac.in/",
-        "officialWebsite": "https://nitw.ac.in/",
-        "description": "NIT Warangal has announced recruitment for Junior Research Fellow – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (B.Tech/B.E, M.E/M.Tech). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "This recruitment is aimed at professional, research or project-based roles. The exact discipline, experience and selection method are post-specific and must be checked in the official notice.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://nitw.ac.in/",
-            "notification": "https://nitw.ac.in/",
-            "applyOnline": "https://nitw.ac.in/"
-        }
-    },
-    {
         "id": "esic-faculty-and-senior-resident-67-posts-2026",
         "type": "job",
         "category": "State",
@@ -25486,91 +24857,6 @@ const jobAlerts = [
         }
     },
     {
-        "id": "tiss-programme-manager-1-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Programme Manager – 1 Posts",
-        "subtitle": "TISS — Programme Manager – 1 Posts",
-        "recruitmentBoard": "TISS",
-        "qualification": "M.Com, MBA/PGDM",
-        "applicationStart": "17/08/2026",
-        "lastDate": "23-08-2026",
-        "vacancies": "1 Posts",
-        "state": "Telangana",
-        "advertisement": "–",
-        "status": "active",
-        "officialNotification": "https://tiss.ac.in/",
-        "applyLink": "https://tiss.ac.in/",
-        "officialWebsite": "https://tiss.ac.in/",
-        "description": "TISS has announced recruitment for Programme Manager – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (M.Com, MBA/PGDM). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "Candidates should verify the detailed eligibility, age limit, selection procedure, fee and document requirements in the official recruitment notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written Examination / Shortlisting as prescribed",
-            "Interview where applicable",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://tiss.ac.in/",
-            "notification": "https://tiss.ac.in/",
-            "applyOnline": "https://tiss.ac.in/"
-        }
-    },
-    {
-        "id": "iit-hyderabad-junior-research-fellow-1-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Junior Research Fellow – 1 Posts",
-        "subtitle": "IIT Hyderabad — Junior Research Fellow – 1 Posts",
-        "recruitmentBoard": "IIT Hyderabad",
-        "qualification": "M.Phil/Ph.D",
-        "applicationStart": "13/08/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "1 Posts",
-        "state": "Telangana",
-        "advertisement": "–",
-        "status": "active",
-        "officialNotification": "https://iith.ac.in/",
-        "applyLink": "https://iith.ac.in/",
-        "officialWebsite": "https://iith.ac.in/",
-        "description": "IIT Hyderabad has announced recruitment for Junior Research Fellow – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (M.Phil/Ph.D). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "This recruitment is aimed at professional, research or project-based roles. The exact discipline, experience and selection method are post-specific and must be checked in the official notice.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://iith.ac.in/",
-            "notification": "https://iith.ac.in/",
-            "applyOnline": "https://iith.ac.in/"
-        }
-    },
-    {
         "id": "niab-scientist-b-farm-manager-2-posts-2026",
         "type": "job",
         "category": "State",
@@ -25611,49 +24897,6 @@ const jobAlerts = [
             "officialWebsite": null,
             "notification": null,
             "applyOnline": null
-        }
-    },
-    {
-        "id": "iit-hyderabad-project-manager-1-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Project Manager – 1 Posts",
-        "subtitle": "IIT Hyderabad — Project Manager – 1 Posts",
-        "recruitmentBoard": "IIT Hyderabad",
-        "qualification": "B.Tech/B.E, M.E/M.Tech, MBA/PGDM",
-        "applicationStart": "12/08/2026",
-        "lastDate": "23-08-2026",
-        "vacancies": "1 Posts",
-        "state": "Telangana",
-        "advertisement": "–",
-        "status": "active",
-        "officialNotification": "https://iith.ac.in/",
-        "applyLink": "https://iith.ac.in/",
-        "officialWebsite": "https://iith.ac.in/",
-        "description": "IIT Hyderabad has announced recruitment for Project Manager – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (B.Tech/B.E, M.E/M.Tech, MBA/PGDM). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "This recruitment is aimed at professional, research or project-based roles. The exact discipline, experience and selection method are post-specific and must be checked in the official notice.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written Examination / Shortlisting as prescribed",
-            "Interview where applicable",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://iith.ac.in/",
-            "notification": "https://iith.ac.in/",
-            "applyOnline": "https://iith.ac.in/"
         }
     },
     {
@@ -25780,48 +25023,6 @@ const jobAlerts = [
             "officialWebsite": "https://www.tslprb.in/",
             "notification": "https://www.tslprb.in/",
             "applyOnline": "https://www.tslprb.in/"
-        }
-    },
-    {
-        "id": "nit-warangal-technical-assistant-1-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Technical Assistant – 1 Posts",
-        "subtitle": "NIT Warangal — Technical Assistant – 1 Posts",
-        "recruitmentBoard": "NIT Warangal",
-        "qualification": "ITI, Diploma",
-        "applicationStart": "06/08/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "1 Posts",
-        "state": "Telangana",
-        "advertisement": "02/MME/GVSNR/GTRE/26-27",
-        "status": "active",
-        "officialNotification": "https://nitw.ac.in/",
-        "applyLink": "https://nitw.ac.in/",
-        "officialWebsite": "https://nitw.ac.in/",
-        "description": "NIT Warangal has announced recruitment for Technical Assistant – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (ITI, Diploma). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "Candidates should verify the detailed eligibility, age limit, selection procedure, fee and document requirements in the official recruitment notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://nitw.ac.in/",
-            "notification": "https://nitw.ac.in/",
-            "applyOnline": "https://nitw.ac.in/"
         }
     },
     {
@@ -26037,48 +25238,6 @@ const jobAlerts = [
         }
     },
     {
-        "id": "mact-baghpat-assistant-accountant-computer-assistant-and-more-posts-3-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Assistant Accountant, Computer Assistant and More Posts – 3 Posts",
-        "subtitle": "MACT Baghpat — Assistant Accountant, Computer Assistant and More Posts – 3 Posts",
-        "recruitmentBoard": "MACT Baghpat",
-        "qualification": "Diploma",
-        "applicationStart": "20/08/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "3 Posts",
-        "state": "Uttar Pradesh",
-        "advertisement": "150/MACT/2026",
-        "status": "active",
-        "officialNotification": null,
-        "applyLink": null,
-        "officialWebsite": null,
-        "description": "MACT Baghpat has announced recruitment for Assistant Accountant, Computer Assistant and More Posts – 3 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (Diploma). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "Candidates should verify the detailed eligibility, age limit, selection procedure, fee and document requirements in the official recruitment notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": null,
-            "notification": null,
-            "applyOnline": null
-        }
-    },
-    {
         "id": "iim-lucknow-counsellor-1-posts-2026",
         "type": "job",
         "category": "State",
@@ -26289,48 +25448,6 @@ const jobAlerts = [
         }
     },
     {
-        "id": "igrua-simulator-instructor-2-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Simulator Instructor – 2 Posts",
-        "subtitle": "IGRUA — Simulator Instructor – 2 Posts",
-        "recruitmentBoard": "IGRUA",
-        "qualification": "Other",
-        "applicationStart": "18/08/2026",
-        "lastDate": "23-08-2026",
-        "vacancies": "2 Posts",
-        "state": "Uttar Pradesh",
-        "advertisement": "IGRUA/ADVT/27/2026",
-        "status": "active",
-        "officialNotification": null,
-        "applyLink": null,
-        "officialWebsite": null,
-        "description": "IGRUA has announced recruitment for Simulator Instructor – 2 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (Other). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "Candidates should verify the detailed eligibility, age limit, selection procedure, fee and document requirements in the official recruitment notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": null,
-            "notification": null,
-            "applyOnline": null
-        }
-    },
-    {
         "id": "aiims-gorakhpur-junior-resident-24-posts-2026",
         "type": "job",
         "category": "State",
@@ -26458,49 +25575,6 @@ const jobAlerts = [
         }
     },
     {
-        "id": "iit-kanpur-deputy-project-manager-1-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Deputy Project Manager – 1 Posts",
-        "subtitle": "IIT Kanpur — Deputy Project Manager – 1 Posts",
-        "recruitmentBoard": "IIT Kanpur",
-        "qualification": "Any Graduate, Any Post Graduate, CA, CS, ICWA",
-        "applicationStart": "18/08/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "1 Posts",
-        "state": "Uttar Pradesh",
-        "advertisement": "P/Rect./R&D/2026/157",
-        "status": "active",
-        "officialNotification": "https://www.iitk.ac.in/",
-        "applyLink": "https://www.iitk.ac.in/",
-        "officialWebsite": "https://www.iitk.ac.in/",
-        "description": "IIT Kanpur has announced recruitment for Deputy Project Manager – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (Any Graduate, Any Post Graduate, CA, CS, ICWA). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "This recruitment is aimed at professional, research or project-based roles. The exact discipline, experience and selection method are post-specific and must be checked in the official notice.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written Examination / Shortlisting as prescribed",
-            "Interview where applicable",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://www.iitk.ac.in/",
-            "notification": "https://www.iitk.ac.in/",
-            "applyOnline": "https://www.iitk.ac.in/"
-        }
-    },
-    {
         "id": "iim-lucknow-junior-manager-1-posts-2026",
         "type": "job",
         "category": "State",
@@ -26541,48 +25615,6 @@ const jobAlerts = [
             "officialWebsite": "https://www.iiml.ac.in/",
             "notification": "https://www.iiml.ac.in/",
             "applyOnline": "https://www.iiml.ac.in/"
-        }
-    },
-    {
-        "id": "niper-it-assistant-1-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "IT Assistant – 1 Posts",
-        "subtitle": "NIPER — IT Assistant – 1 Posts",
-        "recruitmentBoard": "NIPER",
-        "qualification": "Any Post Graduate, MCA",
-        "applicationStart": "14/08/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "1 Posts",
-        "state": "Uttar Pradesh",
-        "advertisement": "NIPER-R/Contractual Advt./01/2026/",
-        "status": "active",
-        "officialNotification": "https://www.niper.ac.in/",
-        "applyLink": "https://www.niper.ac.in/",
-        "officialWebsite": "https://www.niper.ac.in/",
-        "description": "NIPER has announced recruitment for IT Assistant – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (Any Post Graduate, MCA). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "Candidates should verify the detailed eligibility, age limit, selection procedure, fee and document requirements in the official recruitment notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://www.niper.ac.in/",
-            "notification": "https://www.niper.ac.in/",
-            "applyOnline": "https://www.niper.ac.in/"
         }
     },
     {
@@ -27046,48 +26078,6 @@ const jobAlerts = [
             "officialWebsite": "https://aiimsgorakhpur.edu.in/",
             "notification": "https://aiimsgorakhpur.edu.in/",
             "applyOnline": "https://aiimsgorakhpur.edu.in/"
-        }
-    },
-    {
-        "id": "allahabad-university-junior-research-fellow-jrf-1-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Junior Research Fellow (JRF) – 1 Posts",
-        "subtitle": "Allahabad University — Junior Research Fellow (JRF) – 1 Posts",
-        "recruitmentBoard": "Allahabad University",
-        "qualification": "M.Sc",
-        "applicationStart": "12/08/2026",
-        "lastDate": "23-08-2026",
-        "vacancies": "1 Posts",
-        "state": "Uttar Pradesh",
-        "advertisement": "–",
-        "status": "active",
-        "officialNotification": "https://www.allduniv.ac.in/",
-        "applyLink": "https://www.allduniv.ac.in/",
-        "officialWebsite": "https://www.allduniv.ac.in/",
-        "description": "Allahabad University has announced recruitment for Junior Research Fellow (JRF) – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (M.Sc). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "This recruitment is aimed at professional, research or project-based roles. The exact discipline, experience and selection method are post-specific and must be checked in the official notice.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Eligibility Screening",
-            "Interview / Walk-in Selection",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://www.allduniv.ac.in/",
-            "notification": "https://www.allduniv.ac.in/",
-            "applyOnline": "https://www.allduniv.ac.in/"
         }
     },
     {
@@ -27935,48 +26925,6 @@ const jobAlerts = [
         }
     },
     {
-        "id": "ambedkar-nagar-up-anganwadi-anganwadi-worker-helper-107-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Anganwadi Worker & Helper – 107 Posts",
-        "subtitle": "Ambedkar Nagar UP Anganwadi — Anganwadi Worker & Helper – 107 Posts",
-        "recruitmentBoard": "Ambedkar Nagar UP Anganwadi",
-        "qualification": "12TH",
-        "applicationStart": "04/08/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "107 Posts",
-        "state": "Uttar Pradesh",
-        "advertisement": "–",
-        "status": "active",
-        "officialNotification": null,
-        "applyLink": null,
-        "officialWebsite": null,
-        "description": "Ambedkar Nagar UP Anganwadi has announced recruitment for Anganwadi Worker & Helper – 107 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (12TH). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "Candidates should verify the detailed eligibility, age limit, selection procedure, fee and document requirements in the official recruitment notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": null,
-            "notification": null,
-            "applyOnline": null
-        }
-    },
-    {
         "id": "uppsc-computer-operator-microbiologist-and-more-47-posts-2026",
         "type": "job",
         "category": "State",
@@ -28184,48 +27132,6 @@ const jobAlerts = [
             "officialWebsite": "https://www.oil-india.com/",
             "notification": "https://www.oil-india.com/",
             "applyOnline": "https://www.oil-india.com/"
-        }
-    },
-    {
-        "id": "iwai-upper-division-clerk-6-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Upper Division Clerk – 6 Posts",
-        "subtitle": "IWAI — Upper Division Clerk – 6 Posts",
-        "recruitmentBoard": "IWAI",
-        "qualification": "Other",
-        "applicationStart": "18/07/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "6 Posts",
-        "state": "Uttar Pradesh",
-        "advertisement": "IWAI-12/4/2022-Admn. Rectt. Dated 10.07.2026",
-        "status": "active",
-        "officialNotification": null,
-        "applyLink": null,
-        "officialWebsite": null,
-        "description": "IWAI has announced recruitment for Upper Division Clerk – 6 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (Other). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "Candidates should verify the detailed eligibility, age limit, selection procedure, fee and document requirements in the official recruitment notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": null,
-            "notification": null,
-            "applyOnline": null
         }
     },
     {
@@ -28456,48 +27362,6 @@ const jobAlerts = [
         "applyLink": "https://iitr.ac.in/",
         "officialWebsite": "https://iitr.ac.in/",
         "description": "IIT Roorkee has announced recruitment for Post Doctoral Fellowship – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (M.Phil/Ph.D). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "Candidates should verify the detailed eligibility, age limit, selection procedure, fee and document requirements in the official recruitment notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://iitr.ac.in/",
-            "notification": "https://iitr.ac.in/",
-            "applyOnline": "https://iitr.ac.in/"
-        }
-    },
-    {
-        "id": "iit-roorkee-post-doctoral-fellow-1-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Post Doctoral Fellow – 1 Posts",
-        "subtitle": "IIT Roorkee — Post Doctoral Fellow – 1 Posts",
-        "recruitmentBoard": "IIT Roorkee",
-        "qualification": "M.Phil/Ph.D",
-        "applicationStart": "18/08/2026",
-        "lastDate": "25-08-2026",
-        "vacancies": "1 Posts",
-        "state": "Uttarakhand",
-        "advertisement": "CSE/I-PDF/2026/RN",
-        "status": "active",
-        "officialNotification": "https://iitr.ac.in/",
-        "applyLink": "https://iitr.ac.in/",
-        "officialWebsite": "https://iitr.ac.in/",
-        "description": "IIT Roorkee has announced recruitment for Post Doctoral Fellow – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (M.Phil/Ph.D). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
         "aboutExam": "Candidates should verify the detailed eligibility, age limit, selection procedure, fee and document requirements in the official recruitment notification.",
         "ageLimit": "As prescribed in the official notification",
         "selectionProcess": [
@@ -29157,48 +28021,6 @@ const jobAlerts = [
         }
     },
     {
-        "id": "iit-kharagpur-senior-project-associate-1-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Senior Project Associate – 1 Posts",
-        "subtitle": "IIT Kharagpur — Senior Project Associate – 1 Posts",
-        "recruitmentBoard": "IIT Kharagpur",
-        "qualification": "B.Pharma, B.Sc, B.Tech/B.E, BVSC, M.Phil/Ph.D, M.Sc, MS/MD",
-        "applicationStart": "18/08/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "1 Posts",
-        "state": "West Bengal",
-        "advertisement": "–",
-        "status": "active",
-        "officialNotification": "https://www.iitkgp.ac.in/",
-        "applyLink": "https://www.iitkgp.ac.in/",
-        "officialWebsite": "https://www.iitkgp.ac.in/",
-        "description": "IIT Kharagpur has announced recruitment for Senior Project Associate – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (B.Pharma, B.Sc, B.Tech/B.E, BVSC, M.Phil/Ph.D, M.Sc, MS/MD). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "This recruitment is aimed at professional, research or project-based roles. The exact discipline, experience and selection method are post-specific and must be checked in the official notice.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://www.iitkgp.ac.in/",
-            "notification": "https://www.iitkgp.ac.in/",
-            "applyOnline": "https://www.iitkgp.ac.in/"
-        }
-    },
-    {
         "id": "iit-kharagpur-research-assistant-1-posts-2026",
         "type": "job",
         "category": "State",
@@ -29538,48 +28360,6 @@ const jobAlerts = [
         }
     },
     {
-        "id": "iit-kharagpur-junior-research-fellow-1-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Junior Research Fellow – 1 Posts",
-        "subtitle": "IIT Kharagpur — Junior Research Fellow – 1 Posts",
-        "recruitmentBoard": "IIT Kharagpur",
-        "qualification": "B.Tech/B.E, CS, M.E/M.Tech",
-        "applicationStart": "06/08/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "1 Posts",
-        "state": "West Bengal",
-        "advertisement": "2025/07/27/001",
-        "status": "active",
-        "officialNotification": "https://www.iitkgp.ac.in/",
-        "applyLink": "https://www.iitkgp.ac.in/",
-        "officialWebsite": "https://www.iitkgp.ac.in/",
-        "description": "IIT Kharagpur has announced recruitment for Junior Research Fellow – 1 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (B.Tech/B.E, CS, M.E/M.Tech). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "This recruitment is aimed at professional, research or project-based roles. The exact discipline, experience and selection method are post-specific and must be checked in the official notice.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://www.iitkgp.ac.in/",
-            "notification": "https://www.iitkgp.ac.in/",
-            "applyOnline": "https://www.iitkgp.ac.in/"
-        }
-    },
-    {
         "id": "braithwaite-co-engineer-safety-officer-and-more-29-posts-2026",
         "type": "job",
         "category": "State",
@@ -29708,48 +28488,6 @@ const jobAlerts = [
         }
     },
     {
-        "id": "aiims-kalyani-junior-resident-84-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Junior Resident – 84 Posts",
-        "subtitle": "AIIMS Kalyani — Junior Resident – 84 Posts",
-        "recruitmentBoard": "AIIMS Kalyani",
-        "qualification": "MBBS",
-        "applicationStart": "01/08/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "84 Posts",
-        "state": "West Bengal",
-        "advertisement": "1650/E-12015/25/26-(SR/T/JR)",
-        "status": "active",
-        "officialNotification": "https://aiimskalyani.edu.in/",
-        "applyLink": "https://aiimskalyani.edu.in/",
-        "officialWebsite": "https://aiimskalyani.edu.in/",
-        "description": "AIIMS Kalyani has announced recruitment for Junior Resident – 84 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (MBBS). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "Candidates should verify the detailed eligibility, age limit, selection procedure, fee and document requirements in the official recruitment notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written / Skill Test or Shortlisting as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://aiimskalyani.edu.in/",
-            "notification": "https://aiimskalyani.edu.in/",
-            "applyOnline": "https://aiimskalyani.edu.in/"
-        }
-    },
-    {
         "id": "sinp-ldc-security-guard-and-more-62-posts-2026",
         "type": "job",
         "category": "State",
@@ -29789,48 +28527,6 @@ const jobAlerts = [
             "officialWebsite": "https://www.saha.ac.in/",
             "notification": "https://www.saha.ac.in/",
             "applyOnline": "https://www.saha.ac.in/"
-        }
-    },
-    {
-        "id": "aai-nscbi-apprentice-38-posts-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Apprentice – 38 Posts",
-        "subtitle": "AAI NSCBI — Apprentice – 38 Posts",
-        "recruitmentBoard": "AAI NSCBI",
-        "qualification": "B.Tech/B.E, Diploma, ITI",
-        "applicationStart": "28/07/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "38 Posts",
-        "state": "West Bengal",
-        "advertisement": "–",
-        "status": "active",
-        "officialNotification": null,
-        "applyLink": null,
-        "officialWebsite": null,
-        "description": "AAI NSCBI has announced recruitment for Apprentice – 38 Posts. The opportunity is intended for candidates meeting the prescribed educational and eligibility requirements (B.Tech/B.E, Diploma, ITI). Applicants should review the official recruitment notice for post-specific age, experience, reservation, selection and document requirements before applying.",
-        "aboutExam": "This is an apprenticeship or trainee opportunity. Selection and engagement are governed by the applicable apprenticeship rules and the organisation’s official notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Shortlisting / Merit as prescribed",
-            "Document Verification",
-            "Apprenticeship Engagement"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact examination or selection pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official organisation website or recruitment portal.",
-            "Open the recruitment notice for the advertised post.",
-            "Check educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application using the prescribed method.",
-            "Upload or attach the required documents and pay the applicable fee, if any.",
-            "Submit the application before the stated deadline and keep the acknowledgement."
-        ],
-        "importantLinks": {
-            "officialWebsite": null,
-            "notification": null,
-            "applyOnline": null
         }
     },
     {
@@ -30624,49 +29320,6 @@ const jobAlerts = [
         "applyLink": "https://www.cementcorporation.co.in/",
         "officialWebsite": "https://www.cementcorporation.co.in/",
         "description": "CCI has invited applications for Consultant – 1 Posts. The opportunity is intended for qualified candidates for the organisation's managerial, technical, financial, engineering or specialist functions. Candidates with 12TH should verify the required experience, age, professional credentials and selection procedure in the official recruitment notice. The stated deadline is 28-08-2026.",
-        "aboutExam": "This is an organisation-specific recruitment. The exact eligibility, age limit, fee and selection method are post-specific and should be verified from the official notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written Test / Shortlisting as prescribed",
-            "Interview / Skill Assessment where applicable",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact selection or examination pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official CCI website or official recruitment portal.",
-            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
-            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application through the method prescribed in the official notice and attach the required documents.",
-            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
-            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://www.cementcorporation.co.in/",
-            "notification": "https://www.cementcorporation.co.in/",
-            "applyOnline": "https://www.cementcorporation.co.in/"
-        }
-    },
-    {
-        "id": "cci-part-time-medical-consultant-1-posts-rcf-hr-advt-03-2026-24-08-2026-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Part-time Medical Consultant – 1 Posts",
-        "subtitle": "CCI — Part-time Medical Consultant – 1 Posts",
-        "recruitmentBoard": "CCI",
-        "qualification": "MS/MD, MBBS, Other",
-        "applicationStart": "21/08/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "1 Posts",
-        "state": "Himachal Pradesh",
-        "advertisement": "RCF/HR/Advt.03/2026",
-        "status": "active",
-        "officialNotification": "https://www.cementcorporation.co.in/",
-        "applyLink": "https://www.cementcorporation.co.in/",
-        "officialWebsite": "https://www.cementcorporation.co.in/",
-        "description": "CCI has invited applications for Part-time Medical Consultant – 1 Posts. The opportunity is intended for qualified candidates for the organisation's managerial, technical, financial, engineering or specialist functions. Candidates with MS/MD, MBBS, Other should verify the required experience, age, professional credentials and selection procedure in the official recruitment notice. The stated deadline is 24-08-2026.",
         "aboutExam": "This is an organisation-specific recruitment. The exact eligibility, age limit, fee and selection method are post-specific and should be verified from the official notification.",
         "ageLimit": "As prescribed in the official notification",
         "selectionProcess": [
@@ -32498,49 +31151,6 @@ const jobAlerts = [
         }
     },
     {
-        "id": "iit-madras-project-officer-1-posts-icsr-pr-advt-143-2026-23-08-2026-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Project Officer – 1 Posts",
-        "subtitle": "IIT Madras — Project Officer – 1 Posts",
-        "recruitmentBoard": "IIT Madras",
-        "qualification": "M.E/M.Tech, MS/MD",
-        "applicationStart": "21/08/2026",
-        "lastDate": "23-08-2026",
-        "vacancies": "1 Posts",
-        "state": "Tamil Nadu",
-        "advertisement": "ICSR/PR/Advt.143/2026",
-        "status": "active",
-        "officialNotification": "https://www.iitm.ac.in/",
-        "applyLink": "https://www.iitm.ac.in/",
-        "officialWebsite": "https://www.iitm.ac.in/",
-        "description": "IIT Madras has announced recruitment for Project Officer – 1 Posts. Candidates with M.E/M.Tech, MS/MD may be eligible subject to the detailed conditions prescribed in the official recruitment notice. Applicants should verify the post-wise qualification, age, experience, selection process and application instructions before applying. The stated deadline is 23-08-2026.",
-        "aboutExam": "This is an organisation-specific recruitment. The exact eligibility, age limit, fee and selection method are post-specific and should be verified from the official notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written Test / Shortlisting as prescribed",
-            "Interview / Skill Assessment where applicable",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact selection or examination pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official IIT Madras website or official recruitment portal.",
-            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
-            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application through the method prescribed in the official notice and attach the required documents.",
-            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
-            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://www.iitm.ac.in/",
-            "notification": "https://www.iitm.ac.in/",
-            "applyOnline": "https://www.iitm.ac.in/"
-        }
-    },
-    {
         "id": "isro-nsil-chairman-cum-managing-director-1-posts-ds-ix-14011-1-2024-section-9-dos-21-09-2026-2026",
         "type": "job",
         "category": "State",
@@ -33056,49 +31666,6 @@ const jobAlerts = [
         }
     },
     {
-        "id": "nfsu-research-assistant-field-investigator-4-posts-24-08-2026-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Research Assistant, Field Investigator – 4 Posts",
-        "subtitle": "NFSU — Research Assistant, Field Investigator – 4 Posts",
-        "recruitmentBoard": "NFSU",
-        "qualification": "M.Sc",
-        "applicationStart": "21/08/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "4 Posts",
-        "state": "Delhi",
-        "advertisement": "–",
-        "status": "active",
-        "officialNotification": "https://nfsu.ac.in/",
-        "applyLink": "https://nfsu.ac.in/",
-        "officialWebsite": "https://nfsu.ac.in/",
-        "description": "NFSU has announced Research Assistant, Field Investigator – 4 Posts for a research, technical or project-based assignment. The work is associated with the project or academic programme identified in the recruitment notice. Candidates with M.Sc should verify the required discipline, research experience, project tenure and selection procedure before applying. The stated deadline is 24-08-2026.",
-        "aboutExam": "This is a project or research-oriented recruitment. The appointment may be temporary or project-funded, so candidates should check project duration, discipline, experience and selection details in the official notice.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Shortlisting based on Eligibility",
-            "Interview / Technical Assessment as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact selection or examination pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official NFSU website or official recruitment portal.",
-            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
-            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application through the method prescribed in the official notice and attach the required documents.",
-            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
-            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://nfsu.ac.in/",
-            "notification": "https://nfsu.ac.in/",
-            "applyOnline": "https://nfsu.ac.in/"
-        }
-    },
-    {
         "id": "nia-naib-court-3-posts-08-09-2026-2026",
         "type": "job",
         "category": "State",
@@ -33225,49 +31792,6 @@ const jobAlerts = [
             "officialWebsite": "https://niperhajipur.ac.in/",
             "notification": "https://niperhajipur.ac.in/",
             "applyOnline": "https://niperhajipur.ac.in/"
-        }
-    },
-    {
-        "id": "nit-agartala-junior-research-fellow-or-project-associate-1-posts-f-nita-20-670-ece-2025-26-irg-anrf-project-mbs-jrf-24-08-2026-2026",
-        "type": "job",
-        "category": "State",
-        "title": "Junior Research Fellow or Project Associate – 1 Posts",
-        "subtitle": "NIT Agartala — Junior Research Fellow or Project Associate – 1 Posts",
-        "recruitmentBoard": "NIT Agartala",
-        "qualification": "Any Post Graduate",
-        "applicationStart": "22/08/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "1 Posts",
-        "state": "Tripura",
-        "advertisement": "F.NITA.20 (670-ECE)/2025-26/IRG-ANRF Project/MBS/JRF",
-        "status": "active",
-        "officialNotification": "https://nita.ac.in/",
-        "applyLink": "https://nita.ac.in/",
-        "officialWebsite": "https://nita.ac.in/",
-        "description": "NIT Agartala has announced Junior Research Fellow or Project Associate – 1 Posts for a research, technical or project-based assignment. The work is associated with the project or academic programme identified in the recruitment notice. Candidates with Any Post Graduate should verify the required discipline, research experience, project tenure and selection procedure before applying. The stated deadline is 24-08-2026.",
-        "aboutExam": "This is a project or research-oriented recruitment. The appointment may be temporary or project-funded, so candidates should check project duration, discipline, experience and selection details in the official notice.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Shortlisting based on Eligibility",
-            "Interview / Technical Assessment as prescribed",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact selection or examination pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official NIT Agartala website or official recruitment portal.",
-            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
-            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application through the method prescribed in the official notice and attach the required documents.",
-            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
-            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://nita.ac.in/",
-            "notification": "https://nita.ac.in/",
-            "applyOnline": "https://nita.ac.in/"
         }
     },
     {
@@ -33783,49 +32307,6 @@ const jobAlerts = [
             "officialWebsite": "https://rcmsishubhawan.in/",
             "notification": "https://rcmsishubhawan.in/",
             "applyOnline": "https://rcmsishubhawan.in/"
-        }
-    },
-    {
-        "id": "rhfl-chief-manager-24-08-2026-2026",
-        "type": "job",
-        "category": "Banking",
-        "title": "Chief Manager",
-        "subtitle": "RHFL — Chief Manager",
-        "recruitmentBoard": "RHFL",
-        "qualification": "Any Graduate",
-        "applicationStart": "21/08/2026",
-        "lastDate": "24-08-2026",
-        "vacancies": "As per official notification",
-        "state": "Tamil Nadu",
-        "advertisement": "–",
-        "status": "active",
-        "officialNotification": "https://www.repcohome.com/",
-        "applyLink": "https://www.repcohome.com/",
-        "officialWebsite": "https://www.repcohome.com/",
-        "description": "RHFL has invited applications for Chief Manager. The opportunity is intended for qualified candidates for the organisation's managerial, technical, financial, engineering or specialist functions. Candidates with Any Graduate should verify the required experience, age, professional credentials and selection procedure in the official recruitment notice. The stated deadline is 24-08-2026.",
-        "aboutExam": "This is an organisation-specific recruitment. The exact eligibility, age limit, fee and selection method are post-specific and should be verified from the official notification.",
-        "ageLimit": "As prescribed in the official notification",
-        "selectionProcess": [
-            "Application Screening",
-            "Written Test / Shortlisting as prescribed",
-            "Interview / Skill Assessment where applicable",
-            "Document Verification",
-            "Final Selection"
-        ],
-        "applicationFee": "As prescribed in the official notification",
-        "examPattern": "The exact selection or examination pattern is post-specific and should be checked in the official recruitment notice.",
-        "howToApply": [
-            "Visit the official RHFL website or official recruitment portal.",
-            "Open the recruitment notice corresponding to the advertised post and advertisement number.",
-            "Check the post-wise educational qualification, age, experience and other eligibility conditions.",
-            "Complete the application through the method prescribed in the official notice and attach the required documents.",
-            "Submit the application or attend the walk-in process before the stated deadline, as applicable.",
-            "Keep a copy of the submitted application, acknowledgement and supporting documents for future reference."
-        ],
-        "importantLinks": {
-            "officialWebsite": "https://www.repcohome.com/",
-            "notification": "https://www.repcohome.com/",
-            "applyOnline": "https://www.repcohome.com/"
         }
     },
     {
@@ -34388,4 +32869,3 @@ const jobAlerts = [
         }
     }
 ];
-
