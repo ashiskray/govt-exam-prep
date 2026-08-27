@@ -1,5 +1,5 @@
 // ==========================================
-// SSC gd MOCK TEST DASHBOARD
+// SSC mts MOCK TEST DASHBOARD
 // ==========================================
 // This JavaScript handles:
 // 1. Completed mock tests
