@@ -39646,3 +39646,5 @@ const jobAlerts = [
         }
     }
 ];
+
+export default jobAlerts;
