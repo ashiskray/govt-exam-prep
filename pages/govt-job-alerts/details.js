@@ -99,7 +99,7 @@ if (typeof jobAlerts === "undefined") {
 ================================================= */
 
 const seoTitle =
-    `${job.title} | GOVT EXAM PREP`;
+    `${job.title} — Vacancy, Eligibility & Apply | GOVT EXAM PREP`;
 
 document.title = seoTitle;
 
@@ -606,7 +606,7 @@ document.head.appendChild(
                         applySteps.innerHTML += `
 
                             <li>
-                                ${step}
+                                ${escapeHtml(step)}
                             </li>
 
                         `;
@@ -647,61 +647,20 @@ document.head.appendChild(
             );
 
 
-        /* Official website */
+        /* =================================================
+           EXTERNAL LINKS
+        ================================================= */
 
-        if (officialLink) {
+        setExternalLink(officialLink, job.officialWebsite);
+        setExternalLink(notificationLink, job.officialNotification);
+        setExternalLink(applyLink, job.applyLink);
+        setExternalLink(sidebarApply, job.applyLink);
 
-            officialLink.href =
-                job.officialWebsite || "#";
-
+        /* Closed applications should not look actionable. */
+        if (status.className === "status-closed") {
+            disableLink(applyLink, "Applications Closed");
+            disableLink(sidebarApply, "Applications Closed");
         }
-
-
-        /* Apply */
-
-        if (applyLink) {
-
-            applyLink.href =
-                job.applyLink || "#";
-
-        }
-
-
-        if (sidebarApply) {
-
-            sidebarApply.href =
-                job.applyLink || "#";
-
-        }
-
-
-        /* Notification */
-
-        const notificationUrl =
-            job.officialNotification;
-
-
-        if (
-            notificationLink
-        ) {
-
-            if (
-                notificationUrl &&
-                notificationUrl !== "#"
-            ) {
-
-                notificationLink.href =
-                    notificationUrl;
-
-            } else {
-
-                notificationLink.style.display =
-                    "none";
-
-            }
-
-        }
-
     }
 
 }
@@ -778,110 +737,34 @@ function formatDate(date) {
 
 function getJobStatus(job) {
 
-    if (
-        job.type === "no-vacancy"
-    ) {
-
-        return {
-
-            text:
-                "No Active Vacancy",
-
-            className:
-                "status-closed"
-
-        };
-
+    if (job.type === "no-vacancy") {
+        return { text: "No Active Vacancy", className: "status-closed" };
     }
 
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
 
-    if (
-        job.status === "upcoming"
-    ) {
+    const startDate = parseDateOnly(job.applicationStart);
+    const endDate = parseDateOnly(job.lastDate);
 
-        return {
-
-            text:
-                "Upcoming",
-
-            className:
-                "status-upcoming"
-
-        };
-
+    if (endDate && endDate < today) {
+        return { text: "Closed", className: "status-closed" };
     }
 
-
-    if (
-        job.status === "closed"
-    ) {
-
-        return {
-
-            text:
-                "Closed",
-
-            className:
-                "status-closed"
-
-        };
-
+    if (startDate && startDate > today) {
+        return { text: "Upcoming", className: "status-upcoming" };
     }
 
-
-    const daysLeft =
-        getDaysLeft(
-            job.lastDate
-        );
-
-
-    if (
-        daysLeft !== null &&
-        daysLeft < 0
-    ) {
-
-        return {
-
-            text:
-                "Closed",
-
-            className:
-                "status-closed"
-
-        };
-
+    if (endDate) {
+        const daysLeft = getDaysLeft(job.lastDate);
+        if (daysLeft !== null && daysLeft <= 7) {
+            return { text: "Closing Soon", className: "status-warning" };
+        }
     }
 
-
-    if (
-        daysLeft !== null &&
-        daysLeft <= 7
-    ) {
-
-        return {
-
-            text:
-                "Closing Soon",
-
-            className:
-                "status-warning"
-
-        };
-
-    }
-
-
-    return {
-
-        text:
-            "Applications Open",
-
-        className:
-            "status-active"
-
-    };
-
+    return { text: "Applications Open", className: "status-active" };
 }
+
 
 
 /* =========================================================
@@ -890,59 +773,111 @@ function getJobStatus(job) {
 
 function getDaysLeft(lastDate) {
 
-    if (
-        !lastDate ||
-        lastDate === "—" ||
-        lastDate === "-"
-    ) {
+    const deadline = parseDateOnly(lastDate);
 
+    if (!deadline) {
         return null;
-
     }
 
-
-    const deadline =
-        new Date(lastDate);
-
-
-    if (
-        isNaN(
-            deadline.getTime()
-        )
-    ) {
-
-        return null;
-
-    }
-
-
-    const today =
-        new Date();
-
-
-    today.setHours(
-        0, 0, 0, 0
-    );
-
-
-    deadline.setHours(
-        0, 0, 0, 0
-    );
-
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
 
     return Math.ceil(
-
-        (
-            deadline - today
-        )
-        /
-        (
-            1000 *
-            60 *
-            60 *
-            24
-        )
-
+        (deadline - today) / (1000 * 60 * 60 * 24)
     );
+}
 
+
+/* =========================================================
+   DATE HELPER
+   Uses local date components to avoid timezone shifts.
+========================================================= */
+
+function parseDateOnly(value) {
+
+    if (!value || value === "—" || value === "-") {
+        return null;
+    }
+
+    const text = String(value).trim();
+    const match = text.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+    let date;
+
+    if (match) {
+        date = new Date(
+            Number(match[1]),
+            Number(match[2]) - 1,
+            Number(match[3])
+        );
+    } else {
+        date = new Date(value);
+    }
+
+    if (isNaN(date.getTime())) {
+        return null;
+    }
+
+    date.setHours(0, 0, 0, 0);
+    return date;
+}
+
+
+/* =========================================================
+   EXTERNAL LINK HELPER
+========================================================= */
+
+function setExternalLink(element, url) {
+
+    if (!element) {
+        return;
+    }
+
+    if (typeof url === "string" && /^https?:\/\//i.test(url)) {
+        element.href = url;
+        element.target = "_blank";
+        element.rel = "noopener noreferrer";
+        element.style.display = "";
+    } else {
+        element.removeAttribute("href");
+        element.style.display = "none";
+    }
+}
+
+
+/* =========================================================
+   DISABLE CLOSED APPLICATION LINK
+========================================================= */
+
+function disableLink(element, label) {
+
+    if (!element) {
+        return;
+    }
+
+    element.removeAttribute("href");
+    element.removeAttribute("target");
+    element.removeAttribute("rel");
+    element.setAttribute("aria-disabled", "true");
+    element.style.pointerEvents = "none";
+    element.style.opacity = "0.65";
+
+    if (label) {
+        element.textContent = label;
+    }
+}
+
+
+/* =========================================================
+   HTML ESCAPE
+   Used where dynamic data is inserted with innerHTML.
+========================================================= */
+
+function escapeHtml(value) {
+
+    return String(value ?? "")
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
 }

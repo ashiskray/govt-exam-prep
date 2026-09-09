@@ -98,43 +98,49 @@ function getDaysLeft(lastDate) {
 
 function getStatus(job) {
 
-    if (job.status === "upcoming") {
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
 
-        return {
-            text: "Upcoming",
-            className: "status-upcoming"
-        };
+    const startDate = job.applicationStart
+        ? new Date(job.applicationStart)
+        : null;
 
+    const lastDate = job.lastDate
+        ? new Date(job.lastDate)
+        : null;
+
+    if (startDate && !isNaN(startDate.getTime())) {
+        startDate.setHours(0, 0, 0, 0);
+
+        if (startDate > today) {
+            return {
+                text: "Upcoming",
+                className: "status-upcoming"
+            };
+        }
     }
 
-    if (job.status === "closed") {
+    if (lastDate && !isNaN(lastDate.getTime())) {
+        lastDate.setHours(0, 0, 0, 0);
 
-        return {
-            text: "Closed",
-            className: "status-closed"
-        };
+        if (lastDate < today) {
+            return {
+                text: "Closed",
+                className: "status-closed"
+            };
+        }
 
-    }
+        const daysLeft = Math.ceil(
+            (lastDate - today) /
+            (1000 * 60 * 60 * 24)
+        );
 
-    const daysLeft =
-        getDaysLeft(job.lastDate);
-
-    if (daysLeft !== null && daysLeft < 0) {
-
-        return {
-            text: "Closed",
-            className: "status-closed"
-        };
-
-    }
-
-    if (daysLeft !== null && daysLeft <= 7) {
-
-        return {
-            text: "Closing Soon",
-            className: "status-warning"
-        };
-
+        if (daysLeft <= 7) {
+            return {
+                text: "Closing Soon",
+                className: "status-warning"
+            };
+        }
     }
 
     return {
@@ -387,52 +393,51 @@ function filterJobs() {
             currentSearch.toLowerCase().trim();
 
         filteredJobs = filteredJobs.filter(job => {
+            const searchableText = [
+                job.title,
+                job.subtitle,
+                job.recruitmentBoard,
+                job.qualification,
+                job.category,
+                job.state
+            ]
+                .filter(Boolean)
+                .join(" ")
+                .toLowerCase();
 
-            return (
-
-                job.title
-                    .toLowerCase()
-                    .includes(search)
-
-                ||
-
-                job.subtitle
-                    .toLowerCase()
-                    .includes(search)
-
-                ||
-
-                job.recruitmentBoard
-                    .toLowerCase()
-                    .includes(search)
-
-                ||
-
-                job.qualification
-                    .toLowerCase()
-                    .includes(search)
-
-                ||
-
-                job.category
-                    .toLowerCase()
-                    .includes(search)
-
-            );
+            return searchableText.includes(search);
 
         });
 
     }
-
-
     /* =========================================
-       IMPORTANT
-       "NO VACANCY" RECORDS ARE NOT REAL JOBS
+       ONLY REAL, CURRENT RECRUITMENT
+       Expired and no-vacancy records are hidden.
        ========================================== */
 
-    const actualJobs = filteredJobs.filter(
-        job => job.type !== "no-vacancy"
-    );
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+
+    const actualJobs = filteredJobs.filter(job => {
+
+        if (!job || job.type === "no-vacancy") {
+            return false;
+        }
+
+        if (!job.lastDate || job.lastDate === "To be announced") {
+            return true;
+        }
+
+        const lastDate = new Date(job.lastDate);
+
+        if (isNaN(lastDate.getTime())) {
+            return true;
+        }
+
+        lastDate.setHours(0, 0, 0, 0);
+
+        return lastDate >= today;
+    });
 
 
     /* =========================================
@@ -496,42 +501,15 @@ function filterJobs() {
 
         return;
     }
-
-
     /* =========================================
-       SPECIFIC CATEGORY / STATE
-    ========================================== */
+       CURRENT JOBS
+       ========================================== */
 
     if (actualJobs.length > 0) {
 
         renderJobs(actualJobs);
 
         return;
-    }
-
-
-    /* =========================================
-       NO REAL JOB
-       → FIND NO-VACANCY MESSAGE
-    ========================================== */
-
-    const noVacancyJob =
-        filteredJobs.find(
-            job => job.type === "no-vacancy"
-        );
-
-
-    if (noVacancyJob) {
-
-        jobsContainer.innerHTML =
-            createNoVacancyCard(noVacancyJob);
-
-        resultCount.textContent = "0";
-
-        noResults.style.display = "none";
-
-        return;
-
     }
 
 
@@ -616,10 +594,8 @@ function renderJobs(jobs) {
 
         try {
 
-            if (job.type === "no-vacancy") {
-
-                return createNoVacancyCard(job);
-
+            if (!job || job.type === "no-vacancy") {
+                return "";
             }
 
             return createJobCard(job);

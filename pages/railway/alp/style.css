@@ -1313,7 +1313,7 @@ border-radius:20px;
 
     background:linear-gradient(90deg,#ffffff,#ffe8a3,#ffffff);
 
-    -webkit-background-clip:text;
+    -webkit-background-clip: text;
 
     -webkit-text-fill-color:transparent;
 
